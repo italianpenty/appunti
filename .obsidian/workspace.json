@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codes/C++.md",
+                "file": "prova.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Codes/C++.md",
+                "file": "prova.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Codes/C++.md",
+                "file": "prova.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Codes/C++.md"
+                "file": "prova.md"
               }
             }
           }
@@ -147,6 +147,7 @@
   },
   "active": "8133fe11c270d550",
   "lastOpenFiles": [
+    "Codes/C++.md",
     "README.md",
     "Codes/PITONE.md",
     "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
@@ -180,7 +181,6 @@
     "Hackerman/WINDOWS/PrivESC/SERVIZI/WEAK REGISTRY PERMISSIONS.md",
     "Hackerman/BOF/WINDOWS.md",
     "Hackerman/LINUX/PrivEsc/LOG POISONING APACHE.md",
-    "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
     "image/Pasted image 20230621121052.png",
     "image/Pasted image 20230621120729.png",
     "image/Pasted image 20230621113454.png",
