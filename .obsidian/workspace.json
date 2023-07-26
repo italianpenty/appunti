@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prova.md",
+                "file": "Hackerman/BOF/LINUX.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prova.md",
+                "file": "Hackerman/BOF/LINUX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prova.md",
+                "file": "Hackerman/BOF/LINUX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prova.md"
+                "file": "Hackerman/BOF/LINUX.md"
               }
             }
           }
@@ -142,14 +142,17 @@
       "canvas:Crea nuova lavagna": false,
       "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false
+      "command-palette:Apri riquadro comandi": false,
+      "omnisearch:Omnisearch": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "8133fe11c270d550",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
+    "prova.md",
     "Senza nome.canvas",
     "Senza nome 1.canvas",
-    "prova.md",
     "Codes/C++.md",
     "README.md",
     "Codes/PITONE.md",
@@ -157,7 +160,6 @@
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
     "Hackerman/WINDOWS/PrivESC/SERVIZI/INSECURE SERVICE PERMISSION.md",
-    "Caratteri speciali.md",
     "Hackerman/WINDOWS/PrivESC/Privs/SEIMPERSONATEPRIVILEDGES.md",
     "Hackerman/WINDOWS/PrivESC/SERVIZI/INSECURE SERVICE EXECUTABLES.md",
     "Hackerman/WINDOWS/PrivESC/SERVIZI/UNQUOTED SERVICE PATH.md",
