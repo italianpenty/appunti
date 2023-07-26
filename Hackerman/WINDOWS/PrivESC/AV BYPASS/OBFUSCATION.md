@@ -1,0 +1,3 @@
+confuserex
+safetymimikatz
+checkdefender

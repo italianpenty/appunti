@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "f52122747f4e49ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f76d6a9807d77aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8133fe11c270d550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codes/C++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d17a1f0d7ca0b38",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7a418cf87e0d970",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88f5571ca7e68d8b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "74ea09c32f947f08",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "faebe117dc3620ce",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "705bbbfe9a718b45",
+    "type": "split",
+    "children": [
+      {
+        "id": "450c23aab4b73c2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "227954fd8094a46d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Codes/C++.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dafeddad4c0a6c80",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Codes/C++.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f0a7079356df280b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2e0bbf395d40ba3f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Codes/C++.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false
+    }
+  },
+  "active": "8133fe11c270d550",
+  "lastOpenFiles": [
+    "Codes/PITONE.md",
+    "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
+    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+    "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
+    "Hackerman/WINDOWS/PrivESC/SERVIZI/INSECURE SERVICE PERMISSION.md",
+    "Senza nome 1.canvas",
+    "Senza nome.canvas",
+    "Caratteri speciali.md",
+    "Hackerman/WINDOWS/PrivESC/Privs/SEIMPERSONATEPRIVILEDGES.md",
+    "Hackerman/WINDOWS/PrivESC/SERVIZI/INSECURE SERVICE EXECUTABLES.md",
+    "Hackerman/WINDOWS/PrivESC/SERVIZI/UNQUOTED SERVICE PATH.md",
+    "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
+    "Hackerman/WINDOWS/PrivESC/AD/GROUP/LAPS READER.md",
+    "Hackerman/WINDOWS/PrivESC/AD/GROUP/DOMAIN ADMINS.md",
+    "Hackerman/WINDOWS/PrivESC/AD/VULNERABLE TEMPLATE.md",
+    "Hackerman/WINDOWS/PrivESC/AD/MIMIKATZ.md",
+    "prova.md",
+    "Hackerman/WINDOWS/PrivESC/AD/PRIVESC DOMAIN PERMISSION.md",
+    "Hackerman/WINDOWS/KERBEROS 88.md",
+    "Hackerman/WINDOWS/LDAP.md",
+    "Hackerman/WINDOWS/MSSQL.md",
+    "image/Pasted image 20230719150944.png",
+    "image/Pasted image 20230719150515.png",
+    "image/Pasted image 20230719150304.png",
+    "image/Pasted image 20230719143908.png",
+    "image/Pasted image 20230719143559.png",
+    "image/Pasted image 20230719143059.png",
+    "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
+    "Hackerman/WINDOWS/PrivESC/AD/ENUMERATION brutto ecppt.md",
+    "Hackerman/WINDOWS/PrivESC/SERVIZI/WEAK REGISTRY PERMISSIONS.md",
+    "Hackerman/BOF/WINDOWS.md",
+    "Hackerman/LINUX/PrivEsc/LOG POISONING APACHE.md",
+    "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
+    "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/reverse shell in powershell.md",
+    "image/Pasted image 20230621121052.png",
+    "image/Pasted image 20230621120729.png",
+    "image/Pasted image 20230621113454.png",
+    "image/Pasted image 20230616160922.png",
+    "Hackerman/WINDOWS/PrivESC/Privs",
+    "MW",
+    "Hackerman",
+    "Codes",
+    "Hackerman/BOF",
+    "Hackerman/WINDOWS/CVE",
+    "LINUX/DNS 53",
+    "Hackerman/LINUX/PrivEsc",
+    "Hackerman/WINDOWS/PrivESC/AV BYPASS",
+    "image/Post Exploitation CommandsCheatsheet 1.pdf"
+  ]
+}
