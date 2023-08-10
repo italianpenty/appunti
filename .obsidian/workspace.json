@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "931c80d26fbea35e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LAB/GOAD/KERBEROS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "15a346e62eeb236e",
             "type": "leaf",
             "state": {
@@ -160,11 +148,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "931c80d26fbea35e",
+  "active": "15a346e62eeb236e",
   "lastOpenFiles": [
-    "image/Pasted image 20230810171242.png",
     "Hackerman/WINDOWS/KERBEROS 88.md",
     "LAB/GOAD/KERBEROS.md",
+    "image/Pasted image 20230810171242.png",
     "Caratteri speciali.md",
     "LAB/GOAD/ENUMERATION.md",
     "Hackerman/WINDOWS/PrivESC/PASSWD.md",
@@ -188,7 +176,6 @@
     "image/Pasted image 20230810124518.png",
     "Senza nome",
     "image/Pasted image 20230810124229.png",
-    "image/Pasted image 20230810124141.png",
     "LAB",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
     "LAB/GOAD",
