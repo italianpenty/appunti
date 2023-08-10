@@ -20,3 +20,4 @@ Non ho ben capito come venga ottenuta la password 'horse', force facendo un brut
 impacket-getTGT 'essos.local/khal.drogo:horse'
 ```
 ![[Pasted image 20230810160139.png]]
+e puoi usarlo per connetterti a samba
