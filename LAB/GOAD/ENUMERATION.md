@@ -30,3 +30,6 @@ crackmapexec smb 192.168.56.11 --pass-pol
 Potresti usare anche enu4linux ma non ho voglia
 
 ### **SHARE SMB**
+Enumeriamo gli share di smb su cui abbiamo qualche permesso come anonimo
+```bash
+crackmapexec smb 192.168.56.10-23 -u 'guest' -p '' --shares
