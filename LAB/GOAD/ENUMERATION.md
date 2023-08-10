@@ -18,3 +18,4 @@ Enumero gli user presenti su ogni macchine
 ```bash
 crackmapexec smb 192.168.56.11 --users
 ```
+Ha SAMRPC attivo e quindi potrò enumerare gli user
