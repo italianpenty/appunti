@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/KERBEROS 88.md",
+                "file": "LAB/GOAD/KERBEROS.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,16 +160,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "15a346e62eeb236e",
+  "active": "931c80d26fbea35e",
   "lastOpenFiles": [
-    "Caratteri speciali.md",
+    "Hackerman/WINDOWS/KERBEROS 88.md",
     "LAB/GOAD/KERBEROS.md",
+    "Caratteri speciali.md",
     "LAB/GOAD/ENUMERATION.md",
     "Hackerman/WINDOWS/PrivESC/PASSWD.md",
     "Hackerman/WINDOWS/PrivESC/NISHANG.md",
     "Hackerman/WINDOWS/PrivESC/MSF.md",
     "LAB/GOAD/Senza nome.md",
-    "Hackerman/WINDOWS/KERBEROS 88.md",
     "image/Pasted image 20230810165921.png",
     "image/Pasted image 20230810164319.png",
     "Hackerman/WINDOWS/SMB 139,445.md",
