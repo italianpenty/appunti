@@ -26,3 +26,4 @@ Puoi anche ottenere la policy della password per provare del bruteforce
 ```bash
 crackmapexec smb 192.168.56.11 --pass-pol
 ```
+![[Pasted image 20230810164319.png]]
