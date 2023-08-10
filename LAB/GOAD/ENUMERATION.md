@@ -22,3 +22,7 @@ Ha SAMRPC attivo e quindi potrò enumerare gli user
 ![[Pasted image 20230810163553.png]]
 Ho ottenuto anche una password trovata nella descrizione negli user
 
+Puoi anche ottenere la policy della password per provare del bruteforce
+```bash
+crackmapexec smb 192.168.56.11 --pass-pol
+```
