@@ -14,4 +14,7 @@ quindi modifico /etc/hosts per risolvere gli indirizzi
 ![[Pasted image 20230810124229.png]]
 
 ### **USER**
-Enumero gli user presenti su ogni
+Enumero gli user presenti su ogni macchine
+```bash
+crackmapexec smb 192.168.56.11 --users
+```
