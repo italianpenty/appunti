@@ -15,3 +15,4 @@ kerbrute userenum -d essos.local --dc 192.168.56.12 user.txt
 
 
 ### **TGT BruteForce**
+Non ho ben capito come venga ottenuta la password 'horse', force facendo un bruteforce è possibile
