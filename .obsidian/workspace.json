@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "15a346e62eeb236e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LAB/GOAD/KRB5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/KERBEROS 88.md",
+                "file": "LAB/GOAD/KRB5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/KERBEROS 88.md",
+                "file": "LAB/GOAD/KRB5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/KERBEROS 88.md"
+                "file": "LAB/GOAD/KRB5.md"
               }
             }
           }
@@ -148,11 +161,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "931c80d26fbea35e",
+  "active": "15a346e62eeb236e",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/KERBEROS 88.md",
     "Hackerman/BOF/LINUX.md",
     "LAB/GOAD/ENUMERATION SUBNET.md",
-    "Hackerman/WINDOWS/KERBEROS 88.md",
     "LAB/GOAD/KRB5.md",
     "Caratteri speciali.md",
     "prova.md",
