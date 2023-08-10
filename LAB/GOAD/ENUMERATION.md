@@ -27,3 +27,4 @@ Puoi anche ottenere la policy della password per provare del bruteforce
 crackmapexec smb 192.168.56.11 --pass-pol
 ```
 ![[Pasted image 20230810164319.png]]
+Potresti usare anche enu4linux ma non ho voglia
