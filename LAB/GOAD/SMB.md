@@ -1,1 +1,1 @@
-Cerco share accessibili come guest
+Enumero gli user sui vari 
