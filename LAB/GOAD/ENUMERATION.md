@@ -33,3 +33,6 @@ Potresti usare anche enu4linux ma non ho voglia
 Enumeriamo gli share di smb su cui abbiamo qualche permesso come anonimo
 ```bash
 crackmapexec smb 192.168.56.10-23 -u 'guest' -p '' --shares
+```
+![[Pasted image 20230810165921.png]]
+cioccato
