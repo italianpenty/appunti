@@ -5,3 +5,4 @@ impacket-GetNPUsers 'north.sevenkingdoms.local/' -no-pass -usersfile users.txt -
 ```
 ![[Pasted image 20230810171242.png]]
 cracca l'hash
+![[Pasted image 20230810171924.png]]
