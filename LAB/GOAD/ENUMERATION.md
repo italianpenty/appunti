@@ -1,3 +1,4 @@
+### **SUBNET**
 Inizio enumerando l'intera subnet con cme alla ricerca du samba
 ```bash
 crackmapexec smb 192.168.56.0/24
@@ -11,3 +12,6 @@ cambia ogni volta il nome del dominio
 ![[Pasted image 20230810124141.png]]
 quindi modifico /etc/hosts per risolvere gli indirizzi
 ![[Pasted image 20230810124229.png]]
+
+### **USER**
+Enumero gli user presenti su ogni
