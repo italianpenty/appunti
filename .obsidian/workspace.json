@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD/Senza nome.md",
+                "file": "LAB/GOAD/ENUMERATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD/Senza nome.md",
+                "file": "LAB/GOAD/ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD/Senza nome.md",
+                "file": "LAB/GOAD/ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD/Senza nome.md"
+                "file": "LAB/GOAD/ENUMERATION.md"
               }
             }
           }
@@ -164,9 +164,12 @@
   "active": "15a346e62eeb236e",
   "lastOpenFiles": [
     "LAB/GOAD/KERBEROS.md",
+    "LAB/GOAD/ENUMERATION.md",
+    "Hackerman/WINDOWS/PrivESC/PASSWD.md",
+    "Hackerman/WINDOWS/PrivESC/NISHANG.md",
+    "Hackerman/WINDOWS/PrivESC/MSF.md",
     "LAB/GOAD/Senza nome.md",
     "Hackerman/WINDOWS/KERBEROS 88.md",
-    "LAB/GOAD/ENUMERATION.md",
     "image/Pasted image 20230810165921.png",
     "Caratteri speciali.md",
     "image/Pasted image 20230810164319.png",
@@ -201,9 +204,6 @@
     "Hackerman/WINDOWS/PrivESC/SERVIZI/UNQUOTED SERVICE PATH.md",
     "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/LAPS READER.md",
-    "Hackerman/WINDOWS/PrivESC/AD/GROUP/DOMAIN ADMINS.md",
-    "Hackerman/WINDOWS/PrivESC/AD/VULNERABLE TEMPLATE.md",
-    "Hackerman/WINDOWS/PrivESC/AD/MIMIKATZ.md",
     "Hackerman/WINDOWS/PrivESC/Privs",
     "MW",
     "Hackerman",
