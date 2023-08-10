@@ -1,0 +1,1 @@
+Cerco share accessibili come guest
