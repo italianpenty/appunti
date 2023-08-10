@@ -5,3 +5,4 @@ Trovo username appartenenti alle varie foreste (lista fatta usando gli schemi )
 kerbrute userenum -d essos.local --dc 192.168.56.12 user.txt
 ```
 ![[Pasted image 20230810125834.png]]
+![[Pasted image 20230810154111.png]]
