@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD/SAMBA.md",
+                "file": "LAB/GOAD/ENUMERATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD/SAMBA.md",
+                "file": "LAB/GOAD/ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD/SAMBA.md",
+                "file": "LAB/GOAD/ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD/SAMBA.md"
+                "file": "LAB/GOAD/ENUMERATION.md"
               }
             }
           }
@@ -162,9 +162,9 @@
   },
   "active": "15a346e62eeb236e",
   "lastOpenFiles": [
+    "LAB/GOAD/SAMBA.md",
     "image/Pasted image 20230810172208.png",
     "Caratteri speciali.md",
-    "LAB/GOAD/SAMBA.md",
     "LAB/GOAD/KERBEROS.md",
     "image/Pasted image 20230810171924.png",
     "Hackerman/WINDOWS/KERBEROS 88.md",
@@ -188,7 +188,6 @@
     "image/Pasted image 20230810154242.png",
     "image/Pasted image 20230810154111.png",
     "image/Pasted image 20230810125834.png",
-    "image/Pasted image 20230810124518.png",
     "Senza nome",
     "LAB",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
