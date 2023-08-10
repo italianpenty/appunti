@@ -19,3 +19,5 @@ Enumero gli user presenti su ogni macchine
 crackmapexec smb 192.168.56.11 --users
 ```
 Ha SAMRPC attivo e quindi potrò enumerare gli user
+![[Pasted image 20230810163553.png]]
+Ho ottenuto anche una password trovata nella dexs
