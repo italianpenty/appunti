@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "931c80d26fbea35e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LAB/GOAD/Senza nome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION SUBNET.md",
+                "file": "Hackerman/BOF/LINUX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION SUBNET.md",
+                "file": "Hackerman/BOF/LINUX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION SUBNET.md"
+                "file": "Hackerman/BOF/LINUX.md"
               }
             }
           }
@@ -161,8 +173,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9b753e533d38cfc5",
+  "active": "88f5571ca7e68d8b",
   "lastOpenFiles": [
+    "LAB/GOAD/ENUMERATION SUBNET.md",
+    "LAB/GOAD/Senza nome.md",
+    "Senza nome",
     "image/Pasted image 20230810124229.png",
     "image/Pasted image 20230810124141.png",
     "LAB",
@@ -170,7 +185,6 @@
     "Caratteri speciali.md",
     "prova.md",
     "README.md",
-    "LAB/GOAD/ENUMERATION SUBNET.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
     "LAB/GOAD",
     "Senza nome.canvas",
@@ -202,14 +216,12 @@
     "Hackerman/WINDOWS/PrivESC/AD/ENUMERATION brutto ecppt.md",
     "Hackerman/WINDOWS/PrivESC/SERVIZI/WEAK REGISTRY PERMISSIONS.md",
     "image/Pasted image 20230621121052.png",
-    "image/Pasted image 20230621120729.png",
     "Hackerman/WINDOWS/PrivESC/Privs",
     "MW",
     "Hackerman",
     "Codes",
     "Hackerman/BOF",
     "Hackerman/WINDOWS/CVE",
-    "LINUX/DNS 53",
-    "Hackerman/LINUX/PrivEsc"
+    "LINUX/DNS 53"
   ]
 }
