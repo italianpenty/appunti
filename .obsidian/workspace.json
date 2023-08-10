@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8cac6e7c36134016",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Caratteri speciali.md",
+                "file": "Hackerman/SMB 139,445.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION.md",
+                "file": "Hackerman/SMB 139,445.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION.md",
+                "file": "Hackerman/SMB 139,445.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION.md"
+                "file": "Hackerman/SMB 139,445.md"
               }
             }
           }
@@ -162,8 +150,15 @@
   },
   "active": "15a346e62eeb236e",
   "lastOpenFiles": [
-    "LAB/GOAD/KERBEROS.md",
+    "Hackerman/REDIS 6379.md",
+    "Hackerman/MSSQL.md",
+    "Hackerman/LDAP.md",
+    "Hackerman/KERBEROS 88.md",
+    "Hackerman/DNS 53.md",
+    "Hackerman/HTTP/LOG POISONING APACHE.md",
+    "Hackerman/HTTP/LFI.md",
     "LAB/GOAD/ENUMERATION.md",
+    "LAB/GOAD/KERBEROS.md",
     "LAB/GOAD/SAMBA.md",
     "image/Pasted image 20230810172208.png",
     "Caratteri speciali.md",
@@ -196,12 +191,6 @@
     "Senza nome 1.canvas",
     "Codes/C++.md",
     "Codes/PITONE.md",
-    "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
-    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
-    "Hackerman/WINDOWS/PrivESC/SERVIZI/INSECURE SERVICE PERMISSION.md",
-    "Hackerman/WINDOWS/PrivESC/Privs/SEIMPERSONATEPRIVILEDGES.md",
-    "Hackerman/WINDOWS/PrivESC/SERVIZI/INSECURE SERVICE EXECUTABLES.md",
-    "Hackerman/WINDOWS/PrivESC/SERVIZI/UNQUOTED SERVICE PATH.md",
     "Hackerman/WINDOWS/PrivESC/Privs",
     "MW",
     "Hackerman",
