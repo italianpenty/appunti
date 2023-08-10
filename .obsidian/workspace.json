@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION SUBNET.md",
+                "file": "LAB/GOAD/KRB5.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION SUBNET.md",
+                "file": "LAB/GOAD/KRB5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION SUBNET.md",
+                "file": "LAB/GOAD/KRB5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD/ENUMERATION SUBNET.md"
+                "file": "LAB/GOAD/KRB5.md"
               }
             }
           }
@@ -175,10 +175,10 @@
   },
   "active": "931c80d26fbea35e",
   "lastOpenFiles": [
+    "LAB/GOAD/ENUMERATION SUBNET.md",
     "LAB/GOAD/KRB5.md",
     "image/Pasted image 20230810124518.png",
     "Hackerman/BOF/LINUX.md",
-    "LAB/GOAD/ENUMERATION SUBNET.md",
     "Senza nome",
     "image/Pasted image 20230810124229.png",
     "image/Pasted image 20230810124141.png",
