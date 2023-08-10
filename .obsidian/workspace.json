@@ -163,6 +163,7 @@
   },
   "active": "9b753e533d38cfc5",
   "lastOpenFiles": [
+    "image/Pasted image 20230810124141.png",
     "LAB",
     "image/Pasted image 20230810122313.png",
     "Caratteri speciali.md",
@@ -209,7 +210,6 @@
     "Hackerman/BOF",
     "Hackerman/WINDOWS/CVE",
     "LINUX/DNS 53",
-    "Hackerman/LINUX/PrivEsc",
-    "Hackerman/WINDOWS/PrivESC/AV BYPASS"
+    "Hackerman/LINUX/PrivEsc"
   ]
 }

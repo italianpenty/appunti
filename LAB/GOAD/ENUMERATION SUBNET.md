@@ -8,3 +8,4 @@ Ora trovo gli ip dei DC per configurare /etc/hosts e capire la topologia
 nslookup -type=srv _ldap._tcp.dc._msdcs.sevenkingdoms.local 192.168.56.10
 ```
 cambia ogni volta il nome del dominio
+![[Pasted image 20230810124141.png]]
