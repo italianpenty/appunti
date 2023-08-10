@@ -23,9 +23,11 @@
             "id": "9b753e533d38cfc5",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.3.7"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/BOF/LINUX.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/BOF/LINUX.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/BOF/LINUX.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md"
               }
             }
           }
