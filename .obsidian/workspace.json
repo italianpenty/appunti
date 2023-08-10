@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/KERBEROS 88.md",
+                "file": "LAB/GOAD/Senza nome.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/KERBEROS 88.md",
+                "file": "LAB/GOAD/Senza nome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/KERBEROS 88.md",
+                "file": "LAB/GOAD/Senza nome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/KERBEROS 88.md"
+                "file": "LAB/GOAD/Senza nome.md"
               }
             }
           }
@@ -164,12 +164,13 @@
   "active": "15a346e62eeb236e",
   "lastOpenFiles": [
     "LAB/GOAD/KERBEROS.md",
+    "LAB/GOAD/Senza nome.md",
+    "Hackerman/WINDOWS/KERBEROS 88.md",
     "LAB/GOAD/ENUMERATION.md",
     "image/Pasted image 20230810165921.png",
     "Caratteri speciali.md",
     "image/Pasted image 20230810164319.png",
     "Hackerman/WINDOWS/SMB 139,445.md",
-    "Hackerman/WINDOWS/KERBEROS 88.md",
     "Hackerman/WINDOWS/MSSQL.md",
     "image/Pasted image 20230810163553.png",
     "LAB/GOAD/SMB.md",
@@ -203,7 +204,6 @@
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/DOMAIN ADMINS.md",
     "Hackerman/WINDOWS/PrivESC/AD/VULNERABLE TEMPLATE.md",
     "Hackerman/WINDOWS/PrivESC/AD/MIMIKATZ.md",
-    "Hackerman/WINDOWS/PrivESC/AD/PRIVESC DOMAIN PERMISSION.md",
     "Hackerman/WINDOWS/PrivESC/Privs",
     "MW",
     "Hackerman",
