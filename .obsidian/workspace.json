@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GOAD/ENUMERATION SUBNET.md",
+                "file": "LAB/GOAD/ENUMERATION SUBNET.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GOAD/ENUMERATION SUBNET.md",
+                "file": "LAB/GOAD/ENUMERATION SUBNET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GOAD/ENUMERATION SUBNET.md",
+                "file": "LAB/GOAD/ENUMERATION SUBNET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GOAD/ENUMERATION SUBNET.md"
+                "file": "LAB/GOAD/ENUMERATION SUBNET.md"
               }
             }
           }
@@ -160,15 +160,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9b753e533d38cfc5",
+  "active": "88f5571ca7e68d8b",
   "lastOpenFiles": [
+    "LAB",
     "image/Pasted image 20230810122313.png",
     "Caratteri speciali.md",
     "prova.md",
     "README.md",
-    "GOAD/ENUMERATION SUBNET.md",
+    "LAB/GOAD/ENUMERATION SUBNET.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
-    "GOAD",
+    "LAB/GOAD",
     "Senza nome.canvas",
     "Senza nome 1.canvas",
     "Codes/C++.md",
@@ -200,7 +201,6 @@
     "image/Pasted image 20230621121052.png",
     "image/Pasted image 20230621120729.png",
     "image/Pasted image 20230621113454.png",
-    "image/Pasted image 20230616160922.png",
     "Hackerman/WINDOWS/PrivESC/Privs",
     "MW",
     "Hackerman",
