@@ -100,4 +100,7 @@ Passa l'exe ed avvialo, enumerando tutti e 3 i domain
 
 ### **SamAccountName CVE-2021-42287**
 
-Vediamo se possiamo 
+Vediamo il machine account quota dell'account trovato con il kerberoasting
+```bash
+crackmapexec ldap winterfell.north.sevenkingdoms.local -u jon.snow -p iknownothing -d north.sevenkingdoms.local -M MAQ
+```
