@@ -58,3 +58,5 @@ Per ottenere tutti gli User di un dominio avendo un account a disposizione
 impacket-GetADUsers -all north.sevenkingdoms.local/brandon.stark:iseedeadpeople 
 ```
 ![[Pasted image 20230825105044.png]]
+
+### **KERBEROASTING (SPN)**
