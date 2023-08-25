@@ -55,5 +55,5 @@ crackmapexec smb 192.168.56.11 -u user.txt -p user.txt --no-bruteforce
 ### **USER ENUM(W\ CREDS)**
 Per ottenere tutti gli User di un dominio avendo un account a disposizione
 ```bash
-impacket-GetADUsers -all <MACCHINA>/<USER>:<PASS>
+impacket-GetADUsers -all north.sevenkingdoms.local/brandon.stark:iseedeadpeople 
 ```
