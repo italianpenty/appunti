@@ -152,3 +152,5 @@ Inanzitutto controlliamo se spooler è attivo
 ```bash
 crackmapexec smb 192.168.56.10-23 -M spooler
 ```
+![[Pasted image 20230825171651.png]]
+o
