@@ -78,3 +78,6 @@ hashcat -m 13100 -a 0 kerberoasting.hashes /usr/share/wordlists/rockyou.txt
 ```
 ![[Pasted image 20230825114831.png]]
 Solo un hash è stata craccata
+
+### **AD ENUM (BLOODHOUND)**
+Ora che abbiamo trovato delle credenziali per accede
