@@ -1,4 +1,4 @@
-### **SUBNET**
+### **SUBNET ENUM**
 Inizio enumerando l'intera subnet con cme alla ricerca du samba
 ```bash
 crackmapexec smb 192.168.56.0/24
@@ -13,7 +13,7 @@ cambia ogni volta il nome del dominio
 quindi modifico /etc/hosts per risolvere gli indirizzi
 ![[Pasted image 20230810124229.png]]
 
-### **USER**
+### **USER ENUM (NO CREDS)**
 Enumero gli user presenti su ogni macchine
 ```bash
 crackmapexec smb 192.168.56.11 --users
@@ -29,7 +29,7 @@ crackmapexec smb 192.168.56.11 --pass-pol
 ![[Pasted image 20230810164319.png]]
 Potresti usare anche enu4linux ma non ho voglia
 
-### **SHARE SMB**
+### **SHARE SMB (NO CREDS)**
 Enumeriamo gli share di smb su cui abbiamo qualche permesso come anonimo
 ```bash
 crackmapexec smb 192.168.56.10-23 -u 'guest' -p '' --shares
