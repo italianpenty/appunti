@@ -57,7 +57,7 @@ Controlliamo tra gli host se ce ne è uno con l'opzione "signing:False"
 ```bash
 crackmapexec smb 192.168.56.10-23 --gen-relay-list relay.txt
 ```
-
+![[Pasted image 20230825154818.png]]
 ### **USER ENUM(W\ CREDS)**
 Per ottenere tutti gli User di un dominio avendo un account a disposizione
 ```bash
