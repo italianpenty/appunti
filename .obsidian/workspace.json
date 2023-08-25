@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/SMB 139,445.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/SMB 139,445.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/SMB 139,445.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/SMB 139,445.md"
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "15a346e62eeb236e",
   "lastOpenFiles": [
+    "Hackerman/SMB 139,445.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
     "Caratteri speciali.md",
@@ -174,7 +175,6 @@
     "LAB/GOAD/SAMBA.md",
     "LAB/GOAD/KERBEROS.md",
     "Hackerman/DNS 53.md",
-    "Hackerman/SMB 139,445.md",
     "Hackerman/REDIS 6379.md",
     "Hackerman/MSSQL.md",
     "Hackerman/LDAP.md",
