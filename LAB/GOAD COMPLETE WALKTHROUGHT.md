@@ -60,3 +60,5 @@ impacket-GetADUsers -all north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ![[Pasted image 20230825105044.png]]
 
 ### **KERBEROASTING (SPN)**
+
+Proviamo a vedere se c'è qualche SPN
