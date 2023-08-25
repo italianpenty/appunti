@@ -186,3 +186,7 @@ BOOL APIENTRY DllMain(HMODULE hModule,
     return TRUE;
 }
 ```
+e compilalo
+```bash
+x86_64-w64-mingw32-gcc -shared -o nightmare.dll nightmare.c
+```
