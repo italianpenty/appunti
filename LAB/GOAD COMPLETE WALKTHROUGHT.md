@@ -52,6 +52,7 @@ cracca l'hash
 crackmapexec smb 192.168.56.11 -u user.txt -p user.txt --no-bruteforce
 ```
 ![[Pasted image 20230810172208.png]]
+### **NTLM RELAY**
 ### **USER ENUM(W\ CREDS)**
 Per ottenere tutti gli User di un dominio avendo un account a disposizione
 ```bash
