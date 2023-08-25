@@ -6,7 +6,7 @@ impacket-GetADUsers -all <DOMINIO>/<USER>:<PASS>
 ![[Pasted image 20230825105056.png]]
 Si puo usare anche ldapsearch, in modo da cercare gli user anche in altri domini se si hanno trust
 ```bash
-ldapsearch -H ldap://<IP> -D "<USER>k@<DOMAIN DELL'USER>" -w <PASS> -b ',DC=essos,DC=local' "(&(objectCategory=person)(objectClass=user))"
+ldapsearch -H ldap://<IP> -D "<USER>k@<DOMAIN DELL'USER>" -w <PASS> -b ',DC=<NOME DOMAIN DA VEDERE>,DC=<.COSE DEL DOMANIN (senza .)>' "(&(objectCategory=person)(objectClass=user))"
 ```
 ### **SENZA CREDS**
 Usando smb e senza avere creds
