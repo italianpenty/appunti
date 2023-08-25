@@ -97,3 +97,6 @@ Passa l'exe ed avvialo, enumerando tutti e 3 i domain
 .\sharphound.exe -d sevenkingdoms.local -c all --zipfilename bh_sevenkingdoms.zip
 .\sharphound.exe -d essos.local -c all --zipfilename bh_essos.zip
 ```
+
+### **SamAccountName CVE-2021-42287**
+
