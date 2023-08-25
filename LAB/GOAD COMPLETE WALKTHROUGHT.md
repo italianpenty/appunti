@@ -149,3 +149,6 @@ secretsdump.py -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' @'winte
 
 ### **PrintNightmare**
 Inanzitutto controlliamo se spooler è attivo
+```bash
+crackmapexec smb 192.168.56.10-23 -M spooler
+```
