@@ -82,5 +82,5 @@ Solo un hash è stata craccata
 ### **AD ENUM (BLOODHOUND)**
 Ora che abbiamo trovato delle credenziali per accedere possiamo fare un enumerazione dell'ad tramite bloodhound e trovare i vari path per gli account
 ```bash
-bloodhound.py --zip -c All -d north.sevenkingdoms.local -u brandon.stark -p iseedeadpeople -dc winterfell.north.sevenkingdoms.local
+xfreerdp /u:jon.snow /p:iknownothing /d:north /v:192.168.56.22 /cert-ignore
 ```
