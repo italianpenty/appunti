@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Caratteri speciali.md"
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
               }
             }
           }
@@ -161,11 +160,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f19b0dfa7157c170",
+  "active": "15a346e62eeb236e",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "Hackerman/SMB 139,445.md",
-    "Caratteri speciali.md",
     "Hackerman/WINDOWS/PrivESC/AD/NTLM RELAY.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
     "image/Pasted image 20230825114831.png",

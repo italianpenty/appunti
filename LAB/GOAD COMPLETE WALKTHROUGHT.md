@@ -54,8 +54,10 @@ crackmapexec smb 192.168.56.11 -u user.txt -p user.txt --no-bruteforce
 ![[Pasted image 20230810172208.png]]
 ### **NTLM RELAY**
 Controlliamo tra gli host se ce ne è uno con l'opzione "signing:False"
+```bash
+crackmapexec smb 192.168.56.10-23 --gen-relay-list relay.txt
+```
 
-cme smb 192.168.56.10-23 --gen-relay-list relay.txt
 ### **USER ENUM(W\ CREDS)**
 Per ottenere tutti gli User di un dominio avendo un account a disposizione
 ```bash
