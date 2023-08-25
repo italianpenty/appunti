@@ -104,3 +104,4 @@ Vediamo il machine account quota dell'account trovato con il kerberoasting
 ```bash
 crackmapexec ldap winterfell.north.sevenkingdoms.local -u jon.snow -p iknownothing -d north.sevenkingdoms.local -M MAQ
 ```
+![[Pasted image 20230825161202.png]]
