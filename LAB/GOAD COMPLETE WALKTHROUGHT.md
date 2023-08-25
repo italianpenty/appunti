@@ -100,3 +100,4 @@ Passa l'exe ed avvialo, enumerando tutti e 3 i domain
 
 ### **SamAccountName CVE-2021-42287**
 
+Vediamo se possiamo 
