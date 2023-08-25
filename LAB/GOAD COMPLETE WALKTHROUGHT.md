@@ -147,3 +147,4 @@ secretsdump.py -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' @'winte
 ```
 ![[Pasted image 20230825170548.png]]
 
+### **PrintNightmare**
