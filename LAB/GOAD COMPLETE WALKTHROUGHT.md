@@ -118,4 +118,5 @@ Ora puliamo l'SPNs del nuovo computer
 ```bash
 python3 addspn.py --clear -t 'samaccountname$' -u 'north.sevenkingdoms.local\jon.snow' -p 'iknownothing' 'winterfell.north.sevenkingdoms.local'
 ```
-
+![[Pasted image 20230825164134.png]]
+Rinominiamo il computer a DC
