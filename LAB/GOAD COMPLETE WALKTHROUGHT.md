@@ -99,7 +99,11 @@ Passa l'exe ed avvialo, enumerando tutti e 3 i domain
 ```
 
 ### **SamAccountName (NoPac) CVE-2021-42287**
-Per questo passaggio sc
+Per questo passaggio scarica
+[GitHub - dirkjanm/krbrelayx: Kerberos unconstrained delegation abuse toolkit](https://github.com/dirkjanm/krbrelayx)
+impacket-renameMachine.py
+impacket-getST.py
+
 Vediamo il machine account quota (Quanti computer puoi aggiungere al domain) dell'account trovato con il kerberoasting
 ```bash
 crackmapexec ldap winterfell.north.sevenkingdoms.local -u jon.snow -p iknownothing -d north.sevenkingdoms.local -M MAQ
