@@ -98,7 +98,7 @@ Passa l'exe ed avvialo, enumerando tutti e 3 i domain
 .\sharphound.exe -d essos.local -c all --zipfilename bh_essos.zip
 ```
 
-### **SamAccountName CVE-2021-42287**
+### **SamAccountName (NoPac) CVE-2021-42287**
 
 Vediamo il machine account quota dell'account trovato con il kerberoasting
 ```bash
