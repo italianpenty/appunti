@@ -1,9 +1,10 @@
 ### **CON CREDS**
 Per ottenere tutti gli User di un dominio ==avendo un account a disposizione==
 ```bash
-impacket-GetADUsers -all <MACCHINA>/<USER>:<PASS>
+impacket-GetADUsers -all <DOMINIO>/<USER>:<PASS>
 ```
 ![[Pasted image 20230825105056.png]]
+Si puo usare anche ldapsearch, in modo da cercare gli user anche in altri domini se si hanno trust
 ### **SENZA CREDS**
 Usando smb e senza avere creds
 ```bash
