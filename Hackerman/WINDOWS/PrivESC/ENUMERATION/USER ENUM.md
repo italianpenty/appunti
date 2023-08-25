@@ -1,9 +1,10 @@
-### **C**
+### **CON CREDS**
 Per ottenere tutti gli User di un dominio ==avendo un account a disposizione==
 ```bash
 impacket-GetADUsers -all <MACCHINA>/<USER>:<PASS>
 ```
 ![[Pasted image 20230825105056.png]]
+### **SENZA CREDS**
 Usando smb e senza avere creds
 ```bash
 crackmapexec smb <IP> --users
