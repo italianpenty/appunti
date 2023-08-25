@@ -85,3 +85,8 @@ Ora che abbiamo trovato delle credenziali per accedere possiamo fare un enumeraz
 xfreerdp /u:jon.snow /p:iknownothing /d:north /v:192.168.56.22 /cert-ignore
 ```
 Passa l'exe ed avvialo, enumerando tutti e 3 i domain
+```bash
+.\sharphound.exe -d north.sevenkingdoms.local -c all --zipfilename bh_north_sevenkingdoms.zip
+.\sharphound.exe -d sevenkingdoms.local -c all --zipfilename bh_sevenkingdoms.zip
+.\sharphound.exe -d essos.local -c all --zipfilename bh_essos.zip
+```
