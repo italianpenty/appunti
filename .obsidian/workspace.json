@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/ENUMERATION/USER ENUM.md",
+                "file": "LAB/GOAD/ENUMERATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/ENUMERATION/USER ENUM.md",
+                "file": "LAB/GOAD/ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/ENUMERATION/USER ENUM.md",
+                "file": "LAB/GOAD/ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/ENUMERATION/USER ENUM.md"
+                "file": "LAB/GOAD/ENUMERATION.md"
               }
             }
           }
@@ -162,8 +162,10 @@
   },
   "active": "15a346e62eeb236e",
   "lastOpenFiles": [
-    "Caratteri speciali.md",
+    "LAB/GOAD/KERBEROS.md",
+    "LAB/GOAD/ENUMERATION.md",
     "Hackerman/WINDOWS/PrivESC/ENUMERATION/USER ENUM.md",
+    "Caratteri speciali.md",
     "Hackerman/KERBEROS 88.md",
     "Hackerman/DNS 53.md",
     "Hackerman/SMB 139,445.md",
@@ -173,8 +175,6 @@
     "Hackerman/LDAP.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/HTTP/LFI.md",
-    "LAB/GOAD/ENUMERATION.md",
-    "LAB/GOAD/KERBEROS.md",
     "image/Pasted image 20230810172208.png",
     "image/Pasted image 20230810171924.png",
     "Hackerman/WINDOWS/KERBEROS 88.md",
