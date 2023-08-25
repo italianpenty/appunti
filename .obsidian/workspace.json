@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/SMB 139,445.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/SMB 139,445.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/SMB 139,445.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/SMB 139,445.md"
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
               }
             }
           }
@@ -162,11 +162,11 @@
   },
   "active": "15a346e62eeb236e",
   "lastOpenFiles": [
+    "Hackerman/SMB 139,445.md",
     "image/Pasted image 20230825154847.png",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "image/Pasted image 20230825154818.png",
     "Caratteri speciali.md",
-    "Hackerman/SMB 139,445.md",
     "Hackerman/WINDOWS/PrivESC/AD/NTLM RELAY.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
     "image/Pasted image 20230825114831.png",
@@ -192,7 +192,6 @@
     "Hackerman/WINDOWS/PrivESC/MSF.md",
     "LAB/GOAD/Senza nome.md",
     "image/Pasted image 20230810165921.png",
-    "image/Pasted image 20230810164319.png",
     "Hackerman/WINDOWS/SMB 139,445.md",
     "Hackerman/WINDOWS/MSSQL.md",
     "LAB/GOAD/SMB.md",
