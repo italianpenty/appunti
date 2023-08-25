@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Hackerman/WINDOWS/PrivESC/ENUMERATION/USER ENUM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f19b0dfa7157c170",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Caratteri speciali.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Caratteri speciali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Caratteri speciali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md"
+                "file": "Caratteri speciali.md"
               }
             }
           }
@@ -148,15 +161,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "15a346e62eeb236e",
+  "active": "f19b0dfa7157c170",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/ENUMERATION/USER ENUM.md",
+    "Hackerman/KERBEROS 88.md",
     "Hackerman/DNS 53.md",
     "Hackerman/SMB 139,445.md",
     "LAB/GOAD/SAMBA.md",
     "Hackerman/REDIS 6379.md",
     "Hackerman/MSSQL.md",
     "Hackerman/LDAP.md",
-    "Hackerman/KERBEROS 88.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/HTTP/LFI.md",
     "LAB/GOAD/ENUMERATION.md",
@@ -190,7 +204,6 @@
     "LAB/GOAD",
     "Senza nome.canvas",
     "Senza nome 1.canvas",
-    "Codes/C++.md",
     "Hackerman/WINDOWS/PrivESC/Privs",
     "MW",
     "Hackerman",
