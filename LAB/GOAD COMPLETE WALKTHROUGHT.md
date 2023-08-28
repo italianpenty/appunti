@@ -211,6 +211,9 @@ Usando certipy e l'opzione "-vulnerable" è possibile ottenere informazioni sui 
 certipy-ad find -u khal.drogo@essos.local -p 'horse' -vulnerable -dc-ip 192.168.56.12 -stdout
 ```
 ![[Pasted image 20230828125806.png]]
+![[Pasted image 20230828144854.png]]
+
+*BloodHound*
 
 ### **ESC 8 - ADCS**
 
