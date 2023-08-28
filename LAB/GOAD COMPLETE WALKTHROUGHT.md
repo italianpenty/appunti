@@ -208,7 +208,7 @@ certipy-ad find -u khal.drogo@essos.local -p 'horse' -dc-ip 192.168.56.12
 *Certipy*
 Usando certipy e l'opzione "-vulnerable" è possibile ottenere informazioni sui template e i permessi vulnerabili
 ```bash
-certipy find -u khal.drogo@essos.local -p 'horse' -vulnerable -dc-ip 192.168.56.12 -stdout
+certipy-ad find -u khal.drogo@essos.local -p 'horse' -vulnerable -dc-ip 192.168.56.12 -stdout
 ```
 
 ### **ESC 8 - ADCS**
