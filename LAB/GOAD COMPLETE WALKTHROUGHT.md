@@ -259,3 +259,5 @@ certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configu
 ### **ESC 8 - ADCS**
 
 Da fare
+### **titolo**
+### **titolo**
