@@ -265,4 +265,5 @@ Crea un account con un domain user e setta un nome fake del dns come domain cont
 ```bash
 certipy-ad account create -u khal.drogo@essos.local -p 'horse' -user 'certifriedpc' -pass 'certifriedpass' -dns 'meereen.essos.local'
 ```
+Da fare
 ### **titolo**
