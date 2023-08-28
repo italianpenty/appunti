@@ -216,7 +216,7 @@ certipy-ad find -u khal.drogo@essos.local -p 'horse' -vulnerable -dc-ip 192.168.
 ![[Pasted image 20230828144930.png]]
 
 *BloodHound*
-Carica il file zip e  vai in 
+Carica il file zip e  vai in PKI -> Find certificate authority -> see enabled template
 ### **ESC 8 - ADCS**
 
 Da fare
