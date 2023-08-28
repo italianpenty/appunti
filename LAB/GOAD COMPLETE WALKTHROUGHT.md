@@ -199,6 +199,10 @@ avvia una share smb
 impacket-smbserver -smb2support ATTACKERSHARE .
 ```
 continua quando possibile (part5)
+### **ADCS RECON AND ENUM**
+Si può fare con due tool principalmente
+*Crtipy*
+
 ### **ESC 8 - ADCS**
 
 Da fare
