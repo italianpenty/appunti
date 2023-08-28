@@ -268,3 +268,4 @@ certipy-ad account create -u khal.drogo@essos.local -p 'horse' -user 'certifried
 Da fare
 ### **Shadow Credentials**
 [Shadow Credentials: Abusing Key Trust Account Mapping for Account Takeover | by Elad Shamir | Posts By SpecterOps Team Members](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab)
+Stealth e mol
