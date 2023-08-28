@@ -266,4 +266,5 @@ Crea un account con un domain user e setta un nome fake del dns come domain cont
 certipy-ad account create -u khal.drogo@essos.local -p 'horse' -user 'certifriedpc' -pass 'certifriedpass' -dns 'meereen.essos.local'
 ```
 Da fare
-### **titolo**
+### **Shadow Credentials**
+[Shadow Credentials: Abusing Key Trust Account Mapping for Account Takeover | by Elad Shamir | Posts By SpecterOps Team Members](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab)
