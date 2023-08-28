@@ -256,7 +256,6 @@ Per riportarlo alla normalità
 certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configuration ESC4.json
 ```
 ![[Pasted image 20230828151547.png]]
-### **ESC 6 - ADCS**
 ### **ESC 8 - ADCS**
 
 Da fare
