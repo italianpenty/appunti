@@ -200,8 +200,10 @@ impacket-smbserver -smb2support ATTACKERSHARE .
 ```
 continua quando possibile (part5)
 ### **ADCS RECON AND ENUM**
-Si può fare con due tool principalmente
-*Crtipy*
+Si può fare con due tool principalmente, ma inizialmente va usato certipy per ottenere lo zip da inserire in bloodhound
+certipy-ad find -u khal.drogo@essos.local -p 'horse' -dc-ip 192.168.56.12
+*Certipy*
+
 
 ### **ESC 8 - ADCS**
 
