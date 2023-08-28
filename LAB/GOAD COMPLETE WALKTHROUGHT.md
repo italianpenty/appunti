@@ -199,3 +199,4 @@ avvia una share smb
 impacket-smbserver -smb2support ATTACKERSHARE .
 ```
 continua quando possibile (part5)
+### **ESC 8 - ADCS**
