@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/DA FARE.md"
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "15a346e62eeb236e",
   "lastOpenFiles": [
+    "LAB/DA FARE.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "Caratteri speciali.md",
     "image/Pasted image 20230828151547.png",
@@ -174,7 +175,6 @@
     "image/Pasted image 20230828144930.png",
     "image/Pasted image 20230828144917.png",
     "image/Pasted image 20230828144854.png",
-    "LAB/DA FARE.md",
     "Hackerman/SMB 139,445.md",
     "Hackerman/WINDOWS/PrivESC/AD/NTLM RELAY.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
