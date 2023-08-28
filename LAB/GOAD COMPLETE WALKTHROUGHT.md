@@ -245,6 +245,7 @@ certipy-ad auth -pfx administrator.pfx -dc-ip 192.168.56.12
 ```
 ![[Pasted image 20230828150913.png]]
 ### **ESC 4 - ADCS**
+Grazie al permesso genericWrite possiamo modificare il nostro
 ```bash
 
 ```
