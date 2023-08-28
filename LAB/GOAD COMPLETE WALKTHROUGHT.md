@@ -260,5 +260,5 @@ certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configu
 
 Da fare
 ### **CVE-2022-26923**
-Crea un account con un domain user e setta un fake dns
+Crea un account con un domain user e setta un nome fake del dns come domain controller
 ### **titolo**
