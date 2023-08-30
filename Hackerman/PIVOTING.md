@@ -41,9 +41,4 @@ To use our earlier example:
 sshuttle -r user@172.16.0.5 172.16.0.0/24 -x 172.16.0.5
 ```
 This will allow sshuttle to create a connection without disrupting itself.
-
-TEST:
-
-`sudo tcptraceroute <ip_of_subnet_unrichable_before>`
-
 PING NON FUNZIONA
