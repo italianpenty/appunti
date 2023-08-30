@@ -295,3 +295,4 @@ GetUserSPNs.py -target-domain essos.local north.sevenkingdoms.local/brandon.star
 ```bash
 crackmapexec mssql 192.168.56.22-23
 ```
+![[Pasted image 20230830151845.png]]
