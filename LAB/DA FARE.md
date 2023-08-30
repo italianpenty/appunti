@@ -5,4 +5,7 @@ continua quando possibile (part5)
 ADCS ESC8
 Certifried - CVE-2022–26923
 [GOAD - part 6 - ADCS | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part6/)
+MSSQL
+[GOAD - part 7 - MSSQL | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part7/#impacket)
+
 
