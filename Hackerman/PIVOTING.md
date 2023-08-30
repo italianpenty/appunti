@@ -15,25 +15,20 @@ For example, in our fictional 172.16.0.x network with a compromised server at 17
 ```bash
 shuttle -r user@172.16.0.5 172.16.0.0/24
 ```
-We would then be asked for the user's password, and the proxy would be established. The tool will then just sit passively in the background and forward relevant traffic into the target network.
-
 Rather than specifying subnets, we could also use the `-N` option which attempts to determine them automatically based on the compromised server's own routing table:
-
-`sshuttle -r username@address -N` (Bear in mind that this may not always be successful though!)
-
-As with the previous tools, these commands could also be backgrounded by appending the ampersand (`&`) symbol to the end.
-
+```
+sshuttle -r username@address -N
+```
+(Bear in mind that this may not always be successful though!)
 If this has worked, you should see the following line:
 
 `c : Connected to server.`
 
-How to use sshuttle with key files for authentication
+This command will tunnel everything including DNS:
+```
+sshuttle --dns -vr user@yourserver.com 0/0 --ssh-cmd 'ssh -i /your/key/path.pem'
+```
 
-#It's not directly mentioned in the documentation on how to do this, so here you go. This command will tunnel everything including DNS:
-
-`sshuttle --dns -vr user@yourserver.com 0/0 --ssh-cmd 'ssh -i /your/key/path.pem'`
-
-`sshuttle --dns -vr root@10.200.105.200 0/0 --ssh-cmd 'ssh -i /home/kali/.ssh/whealth_priv_key' &`
 
 `sshuttle -r user@172.16.0.5 --ssh-cmd "ssh -i private_key" 172.16.0.0/24`
 
