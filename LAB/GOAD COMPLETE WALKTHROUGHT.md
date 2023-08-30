@@ -274,3 +274,6 @@ Ha bisogno dell'opzione msDS-KeyCredentialLink abilitata sull'account (Se hai ge
 certipy-ad shadow auto -u khal.drogo@essos.local -p 'horse' -account 'viserys.targaryen'
 ```
 ![[Pasted image 20230828173854.png]]
+
+### **ENUM MSSQL**
+Controlliamo se ci sono utenti con SPN su MSSQL
