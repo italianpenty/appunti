@@ -1,24 +1,11 @@
 ### **SSH**
 ### **SSHUTTLE**
-This tool is quite different from the others we have covered so far. It doesn't perform a port forward, and the proxy it creates is nothing like the ones we have already seen. Instead it uses an SSH connection to create a tunnelled proxy that acts like a new interface. In short, it simulates a VPN, allowing us to route our traffic through the proxy without the use of proxychains (or an equivalent). We can just directly connect to devices in the target network as we would normally connect to networked devices. As it creates a tunnel through SSH (the secure shell), anything we send through the tunnel is also encrypted, which is a nice bonus. **We use sshuttle entirely on our attacking machine**, in much the same way we would SSH into a remote server.
-
-Whilst this sounds like an incredible upgrade, it is not without its drawbacks.
-
 You can use sshuttle to tunnel all traffic to a remote SSH server. Note that sshuttle only forwards DNS requests and TCP traffic to the remote server. Other protocols, like UDP, are not supported.
 
 REQUISITI:
-
 • For a start, sshuttle only works on **Linux targets**.
-
 • It also requires **access** to the compromised server **via** **SSH**,
-
-• and **Python** also needs to be installed on the server.
-
-That said, with SSH access, it could theoretically be possible to upload a static copy of Python and work with that. These restrictions do somewhat limit the uses for sshuttle; however, when it is an option, it tends to be a superb bet!
-
-First of all we need to install sshuttle. On Kali this is as easy as using the apt package manager:
-
-`sudo apt install sshuttle`
+• and Python also needs to be installed on the server.
 
 The base command for connecting to a server with sshuttle is as follows:
 
