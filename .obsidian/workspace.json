@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "Caratteri speciali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "Caratteri speciali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
+                "file": "Caratteri speciali.md"
               }
             }
           }
@@ -160,15 +161,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa1170f150003705",
+  "active": "f19b0dfa7157c170",
   "lastOpenFiles": [
+    "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "image/Pasted image 20230830151845.png",
     "image/Pasted image 20230830110943.png",
     "image/Pasted image 20230830110835.png",
     "image/Pasted image 20230830110346.png",
     "image/Pasted image 20230830104754.png",
     "Caratteri speciali.md",
-    "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "image/Pasted image 20230828173854.png",
     "LAB/DA FARE.md",
@@ -176,7 +177,6 @@
     "image/Pasted image 20230828151521.png",
     "image/Pasted image 20230828150913.png",
     "image/Pasted image 20230828150815.png",
-    "image/Pasted image 20230828150256.png",
     "Hackerman/SMB 139,445.md",
     "Hackerman/WINDOWS/PrivESC/AD/NTLM RELAY.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
