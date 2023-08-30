@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/DA FARE.md"
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "fa1170f150003705",
   "lastOpenFiles": [
-    "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "Caratteri speciali.md",
+    "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+    "LAB/DA FARE.md",
     "image/Pasted image 20230830151845.png",
     "image/Pasted image 20230830110943.png",
     "image/Pasted image 20230830110835.png",
@@ -171,7 +172,6 @@
     "image/Pasted image 20230830104754.png",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "image/Pasted image 20230828173854.png",
-    "LAB/DA FARE.md",
     "image/Pasted image 20230828151547.png",
     "image/Pasted image 20230828151521.png",
     "image/Pasted image 20230828150913.png",
