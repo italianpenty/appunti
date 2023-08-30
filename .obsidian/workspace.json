@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Caratteri speciali.md"
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
               }
             }
           }
@@ -161,15 +160,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f19b0dfa7157c170",
+  "active": "fa1170f150003705",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "image/Pasted image 20230830151845.png",
     "image/Pasted image 20230830110943.png",
     "image/Pasted image 20230830110835.png",
     "image/Pasted image 20230830110346.png",
     "image/Pasted image 20230830104754.png",
-    "Caratteri speciali.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "image/Pasted image 20230828173854.png",
     "LAB/DA FARE.md",
