@@ -280,7 +280,7 @@ Vediamo quali server hanno MSSQL attivo
 ```bash
 nmap -p 1433 -sV -sC 192.168.56.10-23
 ```
-
+![[Pasted image 20230830110346.png]]
 Controlliamo se ci sono utenti con SPN sul server MSSQL
 ```bash
 impacket-GetUserSPNs north.sevenkingdoms.local/brandon.stark:iseedeadpeople
