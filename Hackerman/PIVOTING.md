@@ -3,18 +3,18 @@
 You can use sshuttle to tunnel all traffic to a remote SSH server. Note that sshuttle only forwards DNS requests and TCP traffic to the remote server. Other protocols, like UDP, are not supported.
 
 REQUISITI:
-• For a start, sshuttle only works on **Linux targets**.
-• It also requires **access** to the compromised server **via** **SSH**,
+• For a start, sshuttle only works on Linux targets.
+• It also requires access to the compromised server via SSH.
 • and Python also needs to be installed on the server.
 
 The base command for connecting to a server with sshuttle is as follows:
-
-`sshuttle -r username@address subnet` 
-
+```bash
+sshuttle -r username@address subnet
+```
 For example, in our fictional 172.16.0.x network with a compromised server at 172.16.0.5, the command may look something like this:
-
-`sshuttle -r user@172.16.0.5 172.16.0.0/24`
-
+```bash
+shuttle -r user@172.16.0.5 172.16.0.0/24
+```
 We would then be asked for the user's password, and the proxy would be established. The tool will then just sit passively in the background and forward relevant traffic into the target network.
 
 Rather than specifying subnets, we could also use the `-N` option which attempts to determine them automatically based on the compromised server's own routing table:
