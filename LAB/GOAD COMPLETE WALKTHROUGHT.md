@@ -292,5 +292,6 @@ GetUserSPNs.py -target-domain essos.local north.sevenkingdoms.local/brandon.star
 ```
 ![[Pasted image 20230830110943.png]]
 è possibile anche usare crackmapexec per enumerare
-
-mssql 192.168.56.22-23
+```bash
+crackmapexec mssql 192.168.56.22-23
+```
