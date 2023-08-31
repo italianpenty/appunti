@@ -110,8 +110,7 @@ Get-ADTrust
 ### **FORESTS ENUMERATION**
  ```PowerView
 Get-Forest
-Get-ForestTru
-st
+Get-ForestTrust
 ```
 ```AD_module
 Get-ADForest
