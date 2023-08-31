@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/Download.md",
+                "file": "MINDMAP/INSIDER ATTACK EMULATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/Download.md",
+                "file": "MINDMAP/INSIDER ATTACK EMULATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/Download.md",
+                "file": "MINDMAP/INSIDER ATTACK EMULATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/Download.md"
+                "file": "MINDMAP/INSIDER ATTACK EMULATION.md"
               }
             }
           }
@@ -162,8 +162,10 @@
   },
   "active": "fa1170f150003705",
   "lastOpenFiles": [
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "Hackerman/HTTP/Download.md",
+    "MINDMAP/INSIDER ATTACK EMULATION.md",
+    "MINDMAP",
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
     "image/Pasted image 20230831165830.png",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
@@ -198,7 +200,6 @@
     "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/HTTP/LFI.md",
     "Hackerman/WINDOWS/KERBEROS 88.md",
-    "Hackerman/WINDOWS/PrivESC/PASSWD.md",
     "Studio Vario",
     "LAB",
     "LAB/GOAD",
@@ -208,7 +209,6 @@
     "MW",
     "Hackerman",
     "Codes",
-    "Hackerman/BOF",
-    "Hackerman/WINDOWS/CVE"
+    "Hackerman/BOF"
   ]
 }
