@@ -1,0 +1,1 @@
+Se attivato ogni tuo comando in powershell verrà loggato
