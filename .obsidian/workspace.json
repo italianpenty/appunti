@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "bac0d2d8d803b966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f19b0dfa7157c170",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -168,10 +181,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e26e7e47ded083a8",
+  "active": "bac0d2d8d803b966",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "README.md",
+    "conflict-files-obsidian-git.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
