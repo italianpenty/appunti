@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
+                "file": "Hackerman/WINDOWS/PrivESC/ENUMERATION/BLOODHOUND.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
+                "file": "Hackerman/WINDOWS/PrivESC/ENUMERATION/BLOODHOUND.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
+                "file": "Hackerman/WINDOWS/PrivESC/ENUMERATION/BLOODHOUND.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md"
+                "file": "Hackerman/WINDOWS/PrivESC/ENUMERATION/BLOODHOUND.md"
               }
             }
           }
@@ -162,9 +162,12 @@
   },
   "active": "fa1170f150003705",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/ENUMERATION/USER ENUM.md",
+    "Hackerman/WINDOWS/PrivESC/ENUMERATION/POWERVIEW.md",
+    "Hackerman/WINDOWS/PrivESC/ENUMERATION/DOMAIN.md",
     "Hackerman/WINDOWS/PrivESC/ENUMERATION/BLOODHOUND.md",
     "Hackerman/WINDOWS/PrivESC/ENUMERATION/MANUAL.md",
-    "Hackerman/WINDOWS/PrivESC/ENUMERATION/POWERVIEW.md",
+    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "MINDMAP/AD PENTEST.md",
     "image/pentest_ad_dark.png",
     "image/pentest_ad.png",
@@ -178,7 +181,6 @@
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
     "Studio Vario/Active Directory/STRUCTURE.md",
     "image/Pasted image 20230831165057.png",
-    "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
     "Studio Vario/Active Directory",
     "Hackerman/WINDOWS/PrivESC/AD/ENUMERATION brutto ecppt.md",
     "Hackerman/PIVOTING.md",
@@ -194,12 +196,10 @@
     "Hackerman/SMB 139,445.md",
     "Hackerman/WINDOWS/PrivESC/AD/NTLM RELAY.md",
     "Hackerman/KERBEROS 88.md",
-    "Hackerman/WINDOWS/PrivESC/ENUMERATION/USER ENUM.md",
     "LAB/GOAD/SAMBA.md",
     "LAB/GOAD/KERBEROS.md",
     "Hackerman/DNS 53.md",
     "Hackerman/REDIS 6379.md",
-    "Hackerman/MSSQL.md",
     "Studio Vario",
     "LAB",
     "LAB/GOAD",
