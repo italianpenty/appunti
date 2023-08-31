@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
+                "file": "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
+                "file": "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
+                "file": "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md"
+                "file": "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md"
               }
             }
           }
@@ -162,9 +162,9 @@
   },
   "active": "fa1170f150003705",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "image/Pasted image 20230831165830.png",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "Studio Vario/Active Directory/STRUCTURE.md",
     "image/Pasted image 20230831165057.png",
     "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
@@ -183,7 +183,6 @@
     "image/Pasted image 20230828173854.png",
     "image/Pasted image 20230828151547.png",
     "image/Pasted image 20230828151521.png",
-    "image/Pasted image 20230828150913.png",
     "Hackerman/SMB 139,445.md",
     "Hackerman/WINDOWS/PrivESC/AD/NTLM RELAY.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
