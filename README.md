@@ -1,1 +1,1 @@
-"# Obsidian" 
+FAST TRAVEL
