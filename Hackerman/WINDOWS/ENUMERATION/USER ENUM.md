@@ -1,5 +1,5 @@
 ### **CON CREDS**
-Per ottenere tutti gli User di un dominio ==avendo un account a disposizione==
+Per ottenere tutti gli User di un dominio ==avendo un account a disposizione==.
 ```bash
 impacket-GetADUsers -all <DOMINIO>/<USER>:<PASS>
 ```
