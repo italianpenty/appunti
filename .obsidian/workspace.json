@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/PIVOTING.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/PIVOTING.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/PIVOTING.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/PIVOTING.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md"
               }
             }
           }
@@ -162,8 +162,10 @@
   },
   "active": "fa1170f150003705",
   "lastOpenFiles": [
-    "Caratteri speciali.md",
+    "Hackerman/WINDOWS/PrivESC/AD/ENUMERATION brutto ecppt.md",
+    "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
     "Hackerman/PIVOTING.md",
+    "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "LAB/DA FARE.md",
     "image/Pasted image 20230830151845.png",
@@ -196,8 +198,6 @@
     "Hackerman/WINDOWS/PrivESC/MSF.md",
     "LAB/GOAD/Senza nome.md",
     "Hackerman/WINDOWS/SMB 139,445.md",
-    "Hackerman/WINDOWS/MSSQL.md",
-    "LAB/GOAD/SMB.md",
     "Senza nome",
     "LAB",
     "LAB/GOAD",
