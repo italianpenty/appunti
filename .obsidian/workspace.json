@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MINDMAP/INSIDER ATTACK EMULATION.md",
+                "file": "MINDMAP/AD PENTEST.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MINDMAP/INSIDER ATTACK EMULATION.md",
+                "file": "MINDMAP/AD PENTEST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MINDMAP/INSIDER ATTACK EMULATION.md",
+                "file": "MINDMAP/AD PENTEST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MINDMAP/INSIDER ATTACK EMULATION.md"
+                "file": "MINDMAP/AD PENTEST.md"
               }
             }
           }
@@ -162,9 +162,11 @@
   },
   "active": "fa1170f150003705",
   "lastOpenFiles": [
+    "image/pentest_ad.png",
+    "MINDMAP/INSIDER ATTACK EMULATION.md",
+    "MINDMAP/AD PENTEST.md",
     "image/Pasted image 20230831171905.png",
     "Hackerman/HTTP/Download.md",
-    "MINDMAP/INSIDER ATTACK EMULATION.md",
     "MINDMAP",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
@@ -187,7 +189,6 @@
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "image/Pasted image 20230828173854.png",
     "image/Pasted image 20230828151547.png",
-    "image/Pasted image 20230828151521.png",
     "Hackerman/SMB 139,445.md",
     "Hackerman/WINDOWS/PrivESC/AD/NTLM RELAY.md",
     "Hackerman/KERBEROS 88.md",
@@ -199,7 +200,6 @@
     "Hackerman/MSSQL.md",
     "Hackerman/LDAP.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
-    "Hackerman/HTTP/LFI.md",
     "Studio Vario",
     "LAB",
     "LAB/GOAD",
