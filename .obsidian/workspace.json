@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MINDMAP/AD PENTEST.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MINDMAP/AD PENTEST.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MINDMAP/AD PENTEST.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MINDMAP/AD PENTEST.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/ENUMERATIONS.md"
               }
             }
           }
@@ -162,10 +162,13 @@
   },
   "active": "fa1170f150003705",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/ENUMERATION/BLOODHOUND.md",
+    "Hackerman/WINDOWS/PrivESC/ENUMERATION/MANUAL.md",
+    "Hackerman/WINDOWS/PrivESC/ENUMERATION/POWERVIEW.md",
+    "MINDMAP/AD PENTEST.md",
     "image/pentest_ad_dark.png",
     "image/pentest_ad.png",
     "MINDMAP/INSIDER ATTACK EMULATION.md",
-    "MINDMAP/AD PENTEST.md",
     "image/Pasted image 20230831171905.png",
     "Hackerman/HTTP/Download.md",
     "MINDMAP",
@@ -188,7 +191,6 @@
     "image/Pasted image 20230830110346.png",
     "image/Pasted image 20230830104754.png",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
-    "image/Pasted image 20230828173854.png",
     "Hackerman/SMB 139,445.md",
     "Hackerman/WINDOWS/PrivESC/AD/NTLM RELAY.md",
     "Hackerman/KERBEROS 88.md",
@@ -198,8 +200,6 @@
     "Hackerman/DNS 53.md",
     "Hackerman/REDIS 6379.md",
     "Hackerman/MSSQL.md",
-    "Hackerman/LDAP.md",
-    "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Studio Vario",
     "LAB",
     "LAB/GOAD",
