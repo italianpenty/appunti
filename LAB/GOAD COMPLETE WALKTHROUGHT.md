@@ -59,6 +59,7 @@ crackmapexec smb 192.168.56.10-23 --gen-relay-list relay.txt
 ```
 ![[Pasted image 20230825154818.png]]
 *responder + ntlmrelayx to smb*
+Inanzitutto bisogna disabilitare smb e http su responder per poter fare il relay
 
 ### **USER ENUM(W\ CREDS)**
 Per ottenere tutti gli User di un dominio avendo un account a disposizione
