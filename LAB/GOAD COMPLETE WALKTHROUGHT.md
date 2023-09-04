@@ -70,6 +70,11 @@ Poi si starta ntlmrelayx
 ```bash
 impacket-ntlmrelayx -tf smb_targets.txt -of netntlm -smb2support -socks
 ```
+e responder
+```bash
+sudo responder -I tun0
+```
+
 ### **USER ENUM(W\ CREDS)**
 Per ottenere tutti gli User di un dominio avendo un account a disposizione
 ```bash
