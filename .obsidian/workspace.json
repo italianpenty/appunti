@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 206.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,7 +168,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa1170f150003705",
+  "active": "88f5571ca7e68d8b",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "README.md",
