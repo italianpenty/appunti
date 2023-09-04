@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "LAB/DA FARE.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "LAB/DA FARE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "LAB/DA FARE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
+                "file": "LAB/DA FARE.md"
               }
             }
           },
@@ -183,6 +183,7 @@
   },
   "active": "a7ee5f20934aa50f",
   "lastOpenFiles": [
+    "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "README.md",
     "conflict-files-obsidian-git.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
@@ -208,7 +209,6 @@
     "Hackerman/WINDOWS/PrivESC/AD/ENUMERATION brutto ecppt.md",
     "Hackerman/PIVOTING.md",
     "Caratteri speciali.md",
-    "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "LAB/DA FARE.md",
     "image/Pasted image 20230830151845.png",
     "image/Pasted image 20230830110943.png",
