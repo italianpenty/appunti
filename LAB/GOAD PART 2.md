@@ -40,4 +40,4 @@ Ci da molte informazioni come:
 - Machine account : example here : $MACHINE.ACC: aad3b435b51404eeaad3b435b51404ee:22d57aa0196b9e885130414dc88d1a95
 - Service account credentials
 - DPAPI key e password per l'autologon
-Ora si potrebbero effettuare più mosse, come lanciare bloodhound con il machine account trovato, usare le credenziali del service account o
+Ora si potrebbero effettuare più mosse, come lanciare bloodhound con il machine account trovato, usare le credenziali del service account o provare a craccare le hash DCC2
