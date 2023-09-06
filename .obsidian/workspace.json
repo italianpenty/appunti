@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "LAB/DA FARE.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "LAB/DA FARE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "LAB/DA FARE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
+                "file": "LAB/DA FARE.md"
               }
             }
           },
@@ -183,12 +183,12 @@
   },
   "active": "a7ee5f20934aa50f",
   "lastOpenFiles": [
+    "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "image/Pasted image 20230906150422.png",
     "image/Pasted image 20230906142820.png",
     "Hackerman/HTTP/Download.md",
     "Hackerman/KERBEROS 88.md",
     "Caratteri speciali.md",
-    "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "image/Pasted image 20230906125241.png",
     "image/Pasted image 20230906123509.png",
     "image/Pasted image 20230906123355.png",
@@ -207,7 +207,6 @@
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "MINDMAP/AD PENTEST.md",
-    "image/pentest_ad_dark.png",
     "MINDMAP/INSIDER ATTACK EMULATION.md",
     "MINDMAP",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
