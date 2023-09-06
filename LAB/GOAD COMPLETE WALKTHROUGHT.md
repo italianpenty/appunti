@@ -353,3 +353,6 @@ Ora abbiamo ottenuto una reverse shell
 ![[Pasted image 20230906104623.png]]
 
 ### **IIS Priv Esc**
+*AMSI Bypass*
+https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
+[amsi.fail](https://amsi.fail/)
