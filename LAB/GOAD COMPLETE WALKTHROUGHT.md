@@ -397,4 +397,6 @@ Apriamo un server http e lanciamolo sulla macchina windows
 ```
 ![[Pasted image 20230906110016.png]]
 ==ORA NON TOCCARE PIù IL DISCO ALTRIMENTI MANDI TUTTO A DONNINE==
-Per runnare gli script runn
+Per runnare gli script runnali direttamente in memoria quando li scarichi
+*WinPeas senza toccare il disco*
+[Running a .NET Assembly in Memory with Meterpreter - (praetorian.com)](https://www.praetorian.com/blog/running-a-net-assembly-in-memory-with-meterpreter/)
