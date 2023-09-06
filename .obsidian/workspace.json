@@ -17,8 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "59b3ab4c85398780"
+            }
           },
           {
             "id": "f19b0dfa7157c170",
@@ -31,25 +30,6 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "a907d86613c008a0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "51ca96e076ffd321",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "59b3ab4c85398780"
           }
         ]
       }
@@ -173,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +168,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "51ca96e076ffd321",
+  "active": "fa1170f150003705",
   "lastOpenFiles": [
     "Hackerman/SNMP 161.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
