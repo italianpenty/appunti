@@ -399,4 +399,7 @@ Apriamo un server http e lanciamolo sulla macchina windows
 ==ORA NON TOCCARE PIù IL DISCO ALTRIMENTI MANDI TUTTO A DONNINE==
 Per runnare gli script runnali direttamente in memoria quando li scarichi
 *WinPeas senza toccare il disco*
+Per approfondimento
 [Running a .NET Assembly in Memory with Meterpreter - (praetorian.com)](https://www.praetorian.com/blog/running-a-net-assembly-in-memory-with-meterpreter/)
+
+Prendi WinPeas e 
