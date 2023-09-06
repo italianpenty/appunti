@@ -356,3 +356,4 @@ Ora abbiamo ottenuto una reverse shell
 *AMSI Bypass*
 https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
 [amsi.fail](https://amsi.fail/)
+Io ho usato una versione modificata di quelli trovab
