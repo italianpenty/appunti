@@ -41,3 +41,4 @@ Ci da molte informazioni come:
 - Service account credentials
 - DPAPI key e password per l'autologon
 Ora si potrebbero effettuare più mosse, come lanciare bloodhound con il machine account trovato, usare le credenziali del service account o provare a craccare le hash DCC2
+*LS*
