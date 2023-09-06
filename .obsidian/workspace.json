@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7f76d6a9807d77aa",
+        "id": "72c3646f66e28ee4",
         "type": "tabs",
         "children": [
           {
-            "id": "fa1170f150003705",
+            "id": "7933367ce2f4b942",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f19b0dfa7157c170",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Caratteri speciali.md",
                 "mode": "source",
                 "source": false
               }
@@ -168,12 +156,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa1170f150003705",
+  "active": "7933367ce2f4b942",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
+    "LAB/GOAD COMPLETE WALKTROUGHT.md",
     "Hackerman/SMB 139,445.md",
     "LAB/GOAD WALKTROUGHT.md",
-    "LAB/GOAD COMPLETE WALKTROUGHT.md",
-    "Caratteri speciali.md",
     "Hackerman/SNMP 161.md",
     "Hackerman/WINDOWS/PrivESC/SERVIZI/WEAK REGISTRY PERMISSIONS.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
