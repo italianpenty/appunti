@@ -317,7 +317,7 @@ crackmapexec mssql 192.168.56.22-23
 
 ### **MSSQL PWN**
 Non funziona
-### **IIS**
+### **IIS Rev Shell**
 All'indirizzo http://192.168.56.22/Default.aspx c'è un web server IIS che consente un upload.
 Carichiamo quindi una web shell in .asp.
 ```aspx
@@ -351,3 +351,5 @@ end Function
 ![[Pasted image 20230906101505.png]]
 Ora abbiamo ottenuto una reverse shell
 ![[Pasted image 20230906104623.png]]
+
+### **IIS Priv Esc**
