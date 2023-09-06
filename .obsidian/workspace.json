@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
-                "mode": "source",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "fa1170f150003705",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
+    "LAB/GOAD COMPLETE WALKTROUGHT.md",
     "Hackerman/SNMP 161.md",
-    "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "Hackerman/WINDOWS/PrivESC/SERVIZI/WEAK REGISTRY PERMISSIONS.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
@@ -179,7 +180,6 @@
     "Hackerman/HTTP/Download.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Leggere la history dei comandi.md",
-    "Caratteri speciali.md",
     "LAB/DA FARE.md",
     "image/Pasted image 20230906150422.png",
     "image/Pasted image 20230906142820.png",
