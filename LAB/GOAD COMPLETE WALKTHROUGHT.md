@@ -438,3 +438,7 @@ $out = [Console]::Out;$sWriter = New-Object IO.StringWriter [Console]::SetOut($s
 ![[Pasted image 20230906122310.png]]
 *KrbRelay Up*
 Per utilizzare questo metodo LDAP non deve essere enforced, verificabile con CrackMapExec
+```bash
+crackmapexec ldap 192.168.56.10-12 -u jon.snow -p iknownothing -d north.sevenkingdoms.local -M ldap-signing
+```
+![[Pasted image 20230906123355.png]]
