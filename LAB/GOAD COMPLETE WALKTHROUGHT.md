@@ -471,3 +471,6 @@ Lanciamo KrbRelay.exe
 ```
 ![[Pasted image 20230906150422.png]]
 Ora usiamo Impacket per ottenere un TGT e poi un ST per l'account da amministratore
+```bash
+
+```
