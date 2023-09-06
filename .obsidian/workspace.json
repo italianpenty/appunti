@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
+                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,10 +180,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a7ee5f20934aa50f",
+  "active": "fa1170f150003705",
   "lastOpenFiles": [
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
     "Hackerman/HTTP/Download.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
