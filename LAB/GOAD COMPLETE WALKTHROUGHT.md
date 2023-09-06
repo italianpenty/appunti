@@ -437,6 +437,7 @@ $out = [Console]::Out;$sWriter = New-Object IO.StringWriter [Console]::SetOut($s
 ```
 ![[Pasted image 20230906122310.png]]
 ### **KRLBRELAY UP**
+https://github.com/tyranid/oleviewdotnet/releases/download/v1.11/Release.7z
 [cube0x0/KrbRelay: Framework for Kerberos relaying (github.com)](https://github.com/cube0x0/KrbRelay)
 Per utilizzare questo metodo LDAP non deve essere enforced, verificabile con CrackMapExec
 ```bash
