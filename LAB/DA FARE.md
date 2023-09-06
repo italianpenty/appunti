@@ -10,5 +10,3 @@ MSSQL
 KrbRelayUP
 [GOAD - part 8 - Privilege escalation | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part8/#seimpersonateprivilege-to-authoritysystem)
 
-
-

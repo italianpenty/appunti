@@ -15,7 +15,7 @@
               "state": {
                 "file": "LAB/GOAD PART 2.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "7933367ce2f4b942",
   "lastOpenFiles": [
-    "Caratteri speciali.md",
+    "LAB/DA FARE.md",
     "LAB/GOAD PART 2.md",
+    "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTROUGHT.md",
     "image/Pasted image 20230906162707.png",
     "LAB/prova.md",
@@ -187,7 +188,6 @@
     "Hackerman/HTTP/Download.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Leggere la history dei comandi.md",
-    "LAB/DA FARE.md",
     "image/Pasted image 20230906150422.png",
     "image/Pasted image 20230906142820.png",
     "Hackerman/KERBEROS 88.md",
