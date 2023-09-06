@@ -436,3 +436,4 @@ $out = [Console]::Out;$sWriter = New-Object IO.StringWriter [Console]::SetOut($s
 [SweetPotato.Program]::Main(@('-p=C:\temp\runme.bat'));[Console]::SetOut($out);$sWriter.ToString()
 ```
 ![[Pasted image 20230906122310.png]]
+*KrbRelay Up*
