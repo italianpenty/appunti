@@ -416,3 +416,5 @@ $out = [Console]::Out;$sWriter = New-Object IO.StringWriter;[Console]::SetOut($s
 *SeImpersonatePrivilege to Authority\system*
 Qui si possono usare svariate tecniche "Potato". Per approfondimenti
 [https://jlajara.gitlab.io/Potatoes_Windows_Privesc](https://jlajara.gitlab.io/Potatoes_Windows_Privesc)
+
+Useremo ora [SeeetPotato](https://github.com/CCob/SweetPotato)
