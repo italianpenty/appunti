@@ -349,3 +349,4 @@ end Function
 </HTML>
 ```
 ![[Pasted image 20230906101505.png]]
+Ora abbiamo ottenuto una reverse 
