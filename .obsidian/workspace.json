@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Hackerman/HTTP/Download.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "Hackerman/HTTP/Download.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+                "file": "Hackerman/HTTP/Download.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTHROUGHT.md"
+                "file": "Hackerman/HTTP/Download.md"
               }
             }
           },
@@ -181,12 +180,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a7ee5f20934aa50f",
+  "active": "fa1170f150003705",
   "lastOpenFiles": [
-    "image/Pasted image 20230906125241.png",
     "Hackerman/KERBEROS 88.md",
     "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+    "image/Pasted image 20230906125241.png",
     "image/Pasted image 20230906123509.png",
     "image/Pasted image 20230906123355.png",
     "image/Pasted image 20230906122310.png",
@@ -207,7 +206,6 @@
     "image/pentest_ad_dark.png",
     "image/pentest_ad.png",
     "MINDMAP/INSIDER ATTACK EMULATION.md",
-    "image/Pasted image 20230831171905.png",
     "Hackerman/HTTP/Download.md",
     "MINDMAP",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
