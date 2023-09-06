@@ -418,3 +418,5 @@ Qui si possono usare svariate tecniche "Potato". Per approfondimenti
 [https://jlajara.gitlab.io/Potatoes_Windows_Privesc](https://jlajara.gitlab.io/Potatoes_Windows_Privesc)
 
 Useremo ora [SeeetPotato](https://github.com/CCob/SweetPotato)
+Che compileremo e caricheremo sulla vittima
+
