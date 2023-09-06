@@ -36,5 +36,6 @@ impacket-secretsdump -security SECURITY.save -system SYSTEM.save LOCAL
 ```
 ![[Pasted image 20230906170139.png]]
 Ci da molte informazioni come:
-- Cached domain credentials (DCC2 hashcat mode 2100)
-- 
+- Cached domain credentials (DCC2 hashcat mode 2100) (Quasi impossibili da craccare)
+- Machine account : example here : $MACHINE.ACC: aad3b435b51404eeaad3b435b51404ee:22d57aa0196b9e885130414dc88d1a95
+- Service account credentials
