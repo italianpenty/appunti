@@ -8,3 +8,4 @@ Per quanto riguarda il SAM i risultato sono mostrati cosi:
 <Username>:<User ID>:<LM hash>:<NT hash>:<Comment>:<Home Dir>:
 Questo valore sulle LM hash significa vuoto "aad3b435b51404eeaad3b435b51404ee"
 
+*Pass the Hash*

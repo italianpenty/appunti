@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD PART 2.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD PART 2.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD PART 2.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD PART 2.md"
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md"
               }
             }
           },
@@ -170,10 +170,10 @@
   },
   "active": "7933367ce2f4b942",
   "lastOpenFiles": [
-    "image/Pasted image 20230906162707.png",
-    "Caratteri speciali.md",
     "LAB/GOAD PART 2.md",
     "LAB/GOAD COMPLETE WALKTROUGHT.md",
+    "image/Pasted image 20230906162707.png",
+    "Caratteri speciali.md",
     "LAB/prova.md",
     "LAB/prova.txt",
     "LAB/New Text Document.txt",
@@ -198,7 +198,6 @@
     "image/Pasted image 20230906111136.png",
     "image/Pasted image 20230906110016.png",
     "image/Pasted image 20230906104623.png",
-    "image/Pasted image 20230906101505.png",
     "README.md",
     "conflict-files-obsidian-git.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
