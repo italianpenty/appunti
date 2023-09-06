@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
                 "mode": "source",
                 "source": false
               }
@@ -183,9 +183,10 @@
   },
   "active": "a7ee5f20934aa50f",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
-    "Hackerman/HTTP/Download.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+    "Hackerman/HTTP/Download.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Leggere la history dei comandi.md",
     "Caratteri speciali.md",
@@ -214,7 +215,6 @@
     "MINDMAP",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/download.md",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
     "Studio Vario/Active Directory/STRUCTURE.md",
     "Studio Vario/Active Directory",
     "Hackerman/WINDOWS/PrivESC/AD/ENUMERATION brutto ecppt.md",

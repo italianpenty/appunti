@@ -12,3 +12,6 @@ _____
 2) Modifica la porzione di codice cioccata
 3) Rescan con AMSITrigger
 4) Ripeti step 2 e 3 finchè non ottieni ==AMSI_RESULT_NOT_DETECTED== o ==BLANK==
+
+https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
+[amsi.fail](https://amsi.fail/)
