@@ -402,4 +402,7 @@ Per runnare gli script runnali direttamente in memoria quando li scarichi
 Per approfondimento
 [Running a .NET Assembly in Memory with Meterpreter - (praetorian.com)](https://www.praetorian.com/blog/running-a-net-assembly-in-memory-with-meterpreter/)
 
-Prendi WinPeas e 
+Prendi WinPeas e lancialo in memoria
+```bash
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany_ofs.exe
+```
