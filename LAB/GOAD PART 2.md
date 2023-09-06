@@ -23,4 +23,4 @@ crackmapexec smb 192.168.56.10-23 -u Administrator -H 'dbd13e1c4e338284ac4e9874f
 ```
 ![[Pasted image 20230906164901.png]]
 
-### **titolo**
+### ****
