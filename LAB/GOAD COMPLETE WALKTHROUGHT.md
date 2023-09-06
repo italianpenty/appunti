@@ -419,4 +419,4 @@ Qui si possono usare svariate tecniche "Potato". Per approfondimenti
 
 Useremo ora [SeeetPotato](https://github.com/CCob/SweetPotato)
 Che compileremo con visual studio e caricheremo sulla vittima
-
+Caricheremo inoltre un file runme.bat che
