@@ -457,4 +457,6 @@ $o = ([ADSI]"LDAP://CN=krbrelay,CN=Computers,DC=north,DC=sevenkingdoms,DC=local"
 (New-Object System.Security.Principal.SecurityIdentifier($o.value, 0)).Value
 ```
 ![[Pasted image 20230906125241.png]]
-Ora carichiamo CheckPort.exe sulla macchi
+Ora carichiamo CheckPort.exe sulla macchine ed eseguiamolo
+![[Pasted image 20230906142820.png]]
+Lanciamo KrbRelai
