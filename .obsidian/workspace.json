@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/Download.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
                 "mode": "source",
                 "source": false
               }
@@ -183,9 +183,12 @@
   },
   "active": "a7ee5f20934aa50f",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "Hackerman/HTTP/Download.md",
-    "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTHROUGHT.md",
+    "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
+    "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Leggere la history dei comandi.md",
+    "Caratteri speciali.md",
     "LAB/DA FARE.md",
     "image/Pasted image 20230906150422.png",
     "image/Pasted image 20230906142820.png",
@@ -216,10 +219,8 @@
     "Studio Vario/Active Directory",
     "Hackerman/WINDOWS/PrivESC/AD/ENUMERATION brutto ecppt.md",
     "Hackerman/PIVOTING.md",
-    "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "Hackerman/SMB 139,445.md",
     "Hackerman/WINDOWS/PrivESC/AD/NTLM RELAY.md",
-    "LAB/GOAD/SAMBA.md",
     "Studio Vario",
     "LAB",
     "LAB/GOAD",
