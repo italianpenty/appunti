@@ -9,3 +9,4 @@ Per quanto riguarda il SAM i risultato sono mostrati cosi:
 Questo valore sulle LM hash significa vuoto "aad3b435b51404eeaad3b435b51404ee"
 
 *Pass the Hash*
+Spesso nel creare i network gli amministratori copiano le macchine, quindi le password vengono riutilizzae
