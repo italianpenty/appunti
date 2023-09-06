@@ -34,3 +34,6 @@ E dumpa i "secrets"
 ```bash
 impacket-secretsdump -security SECURITY.save -system SYSTEM.save LOCAL
 ```
+![[Pasted image 20230906170139.png]]
+Ci da molte informazioni come:
+- 
