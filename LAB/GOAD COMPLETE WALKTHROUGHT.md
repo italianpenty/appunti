@@ -349,4 +349,5 @@ end Function
 </HTML>
 ```
 ![[Pasted image 20230906101505.png]]
-Ora abbiamo ottenuto una reverse 
+Ora abbiamo ottenuto una reverse shell
+![[Pasted image 20230906104623.png]]
