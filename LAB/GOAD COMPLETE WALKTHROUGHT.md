@@ -412,3 +412,4 @@ $asm = [System.Reflection.Assembly]::Load([byte[]]$data);
 $out = [Console]::Out;$sWriter = New-Object IO.StringWriter;[Console]::SetOut($sWriter);
 [winPEAS.Program]::Main("");[Console]::SetOut($out);$sWriter.ToString()
 ```
+![[Pasted image 20230906111136.png]]
