@@ -414,4 +414,5 @@ $out = [Console]::Out;$sWriter = New-Object IO.StringWriter;[Console]::SetOut($s
 ```
 ![[Pasted image 20230906111136.png]]
 *SeImpersonatePrivilege to Authority\system*
-Qui si possono usare svariate tecniche 
+Qui si possono usare svariate tecniche "Potato". Per approfondimenti
+[https://jlajara.gitlab.io/Potatoes_Windows_Privesc](https://jlajara.gitlab.io/Potatoes_Windows_Privesc)
