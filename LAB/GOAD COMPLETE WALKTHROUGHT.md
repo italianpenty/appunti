@@ -318,3 +318,5 @@ crackmapexec mssql 192.168.56.22-23
 ### **MSSQL PWN**
 Non funziona
 ### **IIS**
+All'indirizzo http://192.168.56.22/Default.aspx c'è un web server IIS che consente un upload.
+Carichiamo quindi una reverse shell
