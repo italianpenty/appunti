@@ -269,3 +269,5 @@ Protocollo DCERPC + SMB (Sembrerebbe che sia necessario tirare giu il firewall D
 impacket-dcomexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
 ```
 ![[Pasted image 20230907163542.png]]
+*RDP PTH*
+Normalmente per usare rdp senza password bisogna abilitare un opzione nel registro (Restricted Admin)
