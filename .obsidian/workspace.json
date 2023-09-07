@@ -11,8 +11,12 @@
             "id": "7933367ce2f4b942",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -93,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md"
+              }
             }
           },
           {
