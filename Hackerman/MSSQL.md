@@ -11,12 +11,12 @@ impacket-GetUserSPNs <DOMAIN MACCHINA>/<USER>:<PASSWD>
 ```
 ![[Pasted image 20230830104754.png]]
 ```bash
-IMPACKET-GetUserSPNS -target-domain <DOMAIN> north.sevenkingdoms.local/brandon.stark:iseedeadpeople
+IMPACKET-GetUserSPNS -target-domain <DOMAIN> <DOMAIN MACCHINA>/<USER>:<PASSWD>
 ```
 ![[Pasted image 20230830110943.png]]
 è possibile anche usare crackmapexec per enumerare
 ```bash
-crackmapexec mssql 192.168.56.22-23
+crackmapexec mssql <RANGE IP>
 ```
 ![[Pasted image 20230830151845.png]]
 
