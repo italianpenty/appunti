@@ -7,11 +7,11 @@ nmap -p 1433 -sV -sC <RANGE IP>
 ![[Pasted image 20230830110835.png]]
 Controlliamo se ci sono utenti con SPN sui server MSSQL trovati
 ```bash
-impacket-GetUserSPNs north.sevenkingdoms.local/brandon.stark:iseedeadpeople
+impacket-GetUserSPNs <DOMAIN MACCHINA>/<USER>:<PASSWD>
 ```
 ![[Pasted image 20230830104754.png]]
 ```bash
-GetUserSPNs.py -target-domain essos.local north.sevenkingdoms.local/brandon.stark:iseedeadpeople
+IMPACKET-GetUserSPNS -target-domain <DOMAIN> north.sevenkingdoms.local/brandon.stark:iseedeadpeople
 ```
 ![[Pasted image 20230830110943.png]]
 è possibile anche usare crackmapexec per enumerare
