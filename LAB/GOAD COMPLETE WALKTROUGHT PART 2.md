@@ -295,3 +295,5 @@ Con wmiexec puoi fare l'accesso
 impacket-wmiexec -k -no-pass north.sevenkingdoms.local/catelyn.stark@winterfell
 ```
 ![[Pasted image 20230907165739.png]]
+Puoi usare anche i ticket dumpati con lsasy usandro ticketconverter
+
