@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2e457bd5a15e2c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Hackerman/MSSQL.md",
                 "mode": "source",
                 "source": false
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,9 +181,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7933367ce2f4b942",
+  "active": "a2e457bd5a15e2c0",
   "lastOpenFiles": [
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
+    "Hackerman/MSSQL.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 1.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
     "Caratteri speciali.md",
@@ -207,7 +221,6 @@
     "Hackerman/WINDOWS/ENUMERATION/BLOODHOUND.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
-    "MINDMAP/AD PENTEST.md",
     "MINDMAP",
     "Studio Vario/Active Directory",
     "Studio Vario",
