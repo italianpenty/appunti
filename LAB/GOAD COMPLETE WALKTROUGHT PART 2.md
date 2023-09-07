@@ -230,4 +230,5 @@ Ci da molte informazioni come:
 Ora si potrebbero effettuare più mosse, come lanciare bloodhound con il machine account trovato, usare le credenziali del service account o provare a craccare le hash DCC2
 *LSASS*
 Un altro importante contenitore di "Secrets" è il processo lsass.exe
-Potresti usare mimkatz ma ora useremo .
+Potresti usare mimkatz ma ora useremo [lsassy](https://github.com/Hackndo/lsassy).
+Dumpare lsass f
