@@ -24,3 +24,7 @@ Puoi trovare tutte le constrained delegation con impacket
 ```bash
 impacket-findDelegation NORTH.SEVENKINGDOMS.LOCAL/arya.stark:Needle -target-domain north.sevenkingdoms.local
 ```
+![[Pasted image 20230911111407.png]]
+*Con protocol transition*
+To abuse the constrained delegation with protocol transition, the concept is to first ask a TGT for the user and execute S4U2Self followed by a S4U2Proxy to impersonate an admin user to the SPN on the target.
+Per exploitarlo
