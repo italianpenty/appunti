@@ -9,4 +9,6 @@ I tipi di delegation ad oggi sono tre:
 Con questo tipo di delegation il server o il service account a cui viene garantita la delegazione può impersonare l'utente per qualsiasi servizio o host.
 ![[Pasted image 20230911102947.png]]
 ### **Constrained Delegation**
-Il delegato avrà una lista di utenti di cui ha la delega e una lista di servizi o server a cui può far accesso
+Il delegato avrà una lista di utenti di cui ha la delega e una lista di servizi o server a cui può far accesso con determinate deleghe
+![[Pasted image 20230911103431.png]]
+### **titolo**
