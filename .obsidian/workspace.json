@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+                "file": "Studio Vario/Active Directory/DELEGATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+                "file": "Studio Vario/Active Directory/DELEGATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+                "file": "Studio Vario/Active Directory/DELEGATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md"
+                "file": "Studio Vario/Active Directory/DELEGATION.md"
               }
             }
           },
@@ -179,10 +179,11 @@
   },
   "active": "a2e457bd5a15e2c0",
   "lastOpenFiles": [
+    "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+    "Studio Vario/Active Directory/DELEGATION.md",
     "Hackerman/MSSQL.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 1.md",
-    "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
     "Caratteri speciali.md",
     "image/Pasted image 20230907165935.png",
     "image/Pasted image 20230907165739.png",
@@ -216,7 +217,6 @@
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "Hackerman/WINDOWS/ENUMERATION/BLOODHOUND.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
-    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "MINDMAP",
     "Studio Vario/Active Directory",
     "Studio Vario",
