@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md"
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md"
               }
             }
           },
@@ -170,8 +170,8 @@
   },
   "active": "a2e457bd5a15e2c0",
   "lastOpenFiles": [
-    "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+    "Caratteri speciali.md",
     "image/Pasted image 20230911104551.png",
     "Studio Vario/Active Directory/SPN.md",
     "Studio Vario/Active Directory/DELEGATION.md",
