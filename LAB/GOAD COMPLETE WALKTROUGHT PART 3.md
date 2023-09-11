@@ -59,3 +59,4 @@ Incominciamo enumerando i trust:
 ldeep ldap -u tywin.lannister -p 'powerkingftw135' -d sevenkingdoms.local -s ldap://192.168.56.10 trusts
 ldeep ldap -u tywin.lannister -p 'powerkingftw135' -d sevenkingdoms.local -s ldap://192.168.56.12 trusts
 ```
+![[Pasted image 20230911121034.png]]
