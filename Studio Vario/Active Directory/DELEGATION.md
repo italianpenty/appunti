@@ -12,3 +12,4 @@ Con questo tipo di delegation il server o il service account a cui viene garanti
 Il delegato avrà una lista di utenti di cui ha la delega e una lista di servizi o server a cui può far accesso con determinate deleghe
 ![[Pasted image 20230911103431.png]]
 ### **Resource Based Constrained Delegation**
+Come la Constrained Delegation, ma in questo caso la lista degli account che possono es
