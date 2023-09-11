@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/DA FARE.md"
+                "file": "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md"
               }
             }
           },
@@ -170,10 +170,11 @@
   },
   "active": "a2e457bd5a15e2c0",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+    "LAB/DA FARE.md",
     "image/Pasted image 20230911105711.png",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
-    "Caratteri speciali.md",
     "image/Pasted image 20230911104551.png",
     "Studio Vario/Active Directory/SPN.md",
     "Studio Vario/Active Directory/DELEGATION.md",
@@ -189,7 +190,6 @@
     "image/Pasted image 20230907165935.png",
     "image/Pasted image 20230907165739.png",
     "Hackerman/KERBEROS 88.md",
-    "LAB/DA FARE.md",
     "LAB/prova.md",
     "LAB/prova.txt",
     "LAB/New Text Document.txt",
