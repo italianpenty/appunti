@@ -33,4 +33,4 @@ impacket-getST -spn 'CIFS/winterfell' -impersonate Administrator -dc-ip '192.168
 ```
 ![[Pasted image 20230911111655.png]]
 *Senza protocol transition*
-Per exp
+Per exploitare una constrained delegation avremo bisogno di un TGS forwardabile come amminstratore su qualsiasi servizio su castelback, ma se facciamo lo stesso attacco di prima (S4U) falliremo.
