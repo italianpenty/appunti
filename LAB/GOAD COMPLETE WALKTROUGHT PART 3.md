@@ -60,3 +60,5 @@ ldeep ldap -u tywin.lannister -p 'powerkingftw135' -d sevenkingdoms.local -s lda
 ldeep ldap -u tywin.lannister -p 'powerkingftw135' -d sevenkingdoms.local -s ldap://192.168.56.12 trusts
 ```
 ![[Pasted image 20230911121034.png]]
+- The sevenkingdoms to essos trust link is `FOREST_TRANSITIVE | TREAT_AS_EXTERNAL` due to Sid history enabled
+- The essos to sevenkingdoms trust link is just `FOREST_TRANSITIVE`
