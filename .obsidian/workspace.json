@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7933367ce2f4b942",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "a2e457bd5a15e2c0",
             "type": "leaf",
             "state": {
@@ -39,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,15 +170,15 @@
   },
   "active": "a2e457bd5a15e2c0",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
+    "Studio Vario/Active Directory/DELEGATION.md",
     "Studio Vario/Active Directory/STRUCTURE.md",
     "Studio Vario/Active Directory/SPN.md",
-    "Studio Vario/Active Directory/DELEGATION.md",
     "image/Pasted image 20230911095916.png",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
     "Hackerman/MSSQL.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 1.md",
-    "Caratteri speciali.md",
     "image/Pasted image 20230907165935.png",
     "image/Pasted image 20230907165739.png",
     "Hackerman/KERBEROS 88.md",

@@ -5,3 +5,5 @@ I tipi di delegation ad oggi sono tre:
 - Uncostrained Delegation
 - Constrained Delegation
 - Resource Based Constrained Delegation
+### **Uncostrained Delegation**
+Con questo tipo di delegation il server o il service account a cui viene garantita la delegazione può impersonare 
