@@ -63,4 +63,6 @@ ldeep ldap -u tywin.lannister -p 'powerkingftw135' -d sevenkingdoms.local -s lda
 - The sevenkingdoms to essos trust link è `FOREST_TRANSITIVE | TREAT_AS_EXTERNAL` per via della Sid history abilitata
 - The essos to sevenkingdoms trust link è solo `FOREST_TRANSITIVE`
 
-### **titolo**
+### **RaiseMeUp - impacker raiseChild**
+
+
