@@ -64,5 +64,7 @@ ldeep ldap -u tywin.lannister -p 'powerkingftw135' -d sevenkingdoms.local -s lda
 - The essos to sevenkingdoms trust link è solo `FOREST_TRANSITIVE`
 
 ### **RaiseMeUp - impacker raiseChild**
-
-
+Per scalare da child a parent
+```
+raiseChild.py north.sevenkingdoms.local/eddard.stark:'FightP3aceAndHonor!'
+```
