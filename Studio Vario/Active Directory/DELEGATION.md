@@ -8,4 +8,4 @@ I tipi di delegation ad oggi sono tre:
 ### **Uncostrained Delegation**
 Con questo tipo di delegation il server o il service account a cui viene garantita la delegazione può impersonare l'utente per qualsiasi servizio o host.
 ![[Pasted image 20230911102947.png]]
-Uncostrained Delegation
+### **Constrained Delegation**
