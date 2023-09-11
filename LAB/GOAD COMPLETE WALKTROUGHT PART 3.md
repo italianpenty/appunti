@@ -19,4 +19,8 @@ $assem = [System.Reflection.Assembly]::Load($data);
 ![[Pasted image 20230911105711.png]]
 [GOAD - part 10 - Delegations | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part10/)
 Il resto dell'attacco non posso farlo perchè non mi funziona rubeus
-### **CONS**
+### **CONSTRAINED DELEGATION**
+Puoi trovare tutte le constrained delegation con impacket
+```bash
+impacket-findDelegation NORTH.SEVENKINGDOMS.LOCAL/arya.stark:Needle -target-domain north.sevenkingdoms.local
+```
