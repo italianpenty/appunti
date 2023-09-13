@@ -8,4 +8,5 @@ rustscan -a 10.13.37.10 --ulimit 5000 -- -sV -sC -Pn
 dnsrecon -r 10.13.37.10/24 -n 10.13.37.10
 ```
 ![[Pasted image 20230913120254.png]]
-3) 
+3) Analyze the web traffic to find the hidden folder
+![[Pasted image 20230913120456.png]]
