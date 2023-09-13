@@ -20,3 +20,4 @@ sqlmap -u 'http://www.securewebinc.jet/dirb_safe_dir_rf9EmcEIx/admin/login.php' 
 6) Analyze the email.php traffic and change the request to open a reverse shell
 ![[Pasted image 20230913121242.png]]
 ![[Pasted image 20230913121421.png]]
+7) Get a reverse shell and look on /home/leak. Download it locally and exploit
