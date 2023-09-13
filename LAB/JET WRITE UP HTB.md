@@ -17,4 +17,4 @@ sqlmap -u 'http://www.securewebinc.jet/dirb_safe_dir_rf9EmcEIx/admin/login.php' 
 ![[Pasted image 20230913120601.png]]
 5) Crack the hash on crack station and login
 ![[Pasted image 20230913120633.png]]
-6) Analyze the email.php traffic and change the request to open a reve
+6) Analyze the email.php traffic and change the request to open a reverse shell
