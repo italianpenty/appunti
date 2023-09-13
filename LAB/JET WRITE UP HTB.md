@@ -43,3 +43,5 @@ shell.interactive()
 ```bash
 socat TCP-LISTEN:9999,reuseaddr,fork EXEC:/home/leak &amp;
 ```
+![[Pasted image 20230913143408.png]]
+9)
