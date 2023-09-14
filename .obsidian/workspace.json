@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/JET WRITE UP HTB.md",
+                "file": "Studio Vario/WEB/RESPONSE CODE.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/JET WRITE UP HTB.md",
+                "file": "Studio Vario/WEB/RESPONSE CODE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/JET WRITE UP HTB.md",
+                "file": "Studio Vario/WEB/RESPONSE CODE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/JET WRITE UP HTB.md"
+                "file": "Studio Vario/WEB/RESPONSE CODE.md"
               }
             }
           },
@@ -193,6 +193,10 @@
   },
   "active": "e9a7ecd3b29f28e6",
   "lastOpenFiles": [
+    "LAB/JET WRITE UP HTB.md",
+    "Studio Vario/WEB/RESPONSE CODE.md",
+    "Studio Vario/WEB",
+    "Studio Vario/Senza nome.md",
     "image/Pasted image 20230914104419.png",
     "image/Pasted image 20230913143408.png",
     "image/Pasted image 20230913121421.png",
@@ -202,12 +206,10 @@
     "image/Pasted image 20230913120456.png",
     "image/Pasted image 20230913120254.png",
     "Caratteri speciali.md",
-    "LAB/JET WRITE UP HTB.md",
     "image/Pasted image 20230913115945.png",
     "image/Pasted image 20230913115835.png",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 1.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
-    "image/Pasted image 20230911121034.png",
     "Studio Vario/Active Directory/DELEGATION.md",
     "LAB/DA FARE.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
@@ -230,7 +232,6 @@
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Leggere la history dei comandi.md",
     "README.md",
     "conflict-files-obsidian-git.md",
-    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "MINDMAP",
     "Studio Vario/Active Directory",
     "Studio Vario",
@@ -239,7 +240,6 @@
     "Senza nome.canvas",
     "Senza nome 1.canvas",
     "Hackerman/WINDOWS/PrivESC/Privs",
-    "MW",
-    "Hackerman"
+    "MW"
   ]
 }
