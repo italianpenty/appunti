@@ -1,3 +1,12 @@
+| **Type** | **Description**                                                                                                                  |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `1xx`    | Provides information and does not affect the processing of the request.                                                          |
+| `2xx`    | Returned when a request succeeds.                                                                                                |
+| `3xx`    | Returned when the server redirects the client.                                                                                   |
+| `4xx`    | Signifies improper requests `from the client`. For example, requesting a resource that doesn't exist or requesting a bad format. |
+| `5xx`    | Returned when there is some problem `with the HTTP server` itself.                                                               |                                                                                                                                  |
+
+
 | **Code**                    | **Description**                                                                                                                                           |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `200 OK`                    | Returned on a successful request, and the response body usually contains the requested resource.                                                          |
