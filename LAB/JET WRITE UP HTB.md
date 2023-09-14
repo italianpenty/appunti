@@ -56,5 +56,6 @@ Have fun and keep it safe!
 JET{r3p3at1ng_ch4rs_1n_s1mpl3_x0r_g3ts_y0u_0wn3d}  
 Cheers - Alex
 ```
-10) 
-socat TCP6-LISTEN:8200,fork TCP6:[::ffff:127.0.0.1]:9200
+10) Elasticity is broken
+11) Unzip "Exploitme.zip" with the same key used fo xor crypted message
+12) 
