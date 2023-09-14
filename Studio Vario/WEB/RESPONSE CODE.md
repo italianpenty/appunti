@@ -7,12 +7,21 @@
 | `5xx`    | Returned when there is some problem `with the HTTP server` itself.                                                               |                                                                                                                                  |
 
 
-| **Code**                    | **Description**                                                                                                                                           |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `200 OK`                    | Returned on a successful request, and the response body usually contains the requested resource.                                                          |
-| `302 Found`                 | Redirects the client to another URL. For example, redirecting the user to their dashboard after a successful login.                                       |
-| `400 Bad Request`           | Returned on encountering malformed requests such as requests with missing line terminators.                                                               |
-| `403 Forbidden`             | Signifies that the client doesn't have appropriate access to the resource. It can also be returned when the server detects malicious input from the user. |
-| `404 Not Found`             | Returned when the client requests a resource that doesn't exist on the server.                                                                            |
-| `500 Internal Server Error` | Returned when the server cannot process the request.                                                                                                      |
-
+|Code|Description|
+|---|---|
+|**Successful responses**||
+|`200 OK`|The request has succeeded|
+|**Redirection messages**||
+|`301 Moved Permanently`|The URL of the requested resource has been changed permanently|
+|`302 Found`|The URL of the requested resource has been changed temporarily|
+|**Client error responses**||
+|`400 Bad Request`|The server could not understand the request due to invalid syntax|
+|`401 Unauthorized`|Unauthenticated attempt to access page|
+|`403 Forbidden`|The client does not have access rights to the content|
+|`404 Not Found`|The server can not find the requested resource|
+|`405 Method Not Allowed`|The request method is known by the server but has been disabled and cannot be used|
+|`408 Request Timeout`|This response is sent on an idle connection by some servers, even without any previous request by the client|
+|**Server error responses**||
+|`500 Internal Server Error`|The server has encountered a situation it doesn't know how to handle|
+|`502 Bad Gateway`|The server, while working as a gateway to get a response needed to handle the request, received an invalid response|
+|`504 Gateway Timeout`|The server is acting as a gateway and cannot get a response in time|
