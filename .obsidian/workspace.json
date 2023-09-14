@@ -23,9 +23,11 @@
             "id": "e9a7ecd3b29f28e6",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.12"
+                "file": "LAB/JET WRITE UP HTB.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
