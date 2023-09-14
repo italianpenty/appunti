@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "e9a7ecd3b29f28e6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.12"
+              }
+            }
+          },
+          {
             "id": "4f3535882fcb875f",
             "type": "leaf",
             "state": {
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,6 +159,16 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "246ccfa9c6d7e7bd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -168,7 +189,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a2e457bd5a15e2c0",
+  "active": "e9a7ecd3b29f28e6",
   "lastOpenFiles": [
     "image/Pasted image 20230913143408.png",
     "image/Pasted image 20230913121421.png",
