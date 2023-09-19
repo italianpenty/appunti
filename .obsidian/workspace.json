@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studio Vario/WEB/RESPONSE CODE.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Studio Vario/WEB/RESPONSE CODE.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Studio Vario/WEB/RESPONSE CODE.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Studio Vario/WEB/RESPONSE CODE.md"
+                "file": "Hackerman/KERBEROS 88.md"
               }
             }
           },
@@ -193,8 +193,10 @@
   },
   "active": "e9a7ecd3b29f28e6",
   "lastOpenFiles": [
-    "LAB/JET WRITE UP HTB.md",
+    "Hackerman/HTTP/LFI.md",
+    "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Studio Vario/WEB/RESPONSE CODE.md",
+    "LAB/JET WRITE UP HTB.md",
     "Studio Vario/WEB",
     "Studio Vario/Senza nome.md",
     "image/Pasted image 20230914104419.png",
@@ -230,8 +232,6 @@
     "Hackerman/HTTP/Download.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Leggere la history dei comandi.md",
-    "README.md",
-    "conflict-files-obsidian-git.md",
     "MINDMAP",
     "Studio Vario/Active Directory",
     "Studio Vario",
