@@ -12,4 +12,7 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ
 
 ### **FUZZ ENTRY**
 
-In seguto potrai fuzzare anche la entry del parametro in modo tale da scovare eventuali input
+In seguito potrai fuzzare anche la entry del parametro in modo tale da scovare eventuali input
+```
+ffuf -w /opt/useful/SecLists/Usernames/xato-net-10-million-usernames.txt:FUZZ -<URL> -X POST -d '<PARAM>=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded'
+```
