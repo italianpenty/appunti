@@ -10,8 +10,6 @@ ffuf -w /usr/share/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u <UR
 ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u <URL> -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded'
 ```
 
+### **FUZZ ENTRY**
 
-
-
-
-I
+In seguto potrai fuzzare anche la entry del parametro in modo tale da scovare eventuali input
