@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "ff74763cd1e23b8f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
+          },
+          {
             "id": "4f3535882fcb875f",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,7 +201,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e9a7ecd3b29f28e6",
+  "active": "ff74763cd1e23b8f",
   "lastOpenFiles": [
     "Hackerman/HTTP/LFI.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
