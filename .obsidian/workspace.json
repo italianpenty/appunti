@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a2e457bd5a15e2c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LAB/JET WRITE UP HTB.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e9a7ecd3b29f28e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Hackerman/HTTP/Enumeration/Senza nome.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Hackerman/HTTP/Enumeration/Senza nome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Hackerman/HTTP/Enumeration/Senza nome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md"
+                "file": "Hackerman/HTTP/Enumeration/Senza nome.md"
               }
             }
           },
@@ -193,10 +180,14 @@
   },
   "active": "e9a7ecd3b29f28e6",
   "lastOpenFiles": [
+    "LAB/JET WRITE UP HTB.md",
+    "Hackerman/HTTP/Enumeration/Senza nome.md",
+    "Hackerman/HTTP/Download.md",
+    "Hackerman/HTTP/Enumeration",
     "Hackerman/HTTP/LFI.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
+    "Hackerman/KERBEROS 88.md",
     "Studio Vario/WEB/RESPONSE CODE.md",
-    "LAB/JET WRITE UP HTB.md",
     "Studio Vario/WEB",
     "Studio Vario/Senza nome.md",
     "image/Pasted image 20230914104419.png",
@@ -218,7 +209,6 @@
     "Studio Vario/Active Directory/SPN.md",
     "Studio Vario/Active Directory/STRUCTURE.md",
     "Hackerman/MSSQL.md",
-    "Hackerman/KERBEROS 88.md",
     "LAB/prova.md",
     "LAB/prova.txt",
     "LAB/New Text Document.txt",
@@ -229,9 +219,7 @@
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
-    "Hackerman/HTTP/Download.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
-    "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Leggere la history dei comandi.md",
     "MINDMAP",
     "Studio Vario/Active Directory",
     "Studio Vario",
@@ -239,7 +227,6 @@
     "LAB/GOAD",
     "Senza nome.canvas",
     "Senza nome 1.canvas",
-    "Hackerman/WINDOWS/PrivESC/Privs",
-    "MW"
+    "Hackerman/WINDOWS/PrivESC/Privs"
   ]
 }
