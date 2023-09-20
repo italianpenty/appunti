@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/LOG POISONING APACHE.md",
+                "file": "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/LOG POISONING APACHE.md",
+                "file": "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/LOG POISONING APACHE.md",
+                "file": "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/LOG POISONING APACHE.md"
+                "file": "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md"
               }
             }
           },
@@ -180,13 +180,14 @@
   },
   "active": "e9a7ecd3b29f28e6",
   "lastOpenFiles": [
+    "Hackerman/HTTP/LOG POISONING APACHE.md",
+    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/WINDOWS/LFI.md",
     "Hackerman/WINDOWS/Download.md",
     "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
     "Caratteri speciali.md",
     "LAB/JET WRITE UP HTB.md",
     "Hackerman/HTTP/Enumeration",
-    "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/KERBEROS 88.md",
     "Studio Vario/WEB/RESPONSE CODE.md",
     "Studio Vario/WEB",
@@ -219,7 +220,6 @@
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
-    "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
     "MINDMAP",
     "Studio Vario/Active Directory",
     "Studio Vario",
