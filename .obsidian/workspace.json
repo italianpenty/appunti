@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pro.md",
+                "file": "Caratteri speciali.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pro.md",
+                "file": "Caratteri speciali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pro.md",
+                "file": "Caratteri speciali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pro.md"
+                "file": "Caratteri speciali.md"
               }
             }
           },
@@ -193,8 +193,9 @@
   },
   "active": "02548ee2f5332c0a",
   "lastOpenFiles": [
-    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
+    "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
     "Pro.md",
+    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/WINDOWS/LFI.md",
     "Hackerman/WINDOWS/Download.md",
@@ -220,7 +221,6 @@
     "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
     "Studio Vario/Active Directory/DELEGATION.md",
     "LAB/DA FARE.md",
-    "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
     "Studio Vario/Active Directory/SPN.md",
     "Studio Vario/Active Directory/STRUCTURE.md",
     "Hackerman/MSSQL.md",
