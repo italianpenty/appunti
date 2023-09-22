@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7933367ce2f4b942",
+            "id": "e9a7ecd3b29f28e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
+                "file": "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02548ee2f5332c0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Caratteri speciali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f3535882fcb875f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Caratteri speciali.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
+                "file": "Caratteri speciali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md",
+                "file": "Caratteri speciali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/GOAD COMPLETE WALKTROUGHT.md"
+                "file": "Caratteri speciali.md"
               }
             }
           },
@@ -135,6 +160,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "246ccfa9c6d7e7bd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ]
@@ -152,59 +187,59 @@
       "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
-      "omnisearch:Omnisearch": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "7933367ce2f4b942",
+  "active": "02548ee2f5332c0a",
   "lastOpenFiles": [
+    "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
+    "Pro.md",
+    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
+    "Hackerman/HTTP/LOG POISONING APACHE.md",
+    "Hackerman/WINDOWS/LFI.md",
+    "Hackerman/WINDOWS/Download.md",
+    "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
+    "Caratteri speciali.md",
+    "LAB/JET WRITE UP HTB.md",
+    "Hackerman/HTTP/Enumeration",
+    "Hackerman/KERBEROS 88.md",
+    "Studio Vario/WEB/RESPONSE CODE.md",
+    "Studio Vario/WEB",
+    "Studio Vario/Senza nome.md",
+    "image/Pasted image 20230914104419.png",
+    "image/Pasted image 20230913143408.png",
+    "image/Pasted image 20230913121421.png",
+    "image/Pasted image 20230913121242.png",
+    "image/Pasted image 20230913120633.png",
+    "image/Pasted image 20230913120601.png",
+    "image/Pasted image 20230913120456.png",
+    "image/Pasted image 20230913120254.png",
+    "image/Pasted image 20230913115945.png",
+    "image/Pasted image 20230913115835.png",
+    "LAB/GOAD COMPLETE WALKTROUGHT PART 1.md",
+    "LAB/GOAD COMPLETE WALKTROUGHT PART 3.md",
+    "Studio Vario/Active Directory/DELEGATION.md",
+    "LAB/DA FARE.md",
+    "Studio Vario/Active Directory/SPN.md",
+    "Studio Vario/Active Directory/STRUCTURE.md",
+    "Hackerman/MSSQL.md",
     "LAB/prova.md",
     "LAB/prova.txt",
     "LAB/New Text Document.txt",
     "LAB/GOAD WALKTROUGHT.md",
-    "LAB/GOAD COMPLETE WALKTROUGHT.md",
-    "Caratteri speciali.md",
     "Hackerman/SMB 139,445.md",
     "Hackerman/SNMP 161.md",
     "Hackerman/WINDOWS/PrivESC/SERVIZI/WEAK REGISTRY PERMISSIONS.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/BYPASS AMSI.md",
-    "Hackerman/HTTP/Download.md",
-    "Hackerman/WINDOWS/PrivESC/AD/GROUP/OPERATORS.md",
-    "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Leggere la history dei comandi.md",
-    "LAB/DA FARE.md",
-    "image/Pasted image 20230906150422.png",
-    "image/Pasted image 20230906142820.png",
-    "Hackerman/KERBEROS 88.md",
-    "image/Pasted image 20230906125241.png",
-    "image/Pasted image 20230906123509.png",
-    "image/Pasted image 20230906123355.png",
-    "image/Pasted image 20230906122310.png",
-    "image/Pasted image 20230906111136.png",
-    "image/Pasted image 20230906110016.png",
-    "image/Pasted image 20230906104623.png",
-    "image/Pasted image 20230906101505.png",
-    "README.md",
-    "conflict-files-obsidian-git.md",
-    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
-    "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
-    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
-    "Hackerman/WINDOWS/ENUMERATION/BLOODHOUND.md",
-    "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
-    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
-    "MINDMAP/AD PENTEST.md",
-    "MINDMAP/INSIDER ATTACK EMULATION.md",
     "MINDMAP",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "Studio Vario/Active Directory",
     "Studio Vario",
     "LAB",
     "LAB/GOAD",
     "Senza nome.canvas",
     "Senza nome 1.canvas",
-    "Hackerman/WINDOWS/PrivESC/Privs",
-    "MW",
-    "Hackerman"
+    "Hackerman/WINDOWS/PrivESC/Privs"
   ]
 }
