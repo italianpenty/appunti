@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
+                "file": "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
+                "file": "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
+                "file": "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md"
+                "file": "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md"
               }
             }
           },
@@ -193,6 +193,11 @@
   },
   "active": "02548ee2f5332c0a",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/BYPASS UAC/BYPASS ALWAYSNOTIFY.md",
+    "Hackerman/WINDOWS/PrivESC/BYPASS UAC/AUTOELEVATED PROCESS.md",
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/FIND-AVSIGNATURE.md",
+    "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "LAB/JET WRITE UP HTB.md",
     "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
@@ -228,11 +233,6 @@
     "LAB/prova.txt",
     "LAB/New Text Document.txt",
     "LAB/GOAD WALKTROUGHT.md",
-    "Hackerman/SMB 139,445.md",
-    "Hackerman/SNMP 161.md",
-    "Hackerman/WINDOWS/PrivESC/SERVIZI/WEAK REGISTRY PERMISSIONS.md",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
-    "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "MINDMAP",
     "Studio Vario/Active Directory",
     "Studio Vario",
