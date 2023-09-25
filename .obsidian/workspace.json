@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md"
+                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md"
               }
             }
           },
@@ -193,6 +193,9 @@
   },
   "active": "02548ee2f5332c0a",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
+    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+    "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
     "Hackerman/WINDOWS/PrivESC/BYPASS UAC/BYPASS ALWAYSNOTIFY.md",
     "Hackerman/WINDOWS/PrivESC/BYPASS UAC/AUTOELEVATED PROCESS.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
@@ -228,11 +231,8 @@
     "LAB/DA FARE.md",
     "Studio Vario/Active Directory/SPN.md",
     "Studio Vario/Active Directory/STRUCTURE.md",
-    "Hackerman/MSSQL.md",
-    "LAB/prova.md",
     "LAB/prova.txt",
     "LAB/New Text Document.txt",
-    "LAB/GOAD WALKTROUGHT.md",
     "MINDMAP",
     "Studio Vario/Active Directory",
     "Studio Vario",
