@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "LAB/JET WRITE UP HTB.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "LAB/JET WRITE UP HTB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "LAB/JET WRITE UP HTB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Caratteri speciali.md"
+                "file": "LAB/JET WRITE UP HTB.md"
               }
             }
           },
@@ -193,6 +193,7 @@
   },
   "active": "02548ee2f5332c0a",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
     "Pro.md",
     "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
@@ -200,7 +201,6 @@
     "Hackerman/WINDOWS/LFI.md",
     "Hackerman/WINDOWS/Download.md",
     "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
-    "Caratteri speciali.md",
     "LAB/JET WRITE UP HTB.md",
     "Hackerman/HTTP/Enumeration",
     "Hackerman/KERBEROS 88.md",
