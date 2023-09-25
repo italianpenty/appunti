@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/SQLi.md",
+                "file": "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/SQLi.md",
+                "file": "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/SQLi.md",
+                "file": "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/SQLi.md"
+                "file": "Hackerman/HTTP/Enumeration/Hidden Parameters.md"
               }
             }
           },
@@ -193,9 +193,11 @@
   },
   "active": "02548ee2f5332c0a",
   "lastOpenFiles": [
+    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
+    "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
+    "Hackerman/HTTP/SQLi.md",
     "image/Pasted image 20230925165902.jpg",
     "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
-    "Hackerman/HTTP/SQLi.md",
     "Hackerman/WINDOWS/PrivESC/PASSWD.md",
     "Hackerman/WINDOWS/PrivESC/NISHANG.md",
     "Hackerman/WINDOWS/PrivESC/MSF.md",
@@ -213,11 +215,9 @@
     "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
     "Pro.md",
-    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/WINDOWS/LFI.md",
     "Hackerman/WINDOWS/Download.md",
-    "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
     "Hackerman/HTTP/Enumeration",
     "Hackerman/KERBEROS 88.md",
     "Studio Vario/WEB",
@@ -230,7 +230,6 @@
     "image/Pasted image 20230913120456.png",
     "image/Pasted image 20230913120254.png",
     "image/Pasted image 20230913115945.png",
-    "image/Pasted image 20230913115835.png",
     "LAB/prova.txt",
     "LAB/New Text Document.txt",
     "MINDMAP",
