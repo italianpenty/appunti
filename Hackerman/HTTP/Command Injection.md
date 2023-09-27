@@ -1,4 +1,4 @@
-`Injection Operators`
+# Injection Operators
 
 |**Injection Operator**|**Injection Character**|**URL-Encoded Character**|**Executed Command**|
 |---|---|---|---|
