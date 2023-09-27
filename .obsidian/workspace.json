@@ -25,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
+                "file": "Hackerman/HTTP/SQLi.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "b4b4688a1419ccfc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
               }
             }
           },
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
+                "file": "Hackerman/HTTP/SQLi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
+                "file": "Hackerman/HTTP/SQLi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/Enumeration/Hidden Parameters.md"
+                "file": "Hackerman/HTTP/SQLi.md"
               }
             }
           },
@@ -191,10 +201,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "02548ee2f5332c0a",
+  "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
-    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
+    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/HTTP/SQLi.md",
     "image/Pasted image 20230925165902.jpg",
     "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
