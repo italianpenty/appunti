@@ -35,9 +35,11 @@
             "id": "b4b4688a1419ccfc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.14"
+                "file": "Hackerman/HTTP/Command Injection.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -120,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/SQLi.md",
+                "file": "Hackerman/HTTP/Command Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/SQLi.md",
+                "file": "Hackerman/HTTP/Command Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/SQLi.md"
+                "file": "Hackerman/HTTP/Command Injection.md"
               }
             }
           },
@@ -203,6 +205,8 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
+    "Hackerman/HTTP/Command Injection.md",
     "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
     "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/HTTP/SQLi.md",
@@ -222,7 +226,6 @@
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/FIND-AVSIGNATURE.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "LAB/JET WRITE UP HTB.md",
-    "Caratteri speciali.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
     "Pro.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
