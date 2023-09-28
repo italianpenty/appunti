@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/DNS 53.md",
+                "file": "Hackerman/HTTP/Upload.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/DNS 53.md",
+                "file": "Hackerman/HTTP/Upload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/DNS 53.md",
+                "file": "Hackerman/HTTP/Upload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/DNS 53.md"
+                "file": "Hackerman/HTTP/Upload.md"
               }
             }
           },
@@ -193,13 +193,14 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
+    "Hackerman/DNS 53.md",
+    "Hackerman/HTTP/Upload.md",
     "Hackerman/KERBEROS 88.md",
     "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/HTTP/SQLi.md",
     "Hackerman/NFS 2049.md",
     "Hackerman/LDAP.md",
     "Hackerman/SMB 139,445.md",
-    "Hackerman/DNS 53.md",
     "Hackerman/MSSQL.md",
     "Hackerman/REDIS 6379.md",
     "Hackerman/PIVOTING.md",
@@ -219,7 +220,6 @@
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
     "Hackerman/WINDOWS/PrivESC/BYPASS UAC/BYPASS ALWAYSNOTIFY.md",
-    "Hackerman/WINDOWS/PrivESC/BYPASS UAC/AUTOELEVATED PROCESS.md",
     "Hackerman/HTTP/Enumeration",
     "Studio Vario/WEB",
     "image/Pasted image 20230914104419.png",
