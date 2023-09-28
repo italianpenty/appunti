@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/Command Injection.md",
+                "file": "Studio Vario/WEB/RESPONSE CODE.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/Command Injection.md",
+                "file": "Studio Vario/WEB/RESPONSE CODE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/Command Injection.md",
+                "file": "Studio Vario/WEB/RESPONSE CODE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/Command Injection.md"
+                "file": "Studio Vario/WEB/RESPONSE CODE.md"
               }
             }
           },
@@ -205,8 +205,8 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
-    "Hackerman/LDAP.md",
     "Hackerman/HTTP/Command Injection.md",
+    "Hackerman/LDAP.md",
     "Hackerman/MSSQL.md",
     "Caratteri speciali.md",
     "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
