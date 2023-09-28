@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Hackerman/DNS 53.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Hackerman/DNS 53.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "Hackerman/DNS 53.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md"
+                "file": "Hackerman/DNS 53.md"
               }
             }
           },
@@ -193,8 +193,8 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
-    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/KERBEROS 88.md",
+    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/HTTP/SQLi.md",
     "Hackerman/NFS 2049.md",
     "Hackerman/LDAP.md",
