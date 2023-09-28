@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/LOG POISONING APACHE.md",
+                "file": "Hackerman/DNS 53.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/LOG POISONING APACHE.md",
+                "file": "Hackerman/DNS 53.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/LOG POISONING APACHE.md",
+                "file": "Hackerman/DNS 53.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/LOG POISONING APACHE.md"
+                "file": "Hackerman/DNS 53.md"
               }
             }
           },
@@ -203,12 +203,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "88f5571ca7e68d8b",
+  "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
+    "Hackerman/MSSQL.md",
+    "Hackerman/REDIS 6379.md",
+    "Hackerman/PIVOTING.md",
+    "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/HTTP/Command Injection.md",
     "Studio Vario/WEB/RESPONSE CODE.md",
     "Hackerman/LDAP.md",
-    "Hackerman/MSSQL.md",
     "Caratteri speciali.md",
     "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
     "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
@@ -229,9 +232,6 @@
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/FIND-AVSIGNATURE.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "LAB/JET WRITE UP HTB.md",
-    "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
-    "Pro.md",
-    "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/HTTP/Enumeration",
     "Studio Vario/WEB",
     "image/Pasted image 20230914104419.png",
