@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "02548ee2f5332c0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hackerman/HTTP/SQLi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b4b4688a1419ccfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/DNS 53.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/DNS 53.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/DNS 53.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/DNS 53.md"
+                "file": "Hackerman/KERBEROS 88.md"
               }
             }
           },
@@ -205,17 +193,21 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
+    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
+    "Hackerman/HTTP/SQLi.md",
+    "Hackerman/KERBEROS 88.md",
+    "Hackerman/NFS 2049.md",
+    "Hackerman/LDAP.md",
+    "Hackerman/SMB 139,445.md",
+    "Hackerman/DNS 53.md",
     "Hackerman/MSSQL.md",
     "Hackerman/REDIS 6379.md",
     "Hackerman/PIVOTING.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/HTTP/Command Injection.md",
     "Studio Vario/WEB/RESPONSE CODE.md",
-    "Hackerman/LDAP.md",
     "Caratteri speciali.md",
     "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
-    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
-    "Hackerman/HTTP/SQLi.md",
     "image/Pasted image 20230925165902.jpg",
     "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
     "Hackerman/WINDOWS/PrivESC/PASSWD.md",
@@ -228,10 +220,6 @@
     "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
     "Hackerman/WINDOWS/PrivESC/BYPASS UAC/BYPASS ALWAYSNOTIFY.md",
     "Hackerman/WINDOWS/PrivESC/BYPASS UAC/AUTOELEVATED PROCESS.md",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/FIND-AVSIGNATURE.md",
-    "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
-    "LAB/JET WRITE UP HTB.md",
     "Hackerman/HTTP/Enumeration",
     "Studio Vario/WEB",
     "image/Pasted image 20230914104419.png",
