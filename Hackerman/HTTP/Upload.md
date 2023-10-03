@@ -38,5 +38,3 @@
 | `XSS`                | HTML, JS, SVG, GIF      |
 | `XXE`/`SSRF`         | XML, SVG, PDF, PPT, DOC |
 | `DoS`                | ZIP, JPG, PNG           |
-
-HTB{1_wh173l157_my53lf} 
