@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/Upload.md",
+                "file": "Hackerman/HTTP/Command Injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/Upload.md",
+                "file": "Hackerman/HTTP/Command Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/Upload.md",
+                "file": "Hackerman/HTTP/Command Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/Upload.md"
+                "file": "Hackerman/HTTP/Command Injection.md"
               }
             }
           },
@@ -193,11 +193,19 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
-    "Hackerman/DNS 53.md",
     "Hackerman/HTTP/Upload.md",
+    "Hackerman/HTTP/SQLi.md",
+    "image/ports_tables_1.jpg",
+    "image/ports_dbs.png",
+    "image/ports_credentials_1.png",
+    "image/ports_columns_1.jpg",
+    "image/lqrkjvta.bmp",
+    "image/glydtcy7.bmp",
+    "image/d89wdu2w.bmp",
+    "image/73w2399c.bmp",
+    "Hackerman/DNS 53.md",
     "Hackerman/KERBEROS 88.md",
     "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
-    "Hackerman/HTTP/SQLi.md",
     "Hackerman/NFS 2049.md",
     "Hackerman/LDAP.md",
     "Hackerman/SMB 139,445.md",
@@ -219,18 +227,9 @@
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "Hackerman/WINDOWS/PrivESC/BYPASS UAC/GUI BASED.md",
-    "Hackerman/WINDOWS/PrivESC/BYPASS UAC/BYPASS ALWAYSNOTIFY.md",
     "Hackerman/HTTP/Enumeration",
     "Studio Vario/WEB",
     "image/Pasted image 20230914104419.png",
-    "image/Pasted image 20230913143408.png",
-    "image/Pasted image 20230913121421.png",
-    "image/Pasted image 20230913121242.png",
-    "image/Pasted image 20230913120633.png",
-    "image/Pasted image 20230913120601.png",
-    "image/Pasted image 20230913120456.png",
-    "image/Pasted image 20230913120254.png",
-    "image/Pasted image 20230913115945.png",
     "LAB/prova.txt",
     "LAB/New Text Document.txt",
     "MINDMAP",
