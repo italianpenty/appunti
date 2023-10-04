@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/Command Injection.md",
+                "file": "Hackerman/HTTP/SSI.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/Command Injection.md",
+                "file": "Hackerman/HTTP/SSI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/Command Injection.md",
+                "file": "Hackerman/HTTP/SSI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/Command Injection.md"
+                "file": "Hackerman/HTTP/SSI.md"
               }
             }
           },
@@ -193,11 +193,11 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
+    "Hackerman/HTTP/Command Injection.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/HTTP/SSRF.md",
     "Hackerman/HTTP/SSTI.md",
     "Hackerman/HTTP/SSI.md",
-    "Hackerman/HTTP/Command Injection.md",
     "Hackerman/HTTP/Upload.md",
     "Hackerman/HTTP/SQLi.md",
     "image/ports_tables_1.jpg",
