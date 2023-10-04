@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/SSRF.md",
+                "file": "Hackerman/HTTP/Command Injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/SSRF.md",
+                "file": "Hackerman/HTTP/Command Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/SSRF.md",
+                "file": "Hackerman/HTTP/Command Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/SSRF.md"
+                "file": "Hackerman/HTTP/Command Injection.md"
               }
             }
           },
@@ -193,8 +193,9 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
-    "Hackerman/HTTP/SSTI.md",
+    "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/HTTP/SSRF.md",
+    "Hackerman/HTTP/SSTI.md",
     "Hackerman/HTTP/SSI.md",
     "Hackerman/HTTP/Command Injection.md",
     "Hackerman/HTTP/Upload.md",
@@ -216,7 +217,6 @@
     "Hackerman/MSSQL.md",
     "Hackerman/REDIS 6379.md",
     "Hackerman/PIVOTING.md",
-    "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Studio Vario/WEB/RESPONSE CODE.md",
     "Caratteri speciali.md",
     "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
