@@ -5,7 +5,7 @@ _______
 ![[Pasted image 20231011170959.jpg]]
 ______
 **[API3:2023 - Broken Object Property Level Authorization](https://owasp.org/API-Security/editions/2023/en/0xa3-broken-object-property-level-authorization/)**
-
+![[Pasted image 20231011171210.jpg]]
 ______
 **[API4:2023 - Unrestricted Resource Consumption](https://owasp.org/API-Security/editions/2023/en/0xa4-unrestricted-resource-consumption/)**
 
