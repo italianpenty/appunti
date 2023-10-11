@@ -1,4 +1,5 @@
 **[API1:2023 - Broken Object Level Authorization](https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/)**
+Most common and damaging vulnerability
 
 _______
 **[API2:2023 - Broken Authentication](https://owasp.org/API-Security/editions/2023/en/0xa2-broken-authentication/)**
