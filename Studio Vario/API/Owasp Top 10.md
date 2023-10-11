@@ -14,7 +14,7 @@ _____
 ![[Pasted image 20231011173015.jpg]]
 _____
 **[API6:2023 - Unrestricted Access to Sensitive Business Flows](https://owasp.org/API-Security/editions/2023/en/0xa6-unrestricted-access-to-sensitive-business-flows/)**
-
+![[Pasted image 20231011173953.jpg]]
 ______
 **[API7:2023 - Server Side Request Forgery](https://owasp.org/API-Security/editions/2023/en/0xa7-server-side-request-forgery/)**
 
