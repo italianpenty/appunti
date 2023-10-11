@@ -11,7 +11,7 @@ ______
 ![[Pasted image 20231011171708.jpg]]
 _____
 **[API5:2023 - Broken Function Level Authorization](https://owasp.org/API-Security/editions/2023/en/0xa5-broken-function-level-authorization/)**
-
+![[Pasted image 20231011173015.jpg]]
 _____
 **[API6:2023 - Unrestricted Access to Sensitive Business Flows](https://owasp.org/API-Security/editions/2023/en/0xa6-unrestricted-access-to-sensitive-business-flows/)**
 
