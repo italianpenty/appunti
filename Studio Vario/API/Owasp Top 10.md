@@ -8,7 +8,7 @@ ______
 ![[Pasted image 20231011171210.jpg]]
 ______
 **[API4:2023 - Unrestricted Resource Consumption](https://owasp.org/API-Security/editions/2023/en/0xa4-unrestricted-resource-consumption/)**
-
+![[Pasted image 20231011171708.jpg]]
 _____
 **[API5:2023 - Broken Function Level Authorization](https://owasp.org/API-Security/editions/2023/en/0xa5-broken-function-level-authorization/)**
 
