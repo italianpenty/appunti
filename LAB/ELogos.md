@@ -21,3 +21,6 @@ ssh2john id_rsa > hash
 
 Log in as j.brock via ssh
 ### **PATH 2 - WEB**
+http://elogos.ctf/login
+Use inspect to retrieve the cookie and decode it.
+Change logged in to true and save it in the browser
