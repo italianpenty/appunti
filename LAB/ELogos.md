@@ -17,4 +17,7 @@ ls -la and take the private ssh key. Crack it.
 ```
 ssh2john id_rsa > hash
 ```
-![[Pasted image 20231011153933.png]]
+![[Pasted image 20231011153933.png]]![[Pasted image 20231011154601.png]]
+
+Log in as j.brock via ssh
+### **PATH 2 - WEB**
