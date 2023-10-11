@@ -13,4 +13,6 @@ After that launch a brute force with hydra on ftp to gain access
 hydra -L user.txt -P /usr/share/wordlists/rockyou.txt ftp://elogos.ctf
 ```
 
-ls -la and take the private ssh key. Cra
+ls -la and take the private ssh key. Crack it.
+
+![[Pasted image 20231011153933.png]]
