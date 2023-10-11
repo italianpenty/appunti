@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studio Vario/API/Senza nome.md",
+                "file": "Studio Vario/API/Owasp Top 10.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Studio Vario/API/Senza nome.md",
+                "file": "Studio Vario/API/Owasp Top 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Studio Vario/API/Senza nome.md",
+                "file": "Studio Vario/API/Owasp Top 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Studio Vario/API/Senza nome.md"
+                "file": "Studio Vario/API/Owasp Top 10.md"
               }
             }
           },
@@ -181,7 +181,7 @@
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
     "LAB/ELogos.md",
-    "Studio Vario/API/Senza nome.md",
+    "Studio Vario/API/Owasp Top 10.md",
     "Studio Vario/API",
     "image/Pasted image 20231011155050.png",
     "image/Pasted image 20231011155047.png",
