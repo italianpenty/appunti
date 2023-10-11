@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e9a7ecd3b29f28e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b4b4688a1419ccfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/HTTP/SSI.md",
+                "file": "LAB/ELogos.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/HTTP/SSI.md",
+                "file": "LAB/ELogos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/HTTP/SSI.md",
+                "file": "LAB/ELogos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/HTTP/SSI.md"
+                "file": "LAB/ELogos.md"
               }
             }
           },
@@ -193,11 +180,13 @@
   },
   "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
+    "LAB/ELogos.md",
+    "Hackerman/HTTP/SSI.md",
     "Hackerman/HTTP/Command Injection.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
     "Hackerman/HTTP/SSRF.md",
     "Hackerman/HTTP/SSTI.md",
-    "Hackerman/HTTP/SSI.md",
     "Hackerman/HTTP/Upload.md",
     "Hackerman/HTTP/SQLi.md",
     "image/ports_tables_1.jpg",
@@ -218,7 +207,6 @@
     "Hackerman/REDIS 6379.md",
     "Hackerman/PIVOTING.md",
     "Studio Vario/WEB/RESPONSE CODE.md",
-    "Caratteri speciali.md",
     "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
     "image/Pasted image 20230925165902.jpg",
     "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
@@ -227,7 +215,6 @@
     "Hackerman/WINDOWS/PrivESC/MSF.md",
     "Hackerman/WINDOWS/PrivESC/HASH.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
-    "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "Hackerman/HTTP/Enumeration",
     "Studio Vario/WEB",
     "image/Pasted image 20230914104419.png",
