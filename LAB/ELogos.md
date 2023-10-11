@@ -25,3 +25,5 @@ http://elogos.ctf/login
 Use inspect to retrieve the cookie and decode it.
 ![[Pasted image 20231011154838.png]]
 Change logged in to true and save it in the browser
+![[Pasted image 20231011154905.png]]
+Use the "user=" parameter to inject an
