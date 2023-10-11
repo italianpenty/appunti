@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/ELogos.md",
+                "file": "Studio Vario/API/Senza nome.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/ELogos.md",
+                "file": "Studio Vario/API/Senza nome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/ELogos.md",
+                "file": "Studio Vario/API/Senza nome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/ELogos.md"
+                "file": "Studio Vario/API/Senza nome.md"
               }
             }
           },
@@ -178,15 +178,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "88f5571ca7e68d8b",
+  "active": "b4b4688a1419ccfc",
   "lastOpenFiles": [
+    "LAB/ELogos.md",
+    "Studio Vario/API/Senza nome.md",
     "Studio Vario/API",
     "image/Pasted image 20231011155050.png",
     "image/Pasted image 20231011155047.png",
     "image/Pasted image 20231011154905.png",
     "image/Pasted image 20231011154838.png",
     "Caratteri speciali.md",
-    "LAB/ELogos.md",
     "image/Pasted image 20231011154601.png",
     "image/Pasted image 20231011153933.png",
     "image/Pasted image 20231011153524.png",
@@ -226,7 +227,6 @@
     "LAB",
     "LAB/GOAD",
     "Senza nome.canvas",
-    "Senza nome 1.canvas",
-    "Hackerman/WINDOWS/PrivESC/Privs"
+    "Senza nome 1.canvas"
   ]
 }
