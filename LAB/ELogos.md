@@ -165,4 +165,4 @@ cd /etc/fail2ban
 vim jail.conf
 ```
 linea 268 per vedere che azione viene eseguita al trigger di fail2ban
-linea 
+linea 554 per attivarlo su vsftp
