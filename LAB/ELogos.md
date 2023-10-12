@@ -166,3 +166,5 @@ vim jail.conf
 ```
 linea 268 per vedere che azione viene eseguita al trigger di fail2ban
 linea 554 per attivarlo su vsftp
+![[Pasted image 20231012171353.png]]
+
