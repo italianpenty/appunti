@@ -117,4 +117,7 @@ Aspetta che runna tramite cronjob ed esegui il bash con suid creato
 
 ### **m.hack to r.silva**
 Nella home di m.hack c'è un file keepass kdbx.
-Usa k
+Usa keepass2john per craccarlo
+```
+`
+```
