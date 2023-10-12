@@ -14,6 +14,6 @@
 ### **Active Reconnaissance**
 
 amass
-```
-`
+```bash
+amass enum -active -d <URL>
 ```
