@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "Hackerman/WEB/APIs/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "Hackerman/WEB/APIs/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Caratteri speciali.md"
+                "file": "Hackerman/WEB/APIs/Enumeration.md"
               }
             }
           },
@@ -179,10 +178,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "4f3535882fcb875f",
   "lastOpenFiles": [
-    "Hackerman/WEB/APIs/Enumeration.md",
     "Caratteri speciali.md",
+    "Hackerman/WEB/APIs/Enumeration.md",
     "Studio Vario/API/Secure APIs.md",
     "Hackerman/WEB/APIs",
     "image/Pasted image 20231012105334.jpg",
