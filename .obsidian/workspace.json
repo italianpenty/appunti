@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studio Vario/API/Secure APIs.md",
+                "file": "Hackerman/WEB/APIs/Enumeration.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Studio Vario/API/Secure APIs.md",
+                "file": "Hackerman/WEB/APIs/Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Studio Vario/API/Secure APIs.md",
+                "file": "Hackerman/WEB/APIs/Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Studio Vario/API/Secure APIs.md"
+                "file": "Hackerman/WEB/APIs/Enumeration.md"
               }
             }
           },
@@ -181,10 +181,12 @@
   },
   "active": "4f3535882fcb875f",
   "lastOpenFiles": [
+    "Studio Vario/API/Secure APIs.md",
+    "Hackerman/WEB/APIs/Enumeration.md",
+    "Hackerman/WEB/APIs",
     "image/Pasted image 20231012105334.jpg",
     "image/Pasted image 20231012105314.jpg",
     "Caratteri speciali.md",
-    "Studio Vario/API/Secure APIs.md",
     "Studio Vario/API/Owasp Top 10.md",
     "image/Pasted image 20231012100142.jpg",
     "image/Pasted image 20231012095907.jpg",
@@ -194,19 +196,18 @@
     "image/Pasted image 20231011173015.jpg",
     "image/Pasted image 20231011171708.jpg",
     "image/Pasted image 20231011171210.jpg",
-    "image/Pasted image 20231011170959.jpg",
     "LAB/ELogos.md",
     "Studio Vario/API",
-    "Hackerman/HTTP/SSI.md",
-    "Hackerman/HTTP/Command Injection.md",
-    "Hackerman/HTTP/LOG POISONING APACHE.md",
-    "Hackerman/HTTP/SSRF.md",
-    "Hackerman/HTTP/SSTI.md",
-    "Hackerman/HTTP/Upload.md",
-    "Hackerman/HTTP/SQLi.md",
+    "Hackerman/WEB/SSI.md",
+    "Hackerman/WEB/Command Injection.md",
+    "Hackerman/WEB/LOG POISONING APACHE.md",
+    "Hackerman/WEB/SSRF.md",
+    "Hackerman/WEB/SSTI.md",
+    "Hackerman/WEB/Upload.md",
+    "Hackerman/WEB/SQLi.md",
     "Hackerman/DNS 53.md",
     "Hackerman/KERBEROS 88.md",
-    "Hackerman/HTTP/Enumeration/ENUMERATION CHEATSHEET.md",
+    "Hackerman/WEB/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/NFS 2049.md",
     "Hackerman/LDAP.md",
     "Hackerman/SMB 139,445.md",
@@ -214,11 +215,11 @@
     "Hackerman/REDIS 6379.md",
     "Hackerman/PIVOTING.md",
     "Studio Vario/WEB/RESPONSE CODE.md",
-    "Hackerman/HTTP/Enumeration/Hidden Parameters.md",
+    "Hackerman/WEB/Enumeration/Hidden Parameters.md",
     "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
     "Hackerman/WINDOWS/PrivESC/PASSWD.md",
     "Hackerman/WINDOWS/PrivESC/NISHANG.md",
-    "Hackerman/HTTP/Enumeration",
+    "Hackerman/WEB/Enumeration",
     "Studio Vario/WEB",
     "LAB/prova.txt",
     "LAB/New Text Document.txt",
@@ -226,7 +227,6 @@
     "Studio Vario/Active Directory",
     "Studio Vario",
     "LAB",
-    "LAB/GOAD",
     "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]
