@@ -125,7 +125,7 @@ keepass2john mypasswords.kdbx > hash
 ==Password = ihatehackers==
 
 all'interno del keepass c'è la password per l'utente
-==Password = nZ!mqdhbNA5YQ$Q$C5VdUh==
+==Password = JVQe4hUMqvCry4Gz996!n3==
 
 Puoi fare
 ```bash
