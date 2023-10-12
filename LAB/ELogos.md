@@ -145,5 +145,11 @@ cd tmp
 vim update_binary
 ```
 ```update_binary
+#/bin/bash
 
+/bin/bash -p
+```
+ed esegui il sudo come r.silva
+```
+`
 ```
