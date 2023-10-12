@@ -17,7 +17,7 @@ _____
 ![[Pasted image 20231011173953.jpg]]
 ______
 **[API7:2023 - Server Side Request Forgery](https://owasp.org/API-Security/editions/2023/en/0xa7-server-side-request-forgery/)**
-
+![[Pasted image 20231012095458.jpg]]
 ______
 **[API8:2023 - Security Misconfiguration](https://owasp.org/API-Security/editions/2023/en/0xa8-security-misconfiguration/)**
 
