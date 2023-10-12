@@ -136,4 +136,14 @@ per stabilizzare la shell. Poi fai
 sudo -l
 ```
 ![[Pasted image 20231012170444.png]]
-crea il path e
+crea il path ed il binario
+```bash
+mkdir .updates
+cd .updates
+mkdir tmp
+cd tmp
+vim update_binary
+```
+```update_binary
+
+```
