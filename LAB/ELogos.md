@@ -157,3 +157,6 @@ sudo -u r.silva /home/m.hack/.updates/tmp/update_binary
 ![[Pasted image 20231012170931.png]]
 
 ### **r.silva to root**
+r.silva appartiene al gruppo fail2ban
+![[Pasted image 20231012171109.png]]
+andiamo a modificare i con
