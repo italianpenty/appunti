@@ -1,4 +1,3 @@
 ### **Passive Reconnaissance**
 
-	- Documentation
-	- 
+*Google Dorks*
