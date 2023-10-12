@@ -12,3 +12,8 @@
 | intitle:"index of" api_key OR "api key" OR apiKey -pool | This is one of my favorite queries. It lists potentially exposed API keys.                                                                         |
 
 ### **Active Reconnaissance**
+
+amass
+```
+`
+```
