@@ -149,7 +149,8 @@ vim update_binary
 
 /bin/bash -p
 ```
+==dai chmod +x al binario==
 ed esegui il sudo come r.silva
 ```
-`
+sudo -u r.silva /home/m.hack/.updates/tmp/update_binary
 ```
