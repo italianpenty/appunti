@@ -105,6 +105,7 @@ Scarica linpeas ed avvialo
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5/linpeas.sh
 vai in /scripts e crea un file random.py
 ```
+![[Pasted image 20231012165416.png]]
 Vai in /scripts e crea un file random.py
 ```python
 import os
