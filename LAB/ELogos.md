@@ -173,4 +173,5 @@ Ora vai a modificare l'action
 cd action.d
 vim log_alert.conf
 ```
-
+![[Pasted image 20231012171555.png]]
+Aspetta il restart tramite cronjob (ogni minuto)
