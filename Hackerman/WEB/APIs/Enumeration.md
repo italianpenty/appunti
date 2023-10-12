@@ -11,4 +11,4 @@
 | ext:php inurl:"api.php?action="                         | Finds all sites with a XenAPI SQL injection vulnerability. (This query was posted in 2016; four years later, there are currently 141,000 results.) |
 | intitle:"index of" api_key OR "api key" OR apiKey -pool | This is one of my favorite queries. It lists potentially exposed API keys.                                                                         |
 
-### **# Active Reconnaissance**
+### **Active Reconnaissance**
