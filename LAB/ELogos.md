@@ -154,3 +154,6 @@ ed esegui il sudo come r.silva
 ```
 sudo -u r.silva /home/m.hack/.updates/tmp/update_binary
 ```
+![[Pasted image 20231012170931.png]]
+
+### **r.silva to root**
