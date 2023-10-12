@@ -159,4 +159,10 @@ sudo -u r.silva /home/m.hack/.updates/tmp/update_binary
 ### **r.silva to root**
 r.silva appartiene al gruppo fail2ban
 ![[Pasted image 20231012171109.png]]
-andiamo a modificare i con
+andiamo a modificare i config di fail2ban
+```bash
+cd /etc/fail2ban
+vim jail.conf
+```
+linea 268 per vedere che azione viene eseguita al trigger di fail2ban
+linea 
