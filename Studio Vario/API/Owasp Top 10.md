@@ -20,10 +20,9 @@ ______
 ![[Pasted image 20231012095458.jpg]]
 ______
 **[API8:2023 - Security Misconfiguration](https://owasp.org/API-Security/editions/2023/en/0xa8-security-misconfiguration/)**
-
+![[Pasted image 20231012095731.jpg]]
 ______
 **[API9:2023 - Improper Inventory Management](https://owasp.org/API-Security/editions/2023/en/0xa9-improper-inventory-management/)**
 
 ____
 **[API10:2023 - Unsafe Consumption of APIs](https://owasp.org/API-Security/editions/2023/en/0xaa-unsafe-consumption-of-apis/)**
-
