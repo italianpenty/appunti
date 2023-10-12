@@ -100,6 +100,8 @@ john hash --wordlist=/usr/share/wordlists/rockyou.txt
 Entra su ssh come j.brock
 ==ricorda chmod 400 su id_rsa==
 ### **j.brock to m.hack**
+Scarica linpeas ed
+https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5/linpeas.sh
 vai in /scripts e crea un file random.py
 ```python
 import os
