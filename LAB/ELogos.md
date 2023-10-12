@@ -27,6 +27,9 @@ Use inspect to retrieve the cookie and decode it.
 ![[Pasted image 20231011154838.png]]
 Change logged in to true and save it in the browser
 *HardCoded Credentials*
+Ci sono delle credenziali hardcodate al seguente path
+https://elogos.ctf/assets/js/secure_credentials.js
+admin:4dmin3vil!!
 
 *Web to www-Data*
 ![[Pasted image 20231011154905.png]]
