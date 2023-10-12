@@ -95,3 +95,8 @@ e craccalo usando ssh2john
 ssh2john id_rsa > hash
 john hash --wordlist=/usr/share/wordlists/rockyou.txt
 ```
+==Password = spaghetti==
+
+Entra su ssh come j.brock
+
+### **j.brock to m.hack**
