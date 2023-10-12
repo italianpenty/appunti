@@ -180,3 +180,4 @@ tenta di bruteforzare ftp per triggerare fail2ban
 hydra -L /usr/share/wordlists/seclists/Usernames/CommonAdminBase64.txt -P /usr/share/wordlists/rockyou.txt ftp://elogos.ctf
 ```
 ![[Pasted image 20231012172132.png]]
+![[Pasted image 20231012172158.png]]
