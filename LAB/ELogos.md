@@ -135,4 +135,5 @@ per stabilizzare la shell. Poi fai
 ```bash
 sudo -l
 ```
-
+![[Pasted image 20231012170444.png]]
+crea il path e
