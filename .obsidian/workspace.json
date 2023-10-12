@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "Studio Vario/API/Secure APIs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Studio Vario/API/Owasp Top 10.md",
+                "file": "Studio Vario/API/Secure APIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Studio Vario/API/Owasp Top 10.md",
+                "file": "Studio Vario/API/Secure APIs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Studio Vario/API/Owasp Top 10.md"
+                "file": "Studio Vario/API/Secure APIs.md"
               }
             }
           },
@@ -178,8 +179,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b4b4688a1419ccfc",
+  "active": "4f3535882fcb875f",
   "lastOpenFiles": [
+    "image/Pasted image 20231012105314.jpg",
+    "Caratteri speciali.md",
+    "Studio Vario/API/Secure APIs.md",
+    "Studio Vario/API/Owasp Top 10.md",
     "image/Pasted image 20231012100142.jpg",
     "image/Pasted image 20231012095907.jpg",
     "image/Pasted image 20231012095731.jpg",
@@ -191,10 +196,7 @@
     "image/Pasted image 20231011170959.jpg",
     "image/Pasted image 20231011170943.jpg",
     "LAB/ELogos.md",
-    "Studio Vario/API/Owasp Top 10.md",
     "Studio Vario/API",
-    "image/Pasted image 20231011155050.png",
-    "Caratteri speciali.md",
     "Hackerman/HTTP/SSI.md",
     "Hackerman/HTTP/Command Injection.md",
     "Hackerman/HTTP/LOG POISONING APACHE.md",
@@ -216,7 +218,6 @@
     "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
     "Hackerman/WINDOWS/PrivESC/PASSWD.md",
     "Hackerman/WINDOWS/PrivESC/NISHANG.md",
-    "Hackerman/WINDOWS/PrivESC/MSF.md",
     "Hackerman/HTTP/Enumeration",
     "Studio Vario/WEB",
     "LAB/prova.txt",
