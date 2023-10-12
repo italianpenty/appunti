@@ -98,5 +98,6 @@ john hash --wordlist=/usr/share/wordlists/rockyou.txt
 ==Password = spaghetti==
 
 Entra su ssh come j.brock
-
+==ricorda chmod 400 su id_rsa==
 ### **j.brock to m.hack**
+vai in /scri
