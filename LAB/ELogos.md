@@ -116,3 +116,5 @@ Aspetta che runna tramite cronjob ed esegui il bash con suid creato
 ![[Pasted image 20231012165448.png]]
 
 ### **m.hack to r.silva**
+Nella home di m.hack c'è un file keepass kdbx.
+Usa k
