@@ -30,7 +30,7 @@ Change logged in to true and save it in the browser
 Ci sono delle credenziali hardcodate al seguente path
 https://elogos.ctf/assets/js/secure_credentials.js
 admin:4dmin3vil!!
-
+![[Pasted image 20231012173648.png]]
 *Web to www-Data*
 ![[Pasted image 20231011154905.png]]
 Use the "user=" parameter to inject the ssti payload and achieve a RCE
