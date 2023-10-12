@@ -175,3 +175,4 @@ vim log_alert.conf
 ```
 ![[Pasted image 20231012171555.png]]
 Aspetta il restart tramite cronjob (ogni minuto)
+tenta di bruteforzare ftp per triggerare fail2ban
