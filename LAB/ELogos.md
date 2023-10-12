@@ -90,4 +90,8 @@ QIB7goWm22nCauJ8l09keyi5EGYu3vfkBKCVkp4GGpt0gpmPBDC0x82EpdGYUnWmYyuqAs
 qMfG6JM2YKLsLYHqT9T+dgZJqGc=
 -----END OPENSSH PRIVATE KEY-----
 ```
-e craccalo
+e craccalo usando ssh2john
+```
+ssh2john id_rsa > hash
+john hash --wordlist=/usr/share/wordlists/rockyou.txt
+```
