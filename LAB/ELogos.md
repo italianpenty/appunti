@@ -100,4 +100,7 @@ john hash --wordlist=/usr/share/wordlists/rockyou.txt
 Entra su ssh come j.brock
 ==ricorda chmod 400 su id_rsa==
 ### **j.brock to m.hack**
-vai in /scri
+vai in /scripts e crea un file random.py
+```python
+`
+```
