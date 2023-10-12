@@ -26,3 +26,4 @@ ______
 ![[Pasted image 20231012095907.jpg]]
 ____
 **[API10:2023 - Unsafe Consumption of APIs](https://owasp.org/API-Security/editions/2023/en/0xaa-unsafe-consumption-of-apis/)**
+![[Pasted image 20231012100142.jpg]]
