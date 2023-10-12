@@ -45,3 +45,7 @@ Now use the rce to obtain a reverse shell
 intera home j.brock leggibile da gruppo web-developer di cui www-Data fa parte
 ![[Pasted image 20231012164214.png]]
 catta id_rsa
+``` bash
+cat /home/j.brock/.ssh/id_rsa
+```
+e craccalo
