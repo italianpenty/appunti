@@ -121,3 +121,6 @@ Usa keepass2john per craccarlo
 ```
 `
 ```
+==Password = ihatehackers==
+
+all'interno del keepass c'è la password per l'utent
