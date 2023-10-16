@@ -177,6 +177,9 @@ cd action.d
 vim log_alert.conf
 ```
 ![[Pasted image 20231012171555.png]]
+```bash
+wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64
+```
 Aspetta il restart tramite cronjob (ogni minuto)
 tenta di bruteforzare ftp per triggerare fail2ban
 ```bash
