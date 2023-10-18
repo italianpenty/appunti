@@ -18,7 +18,7 @@ Get-DomainGroupMember -Identity "Enterprise Admins" -Domain moneycorp.local
 ```
 ![[Pasted image 20231018115633.png]]
 
-### **FLAG 2 - Display name of the GPO applied on StudentMachines OU**
+### **Learning Objective 2 - Display name of the GPO applied on StudentMachines OU**
 Task
 Enumerate following for the dollarcorp domain:
 - List all the OUs
