@@ -16,3 +16,4 @@ Find-DomainUserLocation
 ```
 ![[Pasted image 20231018164427.png]]
 Connect Using Win-rs
+### **Copy from a machine to**
