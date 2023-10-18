@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/PRIVESC.md"
               }
             }
           },
@@ -192,9 +192,9 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "LAB/CRTP no C2.md",
     "Caratteri speciali.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
-    "LAB/CRTP no C2.md",
     "image/Pasted image 20231018144327.png",
     "image/Pasted image 20231018143757.png",
     "image/Pasted image 20231018143331.png",
