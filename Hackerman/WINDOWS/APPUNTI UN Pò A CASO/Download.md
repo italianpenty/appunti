@@ -1,0 +1,1 @@
+iwr <IP e FILE> -OutFile <PATH e NOME>
