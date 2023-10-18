@@ -95,6 +95,9 @@ Get-GPO -All
  ```PowerView
 Get-DomainObjectAcl
 ```
+```powerview
+Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "<USER>"}
+```
  ```PowerView
 Find-InterestingDomainAcl -ResolveGUIDs
 ```
