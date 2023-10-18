@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,16 +192,16 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+    "Caratteri speciali.md",
+    "LAB/CRTP no C2.md",
+    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "image/Pasted image 20231018164436.png",
-    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
-    "LAB/CRTP no C2.md",
     "image/Pasted image 20231018164427.png",
-    "Caratteri speciali.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
-    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "image/Pasted image 20231018153601.png",
     "image/Pasted image 20231018151010.png",
     "image/Pasted image 20231018145807.png",
