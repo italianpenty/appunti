@@ -28,5 +28,5 @@ Enumerate following for the dollarcorp domain:
 *List all the OUs*
 Use the command
 ```powerview
-	Get-Domain
+Get-DomainOU
 ```
