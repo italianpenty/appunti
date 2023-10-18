@@ -50,7 +50,11 @@ Get-DomainGPO
 ```
 
 *Enumerate GPO applied on the StudentMachines OU*
-Now copy 
+Now copy the cn of the student machines with this command
 ```Powerview
 (Get-DomainOU -Identity StudentMachines).gplink
 ```
+![[Pasted image 20231018121132.png]]
+And use it to retrieve the StudentMachines GPOs
+
+Get-DomainGPO -Identity '{7478F170-6A0C-490C-B355-9E4618BC785D}'
