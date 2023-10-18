@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md"
               }
             }
           },
@@ -180,6 +180,10 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/OBFUSCATION.md",
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/MSF.md",
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/FIND-AVSIGNATURE.md",
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "LAB/CRTP no C2.md",
     "Caratteri speciali.md",
@@ -214,10 +218,6 @@
     "Hackerman/SMB 139,445.md",
     "Hackerman/MSSQL.md",
     "Hackerman/REDIS 6379.md",
-    "Hackerman/PIVOTING.md",
-    "Studio Vario/WEB/RESPONSE CODE.md",
-    "Hackerman/WEB/Enumeration/Hidden Parameters.md",
-    "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
     "Hackerman/WEB/Enumeration",
     "Studio Vario/WEB",
     "LAB/prova.txt",
