@@ -6,5 +6,5 @@ C:\AD\Tools\InviShell\RunWithRegistryNonAdmin.bat
 
 Import powerView script
 ```powershell
-`
+C:\AD\Tools\PowerView.ps1
 ```
