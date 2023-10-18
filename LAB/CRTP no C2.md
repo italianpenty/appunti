@@ -70,3 +70,7 @@ To get all ACLs
  ```PowerView
 Get-DomainObjectAcl
 ```
+To retrieve the ACLs group name
+```P
+Get-DomainObjectAcl -Identity "Domain Admins" -ResolveGUIDs -Verbose
+```
