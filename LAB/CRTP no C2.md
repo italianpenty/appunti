@@ -14,5 +14,6 @@ Get-DomainGroupMember -Identity "Enterprise Admins"
 ```
 But it doesn't return nothing because this computer is not in the root domain. So we need to query the root domain
 ```powerview
-`
+Get-DomainGroupMember -Identity "Enterprise Admins" -Domain moneycorp.local
 ```
+![[Pasted image 20231018115633.png]]
