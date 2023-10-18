@@ -107,3 +107,8 @@ To  list only the external trusts int the current forest
 Get-ForestDomain | %{Get-DomainTrust -Domain $_.Name} | ?{$_.TrustAttributes -eq "FILTER_SIDS"}
 ```
 ![[Pasted image 20231018143331.png]]
+
+*Identify external trusts of dollarcorp domain. Can you enumerate trusts for a trusting forest?*
+```Powerview
+ Get-DomainTrust | ?{$_.TrustAttributes -eq "FILTER_SIDS"}
+```
