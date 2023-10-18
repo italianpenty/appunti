@@ -189,3 +189,7 @@ launch the command
 Find-DomainUserLocation
 ```
 ![[Pasted image 20231018164427.png]]
+Connect using winrs
+```powershell
+winrs -r:dcorp-mgmt whoami
+```
