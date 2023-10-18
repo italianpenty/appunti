@@ -112,3 +112,5 @@ Get-ForestDomain | %{Get-DomainTrust -Domain $_.Name} | ?{$_.TrustAttributes -eq
 ```Powerview
  Get-DomainTrust | ?{$_.TrustAttributes -eq "FILTER_SIDS"}
 ```
+![[Pasted image 20231018143757.png]]
+enumerate trusts for eurocorp.local forest (Needed bi-directional or on way rust)
