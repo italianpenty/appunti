@@ -90,3 +90,8 @@ Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "RD
 - Map External trusts in moneycorp.local forest. 
 - Identify external trusts of dollarcorp domain. Can you enumerate trusts for a trusting forest?
 *Enumerate all domains in the moneycorp.local forest*
+Use the next command
+ ```PowerView
+Get-DomainTrust
+```
+![[Pasted image 20231018130229.png]]
