@@ -16,4 +16,7 @@ Find-DomainUserLocation
 ```
 ![[Pasted image 20231018164427.png]]
 Connect Using Win-rs
-### **Copy from a machine to**
+### **Copy from a machine to another**
+```powershell
+echo F | xcopy C:\Users\Public\Loader.exe \\<R MACHINE>\C$\Users\Public\Loader.exe
+```
