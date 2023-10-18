@@ -195,4 +195,4 @@ winrs -r:dcorp-mgmt whoami
 ```
 ![[Pasted image 20231018164816.png]]
 *Abuse using winrs*
-To extract credentials from the machine we could run safetykatz
+To extract credentials from the machine we could run safetykatz. To do that we should copy loader.exe on the machine.
