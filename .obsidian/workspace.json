@@ -8,41 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f3535882fcb875f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LAB/ELogos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fb7f22a4da1c0a3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
-          },
-          {
             "id": "6db549ed57710efb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Caratteri speciali.md",
+                "file": "LAB/CRTP no C2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/ELogos.md",
+                "file": "LAB/CRTP no C2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/ELogos.md",
+                "file": "LAB/CRTP no C2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/ELogos.md"
+                "file": "LAB/CRTP no C2.md"
               }
             }
           },
@@ -189,13 +166,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3fb7f22a4da1c0a3",
+  "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
+    "LAB/CRTP no C2.md",
+    "LAB/ELogos.md",
     "image/Pasted image 20231012173648.png",
     "image/Pasted image 20231012172158.png",
     "image/Pasted image 20231012172132.png",
-    "Caratteri speciali.md",
-    "LAB/ELogos.md",
     "image/Pasted image 20231012171555.png",
     "image/Pasted image 20231012171431.png",
     "image/Pasted image 20231012171353.png",
@@ -203,7 +181,6 @@
     "image/Pasted image 20231012170931.png",
     "image/Pasted image 20231012170444.png",
     "image/Pasted image 20231012165448.png",
-    "image/Pasted image 20231012165416.png",
     "Hackerman/WEB/APIs/Enumeration.md",
     "Studio Vario/API/Secure APIs.md",
     "Hackerman/WEB/APIs",
