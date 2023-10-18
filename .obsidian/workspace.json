@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Caratteri speciali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Caratteri speciali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Caratteri speciali.md"
               }
             }
           },
@@ -190,12 +191,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "15e8e695c8869fab",
   "lastOpenFiles": [
-    "image/Pasted image 20231018115633.png",
-    "Caratteri speciali.md",
     "LAB/CRTP no C2.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+    "image/Pasted image 20231018115633.png",
+    "Caratteri speciali.md",
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
@@ -214,7 +215,6 @@
     "image/Pasted image 20231012171109.png",
     "image/Pasted image 20231012170931.png",
     "image/Pasted image 20231012170444.png",
-    "image/Pasted image 20231012165448.png",
     "Hackerman/WEB/APIs/Enumeration.md",
     "Studio Vario/API/Secure APIs.md",
     "Hackerman/WEB/APIs",
