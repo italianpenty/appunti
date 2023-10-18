@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
+                "file": "LAB/CRTP no C2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
+                "file": "LAB/CRTP no C2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md"
+                "file": "LAB/CRTP no C2.md"
               }
             }
           },
@@ -191,15 +190,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "438f2e7de9739760",
+  "active": "6db549ed57710efb",
   "lastOpenFiles": [
-    "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
-    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
-    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "LAB/CRTP no C2.md",
     "Caratteri speciali.md",
+    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
+    "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
+    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "image/Pasted image 20231018153601.png",
     "image/Pasted image 20231018151010.png",
@@ -239,4 +238,6 @@
     "Studio Vario",
     "LAB",
     "Senza nome.canvas",
-    "Senza nome 1.c
+    "Senza nome 1.canvas"
+  ]
+}

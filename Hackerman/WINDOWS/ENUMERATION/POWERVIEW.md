@@ -19,6 +19,9 @@ Chi appartiene al gruppo "admin"
 
 ![[Pasted image 20230503131251.png]]
 
+### **Identify a machine in the target domain where a Domain Admin session is available**
+
+
 
 ### **CHEATSHEET**
 https://gist.githubusercontent.com/HarmJ0y/184f9822b195c52dd50c379ed3117993/raw/e5e30c942adb2347917563ef0dafa7054882535a/PowerView-3.0-tricks.ps1
