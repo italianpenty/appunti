@@ -82,3 +82,4 @@ To find interesting ACLs for RDPUsers group
 ```powerview
 Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "RDPUsers"}
 ```
+### **FLAG **
