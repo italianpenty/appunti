@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md"
               }
             }
           },
@@ -190,11 +191,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "438f2e7de9739760",
   "lastOpenFiles": [
     "Caratteri speciali.md",
-    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "LAB/CRTP no C2.md",
+    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "image/Pasted image 20231018153601.png",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "image/Pasted image 20231018151010.png",
@@ -215,7 +217,6 @@
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/OBFUSCATION.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/MSF.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/FIND-AVSIGNATURE.md",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "LAB/ELogos.md",
     "Hackerman/WEB/APIs/Enumeration.md",
     "Studio Vario/API/Secure APIs.md",
