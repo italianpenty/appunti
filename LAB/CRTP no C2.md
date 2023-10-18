@@ -61,4 +61,8 @@ Get-DomainGPO -Identity '{7478F170-6A0C-490C-B355-9E4618BC785D}'
 ```
 ![[Pasted image 20231018121240.png]]
 
-### **FLAG 3 - *ActiveDirectory Rights for RDPUsers group on the users named ControlxUser*
+### **FLAG 3 - ActiveDirectory Rights for RDPUsers group on the users named ControlxUser**
+Enumerate following for the dollarcorp domain:
+- ACL for the Domain Admins group
+- All modify rights/permissions for the studentx
+*ACL for the Domain Admins group*
