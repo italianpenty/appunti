@@ -50,3 +50,7 @@ Get-DomainGPO
 ```
 
 *Enumerate GPO applied on the StudentMachines OU*
+Enumerate the names of the GPOs
+```Powerview
+Get-DomainGPO | select -ExpandProperty name
+```
