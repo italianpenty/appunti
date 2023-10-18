@@ -117,3 +117,4 @@ enumerate trusts for eurocorp.local forest (Needed bi-directional or on way trus
 ```Powerview
 Get-ForestDomain -Forest eurocorp.local | %{Get-DomainTrust -Domain $_.Name}
 ```
+![[Pasted image 20231018144327.png]]
