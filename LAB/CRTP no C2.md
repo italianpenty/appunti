@@ -17,3 +17,6 @@ But it doesn't return nothing because this computer is not in the root domain. S
 Get-DomainGroupMember -Identity "Enterprise Admins" -Domain moneycorp.local
 ```
 ![[Pasted image 20231018115633.png]]
+
+### **FLAG 2 - Display name of the GPO applied on StudentMachines OU**
+Still using powerview we can use the netx command to obtain the GPOs
