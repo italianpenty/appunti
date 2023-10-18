@@ -66,3 +66,7 @@ Enumerate following for the dollarcorp domain:
 - ACL for the Domain Admins group
 - All modify rights/permissions for the studentx
 *ACL for the Domain Admins group*
+To get all ACLs
+ ```PowerView
+Get-DomainObjectAcl
+```
