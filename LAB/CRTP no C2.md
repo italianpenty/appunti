@@ -33,6 +33,7 @@ Get-DomainOU
 
 *List all the computers in the StudentMachines OU*
 We can list all OUs names
-```bash
- Get-DomainOU | select -ExpandProperty name
- ```
+```powerview
+Get-DomainOU | select -ExpandProperty name
+```
+![[Pasted image 20231018120557.png]]
