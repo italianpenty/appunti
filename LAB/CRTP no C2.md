@@ -12,4 +12,7 @@ Use the following command to get the SID of the domain users
 ```Powerview
 Get-DomainGroupMember -Identity "Enterprise Admins"
 ```
-
+But it doesn't return nothing because this computer is not in the root domain. So we need to query the root domain
+```powerview
+`
+```
