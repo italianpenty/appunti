@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md"
               }
             }
           },
@@ -190,11 +191,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "438f2e7de9739760",
   "lastOpenFiles": [
-    "image/Pasted image 20231018142754.png",
+    "Hackerman/WINDOWS/ENUMERATION/BLOODHOUND.md",
+    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "LAB/CRTP no C2.md",
+    "image/Pasted image 20231018142754.png",
     "image/Pasted image 20231018130229.png",
     "image/Pasted image 20231018125919.png",
     "Caratteri speciali.md",
@@ -203,7 +206,6 @@
     "image/Pasted image 20231018120557.png",
     "image/Pasted image 20231018115633.png",
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
-    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/OBFUSCATION.md",
@@ -214,7 +216,6 @@
     "image/Pasted image 20231012173648.png",
     "image/Pasted image 20231012172158.png",
     "image/Pasted image 20231012172132.png",
-    "image/Pasted image 20231012171555.png",
     "Hackerman/WEB/APIs/Enumeration.md",
     "Studio Vario/API/Secure APIs.md",
     "Hackerman/WEB/APIs",
