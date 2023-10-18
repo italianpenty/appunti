@@ -118,3 +118,5 @@ enumerate trusts for eurocorp.local forest (Needed bi-directional or on way trus
 Get-ForestDomain -Forest eurocorp.local | %{Get-DomainTrust -Domain $_.Name}
 ```
 ![[Pasted image 20231018144327.png]]
+
+### **FLAG 5 - Service abused on the student VM for local privilege escalation**
