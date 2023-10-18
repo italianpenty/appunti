@@ -95,3 +95,4 @@ Use the next command
 Get-DomainTrust
 ```
 ![[Pasted image 20231018130229.png]]
+
