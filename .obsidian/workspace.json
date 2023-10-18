@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,12 +192,12 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "LAB/CRTP no C2.md",
     "Caratteri speciali.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
-    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "image/Pasted image 20231018153601.png",

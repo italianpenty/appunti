@@ -20,7 +20,9 @@ Chi appartiene al gruppo "admin"
 ![[Pasted image 20230503131251.png]]
 
 ### **Identify a machine in the target domain where a Domain Admin session is available**
-
+```powerview
+Find-DomainUserLocation
+```
 
 
 ### **CHEATSHEET**
