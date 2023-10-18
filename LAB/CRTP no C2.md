@@ -37,3 +37,8 @@ We can list all OUs names
 Get-DomainOU | select -ExpandProperty name
 ```
 ![[Pasted image 20231018120557.png]]
+and select only the StudenMachines OU
+```PowerView
+(Get-DomainOU -Identity StudentMachines).distinguishedname | 
+%{Get-DomainComputer -SearchBase $_} | select name
+```
