@@ -78,4 +78,7 @@ To find interesting ACLs for user student115 (me)
 ```powerview
 Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "student115"}
 ```
+To find interesting ACLs for RDPUsers group
+```powerview
 Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "RDPUsers"}
+```

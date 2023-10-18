@@ -98,6 +98,9 @@ Get-DomainObjectAcl
 ```powerview
 Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "<USER>"}
 ```
+```powerview
+Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "<GROUP>"}
+```
  ```PowerView
 Find-InterestingDomainAcl -ResolveGUIDs
 ```
