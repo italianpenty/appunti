@@ -193,3 +193,4 @@ Connect using winrs
 ```powershell
 winrs -r:dcorp-mgmt whoami
 ```
+![[Pasted image 20231018164816.png]]
