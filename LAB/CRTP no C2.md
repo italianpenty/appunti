@@ -92,7 +92,11 @@ Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "RD
 *Enumerate all domains in the moneycorp.local forest*
 Use the next command
  ```PowerView
+Get-ForestDomain
+```
+
+*Map the trusts of the dollarcorp.moneycorp.local domain*
+ ```PowerView
 Get-DomainTrust
 ```
 ![[Pasted image 20231018130229.png]]
-*Map the trusts of the dollarcorp.moneycorp.local domain*
