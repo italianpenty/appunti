@@ -83,8 +83,10 @@ To find interesting ACLs for RDPUsers group
 ```powerview
 Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "RDPUsers"}
 ```
+![[Pasted image 20231018125919.png]]
 ### **FLAG 4 - Trust Direction for the trust between dollarcorp.moneycorp.local and eurocorp.local**
 - Enumerate all domains in the moneycorp.local forest. 
 - Map the trusts of the dollarcorp.moneycorp.local domain.
 - Map External trusts in moneycorp.local forest. 
 - Identify external trusts of dollarcorp domain. Can you enumerate trusts for a trusting forest?
+*Enumerate all domains in the moneycorp.local forest*
