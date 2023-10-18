@@ -112,7 +112,7 @@ Get-DomainTrust
 ```AD_module
 Get-ADTrust 
 ```
-
+ list only the external trusts
 ### **FORESTS ENUMERATION**
  ```PowerView
 Get-Forest
