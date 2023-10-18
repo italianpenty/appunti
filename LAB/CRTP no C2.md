@@ -22,6 +22,11 @@ Get-DomainGroupMember -Identity "Enterprise Admins" -Domain moneycorp.local
 Task
 Enumerate following for the dollarcorp domain:
 - List all the OUs
-− List all the computers in the StudentMachines OU.
-− List the GPOs 
-− Enumerate GPO applied on the StudentMachines OU.
+- List all the computers in the StudentMachines OU.
+- List the GPOs 
+- Enumerate GPO applied on the StudentMachines OU.
+*List all the OUs*
+Use the command
+```powerview
+	Get-Domain
+```
