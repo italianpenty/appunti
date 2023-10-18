@@ -56,5 +56,9 @@ Now copy the cn of the student machines with this command
 ```
 ![[Pasted image 20231018121132.png]]
 And use it to retrieve the StudentMachines GPOs
-
+```powerview
 Get-DomainGPO -Identity '{7478F170-6A0C-490C-B355-9E4618BC785D}'
+```
+![[Pasted image 20231018121240.png]]
+
+### **FLAG 3 - **
