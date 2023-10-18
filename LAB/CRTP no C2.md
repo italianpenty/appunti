@@ -50,7 +50,7 @@ Get-DomainGPO
 ```
 
 *Enumerate GPO applied on the StudentMachines OU*
-Enumerate the names of the GPOs
+Now copy 
 ```Powerview
-Get-DomainGPO | select -ExpandProperty name
+(Get-DomainOU -Identity StudentMachines).gplink
 ```
