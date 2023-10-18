@@ -172,4 +172,7 @@ Launch sharpound on the student vm and export it to kali to use bloodhound
 	- Using access to dcorp-ci
 	- Using derivative local admin
 *Identify a machine in the target domain where a Domain Admin session is available*
-First bypass
+First bypass the Enhanced Script Block Logging on the reverse shell
+```powershell
+
+```
