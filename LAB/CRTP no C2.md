@@ -8,4 +8,7 @@ Import powerView script
 ```powershell
 . C:\AD\Tools\PowerView.ps1
 ```
-Use the c
+Use the following command to get the SID of the domain users
+```Powerview
+Get-DomainUser
+```
