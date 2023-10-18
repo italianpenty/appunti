@@ -10,5 +10,5 @@ Import powerView script
 ```
 Use the following command to get the SID of the domain users
 ```Powerview
-Get-DomainGroup -Identity "Enterprise Admins"
+Get-DomainGroup -Identity "Domain Admins"
 ```
