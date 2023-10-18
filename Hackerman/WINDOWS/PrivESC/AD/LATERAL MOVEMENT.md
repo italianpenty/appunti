@@ -3,7 +3,7 @@
 winrs -remote:server1 -u:server1\administrator - p:Pass@1234 hostname
 ```
 ```powershell
-winrs -r:>
+winrs -r:<MACCHINA> cmd
 ```
 ### **OVERPASS THE HASH**
 ```powershell
