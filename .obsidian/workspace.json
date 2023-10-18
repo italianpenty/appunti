@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 280.5086555480957
   },
   "right": {
     "id": "705bbbfe9a718b45",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md"
               }
             }
           },
@@ -180,8 +180,8 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
-    "Caratteri speciali.md",
     "LAB/CRTP no C2.md",
+    "Caratteri speciali.md",
     "LAB/ELogos.md",
     "image/Pasted image 20231012173648.png",
     "image/Pasted image 20231012172158.png",
