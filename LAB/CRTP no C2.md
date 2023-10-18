@@ -155,3 +155,4 @@ Connect to the machine found
 winrs -r:dcorp-adminsrv cmd
 ```
 *Using privileges of a user on Jenkins on 172.16.3.11:8080, get admin privileges on 172.16.3.11 -the dcorp-ci server*
+If we go to the “People” page of Jenkins we can see the users present on the Jenkins instance.
