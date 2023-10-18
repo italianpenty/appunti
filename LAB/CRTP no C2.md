@@ -82,4 +82,4 @@ To find interesting ACLs for RDPUsers group
 ```powerview
 Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "RDPUsers"}
 ```
-### **FLAG **
+### **FLAG 4 - Trust Direction for the trust between dollarcorp.moneycorp.local and eurocorp.local**
