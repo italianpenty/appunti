@@ -125,6 +125,6 @@ Import PowerUp.ps1
 . C:\AD\Tools\PowerUp.ps1
 ```
 And launch the enumeration for possible privesc
-```
-
+```PowerUp
+Invoke-AllChecks
 ```
