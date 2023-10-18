@@ -102,3 +102,8 @@ Get-DomainTrust
 ```
 ![[Pasted image 20231018130229.png]]
 *Map External trusts in moneycorp.local forest*
+To  list only the external trusts int the current forest
+```Powerview
+Get-ForestDomain | %{Get-DomainTrust -Domain $_.Name} | ?{$_.TrustAttributes -eq "FILTER_SIDS"}
+```
+![[Pasted image 20231018143331.png]]

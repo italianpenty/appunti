@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+                "file": "LAB/CRTP no C2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+                "file": "LAB/CRTP no C2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md"
+                "file": "LAB/CRTP no C2.md"
               }
             }
           },
@@ -191,11 +190,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "438f2e7de9739760",
+  "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "image/Pasted image 20231018143331.png",
+    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "Hackerman/WINDOWS/ENUMERATION/BLOODHOUND.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
-    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "LAB/CRTP no C2.md",
     "image/Pasted image 20231018142754.png",
     "image/Pasted image 20231018130229.png",
@@ -230,7 +230,6 @@
     "Hackerman/WEB/SQLi.md",
     "Hackerman/DNS 53.md",
     "Hackerman/KERBEROS 88.md",
-    "Hackerman/WEB/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/WEB/Enumeration",
     "Studio Vario/WEB",
     "LAB/prova.txt",
