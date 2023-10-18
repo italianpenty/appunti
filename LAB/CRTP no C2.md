@@ -37,8 +37,16 @@ We can list all OUs names
 Get-DomainOU | select -ExpandProperty name
 ```
 ![[Pasted image 20231018120557.png]]
-and select only the StudenMachines OU
+and select only the StudenMachines OU name
 ```PowerView
 (Get-DomainOU -Identity StudentMachines).distinguishedname | 
 %{Get-DomainComputer -SearchBase $_} | select name
 ```
+
+*List the GPOs*
+Use the command
+```powerview
+Get-DomainGPO
+```
+
+*Enumerate GPO applied on the StudentMachines OU*
