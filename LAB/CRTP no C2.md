@@ -188,3 +188,4 @@ launch the command
 ```powerview
 Find-DomainUserLocation
 ```
+![[Pasted image 20231018164427.png]]
