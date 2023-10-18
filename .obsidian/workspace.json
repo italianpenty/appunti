@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md"
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md"
               }
             }
           },
@@ -194,6 +194,7 @@
   "active": "438f2e7de9739760",
   "lastOpenFiles": [
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
+    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "LAB/CRTP no C2.md",
     "Caratteri speciali.md",
@@ -230,7 +231,6 @@
     "Hackerman/KERBEROS 88.md",
     "Hackerman/WEB/Enumeration/ENUMERATION CHEATSHEET.md",
     "Hackerman/NFS 2049.md",
-    "Hackerman/LDAP.md",
     "Hackerman/WEB/Enumeration",
     "Studio Vario/WEB",
     "LAB/prova.txt",
