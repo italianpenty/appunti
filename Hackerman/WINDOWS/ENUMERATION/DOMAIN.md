@@ -112,7 +112,10 @@ Get-DomainTrust
 ```AD_module
 Get-ADTrust 
 ```
- list only the external trusts
+ list only the external trusts int the current forest
+ ```Powerview
+Get-ForestDomain | %{Get-DomainTrust -Domain $_.Name} | ?{$_.TrustAttributes -eq "FILTER_SIDS"}
+```
 ### **FORESTS ENUMERATION**
  ```PowerView
 Get-Forest
