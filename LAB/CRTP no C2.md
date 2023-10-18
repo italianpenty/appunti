@@ -94,9 +94,11 @@ Use the next command
  ```PowerView
 Get-ForestDomain
 ```
+![[Pasted image 20231018142754.png]]
 
 *Map the trusts of the dollarcorp.moneycorp.local domain*
  ```PowerView
 Get-DomainTrust
 ```
 ![[Pasted image 20231018130229.png]]
+*Map External trusts in moneycorp.local forest*
