@@ -120,3 +120,11 @@ Get-ForestDomain -Forest eurocorp.local | %{Get-DomainTrust -Domain $_.Name}
 ![[Pasted image 20231018144327.png]]
 
 ### **FLAG 5 - Service abused on the student VM for local privilege escalation**
+Import PowerUp.ps1
+```powershell
+. C:\AD\Tools\PowerUp.ps1
+```
+And launch the enumeration for possible privesc
+```
+
+```
