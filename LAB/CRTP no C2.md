@@ -154,3 +154,4 @@ Connect to the machine found
 ```powershell
 winrs -r:dcorp-adminsrv cmd
 ```
+*Using privileges of a user on Jenkins on 172.16.3.11:8080, get admin privileges on 172.16.3.11 -the dcorp-ci server*
