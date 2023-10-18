@@ -61,4 +61,4 @@ Get-DomainGPO -Identity '{7478F170-6A0C-490C-B355-9E4618BC785D}'
 ```
 ![[Pasted image 20231018121240.png]]
 
-### **FLAG 3 - **
+### **FLAG 3 - *ActiveDirectory Rights for RDPUsers group on the users named ControlxUser*
