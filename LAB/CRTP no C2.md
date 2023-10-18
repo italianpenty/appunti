@@ -30,3 +30,9 @@ Use the command
 ```powerview
 Get-DomainOU
 ```
+
+*List all the computers in the StudentMachines OU*
+We can list all OUs names
+```bash
+ Get-DomainOU | select -ExpandProperty name
+ ```
