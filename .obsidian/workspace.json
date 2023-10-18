@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+                "file": "LAB/CRTP no C2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+                "file": "LAB/CRTP no C2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md"
+                "file": "LAB/CRTP no C2.md"
               }
             }
           },
@@ -191,19 +190,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "438f2e7de9739760",
+  "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "Caratteri speciali.md",
+    "LAB/CRTP no C2.md",
+    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
-    "LAB/CRTP no C2.md",
-    "Caratteri speciali.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/OBFUSCATION.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/MSF.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/FIND-AVSIGNATURE.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
-    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "LAB/ELogos.md",
     "image/Pasted image 20231012173648.png",
     "image/Pasted image 20231012172158.png",
