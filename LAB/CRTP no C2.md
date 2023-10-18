@@ -158,3 +158,4 @@ winrs -r:dcorp-adminsrv cmd
 If we go to the “People” page of Jenkins we can see the users present on the Jenkins instance. Since Jenkins does not have a password policy many users use username as passwords even on the 
 publicly available instances.
 In this case `builduser:builduser ` 
+Use the modified version of invoke-powershelltcp.ps1 and download with jenkins to run it as the user running jenkils
