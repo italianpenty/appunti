@@ -143,3 +143,9 @@ Invoke-ServiceAbuse -Name 'AbyssWebServer' -UserName 'dcorp\student115' -Verbose
 ```
 ![[Pasted image 20231018145807.png]]
 *Identify a machine in the domain where studentx has local administrative access.*
+```powershell
+. .\Find-PSremotingLocalAdminAccess.ps1
+```
+```powershell
+Find-PSremotingLocalAdminAccess -verbose
+```
