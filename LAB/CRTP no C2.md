@@ -95,4 +95,4 @@ Use the next command
 Get-DomainTrust
 ```
 ![[Pasted image 20231018130229.png]]
-
+*Map the trusts of the dollarcorp.moneycorp.local domain*
