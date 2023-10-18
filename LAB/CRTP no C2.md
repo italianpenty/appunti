@@ -74,3 +74,5 @@ To retrieve the ACLs for the Group admin group
 ```Powerview
 Get-DomainObjectAcl -Identity "Domain Admins" -ResolveGUIDs -Verbose
 ```
+To find interesting ACLs for user student115 (me)
+Find-InterestingDomainAcl -ResolveGUIDs |  ?{$_.IdentityReferenceName -match "studentx"}
