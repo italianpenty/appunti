@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "3fb7f22a4da1c0a3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          },
+          {
             "id": "6db549ed57710efb",
             "type": "leaf",
             "state": {
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +189,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4f3535882fcb875f",
+  "active": "3fb7f22a4da1c0a3",
   "lastOpenFiles": [
     "image/Pasted image 20231012173648.png",
     "image/Pasted image 20231012172158.png",
