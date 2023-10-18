@@ -171,3 +171,4 @@ Launch sharpound on the student vm and export it to kali to use bloodhound
 - Compromise the machine and escalate privileges to Domain Admin
 	- Using access to dcorp-ci
 	- Using derivative local admin
+*Identify a machine in the target domain where a Domain Admin session is available*
