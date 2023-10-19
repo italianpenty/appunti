@@ -259,3 +259,4 @@ and the command
 ```powershell
 Find-PSRemotingLocalAdminAccess
 ```
+![[Pasted image 20231019125319.png]]
