@@ -289,3 +289,4 @@ Firstly we disabile de AV
 ```powershell
 Set-MpPreference -DisableRealtimeMonitoring $true -Verbose
 ```
+We cannot use the dot sourcing, so we need to use  a script that run mimikatz by itself
