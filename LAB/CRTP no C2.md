@@ -275,3 +275,13 @@ reg query HKLM\Software\Policies\Microsoft\Windows\SRPV2\Script\06dce67b-934c-45
 ```
 ![[Pasted image 20231019143331.png]]
 We can also confirm this by using the user dcorp-adminsrv
+```powershell
+enter-PSSession dcorp-adminsrv
+```
+```powershell
+$ExecutionContext.SessionState.LanguageMode
+```
+```powershell
+Get-AppLockerPolicy -
+Effective | select -ExpandProperty RuleCollections
+```
