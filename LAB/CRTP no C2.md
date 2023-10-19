@@ -250,4 +250,5 @@ Use winrs to test
 winrs -r:dcorp-dc whoami
 ```
 ![[Pasted image 20231019111546.png]]
+*Derivative Local Admin*
 
