@@ -42,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "88bb0fd53a2b9181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Studio Vario/Active Directory/Senza nome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Studio Vario/Active Directory/Senza nome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Studio Vario/Active Directory/Senza nome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Studio Vario/Active Directory/Senza nome.md"
               }
             }
           },
@@ -190,11 +203,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "88bb0fd53a2b9181",
   "lastOpenFiles": [
+    "Studio Vario/Active Directory/Senza nome.md",
+    "LAB/CRTP no C2.md",
     "image/Pasted image 20231019111546.png",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
-    "LAB/CRTP no C2.md",
     "Caratteri speciali.md",
     "image/Pasted image 20231019104347.png",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Download.md",
@@ -212,7 +226,6 @@
     "image/Pasted image 20231018145259.png",
     "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
     "image/Pasted image 20231018144327.png",
-    "image/Pasted image 20231018143757.png",
     "Hackerman/WINDOWS/ENUMERATION/BLOODHOUND.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/OBFUSCATION.md",
