@@ -261,4 +261,10 @@ Find-PSRemotingLocalAdminAccess
 ```
 ![[Pasted image 20231019125319.png]]
 We have local admin on the dcorp-adminsrv.
-To look if 
+To look if there are some restriction on the app we can run check for "applocker" 
+```powershell
+winrs -r:dcorp-adminsrv cmd
+```
+```powershell
+reg query HKLM\Software\Policies\Microsoft\Windows\SRPV2
+```
