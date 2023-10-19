@@ -268,6 +268,9 @@ winrs -r:dcorp-adminsrv cmd
 ```powershell
 reg query HKLM\Software\Policies\Microsoft\Windows\SRPV2
 ```
+is configured. After going through the policies, we can understand that Microsoft Signed binaries and scripts are allowed for all the users but nothing else
+![[Pasted image 20231019143148.png]]
 ```powershell
 reg query HKLM\Software\Policies\Microsoft\Windows\SRPV2\Script\06dce67b-934c-454f-a263-2515c8796a5d2
 ```
+
