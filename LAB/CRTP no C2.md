@@ -251,4 +251,4 @@ winrs -r:dcorp-dc whoami
 ```
 ![[Pasted image 20231019111546.png]]
 *Derivative Local Admin*
-
+To to user hunting with our priviledge user "Student115"
