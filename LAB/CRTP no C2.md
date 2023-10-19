@@ -274,4 +274,4 @@ is configured. After going through the policies, we can understand that Microsof
 reg query HKLM\Software\Policies\Microsoft\Windows\SRPV2\Script\06dce67b-934c-454f-a263-2515c8796a5d2
 ```
 ![[Pasted image 20231019143331.png]]
-
+We can also confirm this by using the user dcorp-adminsrv
