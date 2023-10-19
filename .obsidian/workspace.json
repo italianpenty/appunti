@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md"
               }
             }
           },
@@ -203,10 +204,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "438f2e7de9739760",
   "lastOpenFiles": [
-    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "LAB/CRTP no C2.md",
+    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "image/Pasted image 20231019143331.png",
     "image/Pasted image 20231019143148.png",
     "image/Pasted image 20231019125319.png",

@@ -284,3 +284,8 @@ $ExecutionContext.SessionState.LanguageMode
 ```powershell
 Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
 ```
+So we can run program on the directory C:/Program Files/.
+Firstly we disabile de AV
+```powershell
+Set-MpPreference -DisableRealtimeMonitoring $true -Verbose
+```
