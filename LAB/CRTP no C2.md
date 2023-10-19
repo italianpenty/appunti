@@ -261,3 +261,4 @@ Find-PSRemotingLocalAdminAccess
 ```
 ![[Pasted image 20231019125319.png]]
 We have local admin on the dcorp-adminsrv.
+To look if 
