@@ -321,4 +321,4 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 | rc4_hmac_nt | cc098f204c5887eaa8253e7c2749156f                                 |
 
 
-### **FLAG 16/17 - hash krbgt/ hash **
+### **FLAG 16/17 - hash krbgt/ hash domain administrator**
