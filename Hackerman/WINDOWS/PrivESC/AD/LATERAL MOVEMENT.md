@@ -16,6 +16,8 @@ Use winrs to test
 ```powershell
 winrs -r:dcorp-dc whoami
 ```
+*Using SafetyKatz*
+
 ### **Other Sessions Opened**
 ```powerview
 Find-DomainUserLocation
