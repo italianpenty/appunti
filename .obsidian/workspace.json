@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Studio Vario/Active Directory/User Hunting.md",
+                "file": "LAB/CRTP no C2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Studio Vario/Active Directory/User Hunting.md",
+                "file": "LAB/CRTP no C2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Studio Vario/Active Directory/User Hunting.md"
+                "file": "LAB/CRTP no C2.md"
               }
             }
           },
@@ -204,12 +203,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9af416ee998c512b",
+  "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "Studio Vario/Active Directory/User Hunting.md",
     "image/Pasted image 20231019113053.png",
     "image/0_buVQ2EpHr0vZkims.webp",
     "Senza nome.canvas",
-    "Studio Vario/Active Directory/User Hunting.md",
     "Studio Vario/Active Directory/STRUCTURE.md",
     "Studio Vario/Active Directory/DELEGATION.md",
     "Caratteri speciali.md",
@@ -229,7 +228,6 @@
     "image/Pasted image 20231018153601.png",
     "image/Pasted image 20231018151010.png",
     "image/Pasted image 20231018145807.png",
-    "image/Pasted image 20231018145259.png",
     "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
     "Hackerman/WINDOWS/ENUMERATION/BLOODHOUND.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
