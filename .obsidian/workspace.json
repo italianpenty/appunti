@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "88bb0fd53a2b9181",
+            "id": "9af416ee998c512b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -184,7 +184,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -203,13 +204,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "88bb0fd53a2b9181",
+  "active": "9af416ee998c512b",
   "lastOpenFiles": [
+    "image/0_buVQ2EpHr0vZkims.webp",
+    "Senza nome.canvas",
     "Studio Vario/Active Directory/User Hunting.md",
+    "Studio Vario/Active Directory/STRUCTURE.md",
+    "Studio Vario/Active Directory/DELEGATION.md",
+    "Caratteri speciali.md",
     "LAB/CRTP no C2.md",
     "image/Pasted image 20231019111546.png",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
-    "Caratteri speciali.md",
     "image/Pasted image 20231019104347.png",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Download.md",
     "image/Pasted image 20231018164816.png",
@@ -240,9 +245,6 @@
     "Hackerman/WEB/SSI.md",
     "Hackerman/WEB/Command Injection.md",
     "Hackerman/WEB/LOG POISONING APACHE.md",
-    "Hackerman/WEB/SSRF.md",
-    "Hackerman/WEB/SSTI.md",
-    "Hackerman/WEB/Upload.md",
     "Hackerman/WEB/Enumeration",
     "Studio Vario/WEB",
     "LAB/prova.txt",
@@ -251,7 +253,6 @@
     "Studio Vario/Active Directory",
     "Studio Vario",
     "LAB",
-    "Senza nome.canvas",
     "Senza nome 1.canvas"
   ]
 }
