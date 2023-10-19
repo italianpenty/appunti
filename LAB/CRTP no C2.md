@@ -232,4 +232,5 @@ Run invoke-mimi
 Invoke-command -ScriptBlock ${function:Invoke-Mimi} -Session $sess
 ```
 
-`DCORP-mngmt
+`DCORP-DC svcadmin creds`
+
