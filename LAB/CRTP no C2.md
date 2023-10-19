@@ -282,6 +282,5 @@ enter-PSSession dcorp-adminsrv
 $ExecutionContext.SessionState.LanguageMode
 ```
 ```powershell
-Get-AppLockerPolicy -
-Effective | select -ExpandProperty RuleCollections
+Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
 ```
