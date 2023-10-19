@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md"
               }
             }
           },
@@ -203,9 +204,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "438f2e7de9739760",
   "lastOpenFiles": [
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+    "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
     "LAB/CRTP no C2.md",
     "Caratteri speciali.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Disable AV.md",
@@ -243,7 +245,6 @@
     "Studio Vario/API",
     "Hackerman/WEB/SSI.md",
     "Hackerman/WEB/Command Injection.md",
-    "Hackerman/WEB/LOG POISONING APACHE.md",
     "Hackerman/WEB/Enumeration",
     "Studio Vario/WEB",
     "LAB/prova.txt",
