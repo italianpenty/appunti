@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "LAB/CRTP no C2.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "LAB/CRTP no C2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md",
+                "file": "LAB/CRTP no C2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/KERBEROS 88.md"
+                "file": "LAB/CRTP no C2.md"
               }
             }
           },
@@ -205,6 +205,11 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "Hackerman/LDAP.md",
+    "Hackerman/DNS 53.md",
+    "Hackerman/KERBEROS 88.md",
+    "Hackerman/MSSQL.md",
+    "Hackerman/PIVOTING.md",
     "LAB/CRTP no C2.md",
     "image/Pasted image 20231023113613.png",
     "image/Pasted image 20231023113432.png",
@@ -237,12 +242,8 @@
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/MSF.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/FIND-AVSIGNATURE.md",
     "LAB/ELogos.md",
-    "Hackerman/WEB/APIs/Enumeration.md",
-    "Studio Vario/API/Secure APIs.md",
     "Hackerman/WEB/APIs",
-    "Studio Vario/API/Owasp Top 10.md",
     "Studio Vario/API",
-    "Hackerman/WEB/SSI.md",
     "Hackerman/WEB/Enumeration",
     "Studio Vario/WEB",
     "LAB/prova.txt",
