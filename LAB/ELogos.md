@@ -5,8 +5,10 @@ nmap -sT -T5 -p- 192.168.86.129
 ![[Pasted image 20231011153211.png]]
 
 ### **PATH 1 - FTP**
-
+Directory enumeration
+```bash
 gobuster dir -e -u "https://192.168.86.129" -w /usr/share/wordlists/dirb/common.txt -k
+```
 
 Go to http://elogos.ctf/about-us and take note of the listed username (email)
 ![[Pasted image 20231011153524.png]]
