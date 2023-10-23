@@ -49,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Studio Vario/Active Directory/User Hunting.md",
+                "file": "LAB/ELogos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "LAB/ELogos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "LAB/ELogos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "LAB/ELogos.md"
               }
             }
           },
@@ -203,10 +204,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "9af416ee998c512b",
   "lastOpenFiles": [
-    "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
+    "LAB/DA FARE.md",
+    "Studio Vario/Active Directory/User Hunting.md",
     "LAB/CRTP no C2.md",
+    "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
     "Hackerman/KERBEROS 88.md",
     "Caratteri speciali.md",
     "Hackerman/LDAP.md",
@@ -221,7 +224,6 @@
     "image/Pasted image 20231019143331.png",
     "image/Pasted image 20231019143148.png",
     "image/Pasted image 20231019125319.png",
-    "Studio Vario/Active Directory/User Hunting.md",
     "image/Pasted image 20231019113053.png",
     "image/0_buVQ2EpHr0vZkims.webp",
     "Senza nome.canvas",
@@ -241,7 +243,6 @@
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/OBFUSCATION.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/MSF.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/FIND-AVSIGNATURE.md",
-    "LAB/ELogos.md",
     "Hackerman/WEB/APIs",
     "Studio Vario/API",
     "Hackerman/WEB/Enumeration",
