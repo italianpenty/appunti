@@ -387,4 +387,4 @@ klist
 ```
 ![[Pasted image 20231023113613.png]]
 
-### **FLAG 18 - **
+### **FLAG 18 - *The service whose Silver Ticket can be used for scheduling tasks*
