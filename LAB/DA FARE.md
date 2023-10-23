@@ -13,3 +13,7 @@ LSASS
 [GOAD - part 9 - Lateral move | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part9/#lsass-local-security-authority-subsystem-service)
 Unconstrained
 [GOAD - part 10 - Delegations | Mayfly (mayfly277.github.io)](https://mayfly277.github.io/posts/GOADv2-pwning-part10/)
+
+__________
+
+CRTP learning Objective 9 - Flag 18ù
