@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,12 +205,12 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
-    "Caratteri speciali.md",
-    "LAB/CRTP no C2.md",
+    "Hackerman/KERBEROS 88.md",
     "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
+    "LAB/CRTP no C2.md",
+    "Caratteri speciali.md",
     "Hackerman/LDAP.md",
     "Hackerman/DNS 53.md",
-    "Hackerman/KERBEROS 88.md",
     "Hackerman/MSSQL.md",
     "Hackerman/PIVOTING.md",
     "image/Pasted image 20231023113613.png",
