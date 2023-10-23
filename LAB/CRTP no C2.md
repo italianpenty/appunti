@@ -386,3 +386,5 @@ To check if we succesfully got the golden ticket
 klist
 ```
 ![[Pasted image 20231023113613.png]]
+
+### **FLAG 18 - **
