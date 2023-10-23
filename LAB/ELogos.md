@@ -38,6 +38,9 @@ http://elogos.ctf/login
 Use inspect to retrieve the cookie and decode it.
 ![[Pasted image 20231011154838.png]]
 Change logged in to true and save it in the browser
+
+echo '{"logged_in": true, "username": ""}' | base64
+
 *HardCoded Credentials*
 Ci sono delle credenziali hardcodate al seguente path
 https://elogos.ctf/assets/js/secure_credentials.js
