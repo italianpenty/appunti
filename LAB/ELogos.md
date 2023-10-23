@@ -26,6 +26,13 @@ ssh2john id_rsa > hash
 
 Log in as j.brock via ssh
 ### **PATH 2 - WEB**
+
+Directory enumeration
+```bash
+gobuster dir -e -u "https://192.168.86.129" -w /usr/share/wordlists/dirb/common.txt -k
+```
+
+
 *Cookie Bypass*
 http://elogos.ctf/login
 Use inspect to retrieve the cookie and decode it.
