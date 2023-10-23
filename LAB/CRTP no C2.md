@@ -325,3 +325,4 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 - Extract secrets from the domain controller of dollarcorp.
 - Using the secrets of krbtgt account, create a Golden ticket. 
 - Use the Golden ticket to (once again) get domain admin privileges from a machine.
+*Extract secrets from the domain controller of dollarcorp*
