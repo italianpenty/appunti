@@ -32,4 +32,3 @@ export KRB5CCNAME=..../user.chace
 ```bash
 hashcat -m 18200 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
 ```
-### **SILVER TICKET**

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/KERBEROS 88.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/KERBEROS 88.md"
               }
             }
           },
@@ -205,9 +205,10 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "LAB/CRTP no C2.md",
+    "image/Pasted image 20231023113613.png",
     "image/Pasted image 20231023113432.png",
     "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
-    "LAB/CRTP no C2.md",
     "image/Pasted image 20231023111808.png",
     "Caratteri speciali.md",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
@@ -224,10 +225,8 @@
     "image/Pasted image 20231019111546.png",
     "image/Pasted image 20231019104347.png",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Download.md",
-    "image/Pasted image 20231018164816.png",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
-    "image/Pasted image 20231018164436.png",
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
