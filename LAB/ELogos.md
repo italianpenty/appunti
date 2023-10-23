@@ -39,6 +39,9 @@ Use inspect to retrieve the cookie and decode it.
 ![[Pasted image 20231011154838.png]]
 Change logged in to true and save it in the browser
 ```bash
+echo 'eyJsb2dnZWRfaW4iOiBmYWxzZSwgInVzZXJuYW1lIjogIiJ9' | base64 -d
+```
+```bash
 echo '{"logged_in": true, "username": ""}' | base64
 ```
 *HardCoded Credentials*
