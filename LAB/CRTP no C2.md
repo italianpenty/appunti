@@ -352,14 +352,18 @@ lsadump::lsa /patch
 | Type        | Hash                                                             |
 | ----------- | ---------------------------------------------------------------- |
 | Password    | null                                      |
-| aes256_hmac | af0686cc0ca8f04df42210c9ac980760 |
-| rc4_hmac_nt | null                                 |
+| NTLM | af0686cc0ca8f04df42210c9ac980760 |
 
 `krbtgt - DCORP-DC`
 
 | Type        | Hash                                                             |
 | ----------- | ---------------------------------------------------------------- |
 | Password    | null                                      |
-| aes256_hmac | 4e9815869d2090ccfca61c1fe0d23986 |
-| rc4_hmac_nt | null                                 |
+| NTLM | 4e9815869d2090ccfca61c1fe0d23986 |
 
+`sqladmin - DCORP-DC`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| Password    | null                                      |
+| NTLM | 07e8be316e3da9a042a9cb681df19bf5 |
