@@ -387,4 +387,7 @@ klist
 ```
 ![[Pasted image 20231023113613.png]]
 
-### **FLAG 18 - *The service whose Silver Ticket can be used for scheduling tasks*
+### **FLAG 18 - The service whose Silver Ticket can be used for scheduling tasks**
+Try to get command execution on the domain controller by creating silver ticket for: 
+- HOST service
+- WMI
