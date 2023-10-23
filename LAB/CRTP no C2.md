@@ -391,3 +391,9 @@ klist
 Try to get command execution on the domain controller by creating silver ticket for: 
 - HOST service
 - WMI
+
+*HOST service*
+Create the golden ticket
+```powershell
+klist
+```
