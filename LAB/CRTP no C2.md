@@ -508,3 +508,5 @@ import-module C:\AD\Tools\PowerView.ps1
 ```powerview
 Get-DomainObjectAcl -SearchBase "DC=dollarcorp,DC=moneycorp,DC=local" -SearchScope Base -ResolveGUIDs | ?{($_.ObjectAceType -match 'replication-get') -or ($_.ActiveDirectoryRights -match 'GenericAll')} | ForEach-Object {$_ | Add-Member NoteProperty 'IdentityName' $(Convert-SidToName $_.SecurityIdentifier);$_} | ?{$_.IdentityName -match "student115"}
 ```
+It doesn't return nothing, so we don't have privledge
+*add the replication rights for the studentx and execute the DCSync attack to pull hashes of the krbtgt use*r
