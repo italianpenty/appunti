@@ -617,9 +617,10 @@ C:\AD\Tools\SafetyKatz.exe "sekurlsa::opassth /user:appadmin /domain:dollarcorp.
 One we are logged in we can launch invishell.
 Import the Find-PSRemotingLocalAdminAccess.ps1 module to see where the server can log in
 
-```powerview
+```powershell
 . C:\AD\Tools\Find-PSRemotingLocalAdminAccess.ps1
 ```
-```powerview
+```powershell
 Find-PSRemotingLocalAdminAccess
 ```
+![[Pasted image 20231025162212.png]]
