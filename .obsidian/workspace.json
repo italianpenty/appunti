@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions/DCSync.md",
+                "file": "LAB/CRTP no C2.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions/DCSync.md",
+                "file": "LAB/CRTP no C2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions/DCSync.md",
+                "file": "LAB/CRTP no C2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions/DCSync.md"
+                "file": "LAB/CRTP no C2.md"
               }
             }
           },
@@ -205,8 +205,8 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
-    "LAB/CRTP no C2.md",
     "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions/DCSync.md",
+    "LAB/CRTP no C2.md",
     "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/DOMAIN ADMINS.md",
