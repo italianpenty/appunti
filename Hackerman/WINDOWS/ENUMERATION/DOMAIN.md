@@ -149,3 +149,9 @@ Per evitare detection
 ```powershell
 Invoke-Bloodhound -CollectionMethod All -ExcludeDC
 ```
+
+### **Search SPN Accounts**
+```powerview
+Get-DomainUser -SPN
+```
+

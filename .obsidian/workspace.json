@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+                "file": "LAB/CRTP no C2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+                "file": "LAB/CRTP no C2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md"
+                "file": "LAB/CRTP no C2.md"
               }
             }
           },
@@ -204,16 +203,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "65c305a4c3cdc683",
+  "active": "6db549ed57710efb",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+    "LAB/CRTP no C2.md",
+    "Caratteri speciali.md",
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
-    "LAB/CRTP no C2.md",
     "image/Pasted image 20231025153253.png",
     "image/Pasted image 20231025153125.png",
-    "Caratteri speciali.md",
     "image/Pasted image 20231025150902.png",
     "image/Pasted image 20231025150802.png",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
