@@ -510,4 +510,4 @@ Get-DomainObjectAcl -SearchBase "DC=dollarcorp,DC=moneycorp,DC=local" -SearchSco
 ```
 It doesn't return nothing, so we don't have priviledge
 *add the replication rights for the studentx and execute the DCSync attack to pull hashes of the krbtgt user*
-
+Crate a session with a domain
