@@ -452,3 +452,16 @@ C:\AD\Tools\InviShell\RunWithRegistryNonAdmin.bat
 ```powershell
 $sess = New-PSSession dcorp-dc
 ```
+Bypass the AMSI
+```powershell
+Enter-PSSession -Session $sess
+```
+```powershell
+Enter-PSSession -Session $sess
+```
+```powershell
+Enter-PSSession -Session $sess
+```
+```powershell
+Enter-PSSession -Session $sess
+```
