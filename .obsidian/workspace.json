@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md"
               }
             }
           },
@@ -203,21 +204,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "65c305a4c3cdc683",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
+    "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
+    "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
+    "LAB/CRTP no C2.md",
     "Caratteri speciali.md",
     "LAB/ELogos.md",
-    "LAB/CRTP no C2.md",
-    "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions/DCSync.md",
     "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/DOMAIN ADMINS.md",
-    "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "image/Pasted image 20231025125418.png",
     "image/Pasted image 20231025125252.png",
     "image/Pasted image 20231025125006.png",
-    "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
     "image/Pasted image 20231025115506.png",
     "image/Pasted image 20231025115059.png",
     "image/Pasted image 20231025114637.png",
