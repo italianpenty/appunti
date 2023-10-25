@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,13 +205,14 @@
   },
   "active": "6db549ed57710efb",
   "lastOpenFiles": [
-    "Caratteri speciali.md",
+    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+    "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
     "LAB/CRTP no C2.md",
+    "Caratteri speciali.md",
     "LAB/ELogos.md",
     "LAB/DA FARE.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
     "Studio Vario/Active Directory/User Hunting.md",
-    "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
     "Hackerman/KERBEROS 88.md",
     "Hackerman/LDAP.md",
     "Hackerman/DNS 53.md",
@@ -220,7 +221,6 @@
     "image/Pasted image 20231023113613.png",
     "image/Pasted image 20231023113432.png",
     "image/Pasted image 20231023111808.png",
-    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Disable AV.md",
     "image/Pasted image 20231019143331.png",
     "image/Pasted image 20231019143148.png",
