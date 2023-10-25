@@ -560,4 +560,4 @@ Invoke-Command -ScriptBlock{whoami} -ComputerName dcorp-dc.dollarcorp.moneycorp.
 ```
 ![[Pasted image 20231025145545.png]]
 *Retrieve machine account hash from dcorp-dc without using administrator access and use that to execute a Silver Ticket attack to get code execution with WMI*
-To retrieve a
+To retrieve access without Domain admin access we need to modify a permission on the dc
