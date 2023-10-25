@@ -500,3 +500,8 @@ ls \\dcorp-dc.dollarcorp.moneycorp.local\c$
 - Check if studentx has Replication (DCSync) rights.
 - If yes, execute the DCSync attack to pull hashes of the krbtgt user.
 - If no, add the replication rights for the studentx and execute the DCSync attack to pull hashes of the krbtgt user
+*Check if studentx has Replication (DCSync) rights.*
+We can check with this command
+```
+`
+```
