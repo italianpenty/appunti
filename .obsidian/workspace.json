@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md"
               }
             }
           },
@@ -203,11 +204,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "65c305a4c3cdc683",
   "lastOpenFiles": [
-    "Caratteri speciali.md",
-    "LAB/CRTP no C2.md",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+    "LAB/CRTP no C2.md",
+    "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
+    "Caratteri speciali.md",
     "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
     "LAB/ELogos.md",
     "LAB/DA FARE.md",
@@ -241,7 +243,6 @@
     "Hackerman/WINDOWS/PrivESC/PRIVESC.md",
     "Hackerman/WINDOWS/ENUMERATION/BLOODHOUND.md",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/SYSTEM WIDE TRANSCRIPTION.md",
-    "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/OBFUSCATION.md",
     "Hackerman/WEB/APIs",
     "Studio Vario/API",
     "Hackerman/WEB/Enumeration",
