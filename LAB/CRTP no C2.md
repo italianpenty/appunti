@@ -416,6 +416,7 @@ schtasks /create /S dcorp-dc /SC Weekly /RU "NT Authority\SYSTEM" /TN "User115" 
 ```
 
 ### **FLAG 19 - Name of the account who secrets are used for the Diamond Ticket attack**
+### **titolo**
 - Use Domain Admin privileges obtained earlier to execute the Diamond Ticket attack.
 Use Rubeus and the krbtgt credentials to create a Diamond Ticket
 ```Cmd
