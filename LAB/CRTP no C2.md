@@ -585,5 +585,6 @@ C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:d
 ### **FLAG 23 - SPN for which a TGS is requested**
 - Using the Kerberoast attack, crack password of a SQL server service account.
 Import powerview and use it to search for spn accounts
-
+```powerview
 Get-DomainUser -SPN
+```
