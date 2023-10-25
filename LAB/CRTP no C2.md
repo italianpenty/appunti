@@ -588,3 +588,4 @@ Import powerview and use it to search for spn accounts
 ```powerview
 Get-DomainUser -SPN
 ```
+
