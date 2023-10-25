@@ -577,3 +577,4 @@ and retrieve the hash
 Get-RemoteMachineAccountHash -ComputerName dcorp-dc -Verbose
 ```
 ![[Pasted image 20231025150902.png]]
+and with that we can create a silver ticket for the services (in this case HOST)
