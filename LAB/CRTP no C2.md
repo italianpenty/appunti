@@ -630,3 +630,11 @@ Use rubeus on the server to run on listener mode
 ```powershell
 echo F | xcopy C:\AD\Tools\Rubeus.exe \\dcorp-appsrv\C$\Users\Public\Rubeus.exe /Y
 ```
+log in the server
+```powershell
+winrs -r:dcorp-appsrv cmd
+```
+Launch rubeus
+```powershell
+winrs -r:dcorp-appsrv cmd
+```
