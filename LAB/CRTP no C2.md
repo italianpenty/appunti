@@ -552,6 +552,6 @@ We can do the same but with powershell. After opened the session and imported
 . C:\AD\Tools\RACE.ps1
 ```
 ```powershell
-Set-RemotePSRemoting -SamAccountName studentx -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Verbose
+Set-RemotePSRemoting -SamAccountName student115 -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Verbose
 ```
 
