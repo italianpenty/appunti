@@ -626,3 +626,4 @@ Find-PSRemotingLocalAdminAccess
 ![[Pasted image 20231025162212.png]]
 
 *Compromise the server and escalate to Domain Admin privileges*
+Use rubeus on the server to run on listener mode
