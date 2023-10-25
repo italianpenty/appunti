@@ -555,4 +555,6 @@ We can do the same but with powershell. After opened the session and imported
 Set-RemotePSRemoting -SamAccountName student115 -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Verbose
 ```
 
+```powershell
 Invoke-Command -ScriptBlock{whoami} -ComputerName dcorpdc.dollarcorp.moneycorp.local
+```
