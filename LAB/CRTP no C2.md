@@ -497,3 +497,4 @@ ls \\dcorp-dc.dollarcorp.moneycorp.local\c$
 
 
 ### **FLAG 21 - Attack that can be executed with Replication rights (no DA privileges required)**
+- Check if studentx has Replication (DCSync) rights. • If yes, execute the DCSync attack to pull hashes of the krbtgt user. • If no, add the replication rights for the studentx and execute the DCSync attack to pull hashes of the krbtgt user
