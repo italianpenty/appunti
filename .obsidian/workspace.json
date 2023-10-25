@@ -49,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAB/DA FARE.md",
+                "file": "LAB/ELogos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "LAB/ELogos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "LAB/ELogos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "LAB/ELogos.md"
               }
             }
           },
@@ -203,12 +204,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "9af416ee998c512b",
   "lastOpenFiles": [
     "LAB/DA FARE.md",
+    "LAB/CRTP no C2.md",
     "LAB/ELogos.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
-    "LAB/CRTP no C2.md",
     "Studio Vario/Active Directory/User Hunting.md",
     "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
     "Hackerman/KERBEROS 88.md",
