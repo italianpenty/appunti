@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
+                "file": "LAB/CRTP no C2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
+                "file": "LAB/CRTP no C2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md"
+                "file": "LAB/CRTP no C2.md"
               }
             }
           },
@@ -204,10 +203,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "65c305a4c3cdc683",
+  "active": "6db549ed57710efb",
   "lastOpenFiles": [
-    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
+    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "LAB/CRTP no C2.md",
     "image/Pasted image 20231025164640.png",

