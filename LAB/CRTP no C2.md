@@ -496,4 +496,4 @@ ls \\dcorp-dc.dollarcorp.moneycorp.local\c$
 ![[Pasted image 20231025115506.png]]
 
 
-### **FLAG 21 - **
+### **FLAG 21 - Attack that can be executed with Replication rights (no DA privileges required)**
