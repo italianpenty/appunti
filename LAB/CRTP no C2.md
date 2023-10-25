@@ -547,3 +547,4 @@ gwmi -class win32_operatingsystem -ComputerName dcorp-dc
 ```
 ![[Pasted image 20231025144606.png]]
 ___
+We can do the same but with powershell. After opened the session and imported 
