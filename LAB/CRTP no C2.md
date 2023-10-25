@@ -588,4 +588,5 @@ Import powerview and use it to search for spn accounts
 ```powerview
 Get-DomainUser -SPN
 ```
-
+![[Pasted image 20231025153253.png]]
+We can kerberoast it 

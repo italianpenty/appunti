@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md"
               }
             }
           },
@@ -203,12 +204,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "65c305a4c3cdc683",
   "lastOpenFiles": [
+    "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
+    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
+    "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
+    "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
+    "LAB/CRTP no C2.md",
+    "image/Pasted image 20231025153253.png",
     "image/Pasted image 20231025153125.png",
     "Caratteri speciali.md",
-    "LAB/CRTP no C2.md",
-    "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
     "image/Pasted image 20231025150902.png",
     "image/Pasted image 20231025150802.png",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
@@ -224,8 +229,6 @@
     "image/Pasted image 20231025125418.png",
     "image/Pasted image 20231025125252.png",
     "image/Pasted image 20231025125006.png",
-    "image/Pasted image 20231025115506.png",
-    "image/Pasted image 20231025115059.png",
     "Hackerman/WINDOWS/PrivESC/AV and POWERSHELL BYPASS/AMSI BYPASS.md",
     "LAB/DA FARE.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
@@ -240,9 +243,6 @@
     "Studio Vario/Active Directory/STRUCTURE.md",
     "Studio Vario/Active Directory/DELEGATION.md",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Download.md",
-    "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",
-    "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
-    "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
     "Hackerman/WEB/APIs",
     "Studio Vario/API",
     "Hackerman/WEB/Enumeration",
