@@ -541,4 +541,8 @@ And modify the service
 Set-RemoteWMI -SamAccountName student115 -ComputerName dcorp-dc -namespace 'root\cimv2' -Verbose
 ```
 ![[Pasted image 20231025144401.png]]
-Now we grante
+Now we granted the acces to us
+```powershell
+gwmi -class win32_operatingsystem -ComputerName dcorp-dc
+```
+![[Pasted image 20231025144606.png]]
