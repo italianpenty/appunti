@@ -495,3 +495,5 @@ ls \\dcorp-dc.dollarcorp.moneycorp.local\c$
 ```
 ![[Pasted image 20231025115506.png]]
 
+
+### **FLAG 21 - **
