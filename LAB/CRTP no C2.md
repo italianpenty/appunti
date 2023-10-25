@@ -600,3 +600,6 @@ C:\AD\Tools\john-1.9.0-jumbo-1-win64\run\john.exe --wordlist=C:\AD\Tools\kerbero
 ```
 
 ### **FLAG 24 - Domain user who is a local admin on dcorp-appsrv**
+- Find a server in the dcorp domain where Unconstrained Delegation is enabled. 
+- Compromise the server and escalate to Domain Admin privileges. 
+- Escalate to Enterprise Admins privileges by abusing Printer Bug!
