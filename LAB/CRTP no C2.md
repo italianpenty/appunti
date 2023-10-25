@@ -556,5 +556,5 @@ Set-RemotePSRemoting -SamAccountName student115 -ComputerName dcorp-dc.dollarcor
 ```
 
 ```powershell
-Invoke-Command -ScriptBlock{whoami} -ComputerName dcorpdc.dollarcorp.moneycorp.local
+Invoke-Command -ScriptBlock{whoami} -ComputerName dcorp-dc.dollarcorp.moneycorp.local
 ```
