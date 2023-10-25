@@ -433,7 +433,7 @@ and now you can user win-rs to execute commands
 
 
 To persistence on dcorp-dc we can abuse the DSRM service.
-Firtsly create a session on dcorp-dc
+Firtsly dump the hashes from the dc
 ```powershell
 $sess = New-PSSession dcorp-dc
 ```
