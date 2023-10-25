@@ -426,4 +426,8 @@ and now you can user win-rs to execute commands
 - Use Domain Admin privileges obtained earlier to abuse the DSRM credential for persistence.
 
 
-To persistence on dcorp-dc we can abuse the DSRM
+To persistence on dcorp-dc we can abuse the DSRM service.
+Firtsly create a session on dcorp-dc
+```
+$sess = New-PSSession dcorp-dc
+```
