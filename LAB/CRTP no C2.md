@@ -604,7 +604,8 @@ C:\AD\Tools\john-1.9.0-jumbo-1-win64\run\john.exe --wordlist=C:\AD\Tools\kerbero
 - Compromise the server and escalate to Domain Admin privileges. 
 - Escalate to Enterprise Admins privileges by abusing Printer Bug!
 *Find a server in the dcorp domain where Unconstrained Delegation is enabled.*
-Using powerview we can look for unconstrained delegation
+Using powerview we can look for unconstrained delegation server
 ```powerview
 Get-DomainComputer -Unconstrained | select -ExpandProperty name
 ```
+![[Pasted image 20231025161708.png]]
