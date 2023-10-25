@@ -156,6 +156,7 @@ Get-DomainUser -SPN
 ```
 
 ### **Delegations**
+*Unconstrained*
 ```powerview
-Get-DomainUser -SPN
+Get-DomainComputer -Unconstrained | select -ExpandProperty name
 ```
