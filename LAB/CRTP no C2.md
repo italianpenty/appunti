@@ -527,4 +527,5 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 ![[Pasted image 20231025125418.png]]
 
 ### **FLAG 22 - SDDL string that provides studentx same permissions as BA on root\cimv2 WMI namespace.**
-- Modify security descriptors on dcorp-dc to get access using PowerShell remoting and WMI without requiring administrator access. • Retrieve machine account hash from dcorp-dc without using administrator access and use that to execute a Silver Ticket attack to get code execution with WMI.
+- Modify security descriptors on dcorp-dc to get access using PowerShell remoting and WMI without requiring administrator access.
+- Retrieve machine account hash from dcorp-dc without using administrator access and use that to execute a Silver Ticket attack to get code execution with WMI.
