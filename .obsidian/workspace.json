@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md"
               }
             }
           },
@@ -203,17 +204,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "65c305a4c3cdc683",
   "lastOpenFiles": [
-    "LAB/ELogos.md",
+    "Caratteri speciali.md",
+    "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
+    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "LAB/CRTP no C2.md",
+    "image/Pasted image 20231025145545.png",
+    "LAB/ELogos.md",
     "image/Pasted image 20231025144606.png",
     "image/Pasted image 20231025144401.png",
-    "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
-    "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
     "Hackerman/WINDOWS/PrivESC/AD/MIMI--.md",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
-    "Caratteri speciali.md",
     "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions/DCSync.md",
     "Hackerman/WINDOWS/PrivESC/AD/Domain Permissions",
     "Hackerman/WINDOWS/PrivESC/AD/GROUP/DOMAIN ADMINS.md",
@@ -233,7 +235,6 @@
     "Hackerman/MSSQL.md",
     "Hackerman/PIVOTING.md",
     "image/Pasted image 20231023113613.png",
-    "image/Pasted image 20231023113432.png",
     "Hackerman/WINDOWS/APPUNTI UN Pò A CASO/Disable AV.md",
     "Senza nome.canvas",
     "Studio Vario/Active Directory/STRUCTURE.md",

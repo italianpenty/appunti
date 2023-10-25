@@ -554,7 +554,8 @@ We can do the same but with powershell. After opened the session and imported
 ```powershell
 Set-RemotePSRemoting -SamAccountName student115 -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Verbose
 ```
-
+To check if the command worked
 ```powershell
 Invoke-Command -ScriptBlock{whoami} -ComputerName dcorp-dc.dollarcorp.moneycorp.local
 ```
+![[Pasted image 20231025145545.png]]
