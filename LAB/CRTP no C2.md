@@ -609,4 +609,8 @@ Using powerview we can look for unconstrained delegation server
 Get-DomainComputer -Unconstrained | select -ExpandProperty name
 ```
 ![[Pasted image 20231025161708.png]]
-Since the prerequisite for elevation using Unconstrained delegation is having admin access to the machine, we need to compromise a user which has local admin access on appsrv. We already pwned on of those user (appsrv)
+Since the prerequisite for elevation using Unconstrained delegation is having admin access to the machine, we need to compromise a user which has local admin access on appsrv. We already pwned on of those user (appadmin)
+We can try with the user already found gain a session on this server
+```power
+Get-DomainComputer -Unconstrained | select -ExpandProperty name
+```
