@@ -531,3 +531,8 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 - Retrieve machine account hash from dcorp-dc without using administrator access and use that to execute a Silver Ticket attack to get code execution with WMI.
 *Modify security descriptors on dcorp-dc to get access using PowerShell remoting and WMI without requiring administrator access*
 Once we have administrative privileges on a machine, we can modify security descriptors of services to access the services without administrative privileges.
+Import the RACE.ps1 module
+```powershell
+. C:\AD\Tools\RACE.ps1
+```
+And enavle 
