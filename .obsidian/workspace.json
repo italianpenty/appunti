@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md"
               }
             }
           },
@@ -203,11 +204,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "65c305a4c3cdc683",
   "lastOpenFiles": [
-    "image/Pasted image 20231025115506.png",
     "Hackerman/WINDOWS/PrivESC/AD/PERSISTENCE.md",
     "LAB/CRTP no C2.md",
+    "image/Pasted image 20231025115506.png",
     "image/Pasted image 20231025115059.png",
     "Caratteri speciali.md",
     "image/Pasted image 20231025114637.png",
@@ -231,7 +232,6 @@
     "image/Pasted image 20231019143148.png",
     "image/Pasted image 20231019125319.png",
     "image/Pasted image 20231019113053.png",
-    "image/0_buVQ2EpHr0vZkims.webp",
     "Senza nome.canvas",
     "Studio Vario/Active Directory/STRUCTURE.md",
     "Studio Vario/Active Directory/DELEGATION.md",
