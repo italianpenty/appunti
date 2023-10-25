@@ -155,3 +155,7 @@ Invoke-Bloodhound -CollectionMethod All -ExcludeDC
 Get-DomainUser -SPN
 ```
 
+### **Delegations**
+```powerview
+Get-DomainUser -SPN
+```
