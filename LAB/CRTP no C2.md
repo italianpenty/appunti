@@ -546,3 +546,4 @@ Now we granted the acces to us
 gwmi -class win32_operatingsystem -ComputerName dcorp-dc
 ```
 ![[Pasted image 20231025144606.png]]
+___
