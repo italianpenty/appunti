@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md"
               }
             }
           },
@@ -203,8 +204,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "65c305a4c3cdc683",
   "lastOpenFiles": [
+    "Hackerman/KERBEROS 88.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "LAB/CRTP no C2.md",
     "image/Pasted image 20231026123711.png",
@@ -235,7 +237,6 @@
     "LAB/DA FARE.md",
     "LAB/GOAD COMPLETE WALKTROUGHT PART 2.md",
     "Studio Vario/Active Directory/User Hunting.md",
-    "Hackerman/KERBEROS 88.md",
     "Hackerman/LDAP.md",
     "Hackerman/DNS 53.md",
     "Hackerman/MSSQL.md",
