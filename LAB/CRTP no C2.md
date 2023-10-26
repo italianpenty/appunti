@@ -701,3 +701,4 @@ Import powerview and use it
 ```powerview
 Get-DomainUser -TrustedToAuth
 ```
+![[Pasted image 20231026123711.png]]
