@@ -688,3 +688,5 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:mcorp\krbtgt /domain:moneycorp
 
 
 ### **FLAG 26 - Value of msds-allowedtodelegate to attribute of dcorp-adminsrv**
+Enumerate users in the domain for whom Constrained Delegation is enabled.For such a user, request a TGT from the DC and obtain a TGS for the service to which delegation is configured. − Pass the ticket and access the service.
+- Enumerate computer accounts in the domain for which Constrained Delegation is enabled. − For such a user, request a TGT from the DC. − Obtain an alternate TGS for LDAP service on the target machine. − Use the TGS for executing DCSync attack
