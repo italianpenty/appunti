@@ -160,3 +160,7 @@ Get-DomainUser -SPN
 ```powerview
 Get-DomainComputer -Unconstrained | select -ExpandProperty name
 ```
+*Constrained*
+```powerview
+Get-DomainComputer -Unconstrained | select -ExpandProperty name
+```
