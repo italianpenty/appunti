@@ -162,5 +162,5 @@ Get-DomainComputer -Unconstrained | select -ExpandProperty name
 ```
 *Constrained*
 ```powerview
-Get-DomainComputer -Unconstrained | select -ExpandProperty name
+Get-DomainUser -TrustedToAuth
 ```
