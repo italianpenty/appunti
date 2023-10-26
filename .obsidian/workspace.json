@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "Hackerman/WINDOWS/PrivESC/AD/Delegations.md"
               }
             }
           },
@@ -203,13 +204,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6db549ed57710efb",
+  "active": "65c305a4c3cdc683",
   "lastOpenFiles": [
     "Caratteri speciali.md",
+    "LAB/ELogos.md",
+    "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
     "LAB/CRTP no C2.md",
     "image/Pasted image 20231025170101.png",
     "image/Pasted image 20231025165834.png",
-    "Hackerman/WINDOWS/PrivESC/AD/Delegations.md",
     "Hackerman/WINDOWS/PrivESC/AD/LATERAL MOVEMENT.md",
     "Hackerman/WINDOWS/ENUMERATION/DOMAIN.md",
     "image/Pasted image 20231025164640.png",
@@ -219,7 +221,6 @@
     "image/Pasted image 20231025161708.png",
     "Hackerman/WINDOWS/ENUMERATION/POWERVIEW.md",
     "Studio Vario/Active Directory/DELEGATION.md",
-    "LAB/ELogos.md",
     "image/Pasted image 20231025154546.png",
     "Hackerman/WINDOWS/ENUMERATION/MANUAL.md",
     "Hackerman/WINDOWS/ENUMERATION/USER ENUM.md",

