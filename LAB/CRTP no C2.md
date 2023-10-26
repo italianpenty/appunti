@@ -687,4 +687,4 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:mcorp\krbtgt /domain:moneycorp
 
 
 
-### **titolo**
+### **FLAG 26 - Value of msds-allowedtodelegate to attribute of dcorp-adminsrv**
