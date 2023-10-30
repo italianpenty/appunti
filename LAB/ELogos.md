@@ -1,6 +1,6 @@
 ### **PORT SCANNING**
 ```bash
-nmap -sT -T5 -p- 192.168.86.129
+nmap -Pn -sVC <ip> -vvv
 ```
 ![[Pasted image 20231011153211.png]]
 
