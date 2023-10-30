@@ -69,10 +69,13 @@ wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5
 ```
 avvialo
 ```bash
+chmod +x ./linpeas.sh
+```
+```bash
 ./linpeas > out.txt
 ```
 ```bash
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5/linpeas.sh
+less -r out.txt
 ```
 catta id_rsa
 ``` bash
