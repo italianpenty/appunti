@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hackerman/Tools/Covenant.md",
+                "file": "LAB/CRTP C2 (covenant).md",
                 "mode": "source",
                 "source": false
               }
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "LAB/CRTP C2 (covenant).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAB/CRTP no C2.md",
+                "file": "LAB/CRTP C2 (covenant).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAB/CRTP no C2.md"
+                "file": "LAB/CRTP C2 (covenant).md"
               }
             }
           },
@@ -197,22 +196,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b3018811c3600cf0",
+  "active": "efb433cb718c9830",
   "lastOpenFiles": [
-    "LAB/CRTP C2 (covenant).md",
+    "LAB/CRTP no C2.md",
+    "Hackerman/Tools/Covenant.md",
     "Caratteri speciali.md",
+    "LAB/CRTP C2 (covenant).md",
     "image/Pasted image 20231116173400.png",
     "image/Pasted image 20231116173115.png",
     "image/Pasted image 20231116173021.png",
     "Hackerman/RPC 139,539.md",
     "image/Pasted image 20231116172507.png",
-    "Hackerman/Tools/Covenant.md",
     "image/Pasted image 20231116171245.png",
     "image/Pasted image 20231116112516.png",
     "image/Pasted image 20231116112456.png",
     "Hackerman/WINDOWS/PrivESC/AD/ADCS - VULNERABLE TEMPLATE.md",
     "Hackerman/Tools",
-    "LAB/CRTP no C2.md",
     "image/Pasted image 20231115164218.png",
     "image/Pasted image 20231115164116.png",
     "image/Pasted image 20231115163650.png",
